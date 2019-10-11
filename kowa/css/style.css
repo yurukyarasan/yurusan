@@ -179,33 +179,73 @@ color:#221814;
 font-size:11pt;
 position:relative;
 bottom:575px;
-left:809px;
+left:814px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(4){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:575px;
+bottom:572px;
 left:803px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(5){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:486px;
-left:503px;
+bottom:590px;
+left:814px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(6){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:484px;
-left:493px;
+bottom:588px;
+left:803px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(7){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:486px;
-left:503px;
+bottom:606px;
+left:814px;
+}
+.one-stop-service p:nth-of-type(1){
+color:#5b8834;
+font-size:23pt;
+position:relative;
+bottom:828px;
+left:760px;
+}
+.one-stop-service p:nth-of-type(2){
+color:#221814;
+font-size:6pt;
+position:relative;
+bottom:828px;
+left:760px;	
+}
+.gyoumu-acces-map img{
+position:relative;
+bottom:600px;
+}
+.jyutaku-bukken img{
+position:relative;
+bottom:604px;
+}
+.kouji-jirei img{
+position:relative;
+bottom:765px;
+left:480px;
+}
+.kigyou-torikumi img{
+position:relative;
+bottom:772px;
+}
+.kaisha-gaiyou img{
+position:relative;
+bottom:775px;
+}
+.saiyou-jyouhou img{
+position:relative;
+bottom:938px;
+left:480px;
 }
