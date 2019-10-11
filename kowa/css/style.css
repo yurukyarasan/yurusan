@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+h1{
+color:#221814;
+font-size:13pt;
+position:relative;
+top:45px;
+left:107px;
+}
+.logo{
+position:relative;
+top:15px;
+left:45px;
+}
+.oya-gaisha-title p:nth-of-type(1){
+font-size:13pt;
+position:relative;
+bottom:58px;
+left:39px;
+}
+.oya-gaisha-title p:nth-of-type(2){
+font-size:8pt;
+color:#a6fd60;
+position:relative;
+bottom:68px;
+left:249px;
+}
+.saite-map li:nth-of-type(1){
+color:#5b8834;
+font-size:12pt;
+list-style:none;
+position:relative;
+bottom:65px;
+left:685px;
+}
+.saite-map li:nth-of-type(2){
+color:#5b8834;
+font-size:12pt;
+list-style:none;
+position:relative;
+bottom:80px;
+left:802px;
+}
+.gaiyou-link li:nth-of-type(1){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:75px;
+left:387px;
+}
+.gaiyou-link li:nth-of-type(2){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:89px;
+left:442px;
+}
+.gaiyou-link li:nth-of-type(3){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:103px;
+left:656px;
+}
+.gaiyou-link li:nth-of-type(4){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:118px;
+left:721px;
+}
+.gaiyou-link li:nth-of-type(5){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:133px;
+left:786px;
+}
+.gaiyou-link li:nth-of-type(6){
+color:#221814;
+font-size:11pt;
+list-style:none;
+position:relative;
+bottom:147px;
+left:851px;
+}
+.kaisha-main-gazou img{
+position:relative;
+bottom:131px;
+}
+.kaisha-main-gazou p{
+color:#ffffff;
+font-size:16pt;
+position:relative;
+bottom:339px;
+left:130px	
+}
+.shoukai h2{
+color:#5b8834;
+font-size:16pt;
+position:relative;
+bottom:131px;
+left:80px;
+}
+.shoukai p{
+color:#221814;
+font-size:9pt;
+position:relative;
+bottom:121px;
+left:79px;
+}
+.soukanzu img{
+height:313px;
+position:relative;
+bottom:335px;
+left:563px;
+}
+.kigyou-rinen-eigyo-group p:nth-of-type(1){
+color:#23a359;
+font-size:15pt;
+position:relative;
+bottom:470px;
+left:497px;
+}
+.kigyou-rinen-eigyo-group p:nth-of-type(2){
+color:#23a359;
+font-size:15pt;
+position:relative;
+bottom:470px;
+left:493px;
+}
+.kigyou-rinen-eigyo-group p:nth-of-type(3){
+color:#221814;
+font-size:11pt;
+position:relative;
+bottom:486px;
+left:503px;
+}
+.kigyou-rinen-eigyo-group p:nth-of-type(4){
+color:#23a359;
+font-size:15pt;
+position:relative;
+bottom:484px;
+left:493px;
+}
+.kigyou-rinen-eigyo-group p:nth-of-type(5){
+color:#221814;
+font-size:11pt;
+position:relative;
+bottom:502px;
+left:503px;
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(1){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(2){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(3){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(4){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(5){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(6){
+	
+}
+.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(7){
+	
+}
