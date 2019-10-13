@@ -60,7 +60,7 @@ font-size:11pt;
 list-style:none;
 position:relative;
 bottom:89px;
-left:442px;
+left:452px;
 }
 .gaiyou-link li:nth-of-type(3){
 color:#221814;
@@ -68,7 +68,7 @@ font-size:11pt;
 list-style:none;
 position:relative;
 bottom:103px;
-left:656px;
+left:676px;
 }
 .gaiyou-link li:nth-of-type(4){
 color:#221814;
@@ -76,7 +76,7 @@ font-size:11pt;
 list-style:none;
 position:relative;
 bottom:118px;
-left:721px;
+left:741px;
 }
 .gaiyou-link li:nth-of-type(5){
 color:#221814;
@@ -84,7 +84,7 @@ font-size:11pt;
 list-style:none;
 position:relative;
 bottom:133px;
-left:786px;
+left:806px;
 }
 .gaiyou-link li:nth-of-type(6){
 color:#221814;
@@ -92,7 +92,7 @@ font-size:11pt;
 list-style:none;
 position:relative;
 bottom:147px;
-left:851px;
+left:871px;
 }
 .kaisha-main-gazou img{
 position:relative;
@@ -454,23 +454,39 @@ left:776px;
 color:#221814;
 position:relative;
 bottom:822px;
-left:99px;
+left:19px;
 }
 .tokuteityuuijikou p:nth-of-type(2){
 color:#221814;
 position:relative;
 bottom:848px;
-left:242px;	
+left:162px;	
 }
 .tokuteityuuijikou p:nth-of-type(3){
-	
+color:#221814;
+position:relative;
+bottom:871px;
+left:322px;	
 }
 .tokuteityuuijikou p:nth-of-type(4){
-	
+color:#221814;
+position:relative;
+bottom:904px;
+left:462px;	
 }
 .tokuteityuuijikou p:nth-of-type(5){
-	
+color:#221814;
+position:relative;
+bottom:934px;
+left:645px;		
 }
 .tokuteityuuijikou p:nth-of-type(6){
-	
+color:#221814;
+position:relative;
+bottom:962px;
+left:838px;
+}
+footer{
+color:221814;
+boder-color:#5b8834;
 }
