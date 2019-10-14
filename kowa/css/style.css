@@ -2,6 +2,7 @@
 /* CSS Document */
 #container{
 	width:960px;
+	height:2702px;
 	margin-right:auto;
 	margin-left:auto;
 }
@@ -9,25 +10,25 @@ h1{
 color:#221814;
 font-size:13pt;
 position:relative;
-top:45px;
+top:120px;
 left:107px;
 }
 .logo{
 position:relative;
-top:15px;
+top:90px;
 left:45px;
 }
 .oya-gaisha-title p:nth-of-type(1){
 font-size:13pt;
 position:relative;
-bottom:58px;
+top:9px;
 left:39px;
 }
 .oya-gaisha-title p:nth-of-type(2){
 font-size:8pt;
 color:#a6fd60;
 position:relative;
-bottom:68px;
+top:-3px;
 left:249px;
 }
 .saite-map li:nth-of-type(1){
@@ -35,7 +36,7 @@ color:#5b8834;
 font-size:12pt;
 list-style:none;
 position:relative;
-bottom:65px;
+top:6px;
 left:685px;
 }
 .saite-map li:nth-of-type(2){
@@ -43,261 +44,196 @@ color:#5b8834;
 font-size:12pt;
 list-style:none;
 position:relative;
-bottom:80px;
+top:-10px;
 left:802px;
 }
-.gaiyou-link li:nth-of-type(1){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:73px;
-left:390px;
+.gaiyou-link ul{
+width:100%;
+text-align:right;
+font-size:14px;
 }
-.gaiyou-link li:nth-of-type(2){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:87px;
-left:456px;
-}
-.gaiyou-link li:nth-of-type(3){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:102px;
-left:659px;
-}
-.gaiyou-link li:nth-of-type(4){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:116px;
-left:723px;
-}
-.gaiyou-link li:nth-of-type(5){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:131px;
-left:786px;
-}
-.gaiyou-link li:nth-of-type(6){
-color:#221814;
-font-size:11pt;
-list-style:none;
-position:relative;
-bottom:146px;
-left:849px;
-}
-.small-side img:nth-of-type(1){
-position:relative;
-bottom:159px;
-left:452px;
-}
-.small-side img:nth-of-type(2){
-position:relative;
-bottom:159px;
-left:651px;	
-}
-.small-side img:nth-of-type(3){
-position:relative;
-bottom:159px;
-left:708px;
-}
-.small-side img:nth-of-type(4){
-position:relative;
-bottom:159px;
-left:767px;	
-}
-.small-side img:nth-of-type(5){
-position:relative;
-bottom:159px;
-left:825px;	
+.gaiyou-link li{
+display:inline-block;
 }
 .kaisha-main-gazou img{
 position:relative;
-bottom:131px;
+top:15px
 }
 .kaisha-main-gazou p{
 color:#ffffff;
 font-size:16pt;
 position:relative;
-bottom:339px;
+top:-195px;
 left:130px	
 }
 .shoukai h2{
 color:#5b8834;
 font-size:16pt;
 position:relative;
-bottom:131px;
+top:16px;
 left:80px;
 }
 .shoukai p{
 color:#221814;
 font-size:9pt;
 position:relative;
-bottom:121px;
+top:40px;
 left:79px;
 }
 .soukanzu img{
 height:313px;
 position:relative;
-bottom:335px;
+top:-178px;
 left:563px;
 }
 .kigyou-rinen-eigyo-group p:nth-of-type(1){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:470px;
+top:-320px;
 left:497px;
 }
 .kigyou-rinen-eigyo-group p:nth-of-type(2){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:470px;
+top:-320px;
 left:493px;
 }
 .kigyou-rinen-eigyo-group p:nth-of-type(3){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:486px;
+top:-336px;
 left:503px;
 }
 .kigyou-rinen-eigyo-group p:nth-of-type(4){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:484px;
+top:-334px;
 left:493px;
 }
 .kigyou-rinen-eigyo-group p:nth-of-type(5){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:502px;
+top:-352px;
 left:503px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(1){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:557px;
+top:-407px;
 left:808px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(2){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:557px;
+top:-407px;
 left:803px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(3){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:575px;
+top:-425px;
 left:814px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(4){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:572px;
+top:-422px;
 left:803px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(5){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:590px;
+top:-440px;
 left:814px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(6){
 color:#23a359;
 font-size:15pt;
 position:relative;
-bottom:588px;
+top:-438px;
 left:803px;
 }
 .kigyou-rinen-gyoumu-kanri-group p:nth-of-type(7){
 color:#221814;
 font-size:11pt;
 position:relative;
-bottom:606px;
+top:-456px;
 left:814px;
 }
 .one-stop-service p:nth-of-type(1){
 color:#5b8834;
 font-size:23pt;
 position:relative;
-bottom:828px;
+top:-669px;
 left:760px;
 }
 .one-stop-service p:nth-of-type(2){
 color:#221814;
 font-size:6pt;
 position:relative;
-bottom:828px;
+top:-663px;
 left:760px;	
 }
 .gyoumu-acces-map img{
 position:relative;
-bottom:600px;
+top:-433px;
 }
 .jyutaku-bukken img{
 position:relative;
-bottom:604px;
+top:-436px;
 }
 .kouji-jirei img{
 position:relative;
-bottom:765px;
+top:-598px;
 left:480px;
 }
 .kigyou-torikumi img{
 position:relative;
-bottom:772px;
+top:-603px;
 }
 .kaisha-gaiyou img{
 position:relative;
-bottom:775px;
+top:-606px;
 }
 .saiyou-jyouhou img{
 position:relative;
-bottom:938px;
+top:-768px;
 left:480px;
 }
 .News-Release h2{
 color:#5b8834;
 font-size:28pt;
 position:relative;
-bottom:845px;
+top:-676px;
 left:98px;
 }
 .News-Release p{
 color:#221814;
 font-size:9pt;
 position:relative;
-bottom:864px;
+top:-692px;
 left:394px;
 }
 .News-Release img{
 position:relative;
-bottom:890px;
+top:-723px;
 left:778px;
 }
 .News-coment p:nth-of-type(1){
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-698px;
 left:100px;
 border-top:2px dashed #221814;
 border-bottom:2px dashed #221814;
@@ -308,7 +244,7 @@ padding-bottom:9px;
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-697px;
 left:100px;
 border-bottom:2px dashed #221814;
 padding-top:9px;
@@ -318,7 +254,7 @@ padding-bottom:9px;
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-697px;
 left:100px;
 border-bottom:2px dashed #221814;
 padding-top:9px;
@@ -328,7 +264,7 @@ padding-bottom:9px;
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-697px;
 left:100px;
 border-bottom:2px dashed #221814;
 padding-top:9px;
@@ -338,7 +274,7 @@ padding-bottom:9px;
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-697px;
 left:100px;
 border-bottom:2px dashed #221814;
 padding-top:9px;
@@ -348,7 +284,7 @@ padding-bottom:9px;
 color:#221814;
 font-size:10.5pt;
 position:relative;
-bottom:851px;
+top:-697px;
 left:100px;
 border-bottom:2px dashed #221814;
 padding-top:9px;
@@ -357,7 +293,7 @@ padding-bottom:9px;
 .kakugaiyou p:nth-of-type(1){
 color:#221814;
 position:relative;
-bottom:698px;
+top:-280px;
 left:99px;
 background-color:#dbdbdb;
 width:960px;
@@ -367,196 +303,161 @@ padding-top:32px
 .kakugaiyou p:nth-of-type(2){
 color:#221814;
 position:relative;
-bottom:861px;
+top:-442px;
 left:99px;
 }
 .kakugaiyou p:nth-of-type(3){
 color:#221814;
 position:relative;
-bottom:853px;
+top:-431px;
 left:99px;
 }
 .kakugaiyou p:nth-of-type(4){
 color:#221814;
 position:relative;
-bottom:841px;
+top:-421px;
 left:99px;
 }
 .kakugaiyou p:nth-of-type(5){
 color:#221814;
 position:relative;
-bottom:835px;
+top:-414px;
 left:99px;
 }
 .kakugaiyou p:nth-of-type(6){
 color:#221814;
 position:relative;
-bottom:958px;
+top:-539px;
 left:315px;
 }
 .kakugaiyou p:nth-of-type(7){
 color:#221814;
 position:relative;
-bottom:944px;
+top:-525px;
 left:315px;
 }
 .kakugaiyou p:nth-of-type(8){
 color:#221814;
 position:relative;
-bottom:931px;
+top:-512px;
 left:315px;
 }
 .kakugaiyou p:nth-of-type(9){
 color:#221814;
 position:relative;
-bottom:921px;
+top:-502px;
 left:315px;	
 }
 .kakugaiyou p:nth-of-type(10){
 color:#221814;
 position:relative;
-bottom:911px;
+top:-492px;
 left:315px;	
 }
 .kakugaiyou p:nth-of-type(11){
 color:#221814;
 position:relative;
-bottom:900px;
+top:-481px;
 left:315px;	
 }
 .kakugaiyou p:nth-of-type(12){
 color:#221814;
 position:relative;
-bottom:1054px;
+top:-635px;
 left:568px;	
 }
 .kakugaiyou p:nth-of-type(13){
 color:#221814;
 position:relative;
-bottom:1041px;
+top:-622px;
 left:568px;	
 }
 .kakugaiyou p:nth-of-type(14){
 color:#221814;
 position:relative;
-bottom:1030px;
+top:-611px;
 left:568px;
 }
 .kakugaiyou p:nth-of-type(15){
 color:#221814;
 position:relative;
-bottom:1020px;
+top:-601px;
 left:568px;	
 }
 .kakugaiyou p:nth-of-type(16){
 color:#221814;
 position:relative;
-bottom:1010px;
+top:-591px;
 left:568px;	
 }
 .kakugaiyou p:nth-of-type(17){
 color:#221814;
 position:relative;
-bottom:988px;
+top:-580px;
 left:568px;
 }
 .kakugaiyou p:nth-of-type(18){
 color:#221814;
 position:relative;
-bottom:1148px;
+top:-733px;
 left:776px;
 }
 .kakugaiyou p:nth-of-type(19){
 color:#221814;
 position:relative;
-bottom:1134px;
+top:-719px;
 left:776px;
 }
 .kakugaiyou p:nth-of-type(20){
 color:#221814;
 position:relative;
-bottom:1122px;
+top:-707px;
 left:776px;
 }
 .kakugaiyou p:nth-of-type(21){
 color:#221814;
 position:relative;
-bottom:1110px;
+top:-695px;
 left:776px;	
 }
 
 .tokuteityuuijikou p:nth-of-type(1){
 color:#221814;
 position:relative;
-bottom:822px;
+top:-559px;
 left:19px;
 }
 .tokuteityuuijikou p:nth-of-type(2){
 color:#221814;
 position:relative;
-bottom:848px;
+top:-585px;
 left:162px;
 }
 .tokuteityuuijikou p:nth-of-type(3){
 color:#221814;
 position:relative;
-bottom:871px;
+top:-607px;
 left:322px;
 }
 .tokuteityuuijikou p:nth-of-type(4){
 color:#221814;
 position:relative;
-bottom:904px;
+top:-637px;
 left:462px;
 }
 .tokuteityuuijikou p:nth-of-type(5){
 color:#221814;
 position:relative;
-bottom:934px;
+top:-669px;
 left:645px;
 }
 .tokuteityuuijikou p:nth-of-type(6){
 color:#221814;
 position:relative;
-bottom:962px;
+top:-695px;
 left:838px;
 }
-.side1 img:nth-of-type(1){
-position:relative;
-bottom:988px;
-left:3px;
-}
-.side1 img:nth-of-type(2){
-position:relative;
-bottom:988px;
-left:138px;
-}
-.side1 img:nth-of-type(3){
-position:relative;
-bottom:988px;
-left:293px
-}
-.side1 img:nth-of-type(4){
-position:relative;
-bottom:988px;
-left:420px;
-}
-.side1 img:nth-of-type(5){
-position:relative;
-bottom:988px;
-left:606px;
-}
-.side1 img:nth-of-type(6){
-position:relative;
-bottom:988px;
-left:796px;
-}
-.side1 img:nth-of-type(7){
-position:relative;
-bottom:988px;
-left:918px;
-}
 footer{
-color:221814;
+color:#221814;
 background-color:#5B8834;
 }
