@@ -286,13 +286,15 @@ border-bottom:2px dashed #221814;
 padding-top:9px;
 padding-bottom:9px;
 }
+.gaiyou p{
+width:860px;
+}
 .kakugaiyou p:nth-of-type(1){
 color:#221814;
 position:relative;
 top:-280px;
 left:0px;
 background-color:#dbdbdb;
-width:960px;
 height:195px;
 padding-top:32px;
 padding-left:99px;
