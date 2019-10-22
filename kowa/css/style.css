@@ -1,482 +1,240 @@
 @charset "utf-8";
 /* CSS Document */
 #container{
-	max-width:960px;
-	max-height:2702px;
-	margin-right:auto;
-	margin-left:auto;
-}
-h1{
-color:#221814;
-font-size:13pt;
-position:relative;
-top:102px;
-left:107px;
-}
-.logo{
-position:relative;
-top:72px;
-left:45px;
-}
-.oya-gaisha-title p:nth-of-type(1){
-font-size:13pt;
-position:relative;
-top:-11px;
-left:39px;
-}
-.oya-gaisha-title p:nth-of-type(2){
-font-size:8pt;
-color:#a6fd60;
-position:relative;
-top:-23px;
-left:249px;
-}
-.saite-map ul{
-width:100%;
-text-align:right;
-font-size:14px;
-color:#5b8834;
-}
-.saite-map li{
-display:inline-block;
-}
-.gaiyou-link ul{
-width:100%;
-text-align:right;
-font-size:14px;
-}
-.gaiyou-link li{
-display:inline-block;
-}
-.kaisha-main-gazou img{
-position:relative;
-top:15px
-}
-.kaisha-main-gazou p{
-color:#ffffff;
-font-size:16pt;
-position:relative;
-top:-195px;
-left:130px	
-}
-.shoukai h2{
-color:#5b8834;
-font-size:16pt;
-position:relative;
-top:16px;
-left:80px;
-}
-.shoukai p{
-color:#221814;
-font-size:9pt;
-position:relative;
-top:40px;
-left:79px;
-}
-.soukanzu img{
-height:313px;
-position:relative;
-top:-178px;
-left:563px;
-}
-.kigyou-rinen-eigyo-group p:nth-of-type(1){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-320px;
-left:497px;
-}
-.kigyou-rinen-eigyo-group p:nth-of-type(2){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-320px;
-left:493px;
-}
-.kigyou-rinen-eigyo-group p:nth-of-type(3){
-color:#221814;
-font-size:11pt;
-position:relative;
-top:-336px;
-left:503px;
-}
-.kigyou-rinen-eigyo-group p:nth-of-type(4){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-334px;
-left:493px;
-}
-.kigyou-rinen-eigyo-group p:nth-of-type(5){
-color:#221814;
-font-size:11pt;
-position:relative;
-top:-352px;
-left:503px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(1){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-407px;
-left:808px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(2){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-407px;
-left:803px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(3){
-color:#221814;
-font-size:11pt;
-position:relative;
-top:-425px;
-left:814px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(4){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-422px;
-left:803px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(5){
-color:#221814;
-font-size:11pt;
-position:relative;
-top:-440px;
-left:814px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(6){
-color:#23a359;
-font-size:15pt;
-position:relative;
-top:-438px;
-left:803px;
-}
-.kigyou-rinen-gyoumu-kanri-group p:nth-of-type(7){
-color:#221814;
-font-size:11pt;
-position:relative;
-top:-456px;
-left:814px;
-}
-.one-stop-service p:nth-of-type(1){
-color:#5b8834;
-font-size:23pt;
-position:relative;
-top:-669px;
-left:760px;
-}
-.one-stop-service p:nth-of-type(2){
-color:#221814;
-font-size:6pt;
-position:relative;
-top:-663px;
-left:760px;	
-}
-.gyoumu-acces-map img{
-position:relative;
-top:-433px;
-}
-.jyutaku-bukken img{
-position:relative;
-top:-436px;
-}
-.kouji-jirei img{
-position:relative;
-top:-598px;
-left:480px;
-}
-.kigyou-torikumi img{
-position:relative;
-top:-603px;
-}
-.kaisha-gaiyou img{
-position:relative;
-top:-606px;
-}
-.saiyou-jyouhou img{
-position:relative;
-top:-768px;
-left:480px;
-}
-.News-Release h2{
-color:#5b8834;
-font-size:28pt;
-position:relative;
-top:-676px;
-left:98px;
-}
-.News-Release p{
-color:#221814;
-font-size:9pt;
-position:relative;
-top:-692px;
-left:394px;
-}
-.News-Release img{
-position:relative;
-top:-723px;
-left:778px;
-}
-.news p{
-width:780px;
-}
-.News-coment p:nth-of-type(1){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-698px;
-left:100px;
-border-top:2px dashed #221814;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.News-coment p:nth-of-type(2){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-697px;
-left:100px;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.News-coment p:nth-of-type(3){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-697px;
-left:100px;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.News-coment p:nth-of-type(4){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-697px;
-left:100px;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.News-coment p:nth-of-type(5){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-697px;
-left:100px;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.News-coment p:nth-of-type(6){
-color:#221814;
-font-size:10.5pt;
-position:relative;
-top:-697px;
-left:100px;
-border-bottom:2px dashed #221814;
-padding-top:9px;
-padding-bottom:9px;
-}
-.gaiyou p{
-width:860px;
-}
-.kakugaiyou p:nth-of-type(1){
-color:#221814;
-position:relative;
-top:-280px;
-left:0px;
-background-color:#dbdbdb;
-height:195px;
-padding-top:32px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(2){
-color:#221814;
-position:relative;
-top:-442px;
-left:0px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(3){
-color:#221814;
-position:relative;
-top:-431px;
-left:0px;
-padding-left:99px
-}
-.kakugaiyou p:nth-of-type(4){
-color:#221814;
-position:relative;
-top:-421px;
-left:0px;
-padding-left:99px
-}
-.kakugaiyou p:nth-of-type(5){
-color:#221814;
-position:relative;
-top:-414px;
-left:0px;
-padding-left:99px
-}
-.kakugaiyou p:nth-of-type(6){
-color:#221814;
-position:relative;
-top:-539px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(7){
-color:#221814;
-position:relative;
-top:-525px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(8){
-color:#221814;
-position:relative;
-top:-512px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(9){
-color:#221814;
-position:relative;
-top:-502px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(10){
-color:#221814;
-position:relative;
-top:-492px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(11){
-color:#221814;
-position:relative;
-top:-481px;
-left:216px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(12){
-color:#221814;
-position:relative;
-top:-635px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(13){
-color:#221814;
-position:relative;
-top:-622px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(14){
-color:#221814;
-position:relative;
-top:-611px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(15){
-color:#221814;
-position:relative;
-top:-601px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(16){
-color:#221814;
-position:relative;
-top:-591px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(17){
-color:#221814;
-position:relative;
-top:-580px;
-left:469px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(18){
-color:#221814;
-position:relative;
-top:-733px;
-left:677px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(19){
-color:#221814;
-position:relative;
-top:-719px;
-left:677px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(20){
-color:#221814;
-position:relative;
-top:-707px;
-left:677px;
-padding-left:99px;
-}
-.kakugaiyou p:nth-of-type(21){
-color:#221814;
-position:relative;
-top:-695px;
-left:677px;	
-padding-left:99px;
-}
-
-.tokuteityuuijikou p:nth-of-type(1){
-color:#221814;
-position:relative;
-top:-559px;
-left:19px;
-}
-.tokuteityuuijikou p:nth-of-type(2){
-color:#221814;
-position:relative;
-top:-585px;
-left:162px;
-}
-.tokuteityuuijikou p:nth-of-type(3){
-color:#221814;
-position:relative;
-top:-607px;
-left:322px;
-}
-.tokuteityuuijikou p:nth-of-type(4){
-color:#221814;
-position:relative;
-top:-637px;
-left:462px;
-}
-.tokuteityuuijikou p:nth-of-type(5){
-color:#221814;
-position:relative;
-top:-669px;
-left:645px;
-}
-.tokuteityuuijikou p:nth-of-type(6){
-color:#221814;
-position:relative;
-top:-695px;
-left:838px;
-}
-footer p{
-color:#221814;
-background-color:#5B8834;
+	width: 960px;
+	height: 2702px;
+}
+#main-image{
+	margin-top: 80px;
+}
+#company-fictional-real-estate-facilities{
+	font-size: 16px;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+#company img{
+	margin-top: -30px;
+	margin-left: 40px;
+}
+#business-overview{
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 423px;
+	margin-top: -30px;
+}
+#contact{
+	font-size: 12px;
+	color: #5B8834;
+	display: flex;
+	flex-direction: row;
+	margin-left: 703px;
+	margin-top: -40px;
+}
+#contact-site-map{
+	margin-left: 10px;
+}
+#parent{
+	display: flex;
+	flex-direction: row;
+	margin-top: -40px;
+	margin-left: 40px;
+}
+#parent-fictional-real-estate-group{
+	font-size: 14px;
+}
+#parent-trusted-and-proven-parther{
+	font-size: 10px;
+	color: #5b8834;
+	margin-top: 4px;
+	margin-left: 20px;
+}
+#promoted-by-professionals{
+	margin-top: 40px;
+	margin-left: 97px;
+}
+#promoted-by-professionals-one-stop-service{
+	font-size: 24px;
+	color: #5b8834;
+}
+#promoted-by-professionals-equipment-management{
+	font-size: 13px;
+	margin-top: 40px;
+}
+#promoted-by-professionals img{
+	margin-top: -260px;
+	margin-left: 370px;
+}
+#introduction-of-each-company img:nth-of-type(1){
+	margin-top: 100px;
+	
+}
+#introduction-of-each-company img:nth-of-type(2){
+	margin-top: -3px;
+	}
+#introduction-of-each-company img:nth-of-type(3){
+	position: relative;
+	top: -162px;
+	left: 480px;
+}
+#introduction-of-each-company img:nth-of-type(4){
+margin-top: -170px;	
+}
+#introduction-of-each-company img:nth-of-type(5){
+	margin-top: -3px;
+}
+#introduction-of-each-company img:nth-of-type(6){
+	position: relative;
+	top: -162px;
+	left: 480px;
+}
+#news-news-release{
+	font-size: 22px;
+	margin-top: -100px;
+	margin-left: 150px;
+	color: #5B8834;
+}
+#news-news-katakana{
+	font-size: 10px;
+	margin-top: -10px;
+	margin-left: 350px
+}
+#news-news-to-list{
+	margin-top: -45px;
+	margin-left: 750px;
+	padding-top: 10px;
+	color: #ffffff;
+	background-color: #5B8834;
+	width: 70px;
+	height: 25px;
+}
+#news-paper dt{
+	font-size: 12px;
+	margin-top: 19px;
+	margin-left: 155px;
+	border-top: 2px dotted;
+	border-bottom: 2px dotted;
+	line-height: 50px;
+	width: 730px;
+	}
+#news-paper dd{
+	font-size: 12px;
+	margin-top: -33px;
+	margin-left: 260px;
+		}
+#business{
+	background-color: #888888;
+	height: 160px;
+	line-height: 20px;
+}
+#introduction-of-each-business{
+	margin-top: 100px;
+	margin-left: 100px;
+	padding-top: 15px;
+}
+#efforts{
+	margin-top: -121px;
+	margin-left: 300px;
+	}
+#overview{
+	margin-top: -141px;
+	margin-left: 550px;
+}
+#case{
+	margin-top: -141px;
+	margin-left: 750px;
+}
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+#introduction-of-each-business-introducation{
+	border-bottom: 1px solid;
+	width: 190px;
+	line-height: 30px;
+}
+#efforts-quality-improvement{
+	border-bottom: 1px solid;
+	width: 235px;
+	line-height: 30px;
+}
+#overview-company-profile{
+	border-bottom: 1px solid;
+	width: 190px;
+	line-height: 30px;
+}
+#case-entrusted-property{
+	border-bottom: 1px solid;
+	width: 200px;
+	line-height: 30px;
+}
+#introduction-of-each-business-building-equipment-management{
+	line-height: 30px;
+}
+#efforts-quality{
+	line-height: 30px;
+}
+#overview-greetings{
+	line-height: 30px;
+}
+#case-examples-of-construction-work{
+	line-height: 30px;
+}
+#guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -20px;
+	text-align: center;
+}
+#guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 150px;
+}
+footer{
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-left: 50px;
+	color: #FFFFFF;
+	background-color: #5B8834;
+	width: 900px;
+	height: 30px;
 }
