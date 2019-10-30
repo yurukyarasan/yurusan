@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0 0 0 0;
+}
+#container{
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+}
+#main-image img{
+	margin-top: 80px;
+}
+#introduction-of-the-business{
+	color: #c3d100;
+	margin-left: 100px;
+	margin-top: -230px;
+	font-size: 16px;
+}
+#building-equipment-management{
+	margin-left: 99px;
+	margin-top: 10px;
+	color: #ffffff;
+	font-size: 18px;
+}
+#company-fictional-real-estate-facilities{
+	font-size: 16px;
+	margin-top: 60px;
+	margin-left: 100px;
+}
+#company img{
+	margin-top: -30px;
+	margin-left: 40px;
+}
+#business-overview{
+	font-size: 12px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 423px;
+	margin-top: -30px;
+}
+#contact{
+	font-size: 12px;
+	color: #5B8834;
+	display: flex;
+	flex-direction: row;
+	margin-left: 703px;
+	margin-top: -40px;
+}
+#contact-site-map{
+	margin-left: 10px;
+}
+#parent{
+	display: flex;
+	flex-direction: row;
+	margin-top: -40px;
+	margin-left: 40px;
+}
+#parent-fictional-real-estate-group{
+	font-size: 14px;
+}
+#parent-trusted-and-proven-parther{
+	font-size: 10px;
+	color: #5b8834;
+	margin-top: 4px;
+	margin-left: 20px;
+}
+#main-image p:nth-of-type(1){
+	color: #ffd802;
+	margin-top: -250px;
+	margin-left: 100px;
+}
+#main-image p:nth-of-type(2){
+	margin-left: 100px;
+	font-size: 24px;
+	line-height: 1.5em;
+}
+#cleaning-management h2{
+	color: #82a61c;
+	font-size: 25px;
+	margin-top: 250px;
+}
+#cleaning-management p{
+	font-size: 15px;
+	letter-spacing: 0.05em;
+	margin-top: 30px;
+}
+#cleaning h3{
+	margin-top: 30px;
+	background-color: #5c8934;
+	border-left: 4px solid #FFFF00;
+	height: 30px;
+	padding-top: 10px;
+}
+.daily-cleaning img{
+	margin-top: 10px;
+}
+.daily-cleaning dd:nth-of-type(1){
+	float: right;
+	margin-top: -220px;
+	margin-right: 450px;
+}
+.daily-cleaning dd:nth-of-type(2){
+	font-size: 12px;
+	float: right;
+	margin-top: -185px;
+	margin-right: 70px;
+}
+.regular-cleaning img{
+	margin-top: 17px;
+}
+.regular-cleaning dd:nth-of-type(1){
+	float: right;
+	margin-top: -220px;
+	margin-right: 450px;
+}
+.regular-cleaning dd:nth-of-type(2){
+	font-size: 12px;
+	float: right;
+	margin-top: -185px;
+	margin-right: 70px;
+}
+.glass-cleaning img{
+	margin-top: 24px;
+}
+.glass-cleaning dd:nth-of-type(1){
+	float: right;
+	margin-top: -220px;
+	margin-right: 450px;
+}
+.glass-cleaning dd:nth-of-type(2){
+	font-size: 12px;
+	float: right;
+	margin-top: -185px;
+	margin-right: 85px;
+}
+.special-cleaning img{
+	margin-top: 31px;
+}
+.special-cleaning dd:nth-of-type(1){
+	float: right;
+	margin-top: -220px;
+	margin-right: 460px;
+}
+.special-cleaning dd:nth-of-type(2){
+	font-size: 12px;
+	float: right;
+	margin-top: -185px;
+	margin-right: 85px;
+}
+.cleaning-of-commercial-facilities h3{
+	margin-top: 30px;
+	background-color: #5c8934;
+	border-left: 4px solid #FFFF00;
+	height: 30px;
+	padding-top: 10px;
+}
+.cleaning-of-commercial-facilities dt{
+	padding-top: 10px;
+}
+.cleaning-of-commercial-facilities dd{
+	font-size: 12px;
+	float: right;
+	margin-top: -280px;
+	margin-right: 50px;
+}
+.cleaning-of-condominiums h3{
+	margin-top: 30px;
+	background-color: #5c8934;
+	border-left: 4px solid #FFFF00;
+	height: 30px;
+	padding-top: 10px;
+}
+.cleaning-of-condominiums dt{
+	padding-top: 10px;
+}
+.cleaning-of-condominiums dd{
+	font-size: 12px;
+	float: right;
+	margin-top: -280px;
+	margin-right: 50px;
+}
+#other-business h3{
+	margin-top: 30px;
+	background-color: #5c8934;
+	border-left: 4px solid #FFFF00;
+	height: 30px;
+	padding-top: 10px;
+}
+.pest-control-business dt{
+	margin-top: 10px;
+}
+.pest-control-business dd{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.sales-of-goods-and-materials dt{
+	float: right;
+	margin-top: -93px;
+	margin-right: 338px;
+}
+.sales-of-goods-and-materials dd{
+	font-size: 12px;
+	float: right;
+	margin-top: -63px;
+	margin-right: 100px;
+}
+.scat-special-cleaning-advanced-team h3{
+	background-color: #5c8934;
+	border-left: 4px solid #FFFF00;
+	height: 30px;
+	padding-top: 10px;
+}
+.scat-special-cleaning-advanced-team img{
+	margin-top: 10px;
+}
+.scat-special-cleaning-advanced-team dd{
+	font-size: 12px;
+	float: right;
+	margin-top: -280px;
+	margin-right: 75px;
+}
+.environmental-conservation-initiatives{
+	background-color: #FCFBE6;
+	border: 2px solid #5c8934;
+	height: 160px;
+	margin-top: 20px;
+}
+.environmental-conservation-initiatives dt{
+	margin-top: 23px;
+	padding-top: -25px;
+	padding-left: 20px;
+	}
+.environmental-conservation-initiatives dd:nth-of-type(1){
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-left: 20px;
+	color: #5c8934;
+	border-top: 2px solid #5c8934;
+	width: 936px;
+}
+.environmental-conservation-initiatives dd:nth-of-type(2){
+	font-size: 15px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#contact-us-here p{
+	margin-top: 80px;
+	margin-left: 420px;
+	width: 200px;
+	height: 30px;
+	color: #ffffff;
+	padding-top: 15px;
+	padding-left: 40px;
+	background-color: #5b8834;
+}
+#business{
+	background-color: #888888;
+	height: 160px;
+	line-height: 20px;
+}
+#introduction-of-each-business{
+	margin-top: 100px;
+	margin-left: 100px;
+	padding-top: 15px;
+}
+#efforts{
+	margin-top: -121px;
+	margin-left: 300px;
+	}
+#overview{
+	margin-top: -141px;
+	margin-left: 550px;
+}
+#case{
+	margin-top: -141px;
+	margin-left: 750px;
+}
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+#introduction-of-each-business-introducation{
+	border-bottom: 1px solid;
+	width: 190px;
+	line-height: 30px;
+}
+#efforts-quality-improvement{
+	border-bottom: 1px solid;
+	width: 235px;
+	line-height: 30px;
+}
+#overview-company-profile{
+	border-bottom: 1px solid;
+	width: 190px;
+	line-height: 30px;
+}
+#case-entrusted-property{
+	border-bottom: 1px solid;
+	width: 200px;
+	line-height: 30px;
+}
+#introduction-of-each-business-building-equipment-management{
+	line-height: 30px;
+}
+#efforts-quality{
+	line-height: 30px;
+}
+#overview-greetings{
+	line-height: 30px;
+}
+#case-examples-of-construction-work{
+	line-height: 30px;
+}
+#guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -20px;
+	text-align: center;
+}
+#guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 150px;
+}
+footer{
+	margin-top: 10px;
+	padding-top: 15px;
+	padding-left: 50px;
+	color: #FFFFFF;
+	background-color: #5B8834;
+	width: 900px;
+	height: 30px;
+}
