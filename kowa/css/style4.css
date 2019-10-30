@@ -65,8 +65,8 @@ body{
 	margin-left: 20px;
 }
 #main-image p:nth-of-type(1){
-	color: #ffd802;
-	margin-top: -250px;
+	color: #d99365;
+	margin-top: -160px;
 	margin-left: 100px;
 }
 #main-image p:nth-of-type(2){
@@ -74,184 +74,129 @@ body{
 	font-size: 24px;
 	line-height: 1.5em;
 }
-#cleaning-management h2{
-	color: #82a61c;
-	font-size: 25px;
-	margin-top: 250px;
+#abundant-experience-in-functions-designs-customer-needs-etc h2{
+	color: #8f671e;
+	margin-top: 120px;
+	margin-left: 220px;
 }
-#cleaning-management p{
-	font-size: 15px;
-	letter-spacing: 0.05em;
-	margin-top: 30px;
-}
-#cleaning h3{
-	margin-top: 30px;
-	background-color: #5c8934;
-	border-left: 4px solid #FFFF00;
-	height: 30px;
-	padding-top: 10px;
-}
-.daily-cleaning img{
-	margin-top: 10px;
-}
-.daily-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
-}
-.daily-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 70px;
-}
-.regular-cleaning img{
-	margin-top: 17px;
-}
-.regular-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
-}
-.regular-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 70px;
-}
-.glass-cleaning img{
-	margin-top: 24px;
-}
-.glass-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
-}
-.glass-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 85px;
-}
-.special-cleaning img{
-	margin-top: 31px;
-}
-.special-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 460px;
-}
-.special-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 85px;
-}
-.cleaning-of-commercial-facilities h3{
-	margin-top: 30px;
-	background-color: #5c8934;
-	border-left: 4px solid #FFFF00;
-	height: 30px;
-	padding-top: 10px;
-}
-.cleaning-of-commercial-facilities dt{
-	padding-top: 10px;
-}
-.cleaning-of-commercial-facilities dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -280px;
-	margin-right: 50px;
-}
-.cleaning-of-condominiums h3{
-	margin-top: 30px;
-	background-color: #5c8934;
-	border-left: 4px solid #FFFF00;
-	height: 30px;
-	padding-top: 10px;
-}
-.cleaning-of-condominiums dt{
-	padding-top: 10px;
-}
-.cleaning-of-condominiums dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -280px;
-	margin-right: 50px;
-}
-#other-business h3{
-	margin-top: 30px;
-	background-color: #5c8934;
-	border-left: 4px solid #FFFF00;
-	height: 30px;
-	padding-top: 10px;
-}
-.pest-control-business dt{
-	margin-top: 10px;
-}
-.pest-control-business dd{
+#abundant-experience-in-functions-designs-customer-needs-etc p{
 	font-size: 12px;
 	margin-top: 20px;
+	margin-left: 220px;
 }
-.sales-of-goods-and-materials dt{
-	float: right;
-	margin-top: -93px;
-	margin-right: 338px;
-}
-.sales-of-goods-and-materials dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -63px;
-	margin-right: 100px;
-}
-.scat-special-cleaning-advanced-team h3{
-	background-color: #5c8934;
-	border-left: 4px solid #FFFF00;
+.construction-value-up-construction dt{
+	margin-top: 50px;
+	background-color: #B9640F;
+	border-left: 4px solid #DCA772;
 	height: 30px;
-	padding-top: 10px;
-}
-.scat-special-cleaning-advanced-team img{
-	margin-top: 10px;
-}
-.scat-special-cleaning-advanced-team dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -280px;
-	margin-right: 75px;
-}
-.environmental-conservation-initiatives{
-	background-color: #FCFBE6;
-	border: 2px solid #5c8934;
-	height: 160px;
-	margin-top: 20px;
-}
-.environmental-conservation-initiatives dt{
-	margin-top: 23px;
-	padding-top: -25px;
-	padding-left: 20px;
-	}
-.environmental-conservation-initiatives dd:nth-of-type(1){
-	margin-top: 15px;
 	padding-top: 15px;
-	padding-left: 20px;
-	color: #5c8934;
-	border-top: 2px solid #5c8934;
-	width: 936px;
 }
-.environmental-conservation-initiatives dd:nth-of-type(2){
-	font-size: 15px;
+.construction-value-up-construction img{
+	margin-top: 20px;
+}
+.construction-value-up-construction dd:nth-of-type(2){
+	font-size: 13px;
+	margin-top: -162px;
+	margin-left: 550px;
+}
+.construction-tenant-layout-work dt{
+	margin-top: 100px;
+	background-color: #B9640F;
+	border-left: 4px solid #DCA772;
+	height: 30px;
+	padding-top: 15px;
+}
+.construction-tenant-layout-work dd:nth-of-type(2){
+	font-size: 13px;
+	margin-top: -275px;
+	margin-left: 544px;
+}
+.construction-facilitie-and-energy-saving-renewal-construction dt{
+	margin-top: 220px;
+	background-color: #B9640F;
+	border-left: 4px solid #DCA772;
+	height: 30px;
+	padding-top: 15px;
+}
+.construction-facilitie-and-energy-saving-renewal-construction img{
+	margin-top: 20px;
+}
+.construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+	font-size: 13px;
+	margin-top: -307px;
+	margin-left: 530px;
+}
+.construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dt{
+	margin-top: 240px;
+	background-color: #B9640F;
+	border-left: 4px solid #DCA772;
+	height: 30px;
+	padding-top: 15px;
+}
+.construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work img{
+	margin-top: 20px;
+}
+.construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+	font-size: 13px;
+	margin-top: -285px;
+	margin-left: 530px;
+}
+.construction-safety-management-and-construction-quality-control {
+	background-color: #FFE4B5;
+	border: 2px solid #ffff00;
+	height: 170px;
+	margin-top: 200px;
+	margin-bottom: 50px;
+}
+.construction-safety-management-and-construction-quality-control dt{
+	margin-top: 20px;
+}
+.construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+	border-top: 2px solid #ffff00;
+	margin-top: 10px;
 	padding-top: 10px;
-	padding-left: 20px;
 }
-#contact-us-here p{
-	margin-top: 80px;
-	margin-left: 420px;
+.construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+	margin-top: -70px;
+	margin-left: 650px;
+	padding-left: 40px;
+	background-color: #FFFFFF;
+	height: 35px;
+	padding-top: 15px;
+	width: 180px;
+	border: 2px solid #ffff00;
+}
+.construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+	margin-top: 5px;
+	margin-left: 650px;
+	padding-left: 40px;
+	background-color: #FFFFFF;
+	height: 35px;
+	padding-top: 15px;
+	width: 180px;
+	border: 2px solid #ffff00;
+}
+#construction-examples p:nth-of-type(1){
+	border-top: 2px solid #32CD32;
+	padding-top: 50px;
+	padding-left: 250px;
+}
+#construction-examples p:nth-of-type(2){
+	margin-top: -37px;
+	margin-left: 480px;
+	border: 2px solid #ffff00;
+	width: 180px;
+	height: 30px;
+	padding-top: 18px;
+}
+#contact-us p{
+	margin-top: 30px;
+	margin-left: 340px;
+	background-color: #149000;
+	padding-left: 40px;
 	width: 200px;
 	height: 30px;
-	color: #ffffff;
-	padding-top: 15px;
-	padding-left: 40px;
-	background-color: #5b8834;
+	padding-top: 10px;
 }
 #business{
 	background-color: #888888;
