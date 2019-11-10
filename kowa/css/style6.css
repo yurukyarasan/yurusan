@@ -309,48 +309,51 @@ footer{
       margin-left: 50px;
       line-height: 1.5em;
     }
-      #business{
-		  display: none;
-	  }
-	  #guidelines{
-		display: flex;
-		flex-wrap: wrap;
-	  }	 
-	  #guidelines p{
-		 border: none;
-		 }
-	  #guidelines-about-the-use-of-the-site{
-		flex-basis: 100%;
-		 margin-top: -20px;
-		 margin-left: -85px;
-	  }
-	  #guidelines-privacy-policy{
-		flex-basis: 100%;
-		margin-top: 15px;
-		 margin-left: -30px;
-	  }
-	  #guidelines-basic-policy-on-specific-personal-information{
-		 flex-basis: 100%;
-		  margin-top: 20px;
-		  margin-left: -90px;
-	  }
-	  #guidelines-compliance-initiatives{
-		flex-basis: 100%; 
-		  margin-top: 20px;
-		  margin-left: -90px;
-	  }
-	  #guidelines-anti-social-forces{
-		 flex-basis: 100%;
-		  margin-top: 30px;
-		  margin-left: -90px;
-	  }
-	  #guidelines-site-map{
-		 flex-basis: 100%;
-		  margin-top: 20px;
-		  margin-left: -25px;
-	  }
-	  footer{
-		  width: 310px;
-		  font-size: 14px;
-	  }
+      #business {
+      display: none;
+    }
+   #guidelines {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines-about-the-use-of-the-site {
+      flex-basis: 360px;
+      margin-top: -20px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+	#guidelines-privacy-policy {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+    }
+    #guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines-compliance-initiatives {
+      flex-basis: 360px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines-anti-social-forces {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines-site-map {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 310px;
+      font-size: 14px;
+    }
   }
