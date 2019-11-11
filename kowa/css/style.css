@@ -107,7 +107,7 @@
   #news-news-katakana {
     font-size: 10px;
     margin-top: -10px;
-    margin-left: 350px
+    margin-left: 350px;
   }
   #news-news-to-list {
     margin-top: -35px;
@@ -391,4 +391,53 @@
     #business {
       display: none;
     }
-    c
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines-about-the-use-of-the-site {
+      flex-basis: 360px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 360px;
+    }
+	#guidelines-privacy-policy {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 60px;
+    }
+    #guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines-compliance-initiatives {
+      flex-basis: 360px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines-anti-social-forces {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines-site-map {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 310px;
+      font-size: 14px;
+	  margin-top: 227px;
+	  height: 50px;
+    }
+  }
