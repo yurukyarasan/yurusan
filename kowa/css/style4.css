@@ -378,6 +378,7 @@ footer{
     #guidelines {
       display: flex;
       flex-wrap: wrap;
+	  float: left;
     }
     #guidelines p {
       border: none;
@@ -387,6 +388,7 @@ footer{
       margin-top: -20px;
       margin-left: -170px;
       background-color: #888888;
+	  width: 360px;
     }
 	#guidelines-privacy-policy {
       flex-basis: 360px;
@@ -418,5 +420,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
+	  margin-top: 207px;
+	  height: 50px;
     }
   }

@@ -339,7 +339,8 @@
       width: 360px;
     }
     #introduction-of-each-company img:nth-of-type(4) {
-      width: 360px;
+      float: left;
+	  width: 360px;
       margin-top: 0px;
     }
     #introduction-of-each-company img:nth-of-type(5) {
@@ -349,7 +350,8 @@
       width: 360px;
     }
     #introduction-of-each-company img:nth-of-type(7) {
-      width: 360px;
+      float: left;
+	  width: 360px;
     }
     #news-news-release {
       margin-top: 150px;
@@ -380,10 +382,6 @@
     #news-paper {
       position: relative;
     }
-    #news-paper-news-release-1 {}
-    #news-paper-news-release-1-1 {}
-    #news-paper-news-release-2 {}
-    #news-paper-news-release-2-1 {}
     #news-paper-news-release-3 {
       border-bottom: none;
     }
@@ -393,48 +391,4 @@
     #business {
       display: none;
     }
-    #guidelines {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    #guidelines p {
-      border: none;
-    }
-    #guidelines-about-the-use-of-the-site {
-      flex-basis: 360px;
-      margin-top: -20px;
-      margin-left: -170px;
-      background-color: #888888;
-    }
-	#guidelines-privacy-policy {
-      flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 130px;
-      background-color: #888888;
-    }
-    #guidelines-basic-policy-on-specific-personal-information {
-      flex-basis: 360px;
-      margin-left: -170px;
-      background-color: #888888;
-    }
-    #guidelines-compliance-initiatives {
-      flex-basis: 360px;
-      margin-left: -159px;
-      background-color: #888888;
-    }
-    #guidelines-anti-social-forces {
-      flex-basis: 360px;
-      margin-left: -170px;
-      background-color: #888888;
-    }
-    #guidelines-site-map {
-      flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 135px;
-      background-color: #888888;
-    }
-    footer {
-      width: 310px;
-      font-size: 14px;
-    }
-  }
+    c
