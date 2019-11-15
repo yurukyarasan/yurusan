@@ -176,17 +176,17 @@ body{
 	margin-left: 530px;
 }
 
-.costomer-support-ｃleaning-man-hour-management dt{
+.costomer-support-cleaning-man-hour-management dt{
 	margin-top: 240px;
 	background-color: #1E90FF;
 	border-left: 4px solid #00BFFF;
 	height: 30px;
 	padding-top: 15px;
 }
-.costomer-support-ｃleaning-man-hour-management img{
+.costomer-support-cleaning-man-hour-management img{
 	margin-top: 20px;
 }
-.costomer-support-ｃleaning-man-hour-management dd:nth-of-type(2){
+.costomer-support-cleaning-man-hour-management dd:nth-of-type(2){
 	font-size: 13px;
 	margin-top: -285px;
 	margin-left: 530px;
@@ -367,16 +367,157 @@ footer{
     }
     #main-image img {
       width: 360px;
-      margin-top: 0px;
+      margin-top: 80px;
     }
-    #main-image p {
+    #main-image p:nth-of-type(1) {
       width: 360px;
       font-size: 5px;
-      margin-top: -90px;
+      margin-top: -80px;
       margin-left: 50px;
       line-height: 1.5em;
     }
-      #business {
+	#main-image p:nth-of-type(2) {
+	  width: 360px;
+      font-size: 5px;
+      margin-top: 5px;
+      margin-left: 50px;
+      line-height: 1.5em;
+    }
+	#one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations h2{
+		width: 450px;
+		margin-top: 60px;
+		margin-left: 20px;
+	}
+	#one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations p{
+		width: 290px;
+		margin-left: 20px;
+	}
+	#costomer-support{
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+	}
+	#costomer-support .costomer-support-maintenance-preventive-maintenance-proposal dt{
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-maintenance-preventive-maintenance-proposal dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-maintenance-preventive-maintenance-proposal dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		position: absolute;
+		top: 620px;
+		left: -550px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-energy-saving-proposal dt{
+		flex-basis: 360px;
+		margin-top: 160px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-energy-saving-proposal dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-energy-saving-proposal dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 340px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-disaster-response dt{
+		flex-basis: 360px;
+		margin-top: 20px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-disaster-response dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-disaster-response dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-management-service-business dt{
+		flex-basis: 360px;
+		margin-top: 20px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-management-service-business dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-management-service-business dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-ｃustomer-service-for-building-operation-and-management dt{
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 20px;
+	}
+	#costomer-support .costomer-support-ｃustomer-service-for-building-operation-and-management dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-ｃustomer-service-for-building-operation-and-management dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal dt{
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 20px;
+	}
+	#costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#costomer-support .costomer-support-cleaning-man-hour-management dt{
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	#costomer-support .costomer-support-cleaning-man-hour-management dd img:nth-of-type(1){
+		flex-basis: 360px;
+		width: 360px;
+	}
+	#costomer-support .costomer-support-cleaning-man-hour-management dd:nth-of-type(2){
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 10px;
+		margin-left: 0px;
+		font-size: 15.5px;
+	}
+	#contact-us{
+		margin-top: -250px;
+		margin-left: -280px;
+	}
+	#arrow{
+		margin-left: 70px;
+	}
+	#business {
       display: none;
     }
     #guidelines {

@@ -112,7 +112,7 @@ body{
 	margin-left: 544px;
 }
 .construction-facilitie-and-energy-saving-renewal-construction dt{
-	margin-top: 220px;
+	margin-top: 80px;
 	background-color: #B9640F;
 	border-left: 4px solid #DCA772;
 	height: 30px;
@@ -127,7 +127,7 @@ body{
 	margin-left: 530px;
 }
 .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dt{
-	margin-top: 240px;
+	margin-top: 100px;
 	background-color: #B9640F;
 	border-left: 4px solid #DCA772;
 	height: 30px;
@@ -363,16 +363,101 @@ footer{
     }
     #main-image img {
       width: 360px;
-      margin-top: 0px;
+      margin-top: 80px;
     }
-    #main-image p {
+    #main-image p:nth-of-type(1) {
       width: 360px;
       font-size: 5px;
-      margin-top: -90px;
+      margin-top: -75px;
       margin-left: 50px;
-      line-height: 1.5em;
     }
-      #business {
+	#main-image p:nth-of-type(2) {
+      width: 360px;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-left: 50px;
+	  color: #FFFFFF;
+    }
+	#abundant-experience-in-functions-designs-customer-needs-etc h2{
+	  font-size: 19px;
+	  margin-top: 50px;	
+	  margin-left: 20px;
+	  width: 330px;
+	}
+	#abundant-experience-in-functions-designs-customer-needs-etc p{
+	  font-size: 15px;
+	  margin-top: 10px;
+	  margin-left: 20px;
+	  width: 340px;
+	}
+	#construction img{
+	  width: 360px;
+	}
+	#construction .construction-value-up-construction dt{
+	   
+	}
+	#construction .construction-value-up-construction dd:nth-of-type(1){
+		
+	}
+	#construction .construction-value-up-construction dd:nth-of-type(1){
+	
+	}
+	#construction.construction-tenant-layout-work dt{
+		
+	}
+	#construction .construction-tenant-layout-work dd:nth-of-type(1){
+		
+	}
+	#construction .construction-tenant-layout-work dd:nth-of-type(2){
+		}
+	#construction .construction-facilitie-and-energy-saving-renewal-construction dt{
+		
+	}
+	#construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(1){
+		
+	}
+	#construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+	}
+	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dt{
+		
+	}
+	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(1){
+		
+	}
+	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+		
+	}
+	#construction .construction-safety-management-and-construction-quality-control{
+		margin-top: 70px;
+		height: 350px;
+	}
+	#construction .construction-safety-management-and-construction-quality-control dt{
+		
+	}
+	#construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+		
+	}
+	#construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+		margin-top: 20px;
+		margin-left: 50px;
+	}
+	#construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+		margin-left: 50px;
+	}
+	#construction-examples p:nth-of-type(1){
+		margin-left: -190px;
+	}
+	#construction-examples p:nth-of-type(2){
+		margin-top: 10px;
+		margin-left: 70px;
+	}
+	#contact-us p{
+		margin-left: 50px
+	}
+	#arrow{
+		margin-left: 65px;
+	}
+     #business {
       display: none;
     }
     #guidelines {
