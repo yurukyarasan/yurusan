@@ -91,7 +91,7 @@ body{
 	height: 30px;
 	padding-top: 15px;
 }
-.construction-value-up-construction img{
+.construction-value-up-construction dd img:nth-of-type(1){
 	margin-top: 20px;
 }
 .construction-value-up-construction dd:nth-of-type(2){
@@ -106,19 +106,22 @@ body{
 	height: 30px;
 	padding-top: 15px;
 }
+.construction-tenant-layout-work dd img:nth-of-type(1){
+	margin-top: 10px;
+}
 .construction-tenant-layout-work dd:nth-of-type(2){
 	font-size: 13px;
 	margin-top: -275px;
 	margin-left: 544px;
 }
 .construction-facilitie-and-energy-saving-renewal-construction dt{
-	margin-top: 80px;
+	margin-top: 220px;
 	background-color: #B9640F;
 	border-left: 4px solid #DCA772;
 	height: 30px;
 	padding-top: 15px;
 }
-.construction-facilitie-and-energy-saving-renewal-construction img{
+.construction-facilitie-and-energy-saving-renewal-construction dd img:nth-of-type(1){
 	margin-top: 20px;
 }
 .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
@@ -127,7 +130,7 @@ body{
 	margin-left: 530px;
 }
 .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dt{
-	margin-top: 100px;
+	margin-top: 240px;
 	background-color: #B9640F;
 	border-left: 4px solid #DCA772;
 	height: 30px;
@@ -390,41 +393,61 @@ footer{
 	  margin-left: 20px;
 	  width: 340px;
 	}
+	#costruction{
+		display: flex;
+		flex-wrap: wrap;
+	}
 	#construction img{
 	  width: 360px;
 	}
-	#construction .construction-value-up-construction dt{
-	   
+	#construction .construction-value-up-construction dd:nth-of-type(2){
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 15px;
+	   margin-left: 0px;
+	   font-size: 15.5px;
 	}
-	#construction .construction-value-up-construction dd:nth-of-type(1){
-		
-	}
-	#construction .construction-value-up-construction dd:nth-of-type(1){
-	
-	}
-	#construction.construction-tenant-layout-work dt{
-		
+	#construction .construction-tenant-layout-work dt{
+		flex-basis: 360px;
+		width: 360px;
+		margin-top: 50px;
 	}
 	#construction .construction-tenant-layout-work dd:nth-of-type(1){
-		
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 10px;
 	}
 	#construction .construction-tenant-layout-work dd:nth-of-type(2){
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 15px;
+	   margin-left: 0px;
+	   font-size: 15.5px;
 		}
 	#construction .construction-facilitie-and-energy-saving-renewal-construction dt{
-		
-	}
-	#construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(1){
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 50px;
 		
 	}
 	#construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 0px;
+	   margin-left: 0px;
+	   font-size: 15.5px;
 	}
 	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dt{
-		
-	}
-	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(1){
-		
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 50px;
 	}
 	#construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+	   flex-basis: 360px;
+	   width: 360px;
+	   margin-top: 15px;
+	   margin-left: 0px;
+	   font-size: 15.5px;
 		
 	}
 	#construction .construction-safety-management-and-construction-quality-control{
