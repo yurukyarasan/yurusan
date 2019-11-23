@@ -61,26 +61,27 @@ body{
 	margin-top: 4px;
 	margin-left: 20px;
 }
-quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society
-always-trying-to-improve-the-leve h2{
+#quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society-always-trying-to-improve-the-level h2{
 	color: #5c8934;
-	margin-top: -370px;
+	margin-top: 120px;
 	margin-left: 60px;
 	line-height: 1.5rem;
 	font-size: 20px;
 }
-#quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society
-always-trying-to-improve-the-leve p{
+#quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society-always-trying-to-improve-the-level p{
 	font-size: 12px;
 	margin-top: 20px;
 	margin-left: 60px;
 	line-height: 1.5rem;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dt{
+#quality-improvement-and-environmental-conservation{
+	position: relative;
+}
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dt img{
 	margin-top: 100px;	
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dd:nth-of-type(1){
-	color: #007A66;
+	color: #b6af00;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
@@ -91,29 +92,34 @@ always-trying-to-improve-the-leve p{
 	width: 476px;
 	font-size: 14px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspection dt{
-	margin-top: -307px;
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspection dt img{
 	margin-left: 515px;
+	position: absolute;
+	top: 100px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspectiondd:nth-of-type(1){
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspection dd:nth-of-type(1){
+	color: #b6af00;
 	margin-left: 515px;
-	color: #82A61C;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
+	position: absolute;
+	top: 320px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspectiondd:nth-of-type(2){
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspection dd:nth-of-type(2){
 	margin-left: 515px;
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;
+	position: absolute;
+	top: 365px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dt{
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dt img{
 	margin-top: 50px;
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dd:nth-of-type(1){
-	color: #8F671E;
+	color: #b6af00;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
@@ -124,16 +130,19 @@ always-trying-to-improve-the-leve p{
 	width: 476px;
 	font-size: 14px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dt{
-	margin-top: -307px;
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dt img{
 	margin-left: 515px;
+	position: absolute;
+	top: 455px;
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dd:nth-of-type(1){
-	color: #0076A9;
+	color: #b6af00;
 	margin-bottom: 10px;
 	margin-left: 515px;
 	padding-top: 10px;
 	font-size: 25px;
+	position: absolute;
+	top: 675px;
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dd:nth-of-type(2){
 	border-top: 1px solid #000000;
@@ -141,30 +150,37 @@ always-trying-to-improve-the-leve p{
 	width: 476px;
 	margin-left: 515px;
 	font-size: 14px;
+	position: absolute;
+    top: 725px;
 }
-
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dt{
-	margin-top: -307px;
-	margin-left: 515px;
+#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dt img{
+	margin-left: 0px;
+	position: absolute;
+	top: 805px;
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dd:nth-of-type(1){
-	color: #0076A9;
+	color: #b6af00;
 	margin-bottom: 10px;
-	margin-left: 515px;
+	margin-left: 0px;
 	padding-top: 10px;
 	font-size: 25px;
+	position: absolute;
+	top: 1030px;
 }
 #quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
-	margin-left: 515px;
+	margin-left: 0px;
 	font-size: 14px;
+	position: absolute;
+	top: 1080px;
 }
 #business{
 	background-color: #888888;
 	height: 160px;
 	line-height: 20px;
+	margin-top: 500px;
 }
 #introduction-of-each-business{
 	margin-top: 100px;
