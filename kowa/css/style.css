@@ -8,7 +8,7 @@
     max-width: 960px;
   }
   #main-image {
-    margin-top: 80px;
+    margin-top: 30px;
   }
   #main-image p {
     font-size: 20px;
@@ -21,43 +21,31 @@
     margin-top: 60px;
     margin-left: 100px;
   }
-  #company img {
-    margin-top: -30px;
-    margin-left: 40px;
+  #company h1 img {
+   margin-left: 10px;
   }
   #business-overview {
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 423px;
-    margin-top: -30px;
+    margin-left: 463px;
+    margin-top: -240px;
   }
-  #contact {
+  #contact p{
     font-size: 12px;
     color: #5B8834;
-    display: flex;
-    flex-direction: row;
-    margin-left: 703px;
-    margin-top: -40px;
+	position: relative;
   }
-  #contact-site-map {
-    margin-left: 10px;
+  #contact .contact-contact-us{
+	position: absolute;
+	top: 30px;
+	right: 1000px;
   }
-  #parent {
-    display: flex;
-    flex-direction: row;
-    margin-top: -40px;
-    margin-left: 40px;
-  }
-  #parent-fictional-real-estate-group {
-    font-size: 14px;
-  }
-  #parent-trusted-and-proven-parther {
-    font-size: 10px;
-    color: #5b8834;
-    margin-top: 4px;
-    margin-left: 20px;
-  }
+  #contact .contact-site-map {
+    position: absolute;
+	top: 30px;
+	right: 920px;
+  } 
   #promoted-by-professionals {
     margin-top: 250px;
     margin-left: 97px;
