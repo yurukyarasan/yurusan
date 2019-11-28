@@ -9,6 +9,7 @@
   }
   #main-image {
     margin-top: 30px;
+	width: 100%;
   }
   #main-image p {
     font-size: 20px;
@@ -28,7 +29,7 @@
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 463px;
+    margin-left: 443px;
     margin-top: -40px;
   }
   #contact p{
@@ -39,12 +40,12 @@
   #contact .contact-contact-us{
 	position: absolute;
 	top: 30px;
-	right: 720px;
+	right: 920px;
   }
   #contact .contact-site-map {
     position: absolute;
 	top: 30px;
-	right: 640px;
+	right: 820px;
   } 
 #main-image p:nth-of-type(1){
 	color: #65aadd;
@@ -52,14 +53,15 @@
 	margin-left: 100px;
 }
 #main-image p:nth-of-type(2){
-	color: #ffffff;
+	color: #FB470C;
+	margin-top: 10px;
 	margin-left: 100px;
 	font-size: 24px;
 	line-height: 1.5em;
 }
 #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations h2{
 	color: #0076a9;
-	margin-top: 40px;
+	margin-top: 150px;
 	margin-left: 220px;
 }
 #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations p{

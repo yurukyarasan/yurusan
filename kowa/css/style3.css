@@ -7,8 +7,9 @@ body {
     margin: 0 auto 0 auto;
     max-width: 960px;
   }
-  #main-image {
+ #main-image {
     margin-top: 30px;
+	width: 100%;
   }
   #main-image p {
     font-size: 20px;
@@ -28,7 +29,7 @@ body {
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 463px;
+    margin-left: 443px;
     margin-top: -40px;
   }
   #contact p{
@@ -36,15 +37,15 @@ body {
     color: #5B8834;
 	position: relative;
   }
-  #contact .contact-contact-us{
+ #contact .contact-contact-us{
 	position: absolute;
 	top: 30px;
-	right: 720px;
+	right: 660px;
   }
   #contact .contact-site-map {
     position: absolute;
 	top: 30px;
-	right: 640px;
+	right: 560px;
   } 
 #main-image p:nth-of-type(1){
 	color: #ffd802;

@@ -9,6 +9,7 @@ body {
   }
   #main-image {
     margin-top: 30px;
+	width: 100%;
   }
   #main-image p {
     font-size: 20px;
@@ -28,7 +29,7 @@ body {
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 463px;
+    margin-left: 443px;
     margin-top: -40px;
   }
   #contact p{
@@ -39,12 +40,12 @@ body {
   #contact .contact-contact-us{
 	position: absolute;
 	top: 30px;
-	right: 720px;
+	right: 660px;
   }
   #contact .contact-site-map {
     position: absolute;
 	top: 30px;
-	right: 640px;
+	right: 560px;
   } 
 #main-image p:nth-of-type(1){
 	color: #d99365;
