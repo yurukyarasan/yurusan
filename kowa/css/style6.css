@@ -7,19 +7,13 @@ body {
     margin: 0 auto 0 auto;
     max-width: 960px;
   }
-  #main-image {
-    margin-top: 30px;
-	width: 100%;
-  }
-  #main-image p {
-    font-size: 20px;
-    color: #ffffff;
-    margin-top: -220px;
-    margin-left: 140px;
+  #main-image img{
+    width: 380px;
+	float: right;
   }
   #company-fictional-real-estate-facilities {
     font-size: 16px;
-    margin-top: 60px;
+    margin-top: 180px;
     margin-left: 100px;
   }
  　header {
@@ -28,10 +22,9 @@ body {
   #business-overview {
     font-size: 12px;
     display: flex;
-    flex-direction: row;
-    margin-left: 443px;
-    margin-top: -40px;
-  }
+	float: right;
+    margin-top: -45px;
+}
   #contact p{
     font-size: 12px;
     color: #5B8834;
@@ -47,81 +40,84 @@ body {
 	top: 30px;
 	right: 560px;
   } 
-#quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society
-always-trying-to-improve-the-leve h2{
+#promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
 	color: #5c8934;
-	margin-top: -370px;
+	margin-top: 50px;
 	margin-left: 60px;
 	line-height: 1.5rem;
 	font-size: 20px;
 }
-#quality-improvement-and-environmental-conservation-are-promises-to-customers-and-society
-always-trying-to-improve-the-leve p{
+#promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p{
 	font-size: 12px;
 	margin-top: 20px;
 	margin-left: 60px;
 	line-height: 1.5rem;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dt{
+#business-introduction-menu{
+	display: flex;
+	flex-wrap: wrap;
+}
+#business-introduction-menu .business-introduction-menu-building-equipment-management dt{
 	margin-top: 100px;	
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
 	color: #007A66;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-quality-improvement-and-environmental-conservation-service dd:nth-of-type(2){
+#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspection dt{
-	margin-top: -307px;
-	margin-left: 515px;
+#business-introduction-menu .business-introduction-menu-cleaning-management dt{
+	margin-top: -300px;
+	margin-left: 520px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspectiondd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
 	margin-left: 515px;
 	color: #82A61C;
-	margin-bottom: 10px;
-	padding-top: 10px;
+	margin-top: 10px;
+	padding-top: 0px;
 	font-size: 25px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-inspectiondd:nth-of-type(2){
+#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
 	margin-left: 515px;
 	border-top: 1px solid #000000;
 	padding-top: 10px;
+	margin-top: 6px;
 	width: 476px;
 	font-size: 14px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dt{
+#business-introduction-menu .business-introduction-menu-construction dt{
 	margin-top: 50px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
 	color: #8F671E;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-safety-initiatives dd:nth-of-type(2){
+#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dt{
+#business-introduction-menu .business-introduction-menu-customer-support dt{
 	margin-top: -307px;
 	margin-left: 515px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
 	color: #0076A9;
 	margin-bottom: 10px;
 	margin-left: 515px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement dd:nth-of-type(2){
+#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
@@ -129,24 +125,6 @@ always-trying-to-improve-the-leve p{
 	font-size: 14px;
 }
 
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dt{
-	margin-top: -307px;
-	margin-left: 515px;
-}
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dd:nth-of-type(1){
-	color: #0076A9;
-	margin-bottom: 10px;
-	margin-left: 515px;
-	padding-top: 10px;
-	font-size: 25px;
-}
-#quality-improvement-and-environmental-conservation .quality-improvement-and-environmental-conservation-cs-improvement-education-and-training dd:nth-of-type(2){
-	border-top: 1px solid #000000;
-	padding-top: 10px;
-	width: 476px;
-	margin-left: 515px;
-	font-size: 14px;
-}
 #business{
 	background-color: #888888;
 	height: 160px;
@@ -314,10 +292,29 @@ footer{
       #business {
       display: none;
     }
-   #guidelines {
+	#business-introduction-menu {
+		position: relative;
+		width: 360px;
+	}
+	#business-introduction-menu .business-introduction-menu-cleaning-management {
+		position: absolute;
+		top: 750px;
+		right: -115px;
+	}
+	#business-introduction-menu .business-introduction-menu-construction {
+		position: absolute;
+		top: 750px;
+	}
+	#business-introduction-menu .business-introduction-menu-customer-support {
+		position: absolute;
+		top: 1500px;
+		right: -115px;
+	}
+	#guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+	  margin-top: 1200px;
     }
     #guidelines p {
       border: none;
@@ -359,7 +356,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 207px;
+	  margin-top: 1314px;
 	  height: 50px;
     }
   }
