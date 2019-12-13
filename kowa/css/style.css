@@ -17,12 +17,7 @@
     margin-top: -220px;
     margin-left: 140px;
   }
-  #company-fictional-real-estate-facilities {
-    font-size: 16px;
-    margin-top: 60px;
-    margin-left: 100px;
-  }
- 　header {
+  header {
    margin-left: 10px;
   }
   #business-overview {
@@ -46,100 +41,48 @@
     position: absolute;
 	top: 30px;
 	right: 820px;
-  } 
-  #promoted-by-professionals {
-    margin-top: 250px;
-    margin-left: 97px;
   }
-  #promoted-by-professionals-one-stop-service {
-    font-size: 24px;
-    color: #5b8834;
-  }
-  #promoted-by-professionals-equipment-management {
-    font-size: 13px;
-    margin-top: 40px;
-  }
-  #promoted-by-professionals img {
-    margin-top: -260px;
-    margin-left: 370px;
-  }
-  #introduction-of-each-company img:nth-of-type(1) {
-    margin-top: -180px;
-  }
-  #introduction-of-each-company img:nth-of-type(2) {
-    margin-top: -370px;
-  }
-  #introduction-of-each-company img:nth-of-type(3) {
-    float: left;
-    margin-top: -10px;
-  }
-  #introduction-of-each-company img:nth-of-type(4) {
-    float: right;
-    margin-top: -150px;
-  }
-  #introduction-of-each-company img:nth-of-type(5) {
-    margin-top: -13px;
-  }
-  #introduction-of-each-company img:nth-of-type(6) {
-    margin-top: -2px;
-  }
-  #introduction-of-each-company img:nth-of-type(7) {
-    float: right;
-    margin-top: -2px;
-  }
-  #news-news-release {
-    font-size: 22px;
-    margin-top: 100px;
-    margin-left: 150px;
-    color: #5B8834;
-  }
-  #news-news-katakana {
-    font-size: 10px;
-    margin-top: -10px;
-    margin-left: 350px;
-  }
-  #news-news-to-list {
-    margin-top: -35px;
-    margin-left: 750px;
-    padding-top: 10px;
-    padding-left: 5px;
-    color: #ffffff;
-    background-color: #5B8834;
-    background-position: center;
-    width: 70px;
-    height: 25px;
-  }
-  #news-paper dt {
-    font-size: 12px;
-    margin-top: 19px;
-    margin-left: 155px;
-    line-height: 50px;
-    width: 730px;
-  }
-  #news-paper dd {
-    font-size: 12px;
-    margin-top: -33px;
-    margin-left: 260px;
-  }
-  #news-paper-news-release-1 {
-    border-top: 2px dotted;
-    border-bottom: 2px dotted;
-  }
-  #news-paper-news-release-2 {
-    border-bottom: 2px dotted;
-  }
-  #news-paper-news-release-3 {
-    border-bottom: 2px dotted;
-  }
-  #news-paper-news-release-4 {
-    border-bottom: 2px dotted;
-  }
-  #news-paper-news-release-5 {
-    border-bottom: 2px dotted;
-  }
-  #news-paper-news-release-6 {
-    border-bottom: 2px dotted;
-  }
+#promoted-by-professionals {
+	position: relative;
+}
+#promoted-by-professionals h2 {
+	margin-top: 225px;
+}
+#promoted-by-professionals p {
+	margin-top: 50px;
+}
+#promoted-by-professionals img {
+	position: absolute;
+	top: 0px;
+	left:460px;
+}
+#introduction-of-each-company {
+	position: relative;
+}
+#introduction-of-each-company img:nth-of-type(2) {
+	position: absolute;
+	top: 230px;
+}
+#introduction-of-each-company img:nth-of-type(4) {
+	position: absolute;
+	top: 554px;
+	left: 480px;
+}
+#introduction-of-each-company img:nth-of-type(5) {
+	position: absolute;
+	top: 694px;
+	left: 0px;
+}
+#introduction-of-each-company img:nth-of-type(6) {
+	position: absolute;
+	top: 1014px;
+	left: 0px;
+}
+#introduction-of-each-company img:nth-of-type(7) {
+	position: absolute;
+	top: 1014px;
+	left: 480px;
+}
   #business {
     background-color: #888888;
     height: 160px;
@@ -150,6 +93,61 @@
     margin-left: 100px;
     padding-top: 15px;
   }
+#news {
+	margin-top: 500px;
+	position: relative;
+}
+#news p:nth-of-type(1) {
+	position: absolute;
+	top: 0px;
+	left: 130px;
+}
+#news p:nth-of-type(2) {
+	position: absolute;
+	top: 0px;
+	left: 800px;
+}
+#news dl {
+	margin-top: 20px;
+}
+#news dt {
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#news dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+#news dd:nth-of-type(1) {
+	position: absolute;
+	top: 56px;
+	left: 130px;
+}
+#news dd:nth-of-type(2) {
+	position: absolute;
+	top: 113px;
+	left: 130px;
+}
+#news dd:nth-of-type(3) {
+	position: absolute;
+	top: 170px;
+	left: 130px;
+}
+#news dd:nth-of-type(4) {
+	position: absolute;
+	top: 228px;
+	left: 130px;
+}
+#news dd:nth-of-type(5) {
+	position: absolute;
+	top: 284px;
+	left: 130px;
+}
+#news dd:nth-of-type(6) {
+	position: absolute;
+	top: 343px;
+	left: 130px;
+}
   #efforts {
     margin-top: -121px;
     margin-left: 300px;
@@ -302,80 +300,6 @@
       margin-top: -90px;
       margin-left: 50px;
       line-height: 1.5em;
-    }
-    #promoted-by-professionals-one-stop-service {
-      font-size: 5px;
-      margin-top: -180px;
-      margin-left: -90px;
-    }
-    #promoted-by-professionals-equipment-management {
-      margin-left: -90px;
-      font-size: 12px;
-    }
-    #promoted-by-professionals img {
-      margin-top: 10px;
-      margin-left: -95px;
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(1) {
-      margin-top: -70px;
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(2) {
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(3) {
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(4) {
-      float: left;
-	  width: 360px;
-      margin-top: 0px;
-    }
-    #introduction-of-each-company img:nth-of-type(5) {
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(6) {
-      width: 360px;
-    }
-    #introduction-of-each-company img:nth-of-type(7) {
-      float: left;
-	  width: 360px;
-    }
-    #news-news-release {
-      margin-top: 150px;
-      margin-left: 0px;
-      font-size: 15px;
-      width: 0px;
-    }
-    #news-news-katakana {
-      width: 80px;
-      margin-left: 120px;
-      margin-top: -10px;
-    }
-    #news-news-to-list {
-      margin-top: -25px;
-      margin-left: 285px;
-    }
-    #news-paper dt {
-      margin-top: 10px;
-      margin-left: 3px;
-      width: 360px;
-    }
-    #news-paper dd {
-      width: 360px;
-      margin-top: -15px;
-      margin-left: 2px;
-      font-size: 6px;
-    }
-    #news-paper {
-      position: relative;
-    }
-    #news-paper-news-release-3 {
-      border-bottom: none;
-    }
-    #news-paper-news-release-3-1 {
-      border-bottom: 2px dotted;
     }
     #business {
       display: none;
