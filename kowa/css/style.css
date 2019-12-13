@@ -1,22 +1,23 @@
 @charset "utf-8";
 /* CSS Document */
   body {
-    margin: 0 0 0 0;
+    margin: 0;
   }
   #container {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     max-width: 960px;
-  }
-  #main-image {
-    margin-top: 30px;
-	width: 100%;
   }
   #main-image p {
     font-size: 20px;
     color: #ffffff;
-    margin-top: -220px;
-    margin-left: 140px;
-  }
+    height: 311px;
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 100px;
+	padding-left: 100px;
+	background-repeat: no-repeat;
+    background-image: url("../img/jpg/kowa-bill.jpg")
+   }
   header {
    margin-left: 10px;
   }
@@ -46,7 +47,7 @@
 	position: relative;
 }
 #promoted-by-professionals h2 {
-	margin-top: 225px;
+	margin-top: 0px;
 }
 #promoted-by-professionals p {
 	margin-top: 50px;
@@ -59,31 +60,189 @@
 #introduction-of-each-company {
 	position: relative;
 }
-#introduction-of-each-company img:nth-of-type(2) {
-	position: absolute;
-	top: 230px;
+.introduction-of-each-company-02 {
+	width: 100%;
+	height: 324px;
+	background-repeat: no-repeat;
+	background-image:url("../img/png/introduction-of-each-company-introducation-image.png");
+	position: relative;
 }
-#introduction-of-each-company img:nth-of-type(4) {
+.introduction-of-each-company-02 h2{
+	background-color: #A2A2A2;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	font-size: 18px;
+	padding-top: 10px;
 	position: absolute;
-	top: 554px;
-	left: 480px;
+	top: 50px;
+	left: 30%;
 }
-#introduction-of-each-company img:nth-of-type(5) {
+.introduction-of-each-company-02 li {
+	display: inline;
+	list-style: none;
+	background-color: #A2A2A2;
+	width: 105px;
+	font-size: 14px;
+	}
+.introduction-of-each-company-02  ul li:nth-of-type(1) {
 	position: absolute;
-	top: 694px;
-	left: 0px;
-}
-#introduction-of-each-company img:nth-of-type(6) {
+	top: 160px;
+	left: 215px;
+	width: 95px;
+	height: 50px;
+	padding-top: 40px;
+	text-align: center;
+	}
+.introduction-of-each-company-02 ul li:nth-of-type(2) {
 	position: absolute;
-	top: 1014px;
-	left: 0px;
+	top: 160px;
+	left: 365px;
+	width: 95px;
+	height: 50px;
+	padding-top: 40px;
+	text-align: center;
 }
-#introduction-of-each-company img:nth-of-type(7) {
+.introduction-of-each-company-02 ul li:nth-of-type(3) {
 	position: absolute;
-	top: 1014px;
-	left: 480px;
+	top: 160px;
+	left: 505px;
+	width: 97px;
+	height: 50px;
+	padding-top: 40px;
+	text-align: center;
 }
-  #business {
+.introduction-of-each-company-02 ul li:nth-of-type(4) {
+	position: absolute;
+	top: 160px;
+	left: 645px;
+	height: 60px;
+	width: 80px;
+	padding-top: 30px;
+	padding-left: 23px;
+	}
+.introduction-of-each-company-03 {
+	background: url("../img/png/introduction-of-each-company-consignment-property-image-2.png");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 156px;
+	}
+.introduction-of-each-company-03 p {
+	font-size: 14px;
+	width: 75px;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: #2EBFFB;
+	margin-left: 200px;
+	position: absolute;
+	top: 55.4%;
+}
+.introduction-of-each-company-04 {
+	background: url("../img/png/introduction-of-each-company-construction-examples-image-2.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	width: 100%;
+	height: 156px;
+	position: absolute;
+	top: 51.4%;
+	}
+.introduction-of-each-company-04 p {
+	font-size: 14px;
+	width: 75px;
+	height: 20px;
+	padding-top: 10px;
+	padding-left: 15px;
+	background-color: #81F52E;
+	position: absolute;
+	top: 43%;
+	left: 71%;
+}
+.introduction-of-each-company-05 {
+	width: 100%;
+	height: 324px;
+	background-repeat: no-repeat;
+	background-image: url("../img/png/kowa-kenshu.png");
+	position: relative;
+}
+.introduction-of-each-company-05 h2{
+	background-color: #A2A2A2;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	font-size: 18px;
+	padding-top: 10px;
+	position: absolute;
+	top: 50px;
+	left: 30%;
+}
+.introduction-of-each-company-05 li {
+	display: inline;
+	list-style: none;
+	background-color: #A2A2A2;
+	width: 105px;
+	font-size: 14px;
+	}
+.introduction-of-each-company-05  ul li:nth-of-type(1) {
+	position: absolute;
+	top: 160px;
+	left: 215px;
+	width: 95px;
+	height: 60px;
+	padding-top: 40px;
+	text-align: center;
+	}
+.introduction-of-each-company-05 ul li:nth-of-type(2) {
+	position: absolute;
+	top: 160px;
+	left: 325px;
+	width: 95px;
+	height: 60px;
+	padding-top: 40px;
+	text-align: center;
+}
+.introduction-of-each-company-05 ul li:nth-of-type(3) {
+	position: absolute;
+	top: 160px;
+	left: 435px;
+	width: 97px;
+	height: 60px;
+	padding-top: 40px;
+	text-align: center;
+}
+.introduction-of-each-company-05 ul li:nth-of-type(4) {
+	position: absolute;
+	top: 160px;
+	left: 545px;
+	height: 60px;
+	width: 80px;
+	padding-top: 40px;
+	padding-left: 23px;
+	}
+.introduction-of-each-company-05 ul li:nth-of-type(5) {
+	position: absolute;
+	top: 160px;
+	left: 655px;
+	height: 60px;
+	width: 80px;
+	padding-top: 40px;
+	padding-left: 23px;
+	margin-left: 4px;
+	}
+.introduction-of-each-company-06 {
+	width: 100%;
+	height: 324px;
+	background-repeat: no-repeat;
+	background-image: url("../img/png/introduction-of-each-company-company-profile-image-2.png");
+	position: relative;
+}
+.introduction-of-each-company-06 p:nth-of-type(1) {
+	
+}
+.introduction-of-each-company-06 p:nth-of-type(2) {
+
+}
+#business {
     background-color: #888888;
     height: 160px;
     line-height: 20px;
