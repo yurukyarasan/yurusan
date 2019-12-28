@@ -21,27 +21,27 @@
   header {
    margin-left: 10px;
   }
-  #business-overview {
+ #business-overview {
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 443px;
-    margin-top: -40px;
+    margin-left: 448px;
+    margin-top: -45px;
   }
   #contact p{
     font-size: 12px;
     color: #5B8834;
 	position: relative;
-  }
+}
  #contact .contact-contact-us{
 	position: absolute;
 	top: 30px;
-	right: 920px;
+	right: 630px;
   }
   #contact .contact-site-map {
     position: absolute;
 	top: 30px;
-	right: 820px;
+	right: 530px;
   }
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
 	color: #5c8934;
@@ -60,33 +60,36 @@
 	display: flex;
 	flex-wrap: wrap;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dt{
+#business-introduction-menu .quality-improvement-and-environmental-conservation dt{
 	margin-top: 100px;	
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
+#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(1){
 	color: #007A66;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
+#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dt{
-	margin-top: -300px;
+#business-introduction-menu .inspection{
+	position: relative;
+}
+#business-introduction-menu .inspection dt{
+	margin-top: -310px;
 	margin-left: 520px;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
+#business-introduction-menu .inspection dd:nth-of-type(1){
 	margin-left: 515px;
 	color: #82A61C;
 	margin-top: 10px;
 	padding-top: 0px;
 	font-size: 25px;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
+#business-introduction-menu .inspection dd:nth-of-type(2){
 	margin-left: 515px;
 	border-top: 1px solid #000000;
 	padding-top: 10px;
@@ -94,40 +97,54 @@
 	width: 476px;
 	font-size: 14px;
 }
-#business-introduction-menu .business-introduction-menu-construction dt{
+#business-introduction-menu .safety-initiatives dt{
 	margin-top: 50px;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
+#business-introduction-menu .safety-initiatives dd:nth-of-type(1){
 	color: #8F671E;
 	margin-bottom: 10px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
+#business-introduction-menu .safety-initiatives dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dt{
+#business-introduction-menu .cs-improvement dt{
 	margin-top: -307px;
 	margin-left: 515px;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
+#business-introduction-menu .cs-improvement dd:nth-of-type(1){
 	color: #0076A9;
 	margin-bottom: 10px;
 	margin-left: 515px;
 	padding-top: 10px;
 	font-size: 25px;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
+#business-introduction-menu .cs-improvement dd:nth-of-type(2){
 	border-top: 1px solid #000000;
 	padding-top: 10px;
 	width: 476px;
 	margin-left: 515px;
 	font-size: 14px;
 }
-
+#business-introduction-menu .education-and-training dt{
+	margin-top: 50px;
+}
+#business-introduction-menu .education-and-training dd:nth-of-type(1){
+	color: #0076A9;
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-size: 25px;
+}
+#business-introduction-menu .education-and-training dd:nth-of-type(2){
+	border-top: 1px solid #000000;
+	padding-top: 10px;
+	width: 476px;
+	font-size: 14px;
+}
 #business{
 	background-color: #888888;
 	height: 160px;
