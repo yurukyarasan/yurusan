@@ -7,17 +7,6 @@
     margin: 0 auto;
     max-width: 960px;
   }
-  #main-image p {
-    font-size: 20px;
-    color: #ffffff;
-    height: 311px;
-	width: 100%;
-	margin-top: 20px;
-	padding-top: 100px;
-	padding-left: 100px;
-	background-repeat: no-repeat;
-    background-image: url("../img/png/index.html/index.html-No.1.png")
-   }
   header {
    margin-left: 10px;
   }
@@ -49,100 +38,103 @@
 	margin-left: 60px;
 	line-height: 1.5rem;
 	font-size: 20px;
+    width: 420px;
 }
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p{
 	font-size: 12px;
 	margin-top: 20px;
 	margin-left: 60px;
 	line-height: 1.5rem;
+    width: 670px;
+}
+#main-image img{
+    margin-left: 50%;
+    margin-top: -40%;
 }
 #business-introduction-menu{
 	display: flex;
 	flex-wrap: wrap;
+    text-decoration: none;
 }
-#business-introduction-menu .quality-improvement-and-environmental-conservation dt{
-	margin-top: 100px;	
+#business-introduction-menu a{
+    text-decoration: none;
+    color: #000000;
 }
-#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-building-equipment-management dt{
+	margin-top: 100px;
+    border-top: solid 10px #228B22;
+}
+#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
 	color: #007A66;
 	margin-bottom: 10px;
 	padding-top: 10px;
+    padding-bottom: 10px;
 	font-size: 25px;
+    border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(2){
-	border-top: 1px solid #000000;
+#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
 	padding-top: 10px;
-	width: 476px;
 	font-size: 14px;
+    width: 440px;
 }
-#business-introduction-menu .inspection{
+#business-introduction-menu .business-introduction-menu-cleaning-management{
 	position: relative;
 }
-#business-introduction-menu .inspection dt{
-	margin-top: -310px;
+#business-introduction-menu .business-introduction-menu-cleaning-management dt{
+	margin-top: -324px;
 	margin-left: 520px;
+    border-top: solid 10px #32CD32;
 }
-#business-introduction-menu .inspection dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
 	margin-left: 515px;
 	color: #82A61C;
 	margin-top: 10px;
-	padding-top: 0px;
+	padding-bottom: 10px;
 	font-size: 25px;
+    border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .inspection dd:nth-of-type(2){
+#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
 	margin-left: 515px;
-	border-top: 1px solid #000000;
 	padding-top: 10px;
-	margin-top: 6px;
+	margin-top: 9px;
 	width: 476px;
-	font-size: 14px;
+	font-size: 14px;;
 }
-#business-introduction-menu .safety-initiatives dt{
+#business-introduction-menu .business-introduction-menu-construction dt{
 	margin-top: 50px;
+    border-top: solid 10px #8B4513;
 }
-#business-introduction-menu .safety-initiatives dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
 	color: #8F671E;
 	margin-bottom: 10px;
 	padding-top: 10px;
+    padding-bottom: 10px;
 	font-size: 25px;
+    border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .safety-initiatives dd:nth-of-type(2){
-	border-top: 1px solid #000000;
+#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
 	padding-top: 10px;
 	width: 476px;
-	font-size: 14px;
+	font-size: 14px;;
 }
-#business-introduction-menu .cs-improvement dt{
-	margin-top: -307px;
+#business-introduction-menu .business-introduction-menu-customer-support dt{
+	margin-top: -324px;
 	margin-left: 515px;
+    border-top: solid 10px #0000CD;
 }
-#business-introduction-menu .cs-improvement dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
 	color: #0076A9;
 	margin-bottom: 10px;
 	margin-left: 515px;
 	padding-top: 10px;
+    padding-bottom: 10px;
 	font-size: 25px;
+    border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .cs-improvement dd:nth-of-type(2){
-	border-top: 1px solid #000000;
+#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
 	padding-top: 10px;
 	width: 476px;
 	margin-left: 515px;
-	font-size: 14px;
-}
-#business-introduction-menu .education-and-training dt{
-	margin-top: 50px;
-}
-#business-introduction-menu .education-and-training dd:nth-of-type(1){
-	color: #0076A9;
-	margin-bottom: 10px;
-	padding-top: 10px;
-	font-size: 25px;
-}
-#business-introduction-menu .education-and-training dd:nth-of-type(2){
-	border-top: 1px solid #000000;
-	padding-top: 10px;
-	width: 476px;
 	font-size: 14px;
 }
 #business{
