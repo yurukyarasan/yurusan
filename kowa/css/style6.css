@@ -60,70 +60,67 @@
     text-decoration: none;
     color: #000000;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dt{
-	margin-top: 100px;
-    border-top: solid 10px #228B22;
+#business-introduction-menu .quality-improvement-and-environmental-conservation dt{
+	margin-top: 20%;
+    border-top: solid 10px #B8860B;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
-	color: #007A66;
+#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(1){
+	color: #B8860B;
 	margin-bottom: 10px;
 	padding-top: 10px;
     padding-bottom: 10px;
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
+#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(2){
 	padding-top: 10px;
 	font-size: 14px;
     width: 440px;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management{
-	position: relative;
+#business-introduction-menu .inspection dt{
+	margin-top: -32.9%;
+    margin-left: 520px;
+    border-top: solid 10px #B8860B;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dt{
-	margin-top: -324px;
-	margin-left: 520px;
-    border-top: solid 10px #32CD32;
-}
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
+#business-introduction-menu .inspection dd:nth-of-type(1){
 	margin-left: 515px;
-	color: #82A61C;
+	color: #B8860B;
 	margin-top: 10px;
 	padding-bottom: 10px;
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
+#business-introduction-menu .inspection dd:nth-of-type(2){
 	margin-left: 515px;
 	padding-top: 10px;
 	margin-top: 9px;
 	width: 476px;
 	font-size: 14px;;
 }
-#business-introduction-menu .business-introduction-menu-construction dt{
-	margin-top: 50px;
-    border-top: solid 10px #8B4513;
+#business-introduction-menu .safety-initiatives dt{
+	margin-top: 20%;
+    border-top: solid 10px #B8860B;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
-	color: #8F671E;
+#business-introduction-menu .safety-initiatives dd:nth-of-type(1){
+	color: #B8860B;
 	margin-bottom: 10px;
 	padding-top: 10px;
     padding-bottom: 10px;
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
+#business-introduction-menu .safety-initiatives dd:nth-of-type(2){
 	padding-top: 10px;
 	width: 476px;
 	font-size: 14px;;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dt{
-	margin-top: -324px;
+#business-introduction-menu .cs-improvement dt{
+	margin-top: -33%;
 	margin-left: 515px;
-    border-top: solid 10px #0000CD;
+    border-top: solid 10px #B8860B;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
-	color: #0076A9;
+#business-introduction-menu .cs-improvement dd:nth-of-type(1){
+	color: #B8860B;
 	margin-bottom: 10px;
 	margin-left: 515px;
 	padding-top: 10px;
@@ -131,10 +128,27 @@
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
+#business-introduction-menu .cs-improvement dd:nth-of-type(2){
 	padding-top: 10px;
-	width: 476px;
+	width: 475px;
 	margin-left: 515px;
+	font-size: 14px;
+}
+#business-introduction-menu .education-and-training dt{
+	margin-top: 10%;
+	border-top: solid 10px #B8860B;
+}
+#business-introduction-menu .education-and-training dd:nth-of-type(1){
+	color: #B8860B;
+	margin-bottom: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 25px;
+    border-bottom: 1px solid #000000;
+}
+#business-introduction-menu .education-and-training dd:nth-of-type(2){
+	padding-top: 10px;
+	width: 475px;
 	font-size: 14px;
 }
 #business{
