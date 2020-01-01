@@ -26,17 +26,18 @@ body {
     font-size: 12px;
     color: #5B8834;
 	position: relative;
+    
   }
- #contact .contact-contact-us{
+  #contact .contact-contact-us{
 	position: absolute;
 	top: 30px;
-	right: 660px;
+	left: 64.3%;
   }
   #contact .contact-site-map {
     position: absolute;
 	top: 30px;
-	right: 560px;
-  } 
+	left: 69%;
+  }
 #main-image {
     margin-top: 30px;
 	width: 100%;
@@ -202,7 +203,7 @@ section {
 .scat-special-cleaning-advanced-team dd{
 	font-size: 12px;
 	float: right;
-	margin-top: -280px;
+	margin-top: -315px;
 	margin-right: 75px;
 }
 .environmental-conservation-initiatives{
