@@ -166,6 +166,44 @@ section{
 	width: 180px;
 	border: 2px solid #ffff00;
 }
+.arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: -9.7%;
+	margin-left: 70.0%;
+}
+.circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -1.8%;
+    margin-left: 69.4%;
+}
+.arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 4.4%;
+	margin-left: 70.0%;
+}
+.circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -1.7%;
+    margin-left: 69.4%;
+}
 #construction-examples p:nth-of-type(1){
 	border-top: 2px solid #32CD32;
 	padding-top: 50px;
@@ -175,11 +213,31 @@ section{
 	margin-top: -37px;
 	margin-left: 480px;
 	border: 2px solid #ffff00;
-	width: 180px;
+	width: 140px;
 	height: 30px;
 	padding-top: 18px;
+    padding-left: 40px;
 }
-#contact-us p{
+.arrow-third{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: -3%;
+	margin-left: 52.0%;
+	}
+.circle-third{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -1.6%;
+    margin-left: 51.5%
+}
+#contact-us-here p{
 	margin-top: 30px;
 	margin-left: 340px;
 	background-color: #149000;
@@ -188,17 +246,25 @@ section{
 	height: 30px;
 	padding-top: 10px;
 }
-#arrow{
+.arrow-fourth{
 	content: "";
 	width: 0px;
 	height: 0px;
 	border-style: solid;
-	border-width: 11px 11px 0px 11px;
+	border-width: 8px 8px 0px 8px;
 	border-color: #ffffff transparent transparent transparent;
 	transform: rotate(270deg);
 	margin-top: -27px;
-	margin-left: 350px;
+	margin-left: 37.3%;
 	}
+.circle-fourth{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -1.6%;
+    margin-left: 36.7%;
+}
 #business{
 	background-color: #888888;
 	height: 160px;
