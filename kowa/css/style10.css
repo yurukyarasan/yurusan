@@ -255,53 +255,48 @@ footer{
     #container {
       width: auto;
     }
-    #company h1 {
-      width: 360px;
-      font-size: 15px;
-      margin-left: 60px;
-      margin-top: 80px;
-    }
-    #company img {
-      width: auto;
-      margin-left: 5px;
+    .head-content h1 img{
+      width: 300px;
+      float: left;
     }
     #business-overview {
       width: 360px;
-      margin-top: -80px;
-      margin-left: 5px;
+      margin-left: 0px;
       font-size: 4px;
     }
-    #contact {
-      width: 360px;
-      margin-top: 10px;
-      margin-left: 170px;
-    }
-    #parent-fictional-real-estate-group {
-      width: 110px;
-      margin-top: -20px;
-      margin-left: -40px;
-      font-size: 10px;
-    }
-    #parent-trusted-and-proven-parther {
-      width: 250px;
-      font-size: 5px;
-      margin-top: -20px;
-    }
-    #main-image img {
-      width: 360px;
-      margin-top: 0px;
-    }
+    #contact{
+      display: none;
+      }
     #main-image p {
-      width: 360px;
+      width: 220px;
       font-size: 5px;
-      margin-top: -90px;
-      margin-left: 50px;
+      margin-top: -20px;
+      margin-left: 20px;
+      padding-top: 130px;
       line-height: 1.5em;
     }
-      #business {
+    #promoted-by-professionals{
+      position: relative;
+      }
+    #promoted-by-professionals h2{
+      width: 340px;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      }
+    #promoted-by-professionals img{
+      width: 360px;
+      position: absolute;
+      top: 110%;
+      left: 0%;
+      }
+    #business {
       display: none;
     }
-   #guidelines {
+	#guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
@@ -311,7 +306,7 @@ footer{
     }
     #guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
-      margin-top: -20px;
+      margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
 	  width: 360px;
@@ -321,6 +316,7 @@ footer{
       margin-left: -155px;
       padding-left: 130px;
       background-color: #888888;
+	  width: 60px;
     }
     #guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
@@ -346,7 +342,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 207px;
+	  margin-top: 227px;
 	  height: 50px;
     }
   }

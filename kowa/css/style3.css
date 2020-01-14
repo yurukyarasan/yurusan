@@ -379,248 +379,47 @@ footer{
     #container {
       width: auto;
     }
-    #company h1 {
-      width: 360px;
-      font-size: 15px;
-      margin-left: 60px;
-      margin-top: 50px;
-	     }
-    #company img {
-      width: auto;
-	  margin-left: 5px;
+    .head-content h1 img{
+      width: 300px;
+      float: left;
     }
     #business-overview {
       width: 360px;
-      margin-top: 30px;
-      margin-left: 5px;
+      margin-left: 0px;
       font-size: 4px;
     }
-    #contact {
-      width: 360px;
-      margin-top: 10px;
-      margin-left: 190px;
-    }
-    #parent-fictional-real-estate-group {
-      width: 110px;
-      margin-top: -100px;
-      margin-left: -40px;
-      font-size: 10px;
-    }
-    #parent-trusted-and-proven-parther {
-      width: 250px;
+    #contact{
+      display: none;
+      }
+    #main-image p {
+      width: 220px;
       font-size: 5px;
-      margin-top: -100px;
+      margin-top: -20px;
+      margin-left: 20px;
+      padding-top: 130px;
+      line-height: 1.5em;
     }
-	#main-image img {
+    #promoted-by-professionals{
+      position: relative;
+      }
+    #promoted-by-professionals h2{
+      width: 340px;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      }
+    #promoted-by-professionals img{
       width: 360px;
-      margin-top: 50px;
-    }
-	#main-image p:nth-of-type(1){
-		margin-top: -120px;
-		margin-left: 20px;
-	}
-	#main-image p:nth-of-type(2){
-		margin-left: 20px;
-	}
-	#cleaning-management h2{
-		margin-top: 100px;
-	}
-	#cleaning{
-		display: flex;
-		flex-wrap: wrap;
-		position: relative;
-	}
-	#cleaning h3{
-		width: 360px;
-			}
-	#cleaning .daily-cleaning dt img{
-		width: 360px;
-		margin-top: 40px;
-	}
-	#cleaning .daily-cleaning dd:nth-of-type(1){
-		flex-basis: 360px;
-		margin-top: -240px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .daily-cleaning dd:nth-of-type(2){
-		flex-basis: 360px;
-		margin-top: 10px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .regular-cleaning dt img{
-		flex-basis: 360px;
-		width: 360px;
-		margin-top: 120px;
-	}
-	#cleaning .regular-cleaning dd:nth-of-type(1){
-		flex-basis: 360px;
-		margin-top: 5px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .regular-cleaning dd:nth-of-type(2){
-		flex-basis: 360px;
-		margin-top: 30px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .glass-cleaning dt img{
-		flex-basis: 360px;
-		width: 360px;
-		margin-top: 155px;
-	}
-	#cleaning .glass-cleaning dd:nth-of-type(1){
-		flex-basis: 360px;
-		margin-top: 10px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .glass-cleaning dd:nth-of-type(2){
-		flex-basis: 360px;
-		margin-top: 45px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .special-cleaning dt img{
-		flex-basis: 360px;
-		width: 360px;
-		margin-top: 160px;
-	}
-	#cleaning .special-cleaning dd:nth-of-type(1){
-		flex-basis: 360px;
-		margin-top: 5px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .special-cleaning dd:nth-of-type(2){
-		flex-basis: 360px;
-		margin-top: 40px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .cleaning-of-commercial-facilities h3{
-		flex-basis: 360px;
-		margin-top: 150px;
-		width: 356px;
-	}
-	#cleaning .cleaning-of-commercial-facilities dt img{
-		width: 360px;
-	}
-	#cleaning .cleaning-of-commercial-facilities dd{
-		flex-basis: 360px;
-		margin-top: 5px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .cleaning-of-condominiums h3{
-		flex-basis: 360px;
-		margin-top: 125px;
-		width: 356px;
-	}
-	#cleaning .cleaning-of-condominiums dt img{
-		flex-basis: 360px;
-		width: 360px;
-	}
-	#cleaning .cleaning-of-condominiums dd{
-		flex-basis: 360px;
-		line-height: 1.0em;
-		margin-top: 5px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#other-business{
-		display: flex;
-		flex-wrap: wrap;
-		position: relative;
-	}
-	#other-business h3{
-		flex-basis: 360px;
-		margin-top: 145px;
-		width: 356px;
-	}
-	#other-business .pest-control-business dt{
-		flex-basis: 360px;
-		margin-top: 10px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#other-business .pest-control-business dd{
-		flex-basis: 360px;
-		margin-top: 35px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	.sales-of-goods-and-materials dt{
-		flex-basis: 360px;
-		width: 360px;
-		position: absolute;
-		top: 2585px;
-			}
-	.sales-of-goods-and-materials dd{
-		flex-basis: 360px;
-		margin-top: 140px;
-		width: 360px;
-		position: absolute;
-		left: 0px;
-	}
-	#cleaning .scat-special-cleaning-advanced-team h3{
-		flex-basis: 360px;
-		position: absolute;
-		top: 2550px;
-		width: 356px;
-			}
-	#cleaning .scat-special-cleaning-advanced-team dt img{
-		flex-basis: 360px;
-		width: 360px;
-		position: absolute;
-		top: 2620px;
-			}
-	#cleaning .scat-special-cleaning-advanced-team dd{
-		flex-basis: 360px;
-		position: absolute;
-		top: 3130px;
-			}
-	.environmental-conservation-initiatives{
-		flex-basis: 360px;
-		width: 355px;
-		position: absolute;
-		top: 2950px;
-	}
-	.environmental-conservation-initiatives dd:nth-of-type(1){
-	width: 335px;
-}
-	#business {
+      position: absolute;
+      top: 110%;
+      left: 0%;
+      }
+    #business {
       display: none;
     }
-	#contact-us-here{
-		margin-top: 850px;
-		margin-left: -360px;
-	}
-	#arrow{
-	content: "";
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 11px 11px 0px 11px;
-	border-color: #FFFFFF transparent transparent transparent;
-	transform: rotate(270deg);
-	margin-top: -27px;
-	margin-left: 75px;
-	}
 	#guidelines {
       display: flex;
       flex-wrap: wrap;

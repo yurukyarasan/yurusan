@@ -296,159 +296,47 @@ footer{
     #container {
       width: auto;
     }
-    #company h1 {
-      width: 360px;
-      font-size: 15px;
-      margin-left: 60px;
-      margin-top: 50px;
-	     }
-    #company img {
-      width: auto;
-	  margin-left: 5px;
+    .head-content h1 img{
+      width: 300px;
+      float: left;
     }
     #business-overview {
       width: 360px;
-      margin-top: 30px;
-      margin-left: 5px;
+      margin-left: 0px;
       font-size: 4px;
     }
-    #contact {
+    #contact{
+      display: none;
+      }
+    #main-image p {
+      width: 220px;
+      font-size: 5px;
+      margin-top: -20px;
+      margin-left: 20px;
+      padding-top: 130px;
+      line-height: 1.5em;
+    }
+    #promoted-by-professionals{
+      position: relative;
+      }
+    #promoted-by-professionals h2{
+      width: 340px;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      }
+    #promoted-by-professionals img{
       width: 360px;
-      margin-top: 10px;
-      margin-left: 190px;
-    }
-    #parent-fictional-real-estate-group {
-      width: 110px;
-      margin-top: -100px;
-      margin-left: -40px;
-      font-size: 10px;
-    }
-    #parent-trusted-and-proven-parther {
-      width: 250px;
-      font-size: 5px;
-      margin-top: -100px;
-    }
-	#main-image {
-	 position: relative;
-	}
-	#main-image img {
-      width: 360px;
-      margin-top: 50px;
-    }
-	#main-image p:nth-of-type(1) {
-	  float: left;
-	  position: absolute;
-	  top: 300px;
-	  	}
-	#main-image p:nth-of-type(2) {
-	  float: left;
-	  position: absolute;
-	  top: 100px;
-	  	}
-   #introduction-of-the-business{
-      font-size: 5px;
-      margin-top: -100px;
-      margin-left: 50px;
-	      }
-	#building-equipment-management {
-      font-size: 5px;
-      margin-top: 0px;
-      margin-left: 50px;
-	 	       }
-	#uninterrupted-service h2{
-		margin-top: 300px;
-		margin-left: 10px;
-	}
-	#uninterrupted-service p{
-		margin-left: 0px;
-		width: 360px;
-		font-size: 14px;
-	}
-	#management{
-		position: relative;
-	}
-	#resident h3{
-		width: 360px;
-		margin-left: 0px;
-	}
-	#resident p{
-		width: 360px;
-		margin-left: 400px;
-		position: absolute;
-		top: 260px;
-		left: -395px;
-						}
-	#resident img{
-		width: 360px;
-		margin-left: 0px;
-		margin-top: 20px;
-	}
-	#patrol h3{
-		width: 360px;
-		margin-top: 120px;
-		margin-left: 0px;
-	}
-	#patrol p{
-		width: 360px;
-		position: absolute;
-		top: 655px;
-		left: -495px;
-	}
-	#patrol img{
-		width: 360px;
-		margin-left: 0px;
-		position: absolute;
-		top: 528px;
-	}
-	#management-method img{
-		position: absolute;
-		top: 770px;
-	}
-	#building-equipment-business h3{
-		width: 360px;
-		margin-top: 491px;
-		margin-left: 0px;
-	}
-	#building-equipment-business p{
-		width: 360px;
-		position: absolute;
-		top: 1735px;
-		left: -545px;
-	}
-	#building-equipment-business img{
-		width: 360px;
-		position: absolute;
-		top: 1615px;
-		left: -230px;
-	}
-	#security h3{
-		width: 360px;
-		position: absolute;
-		top: 1825px;
-		left: -230px;
-	}
-	#security p{
-		width: 360px;
-		position: absolute;
-		top: 2115px;
-		left: -545px;
-	}
-	#security img{
-		width: 360px;
-		position: absolute;
-		top: 2010px;
-		left: -230px;
-	}
+      position: absolute;
+      top: 110%;
+      left: 0%;
+      }
     #business {
       display: none;
     }
-	#contact-us-here{
-		margin-top: 800px;
-		margin-left: -360px;
-	}
-	#arrow{
-		margin-left: 70px;
-		}
 	#guidelines {
       display: flex;
       flex-wrap: wrap;

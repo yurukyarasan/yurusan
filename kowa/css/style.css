@@ -48,10 +48,11 @@
 	position: relative;
 }
 #promoted-by-professionals h2 {
-	margin-top: 0px;
+	width: 280px;
 }
 #promoted-by-professionals p {
 	margin-top: 50px;
+    width: 450px;
 }
 #promoted-by-professionals img {
 	position: absolute;
@@ -301,43 +302,43 @@
 	top: 0px;
 	left: 800px;
 }
-#news dl {
+#news-paper dl {
 	margin-top: 20px;
 }
-#news dt {
+#news-paper dt {
 	border-top: 1px dashed;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-#news dt:last-of-type {
+#news-paper dt:last-of-type {
 	border-bottom: 1px dashed;
 }
-#news dd:nth-of-type(1) {
+#news-paper dd:nth-of-type(1) {
 	position: absolute;
 	top: 56px;
 	left: 130px;
 }
-#news dd:nth-of-type(2) {
+#news-paper dd:nth-of-type(2) {
 	position: absolute;
 	top: 113px;
 	left: 130px;
 }
-#news dd:nth-of-type(3) {
+#news-paper dd:nth-of-type(3) {
 	position: absolute;
 	top: 170px;
 	left: 130px;
 }
-#news dd:nth-of-type(4) {
+#news-paper dd:nth-of-type(4) {
 	position: absolute;
 	top: 228px;
 	left: 130px;
 }
-#news dd:nth-of-type(5) {
+#news-paper dd:nth-of-type(5) {
 	position: absolute;
 	top: 284px;
 	left: 130px;
 }
-#news dd:nth-of-type(6) {
+#news-paper dd:nth-of-type(6) {
 	position: absolute;
 	top: 343px;
 	left: 130px;
@@ -452,49 +453,202 @@
     #container {
       width: auto;
     }
-    #company h1 {
-      width: 360px;
-      font-size: 15px;
-      margin-left: 60px;
-      margin-top: 80px;
-    }
-    #company img {
-      width: auto;
-      margin-left: 5px;
+    .head-content h1 img{
+      width: 300px;
+      float: left;
     }
     #business-overview {
       width: 360px;
-      margin-top: -80px;
-      margin-left: 5px;
+      margin-left: 0px;
       font-size: 4px;
     }
-    #contact {
-      width: 360px;
-      margin-top: 10px;
-      margin-left: 170px;
-    }
-    #parent-fictional-real-estate-group {
-      width: 110px;
-      margin-top: -20px;
-      margin-left: 4px;
-      font-size: 10px;
-    }
-    #parent-trusted-and-proven-parther {
-      width: 250px;
-      font-size: 5px;
-      margin-top: -20px;
-    }
-    #main-image img {
-      width: 360px;
-      margin-top: 0px;
-    }
+    #contact{
+      display: none;
+      }
     #main-image p {
-      width: 360px;
+      width: 220px;
       font-size: 5px;
-      margin-top: -90px;
-      margin-left: 50px;
+      margin-top: -20px;
+      margin-left: 20px;
+      padding-top: 130px;
       line-height: 1.5em;
     }
+    #promoted-by-professionals{
+      position: relative;
+      }
+    #promoted-by-professionals h2{
+      width: 340px;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      }
+    #promoted-by-professionals img{
+      width: 360px;
+      position: absolute;
+      top: 110%;
+      left: 0%;
+      }
+    #introduction-of-each-company {
+      position: relative;
+      }
+    #introduction-of-each-company .introduction-of-each-company-01 img{
+      width: 360pX;
+      margin-top: 80%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 h2{
+      position: absolute;
+      top: -20%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1){
+      position: absolute;
+      top: -20%;
+      left: 10%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(2){
+      position: absolute;
+      top: -20%;
+      left: 60%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(3){
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(4){
+      position: absolute;
+      top: 20%;
+      left: 60%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-03 {
+      position: absolute;
+      top: 42.3%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-03 p{
+      position: absolute;
+      left: -20%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04{
+      position: absolute;
+      top: 50.1%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04 p{
+      position: absolute;
+      left: 34%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05{
+      margin-top: 33.8%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05 h2{
+      height: 45px;
+      position: absolute;
+      top: 5%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
+     position: absolute;
+     top: 25%;
+     left: 20%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
+     position: absolute;
+     top: 25%;
+     left: 55%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
+     position: absolute;
+     top: 60%;
+     left: 7%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
+     position: absolute;
+     top: 60%;
+     left: 37.5%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
+     position: absolute;
+     top: 60%;
+     left: 69.4%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1){
+    position: absolute;
+    left: -20%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2){
+    position: absolute;
+    left: 15%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07{
+    position: absolute;
+    top: 89.6%;
+    left: 0%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07 p{
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    }
+    #news {
+	position: relative;
+}
+    #news h2{
+    font-size: 36px;
+    position: absolute;
+    top: -20%;
+    left: 5%;
+      }
+    #news p:nth-of-type(1) {
+    position: absolute;
+	top: -10%;
+	left: 5%;
+}
+    #news p:nth-of-type(2) {
+	position: absolute;
+	top: -10%;
+	left: 75%;
+}
+    #news-paper dl {
+	margin-top: 120px;
+}
+    #news-paper dt {
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 60px;
+}
+    #news-paper dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+    #news-paper dd:nth-of-type(1) {
+	position: absolute;
+	top: 8%;
+	left: 0px;
+}
+    #news-paper dd:nth-of-type(2) {
+	position: absolute;
+	top: 25%;
+	left: 0px;;
+}
+    #news-paper dd:nth-of-type(3) {
+	position: absolute;
+	top: 41%;
+	left: 0px;
+}
+    #news-paper dd:nth-of-type(4) {
+	position: absolute;
+	top: 58%;
+	left: 0px;
+}
+    #news-paper dd:nth-of-type(5) {
+	position: absolute;
+	top: 74%;
+	left: 0px;
+}
+    #news-paper dd:nth-of-type(6) {
+	position: absolute;
+	top: 91%;
+	left: 0px;
+}
     #business {
       display: none;
     }
