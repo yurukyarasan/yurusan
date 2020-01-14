@@ -7,12 +7,12 @@
     margin: 0 auto;
     max-width: 960px;
   }
-  #main-image p {
+  #main-image .section p {
     font-size: 20px;
     color: #ffffff;
     height: 311px;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 80px;
 	padding-top: 100px;
 	padding-left: 100px;
 	background-repeat: no-repeat;
@@ -189,7 +189,7 @@
 	white-space: pre-wrap;
 	position: absolute;
 	top: 160px;
-	left: 215px;
+	left: 225px;
 	width: 95px;
 	height: 70px;
 	padding-top: 30px;
@@ -279,16 +279,6 @@
 	position: absolute;
 	top: 16%;
 	}
-#business {
-    background-color: #888888;
-    height: 160px;
-    line-height: 20px;
-  }
-  #introduction-of-each-business {
-    margin-top: 100px;
-    margin-left: 100px;
-    padding-top: 15px;
-  }
 #news {
 	position: relative;
 }
@@ -343,103 +333,115 @@
 	top: 343px;
 	left: 130px;
 }
-  #efforts {
-    margin-top: -121px;
+#business {
+    background-color: #888888;
+    height: 160px;
+    line-height: 20px;
+  }
+#business .introduction-of-each-business {
+    margin-top: 20%;
+    margin-left: 100px;
+    padding-top: 15px;
+  }
+#efforts {
+    margin-top: -12.6%;
     margin-left: 300px;
   }
-  #overview {
+#overview {
     margin-top: -141px;
     margin-left: 550px;
   }
-  #case {
+#case {
     margin-top: -141px;
     margin-left: 750px;
   }
-  #guidelines {
-    font-size: 12px;
-    margin-top: 73px;
-    margin-left: 60px;
-    display: flex;
-    flex-direction: row;
-  }
-  #introduction-of-each-business-introducation {
+#business .introduction-of-each-business-introducation {
     border-bottom: 1px solid;
     width: 190px;
     line-height: 30px;
   }
-  #efforts-quality-improvement {
+#business .efforts-quality-improvement {
     border-bottom: 1px solid;
     width: 235px;
     line-height: 30px;
   }
-  #overview-company-profile {
+#business .overview-company-profile {
     border-bottom: 1px solid;
     width: 190px;
     line-height: 30px;
   }
-  #case-entrusted-property {
+#business .case-entrusted-property {
     border-bottom: 1px solid;
     width: 200px;
     line-height: 30px;
   }
-  #introduction-of-each-business-building-equipment-management {
+#business .introduction-of-each-business-building-equipment-management {
     line-height: 30px;
   }
-  #efforts-quality {
+#business .efforts-quality {
     line-height: 30px;
   }
-  #overview-greetings {
+#business .overview-greetings {
     line-height: 30px;
   }
-  #case-examples-of-construction-work {
+#business .case-examples-of-construction-work {
     line-height: 30px;
   }
-  #guidelines-about-the-use-of-the-site {
-    border-left: 1px solid;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: -20px;
-    text-align: center;
-  }
-  #guidelines-privacy-policy {
-    margin-left: 5px;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-  }
-  #guidelines-basic-policy-on-specific-personal-information {
-    margin-left: 5px;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
-  #guidelines-compliance-initiatives {
-    margin-left: 5px;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
-  #guidelines-anti-social-forces {
-    margin-left: 5px;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
-  #guidelines-site-map {
-    margin-left: 5px;
-    border-right: 1px solid;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 7px;
-  }
-  #guidelines {
-    margin-left: 150px;
-  }
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -20px;
+	text-align: center;
+}
+#guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 0px;
+	padding-left: 150px;
+	}
   footer {
     margin-top: 10px;
     padding-top: 15px;
@@ -465,10 +467,13 @@
     #contact{
       display: none;
       }
-    #main-image p {
+    #main-image{
+      position: relative;
+      }
+    #main-image .section p {
       width: 220px;
       font-size: 5px;
-      margin-top: -20px;
+      margin-top: 20px;
       margin-left: 20px;
       padding-top: 130px;
       line-height: 1.5em;
@@ -480,10 +485,13 @@
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
+      position: absolute;
+      top: -40%;
       }
     #promoted-by-professionals p{
       margin-left: 10px;
       width: 340px;
+      padding-top: -20%;
       }
     #promoted-by-professionals img{
       width: 360px;
@@ -492,6 +500,7 @@
       left: 0%;
       }
     #introduction-of-each-company {
+      margin-top: 10px;
       position: relative;
       }
     #introduction-of-each-company .introduction-of-each-company-01 img{
@@ -652,7 +661,7 @@
     #business {
       display: none;
     }
-	#guidelines {
+    #guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
@@ -660,39 +669,43 @@
     #guidelines p {
       border: none;
     }
-    #guidelines-about-the-use-of-the-site {
+    #guidelines .guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
       margin-top: 0px;
       margin-left: -170px;
+      padding-left: 145px;
       background-color: #888888;
-	  width: 360px;
+	  width: 160px;
     }
-	#guidelines-privacy-policy {
+	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
       margin-left: -155px;
       padding-left: 130px;
       background-color: #888888;
 	  width: 60px;
     }
-    #guidelines-basic-policy-on-specific-personal-information {
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
       margin-left: -170px;
+      padding-left: 145px;
       background-color: #888888;
     }
-    #guidelines-compliance-initiatives {
+    #guidelines .guidelines-compliance-initiatives {
       flex-basis: 360px;
       margin-left: -159px;
+      padding-left: 133px;
       background-color: #888888;
     }
-    #guidelines-anti-social-forces {
+    #guidelines .guidelines-anti-social-forces {
       flex-basis: 360px;
       margin-left: -170px;
+      padding-left: 143px;
       background-color: #888888;
     }
-    #guidelines-site-map {
+    #guidelines .guidelines-site-map {
       flex-basis: 360px;
       margin-left: -155px;
-      padding-left: 135px;
+      padding-left: 128px;
       background-color: #888888;
     }
     footer {
