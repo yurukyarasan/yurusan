@@ -317,42 +317,39 @@ footer{
       flex-wrap: wrap;
 	  float: left;
     }
-    #guidelines p {
-      border: none;
+    #guidelines p{
+      width: 360px;
+      text-align: center;
     }
     #guidelines .guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
       margin-top: 0px;
-      margin-left: -170px;
+      margin-left: -172px;
       background-color: #888888;
-	  width: 360px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 130px;
+      margin-left: -171px;
       background-color: #888888;
-	  width: 60px;
     }
     #guidelines .guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
-      margin-left: -170px;
+      margin-left: -171px;
       background-color: #888888;
     }
     #guidelines .guidelines-compliance-initiatives {
       flex-basis: 360px;
-      margin-left: -159px;
+      margin-left: -171px;
       background-color: #888888;
     }
     #guidelines .guidelines-anti-social-forces {
       flex-basis: 360px;
-      margin-left: -170px;
+      margin-left: -171px;
       background-color: #888888;
     }
     #guidelines .guidelines-site-map {
       flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 135px;
+      margin-left: -171px;
       background-color: #888888;
     }
     footer {
