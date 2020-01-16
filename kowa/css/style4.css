@@ -142,12 +142,12 @@ section{
 	margin-top: 20px;
 }
 .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
-	border-top: 2px solid #ffff00;
 	margin-top: 10px;
 	padding-top: 10px;
+    width: 650px;
 }
 .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
-	margin-top: -70px;
+	margin-top: -68px;
 	margin-left: 650px;
 	padding-left: 40px;
 	background-color: #FFFFFF;
@@ -495,10 +495,11 @@ footer{
 	border-width: 8px 8px 0px 8px;
 	border-color: #000000 transparent transparent transparent;
 	transform: rotate(270deg);
-	margin-top: 11.8%;
+	margin-top: 17.8%;
 	margin-left: 20.0%;
     }
     #construction .circle-first{
+    display: none;
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -514,10 +515,11 @@ footer{
 	border-width: 8px 8px 0px 8px;
 	border-color: #000000 transparent transparent transparent;
 	transform: rotate(270deg);
-	margin-top: 13.8%;
+	margin-top: 16.6%;
 	margin-left: 20.0%;
     }
     #construction .circle-second{
+    display: none;
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -526,15 +528,11 @@ footer{
     margin-left: 18.4%;
     }
     #construction-examples p:nth-of-type(1){
-      width: 272px;
-      position: absolute;
-      top: 508%;
-      left: -45%;
+     display: none;
     }
     #construction-examples p:nth-of-type(2){
-      position: absolute;
-      top: 530%;
-      left: -118%;
+      margin-top: 46%;
+      margin-left: 15%;
     }
     #construction-examples .arrow-third{
       content: "";
@@ -544,9 +542,8 @@ footer{
 	  border-width: 8px 8px 0px 8px;
 	  border-color: #000000 transparent transparent transparent;
 	  transform: rotate(270deg);
-	  position: absolute;
-      top: 529.5%;
-      left: -30%;
+	  margin-top: -8%;
+      margin-left: 22%;
     }
     #construction-examples .circle-third{
       display: none;
@@ -562,7 +559,7 @@ footer{
       position: relative;
     }
     #contact-us-here p{
-      margin-top: 350px;
+      margin-top: 50px;
       margin-left: 50px;
     }
     #contact-us-here .arrow-fourth{
