@@ -37,18 +37,18 @@
     margin-top: 150px;
     padding-bottom: 15px;
 }
-#cs-improvement .ｌearn-from-customers-voices-and-respond-to-their-wishes h2{
+#cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes h2{
     color: #898500;
     font-size: 35px;
     margin-top: 15px;
 }
-#cs-improvement .ｌearn-from-customers-voices-and-respond-to-their-wishes p{
+#cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes p{
     width: 460px;
     line-height: 1.5em;
     margin-top: 30px;
     margin-left: 53%;
 }
-#cs-improvement .ｌearn-from-customers-voices-and-respond-to-their-wishes img{
+#cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes img{
     margin-top: -15%;
 }
 #business {
@@ -193,19 +193,22 @@ footer{
       padding-top: 130px;
       line-height: 1.5em;
     }
-    #promoted-by-professionals{
+    #cs-improvement{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #cs-improvement .title h2{
+      font-size: 45px;
+    }
+    #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes h2{
       width: 340px;
       font-size: 21px;
-      margin-left: 10px;
+      padding-top: 20px;
       }
-    #promoted-by-professionals p{
+    #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
+    #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes img{
       width: 360px;
       position: absolute;
       top: 110%;
@@ -218,6 +221,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 220px;
     }
     #guidelines p{
       width: 360px;
@@ -257,7 +261,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 377px;
 	  height: 50px;
     }
   }
