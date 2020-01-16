@@ -283,32 +283,98 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
-    #promoted-by-professionals{
+    #inspection{
+      width: 360px;
+      display: flex;
+      flex-direction: column;
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #inspection .title h2{
+      font-size: 45px;
+    }
+    #inspection .build-a-reliable-quality-system h2{
       width: 340px;
-      font-size: 21px;
-      margin-left: 10px;
+      font-size: 17px;
+      padding-top: 20px;
       }
-    #promoted-by-professionals p{
+    #inspection .build-a-reliable-quality-system p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
+    #inspection .build-a-reliable-quality-system img{
       width: 360px;
-      position: absolute;
-      top: 110%;
-      left: 0%;
+      margin-top: 20%;
       }
+    #inspection .inspection-equipment-management dt{
+	margin-top: 50px;
+	height: 30px;
+	padding-top: 15px;
+}
+    #inspection .inspection-equipment-management img{
+    width: 360px;
+    margin-top: -40px;
+}
+    #inspection .inspection-equipment-management dd{
+	width: 340px;
+    font-size: 13px;
+    position: absolute;
+	top: 78.5%;
+	left: 3%;
+}
+    #inspection .inspection-equipment-management p{
+    position: absolute;
+    top: 81.5%;
+    left: -35%;
+    }
+    #inspection .arrow-first{
+    border-color: #000000 transparent transparent transparent;
+    position: absolute;
+    top: 80.2%;
+    left: -32%;
+    }
+    #inspection .circle-first{
+    display: none;
+    position: absolute;
+    top: 70.4%;
+    left: -32%;
+    }
+    #inspection .inspection-cleaning-management{
+    margin-top: 54%;
+    }
+    #inspection .inspection-cleaning-management dt{
+	margin-top: 213px;
+	height: 30px;
+	padding-top: 15px;
+}
+    #inspection .inspection-cleaning-management img{
+    width: 360px;
+    position: absolute;
+    top: 88.9%;
+}
+    #inspection .inspection-cleaning-management dd{
+	width: 340px;
+    font-size: 13px;
+	position: absolute;
+    top: 108.2%;
+    left: 3%;
+}
+    #inspection .inspection-cleaning-management p{
+    position: absolute;
+    top: 110.6%;
+    left: -35%;
+    }
+    #inspection .arrow-second{
+    border-color: #000000 transparent transparent transparent;
+    position: absolute;
+    top: 109.3%;
+    left: -32%;
+    }
+    #inspection .circle-second{
+    display: none;
+    position: absolute;
+    top: 108.7%;
+    left: -32%;
+    }
     #business {
       display: none;
     }
@@ -316,6 +382,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 300px;
     }
     #guidelines p{
       width: 360px;

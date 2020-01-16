@@ -185,14 +185,6 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
     #cs-improvement{
       position: relative;
       }
@@ -201,7 +193,7 @@ footer{
     }
     #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes h2{
       width: 340px;
-      font-size: 21px;
+      font-size: 17px;
       padding-top: 20px;
       }
     #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes p{
