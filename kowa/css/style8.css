@@ -352,32 +352,157 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
-    #promoted-by-professionals{
+    #quality-improvement-and-environmental-conservation{
+      display: flex;
+      flex-direction: column;
       position: relative;
       }
-    #promoted-by-professionals h2{
-      width: 340px;
+    #quality-improvement-and-environmental-conservation .title h2{
+      width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .quality-policy h2{
+      width: 356px;
       font-size: 21px;
-      margin-left: 10px;
       }
-    #promoted-by-professionals p{
-      margin-left: 10px;
+    #quality-improvement-and-environmental-conservation .quality-policy p{
       width: 340px;
+      margin-left: 10px;
       }
-    #promoted-by-professionals img{
-      width: 360px;
-      position: absolute;
-      top: 110%;
-      left: 0%;
-      }
+    #quality-improvement-and-environmental-conservation .human-quality{
+        width: 340px;
+        margin-top: 10%;
+        margin-left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 20.3%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 25.6%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 26.9%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality{
+        width: 340px;
+        position: absolute;
+        top: 34%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -2%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality{
+        width: 340px;
+        position: absolute;
+        top: 41.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -48%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality{
+        width: 350px;
+        position: absolute;
+        top: 52.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 2%;
+    }
+	#quality-improvement-and-environmental-conservation .inspection-quality dd{
+        width: 310px;
+        position: absolute;
+        top: 39%;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy h2{
+        width: 356px;
+        margin-top: 650px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(1){
+        width: 340px;
+        margin-left: 5px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(2){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(3){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(4){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(5){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control h2{
+        width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dt img{
+        width: 360px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dd{
+        width: 356px;
+        position: absolute;
+        top: 105.5%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control p{
+        position: absolute;
+        top: 110%;
+        left: -40%;
+    }
+    #quality-improvement-and-environmental-conservation .arrow{
+        width: 0px;
+	    height: 0px;
+	    border-style: solid;
+	    border-width: 5px 5px 0px 5px;
+	    border-color: #000000 transparent transparent transparent;
+	    transform: rotate(270deg);
+        position: absolute;
+        top: 107.6%;
+	    left: -35.9%;
+    }
+    #quality-improvement-and-environmental-conservation .circle{
+        display: none;
+        width: 20px;
+        height: 20px;
+        background-color: #B7AA00;
+        border-radius: 50%;
+        position: absolute;
+        top: 107%;
+        left: -36.5%;
+    }
     #business {
       display: none;
     }
@@ -385,6 +510,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 200px;
     }
     #guidelines p{
       width: 360px;
@@ -424,7 +550,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 377px;
 	  height: 50px;
     }
   }
