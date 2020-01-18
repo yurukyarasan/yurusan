@@ -268,32 +268,78 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
+    #initiatives-for-safety .title{
+        width: 350px;
     }
-    #promoted-by-professionals{
+    #initiatives-for-safety{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #initiatives-for-safety .safety-first h2{
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
       }
-    #promoted-by-professionals p{
-      margin-left: 10px;
+    #initiatives-for-safety .safety-first p{
       width: 340px;
-      }
-    #promoted-by-professionals img{
-      width: 360px;
+      margin-left: 136px;
       position: absolute;
-      top: 110%;
-      left: 0%;
+      top: 85%;
       }
+    #initiatives-for-safety .health-and-safety-committee h2{
+        width: 356px;
+        position: absolute;
+        top: 208%;
+    }
+    #initiatives-for-safety .health-and-safety-committee dt img{
+        width: 360px;
+        position: absolute;
+        top: 390%
+    }
+    #initiatives-for-safety .health-and-safety-committee dd{
+        width: 355px;
+        position: absolute;
+        top: 700%;
+    }
+    #initiatives-for-safety .construction-safety-patrol h2{
+        width: 356px;
+        position: absolute;
+        top: 557%;
+    }
+    #initiatives-for-safety .construction-safety-patrol dt img{
+        position: absolute;
+        top: 804%;
+    }
+    #initiatives-for-safety .construction-safety-patrol dd{
+        width: 355px;
+        position: absolute;
+        top: 1416%;
+    }
+    #initiatives-for-safety p{
+        position: absolute;
+        top: 1451%;
+        left: -35%;
+    }
+    #initiatives-for-safety .arrow{
+        width: 0px;
+        height: 0px;
+        border-style: solid;
+        border-width: 5px 5px 0px 5px;
+        border-color: #000000 transparent transparent transparent;
+        transform: rotate(270deg);
+        position: absolute;
+        top: 1361%;
+        left: -32%;
+    }
+    #initiatives-for-safety .circle{
+        display: none;
+        width: 20px;
+        height: 20px;
+        background-color: #B7AA00;
+        border-radius: 50%;
+        position: absolute;
+        top: 1348%;
+        left: -32%;
+    }
     #business {
       display: none;
     }
@@ -301,6 +347,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 410%;
     }
     #guidelines p{
       width: 360px;
@@ -340,7 +387,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 460%;
 	  height: 50px;
     }
   }
