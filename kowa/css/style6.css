@@ -286,32 +286,127 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
-    #promoted-by-professionals{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
       }
-    #promoted-by-professionals p{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
-      width: 360px;
-      position: absolute;
-      top: 110%;
-      left: 0%;
-      }
+    #business-introduction-menu{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    #business-introduction-menu .quality-improvement-and-environmental-conservation{
+      width: 357px;
+    }
+    #business-introduction-menu .quality-improvement-and-environmental-conservation dt{
+      width: 357px;
+    }
+    #business-introduction-menu .quality-improvement-and-environmental-conservation dt img{
+      width: 357px;
+    }
+    #business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(1){
+        width: 353px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 2%;
+    }
+    #business-introduction-menu .inspection{
+        width: 357px;
+        position: absolute;
+        top: 170%;
+        left: -144.5%
+    }
+    #business-introduction-menu .inspection dt{
+        width: 357px;
+    }
+    #business-introduction-menu .inspection dt img{
+        width: 357px;
+        margin-left: 0.1%;        
+    }
+    #business-introduction-menu .inspection dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .inspection dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 3%;
+    }
+    #business-introduction-menu .safety-initiatives{
+        width: 357px;
+        position: absolute;
+        top: 220%;;
+    }
+    #business-introduction-menu .safety-initiatives dt{
+        width: 357px;
+    }
+    #business-introduction-menu .safety-initiatives dt img{
+        width: 357px;
+    }
+    #business-introduction-menu .safety-initiatives dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .safety-initiatives dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 2%;
+    }
+    #business-introduction-menu .cs-improvement{
+        width: 357px;
+        position: absolute;
+        top: 390%;
+        left: -142.5%;
+    }
+    #business-introduction-menu .cs-improvement dt{
+        width: 357px;
+    }
+    #business-introduction-menu .cs-improvement dt img{
+        width: 357px;
+    }
+    #business-introduction-menu .cs-improvement dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .cs-improvement dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+    }
+    #business-introduction-menu .education-and-training{
+        width: 357px;
+        position: absolute;
+        top: 455%;
+    }
+    #business-introduction-menu .education-and-training dt{
+        width: 357px;
+    }
+    #business-introduction-menu .education-and-training dt img{
+        width: 357px;
+    }
+    #business-introduction-menu .education-and-training dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .education-and-training dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 2%;
+    }
     #business {
       display: none;
     }
@@ -319,6 +414,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 400%;
     }
     #guidelines p{
       width: 360px;
@@ -358,7 +454,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 448%;
 	  height: 50px;
     }
   }
