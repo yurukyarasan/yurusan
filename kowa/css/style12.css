@@ -292,39 +292,143 @@ footer{
       float: left;
     }
     #business-overview {
-      width: 360px;
-      margin-left: 0px;
+      width: 358px;
+      margin-left: 2px;
       font-size: 4px;
     }
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
-    #promoted-by-professionals{
+    #education-and-training .title h2{
+    font-size: 25px;
+    color: #898500;
+    width: 352px;
+    border-bottom: 1px solid #000000;
+    margin-top: 150px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+}
+    #education-and-training{
+      width: 360px;
+      display: flex;
+      flex-direction: column;
       position: relative;
-      }
-    #promoted-by-professionals h2{
+    }
+    #education-and-training .the-growth-of-each-employee-is-the-driving-force-of-development h2{
       width: 340px;
       font-size: 21px;
-      margin-left: 10px;
+      margin-left: 10px
       }
-    #promoted-by-professionals p{
-      margin-left: 10px;
+    #education-and-training .the-growth-of-each-employee-is-the-driving-force-of-development p{
+      mmargin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
-      width: 360px;
+    #education-and-training .building-equipment-management-training h2{
+      width: 352px;
       position: absolute;
-      top: 110%;
+      top: 185%;
+    }
+    #education-and-training .building-equipment-management-training dt img{
+      width: 355px;
+      position: absolute;
+      top: 260%;
+    }
+    #education-and-training .building-equipment-management-training dd{
+        width: 340px;
+        position: absolute;
+        top: 395.4%;
+        left: 2%;
+    }
+    #education-and-training .cleaning-management-training h2{
+        width: 352px;
+        position: absolute;
+        top: 325.1%;
+    }
+    #education-and-training .cleaning-management-training dt img{
+      width: 355px;
+      position: absolute;
+      top: 433.1%;
+    }
+    #education-and-training .cleaning-management-training dd{
+        width: 340px;
+        font-size: 13px;
+        margin-top: 3%;
+        position: absolute;
+        top: 518.1%;
+        left: 2%;
+    }
+    #education-and-training .on-site-ojt-training h2{
+        width: 352px;
+        position: absolute;
+        top: 498.1%;;
+    }
+    #education-and-training .on-site-ojt-training dt img{
+      width: 355px;
+      position: absolute;
+      top: 606.1%;
+    }
+    #education-and-training .on-site-ojt-training dd{
+        width: 340px;
+        font-size: 13px;
+        margin-top: 3%;
+        position: absolute;
+        top: 733.1%;
+        left: 2%;
+    }
+    #education-and-training .business-skills-training h2{
+        width: 352px;
+        position: absolute;
+        top: 707.1%;
+    }
+    #education-and-training .business-skills-training dt img{
+      width: 355px;
+      position: absolute;
+      top: 814.1%;;
+    }
+    #education-and-training .business-skills-training dd{
+        width: 345px;
+        font-size: 13px;
+        margin-top: 3%;
+        position: absolute;
+        top: 898.1%;
+        left: 2%;
+    }
+    #education-and-training .qualification-assistance h2{
+        width: 352px;
+        position: absolute;
+        top: 877.1%;
+    }
+    #education-and-training .qualification-assistance dt{
+      width: 345px;
+      font-size: 13px;
+      position: absolute;
+      top: 974.1%;
+      left: 2%;
+    }
+    #education-and-training .participation-in-various-skill-competitions-and-judging-committees h2{
+        width: 352px;
+        position: absolute;
+        top: 945.1%;
+    }
+    #education-and-training .participation-in-various-skill-competitions-and-judging-committees dt img{
+      width: 355px;
+      position: absolute;
+      top: 1052.1%;
+    }
+    #education-and-training .participation-in-various-skill-competitions-and-judging-committees dd img{
+      width: 355px;
+      position: absolute;
+      top: 1238.1%;
       left: 0%;
-      }
+    }
+    #education-and-training .participation-in-various-skill-competitions-and-judging-committees dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        margin-top: 3%;
+        position: absolute;
+        top: 1418.1%;
+        left: 2%;
+    }
     #business {
       display: none;
     }
@@ -332,6 +436,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 950%;
     }
     #guidelines p{
       width: 360px;
@@ -371,7 +476,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 1000%;
 	  height: 50px;
     }
   }
