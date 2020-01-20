@@ -358,24 +358,113 @@ footer{
       padding-top: 130px;
       line-height: 1.5em;
     }
-    #promoted-by-professionals{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
       }
-    #promoted-by-professionals p{
+    #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
+    #main-image img{
       width: 360px;
       position: absolute;
-      top: 110%;
+      top: 135%;
       left: 0%;
       }
+    #business-introduction-menu{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management{
+      width: 357px;
+      margin-top: 120%;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management dt{
+      width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management dt img{
+      width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
+        width: 353px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 2%;
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management{
+        width: 357px;
+        position: absolute;
+        top: 128%;
+        left: -144%
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management dt{
+        width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management dt img{
+        width: 357px;
+        margin-left: 0.1%;        
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 3%;
+    }
+    #business-introduction-menu .business-introduction-menu-construction{
+        width: 357px;
+        position: absolute;
+        top: 145%;;
+    }
+    #business-introduction-menu .business-introduction-menu-construction dt{
+        width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-construction dt img{
+        width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+        position: absolute;
+        left: 2%;
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support{
+        width: 357px;
+        position: absolute;
+        top: 219%;
+        left: -142.5%;
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support dt{
+        width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support dt img{
+        width: 357px;
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
+        width: 354px;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
+        width: 350px;
+        font-size: 13px;
+    }
     #business {
       display: none;
     }
@@ -383,6 +472,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 280%;
     }
     #guidelines p {
       border: none;
@@ -392,7 +482,7 @@ footer{
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 360px;
+	  width: 358px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
@@ -425,7 +515,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 330%;
 	  height: 50px;
     }
   }
