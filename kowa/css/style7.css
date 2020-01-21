@@ -7,14 +7,7 @@
     margin: 0 auto 0 auto;
     max-width: 960px;
   }
-  #company-fictional-real-estate-facilities {
-    font-size: 16px;
-    margin-top: 60px;
-    margin-left: 100px;
-  }
-  #company h1 img {
-   margin-left: 10px;
-  }
+  
   #business-overview {
     font-size: 12px;
     display: flex;
@@ -41,11 +34,17 @@
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
     color: #5c8934;
     font-size: 35px;
+    width: 600px;
     margin-top: 100px;
 }
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p{
+    width: 440px;
     line-height: 1.5em;
     margin-top: 50px;
+}
+#main-image img{
+    float: right;
+    margin-top: -43%;
 }
 #business-introduction-menu{
 	display: flex;
@@ -55,10 +54,6 @@
 #business-introduction-menu a{
     text-decoration: none;
     color: #000000;
-}
-#main-image img{
-    float: right;
-    margin-top: -45%;
 }
 #business-introduction-menu .business-introduction-menu-building-equipment-management dt{
 	margin-top: 75%;
@@ -350,14 +345,6 @@ footer{
     #contact{
       display: none;
       }
-    #main-image p {
-      width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
-    }
     #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service{
       position: relative;
       }
@@ -383,7 +370,7 @@ footer{
     }
     #business-introduction-menu .business-introduction-menu-building-equipment-management{
       width: 357px;
-      margin-top: 120%;
+      margin-top: 130%;
     }
     #business-introduction-menu .business-introduction-menu-building-equipment-management dt{
       width: 357px;

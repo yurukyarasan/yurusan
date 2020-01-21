@@ -78,93 +78,93 @@ section {
 	height: 30px;
 	padding-top: 10px;
 }
-.daily-cleaning img{
+#cleaning .daily-cleaning img{
 	margin-top: 10px;
 }
-.daily-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
+#cleaning .daily-cleaning dd:nth-of-type(1){
+	margin-top: -23.5%;
+	margin-left: 440px;
 }
-.daily-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 70px;
+#cleaning .daily-cleaning dd:nth-of-type(2){
+	font-size: 14px;
+	margin-top: 1%;
+	margin-left: 440px;
 }
-.regular-cleaning img{
-	margin-top: 17px;
+#cleaning .regular-cleaning img{
+	margin-top: 17%;
 }
-.regular-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
+#cleaning .regular-cleaning dd:nth-of-type(1){
+	margin-top: -23%;
+	margin-left: 440px;
 }
-.regular-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 70px;
+#cleaning .regular-cleaning dd:nth-of-type(2){
+	font-size: 14px;
+	margin-top: 1%;
+	margin-left: 440px;
 }
-.glass-cleaning img{
-	margin-top: 24px;
+#cleaning .glass-cleaning img{
+	margin-top: 17%;
 }
-.glass-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 450px;
+#cleaning .glass-cleaning dd:nth-of-type(1){
+	margin-top: -23%;
+	margin-left: 440px;
 }
-.glass-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 85px;
+#cleaning .glass-cleaning dd:nth-of-type(2){
+	font-size: 14px;
+	margin-top: 1%;
+	margin-left: 440px;
 }
-.special-cleaning img{
-	margin-top: 31px;
+#cleaning .special-cleaning img{
+	margin-top: 17%;
 }
-.special-cleaning dd:nth-of-type(1){
-	float: right;
-	margin-top: -220px;
-	margin-right: 460px;
+#cleaning .special-cleaning dd:nth-of-type(1){
+	margin-top: -23%;
+	margin-left: 440px;
 }
-.special-cleaning dd:nth-of-type(2){
-	font-size: 12px;
-	float: right;
-	margin-top: -185px;
-	margin-right: 85px;
+#cleaning .special-cleaning dd:nth-of-type(2){
+	font-size: 14px;
+	margin-top: 1%;
+	margin-left: 440px;
 }
-.cleaning-of-commercial-facilities h3{
+#cleaning .cleaning-of-commercial-facilities{
+    margin-top: 17%;
+}
+#cleaning .cleaning-of-commercial-facilities h3{
 	margin-top: 30px;
 	background-color: #5c8934;
 	border-left: 4px solid #FFFF00;
 	height: 30px;
 	padding-top: 10px;
 }
-.cleaning-of-commercial-facilities dt{
+#cleaning .cleaning-of-commercial-facilities dt{
 	padding-top: 10px;
 }
-.cleaning-of-commercial-facilities dd{
-	font-size: 12px;
-	float: right;
+#cleaning .cleaning-of-commercial-facilities dd{
+	width: 450px;
+    font-size: 14px;
 	margin-top: -280px;
-	margin-right: 50px;
+	margin-left: 500px;
 }
-.cleaning-of-condominiums h3{
-	margin-top: 30px;
+#cleaning .cleaning-of-condominiums{
+    margin-top: 25%;
+}
+#cleaning .cleaning-of-condominiums h3{
 	background-color: #5c8934;
 	border-left: 4px solid #FFFF00;
 	height: 30px;
 	padding-top: 10px;
 }
-.cleaning-of-condominiums dt{
+#cleaning .cleaning-of-condominiums dt{
 	padding-top: 10px;
 }
-.cleaning-of-condominiums dd{
-	font-size: 12px;
-	float: right;
+#cleaning .cleaning-of-condominiums dd{
+	width: 450px;
+    font-size: 14px;
 	margin-top: -280px;
-	margin-right: 50px;
+	margin-left: 500px;
+}
+#other-business{
+    margin-top: 26%;
 }
 #other-business h3{
 	margin-top: 30px;
@@ -173,51 +173,52 @@ section {
 	height: 30px;
 	padding-top: 10px;
 }
-.pest-control-business dt{
+#other-business .pest-control-business dt{
+	margin-top: 2%;
+}
+#other-business .pest-control-business dd{
+	width: 450px;
+    font-size: 14px;
 	margin-top: 10px;
+	margin-left: 0px;
 }
-.pest-control-business dd{
-	font-size: 12px;
-	margin-top: 20px;
+#other-business .sales-of-goods-and-materials dt{
+	margin-top: -82px;
+	margin-left: 500px;
 }
-.sales-of-goods-and-materials dt{
-	float: right;
-	margin-top: -93px;
-	margin-right: 338px;
+#other-business .sales-of-goods-and-materials dd{
+	width: 450px;
+    font-size: 14px;
+	margin-top: 10px;
+	margin-left: 500px;;
 }
-.sales-of-goods-and-materials dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -63px;
-	margin-right: 100px;
-}
-.scat-special-cleaning-advanced-team h3{
+#cleaning .scat-special-cleaning-advanced-team h3{
 	background-color: #5c8934;
 	border-left: 4px solid #FFFF00;
 	height: 30px;
 	padding-top: 10px;
 }
-.scat-special-cleaning-advanced-team img{
+#cleaning .scat-special-cleaning-advanced-team img{
 	margin-top: 10px;
 }
-.scat-special-cleaning-advanced-team dd{
-	font-size: 12px;
-	float: right;
-	margin-top: -315px;
-	margin-right: 75px;
+#cleaning .scat-special-cleaning-advanced-team dd{
+	width: 450px;
+    font-size: 14px;
+	margin-top: -32%;
+	margin-left: 500px;
 }
-.environmental-conservation-initiatives{
+#cleaning .environmental-conservation-initiatives{
 	background-color: #FCFBE6;
 	border: 2px solid #5c8934;
 	height: 160px;
-	margin-top: 20px;
+	margin-top: 270px;
 }
-.environmental-conservation-initiatives dt{
+#cleaning .environmental-conservation-initiatives dt{
 	margin-top: 23px;
 	padding-top: -25px;
 	padding-left: 20px;
 	}
-.environmental-conservation-initiatives dd:nth-of-type(1){
+#cleaning .environmental-conservation-initiatives dd:nth-of-type(1){
 	margin-top: 15px;
 	padding-top: 15px;
 	padding-left: 20px;
@@ -225,7 +226,7 @@ section {
 	border-top: 2px solid #5c8934;
 	width: 936px;
 }
-.environmental-conservation-initiatives dd:nth-of-type(2){
+#cleaning .environmental-conservation-initiatives dd:nth-of-type(2){
 	font-size: 15px;
 	padding-top: 10px;
 	padding-left: 20px;
@@ -393,32 +394,195 @@ footer{
     #contact{
       display: none;
       }
+    #main-image{
+      position: relative;
+    }
     #main-image p {
       width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
     }
-    #promoted-by-professionals{
+    #main-image p:nth-of-type(1){
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2){
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+    }
+    #cleaning-management{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #cleaning-management h2{
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
       }
-    #promoted-by-professionals p{
+    #cleaning-management p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
-      width: 360px;
-      position: absolute;
-      top: 110%;
-      left: 0%;
-      }
+    #cleaning{
+      position: relative;
+    }
+    #cleaning h3{
+      width: 353px;
+    }
+    #cleaning .daily-cleaning dt img{
+      width: 356px;
+      margin-top: 5%;
+    }
+    #cleaning .daily-cleaning dd:nth-of-type(1){
+      width: 340px;
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+    #cleaning .daily-cleaning dd:nth-of-type(2){
+      width: 340px;
+      margin-top: 2%;
+      margin-left: 3%;
+    }
+    #cleaning .regular-cleaning{
+        margin-top: -5%;
+    }
+    #cleaning .regular-cleaning dt img{
+      width: 356px;
+    }
+    #cleaning .regular-cleaning dd:nth-of-type(1){
+      width: 340px;
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+    #cleaning .regular-cleaning dd:nth-of-type(2){
+      width: 340px;
+      margin-top: 2%;
+      margin-left: 3%;
+    }
+    #cleaning .glass-cleaning{
+      margin-top: -5%;
+    }
+    #cleaning .glass-cleaning dt img{
+      width: 356px;
+    }
+    #cleaning .glass-cleaning dd:nth-of-type(1){
+      width: 340px;
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+    #cleaning .glass-cleaning dd:nth-of-type(2){
+      width: 340px;
+      margin-top: 2%;
+      margin-left: 3%;
+    }
+    #cleaning .special-cleaning{
+      margin-top: -5%;
+    }
+    #cleaning .special-cleaning dt img{
+      width: 356px;
+    }
+    #cleaning .special-cleaning dd:nth-of-type(1){
+      width: 340px;
+      margin-top: 5%;
+      margin-left: 3%;
+    }
+    #cleaning .special-cleaning dd:nth-of-type(2){
+      width: 340px;
+      margin-top: 2%;
+      margin-left: 3%;
+    }
+    #cleaning .cleaning-of-commercial-facilities h3{
+      width: 353px;
+    }
+    #cleaning .cleaning-of-commercial-facilities dt img{
+        width: 356px;
+    }
+    #cleaning .cleaning-of-commercial-facilities dd{
+        width: 340px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #cleaning .cleaning-of-condominiums{
+        margin-top: 5%;
+    }
+    #cleaning .cleaning-of-condominiums h3{
+      width: 353px;
+    }
+    #cleaning .cleaning-of-condominiums dt img{
+        width: 356px;
+    }
+    #cleaning .cleaning-of-condominiums dd{
+        width: 340px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #other-business .pest-control-business{
+        margin-top: 5%;
+    }
+    #other-business .pest-control-business h3{
+      width: 353px;
+    }
+    #other-business .pest-control-business dt{
+        width: 360px;
+    }
+    #other-business .pest-control-business dd{
+        width: 340px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #other-business .sales-of-goods-and-materials{
+        margin-top: 5%;
+    }
+    #other-business .sales-of-goods-and-materials dt{
+        width: 356px;
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    #other-business .sales-of-goods-and-materials dd{
+        width: 340px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #cleaning .scat-special-cleaning-advanced-team{
+        margin-top: 5%;
+    }
+    #cleaning .scat-special-cleaning-advanced-team h3{
+      width: 353px;
+    }
+    #cleaning .scat-special-cleaning-advanced-team dt img{
+        width: 356px;
+    }
+    #cleaning .scat-special-cleaning-advanced-team dd{
+        width: 340px;
+        margin-top: 2%;
+        margin-left: 3%;
+    }
+    #cleaning .environmental-conservation-initiatives{
+        margin-top: 5%;
+        width: 350px;
+    }
+    #cleaning .environmental-conservation-initiatives dt{
+        margin-left: -3.2%;
+    }
+    #cleaning .environmental-conservation-initiatives dd:nth-of-type(1){
+        width: 345px;
+        padding-left: 2%;
+    }
+    #cleaning .environmental-conservation-initiatives dd:nth-of-type(2){
+        width: 340px;
+        font-size: 14.5px;
+        margin-left: -3.6%;
+    }
+    #contact-us-here p{
+        margin-left: 15%;
+    }
+    #contact-us-here .arrow{
+        margin-left: 19.5%;
+    }
+    #contact-us-here .circle{
+        margin-top: -4%;
+        margin-left: 18%;
+    }
     #business {
       display: none;
     }
@@ -435,7 +599,7 @@ footer{
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 360px;
+	  width: 359px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
