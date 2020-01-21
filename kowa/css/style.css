@@ -666,46 +666,39 @@
       flex-wrap: wrap;
 	  float: left;
     }
-    #guidelines p {
-      border: none;
+    #guidelines p{
+      text-align: center;
     }
     #guidelines .guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
       margin-top: 0px;
-      margin-left: -170px;
-      padding-left: 145px;
+      margin-left: -150px;
       background-color: #888888;
-	  width: 160px;
-    }
+      width: 360px;
+      }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 130px;
+      margin-left: -150px;
       background-color: #888888;
-	  width: 60px;
     }
     #guidelines .guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
-      margin-left: -170px;
-      padding-left: 145px;
+      margin-left: -150px;
       background-color: #888888;
     }
     #guidelines .guidelines-compliance-initiatives {
       flex-basis: 360px;
-      margin-left: -159px;
-      padding-left: 133px;
+      margin-left: -150px;
       background-color: #888888;
     }
     #guidelines .guidelines-anti-social-forces {
       flex-basis: 360px;
-      margin-left: -170px;
-      padding-left: 143px;
+      margin-left: -150px;
       background-color: #888888;
     }
     #guidelines .guidelines-site-map {
       flex-basis: 360px;
-      margin-left: -155px;
-      padding-left: 128px;
+      margin-left: -150px;
       background-color: #888888;
     }
     footer {
