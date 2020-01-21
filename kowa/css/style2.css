@@ -62,90 +62,82 @@ section {
     margin-top: -20%;
 }
 #uninterrupted-service h2{
-	margin-top: 250px;
-	margin-left: 82px;
 	color: #007a66;
+    margin-top: 250px;
+	margin-left: 220px;
 }
 #uninterrupted-service p{
-	margin-top: 30px;
-	margin-left: 80px;
 	font-size: 12px;
+    margin-top: 20px;
+	margin-left: 220px;
 }
 #resident h3{
-	margin-left: 238px;
-	margin-top: 30px;
+    margin-top: 50px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
 	height: 30px;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 #resident-management{
 	font-size: 11px;
 	margin-left: 500px;
 	margin-top: 20px;
 	}
+#resident p{
+	font-size: 13px;
+	margin-top: 2%;
+	margin-left: 550px;
+}
 #resident img{
-	width: 250px;
-	margin-top: -85px;
-	margin-left: 240px;
+	margin-top: -12%;
 }
 #patrol h3{
-	margin-left: 240px;
 	margin-top: 30px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
 	height: 30px;
 	padding-top: 10px;
 }
-#patrol-Roving-management{
-	font-size: 11px;
-	margin-left: 500px;
-	margin-top: 20px;
+#patrol p{
+	font-size: 13px;
+	margin-top: 2%;
+	margin-left: 550px;
 }
-#patrol img{
-	width: 250px;
-	margin-top: -75px;
-	margin-left: 240px;
+#patrol img:nth-of-type(1){
+	margin-top: -9%;
 }
-#management-method img{
-	width: 600px;
-	margin-top: 30px;
+#patrol img:nth-of-type(2){
+	margin-top: 4%;
 }
 #building-equipment-business h3{
-	margin-top: 50px;
-	margin-left: 230px;
+	margin-top: 30px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
 	height: 30px;
 	padding-top: 10px;
 }
-#building-equipment-maintenance-business{
-	font-size: 11px;
-	margin-left: 550px;	
-	margin-top: 20px;
+#building-equipment-business p{
+	font-size: 13px;
+	margin-top: 2%;
+	margin-left: 550px;
 }
 #building-equipment-business img{
-	width: 250px;
-	margin-top: -84px;
-	margin-left: 230px;
+	margin-top: -11%;
 }
 #security h3{
 	margin-top: 30px;
-	margin-left: 230px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
 	height: 30px;
 	padding-top: 10px;
 }
-#security-services{
-	font-size: 11px;
+#security p{
+	font-size: 13px;
+	margin-top: 2%;
 	margin-left: 550px;
-	margin-top: 20px;
 }
 #security img{
-	width: 250px;
-	margin-top: -97px;
-	margin-left: 230px;
+	margin-top: -11%;
 }
 #contact-us-here p{
 	margin-top: 80px;
@@ -310,32 +302,135 @@ footer{
     #contact{
       display: none;
       }
+    #main-image{
+      position: relative;
+    }
     #main-image p {
       width: 220px;
-      font-size: 5px;
-      margin-top: -20px;
-      margin-left: 20px;
-      padding-top: 130px;
-      line-height: 1.5em;
     }
-    #promoted-by-professionals{
+    #main-image p:nth-of-type(1){
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2){
+      font-size: 36px;
+      position: absolute;
+      top: 40%;
+    }
+    #uninterrupted-service{
       position: relative;
       }
-    #promoted-by-professionals h2{
+    #uninterrupted-service h2{
       width: 340px;
       font-size: 21px;
       margin-left: 10px;
       }
-    #promoted-by-professionals p{
+    #uninterrupted-service p{
       margin-left: 10px;
       width: 340px;
       }
-    #promoted-by-professionals img{
+    #resident{
       width: 360px;
+      position: relative;
+    }
+    #resident h3{
+      margin-top: 50px;
+	  background-color: #008b8b;
+	  border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 15px;
+}
+    #resident-management{
+	  font-size: 11px;
+	  margin-left: 500px;
+	  margin-top: 20px;
+	}
+    #resident p{
+	  width: 340px;
+        position: absolute;
+        top: 99.1%;
+        left: -150%;
+}
+    #resident img{
+	  width: 356px;
+      margin-top: 7%;
+}
+    #patrol h3{
+	  margin-top: 160px;
+	  background-color: #008b8b;
+      border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 10px;
+}
+#patrol p{
+	  width: 340px;
       position: absolute;
-      top: 110%;
-      left: 0%;
-      }
+      top: 282.1%;
+      left: -150%;
+}
+#patrol img:nth-of-type(1){
+	width: 356px;
+    margin-top: 7%;
+}
+#patrol img:nth-of-type(2){
+	width: 356px;
+    margin-top: 4%;
+}
+#building-equipment-business h3{
+	margin-top: 130px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#building-equipment-business p{
+    width: 340px;
+    position: absolute;
+    top: 344.1%;
+    left: -150%;
+}
+#building-equipment-business img{
+	width: 356px;
+    margin-top: 6%;
+}
+#security h3{
+	margin-top: 135px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#security p{
+	width: 340px;
+    position: absolute;
+    top: 408.1%;
+    left: -150%;;
+}
+#security img{
+    width: 356px;
+    position: absolute;
+    top: 381%;
+}
+#contact-us-herep{
+    position: relative;
+}
+#contact-us-here p{
+    position: absolute;
+    top: 425%;
+    left: -100%;
+}
+#contact-us-here .arrow{
+    position: absolute;
+    top: 445.3%;
+    left: -24.4%;
+}
+#contact-us-here .circle{
+    position: absolute;
+    top: 440.8%;
+    left: -25%;
+}
     #business {
       display: none;
     }
@@ -343,6 +438,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 145%;
     }
     #guidelines p {
       border: none;
@@ -352,7 +448,7 @@ footer{
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 360px;
+	  width: 356px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
@@ -385,7 +481,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 195%;
 	  height: 50px;
     }
   }
