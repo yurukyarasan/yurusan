@@ -334,10 +334,13 @@ footer{
     #management{
       width: 360px;
       display: flex;
+      flex-basis: 360px;
       flex-direction: column;
       position: relative;
     }
     #resident h3{
+      flex-basis: 360px;
+      width: 356px;
       margin-top: 50px;
 	  background-color: #008b8b;
 	  border-left: 4px solid #1e90ff;
@@ -345,20 +348,25 @@ footer{
 	  padding-top: 15px;
 }
     #resident-management{
-	  font-size: 11px;
+	  flex-basis: 360px;
+      font-size: 11px;
 	}
     #resident p{
 	  width: 340px;
+      flex-basis: 360px;
       position: absolute;
       top: 37.4%;
       left: -150%;
 }
     #resident img{
 	  width: 356px;
+      flex-basis: 360px;
       position: absolute;
       top: 18%;
 }
     #patrol h3{
+      flex-basis: 360px;
+      width:356px;
 	  margin-top: 390px;
 	  background-color: #008b8b;
       border-left: 4px solid #1e90ff;
@@ -367,6 +375,7 @@ footer{
 }
 #patrol p{
 	  width: 340px;
+      flex-basis: 360px;
       position: absolute;
       top: 100.1%;
       left: -150%;
@@ -377,10 +386,13 @@ footer{
 }
 #patrol img:nth-of-type(2){
 	width: 356px;
+    flex-basis: 360px;
     margin-top: 4%;
 }
 #building-equipment-business h3{
-	margin-top: 130px;
+	flex-basis: 360px;
+    width: 356px;
+    margin-top: 130px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
 	height: 30px;
@@ -388,15 +400,18 @@ footer{
 }
 #building-equipment-business p{
     width: 340px;
+    flex-basis: 360px;
     position: absolute;
-    top: 344.1%;
+    top: 364.1%;
     left: -150%;
 }
 #building-equipment-business img{
 	width: 356px;
+    flex-basis: 360px;
     margin-top: 6%;
 }
 #security h3{
+    flex-basis: 360px;
 	margin-top: 145px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
@@ -405,16 +420,18 @@ footer{
 }
 #security p{
 	width: 340px;
+    flex-basis: 360px;
     position: absolute;
     top: 408.1%;
     left: -150%;;
 }
 #security img{
     width: 356px;
+    flex-basis: 360px;
     position: absolute;
     top: 381%;
 }
-#contact-us-herep{
+#contact-us-here{
     position: relative;
 }
 #contact-us-here p{
@@ -431,7 +448,7 @@ footer{
 	border-color: #000000 transparent transparent transparent;
 	transform: rotate(270deg);
     position: absolute;
-    top: 450.3%;
+    top: 448.3%;
     left: -24.4%;
 }
 #contact-us-here .circle{
