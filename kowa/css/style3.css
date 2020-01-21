@@ -395,10 +395,11 @@ footer{
       display: none;
       }
     #main-image{
+      width: 358px;
       position: relative;
     }
     #main-image p {
-      width: 220px;
+      width: 180px;
     }
     #main-image p:nth-of-type(1){
       font-size: 35px;
@@ -439,7 +440,7 @@ footer{
       margin-left: 3%;
     }
     #cleaning .daily-cleaning dd:nth-of-type(2){
-      width: 340px;
+      width: 335px;
       margin-top: 2%;
       margin-left: 3%;
     }
@@ -455,7 +456,7 @@ footer{
       margin-left: 3%;
     }
     #cleaning .regular-cleaning dd:nth-of-type(2){
-      width: 340px;
+      width: 335px;
       margin-top: 2%;
       margin-left: 3%;
     }
@@ -471,7 +472,7 @@ footer{
       margin-left: 3%;
     }
     #cleaning .glass-cleaning dd:nth-of-type(2){
-      width: 340px;
+      width: 335px;
       margin-top: 2%;
       margin-left: 3%;
     }
@@ -487,7 +488,7 @@ footer{
       margin-left: 3%;
     }
     #cleaning .special-cleaning dd:nth-of-type(2){
-      width: 340px;
+      width: 335px;
       margin-top: 2%;
       margin-left: 3%;
     }
@@ -498,7 +499,7 @@ footer{
         width: 356px;
     }
     #cleaning .cleaning-of-commercial-facilities dd{
-        width: 340px;
+        width: 335px;
         margin-top: 2%;
         margin-left: 3%;
     }
@@ -512,7 +513,7 @@ footer{
         width: 356px;
     }
     #cleaning .cleaning-of-condominiums dd{
-        width: 340px;
+        width: 335px;
         margin-top: 2%;
         margin-left: 3%;
     }
@@ -526,7 +527,7 @@ footer{
         width: 360px;
     }
     #other-business .pest-control-business dd{
-        width: 340px;
+        width: 335px;
         margin-top: 2%;
         margin-left: 3%;
     }
@@ -539,7 +540,7 @@ footer{
         margin-left: 0%;
     }
     #other-business .sales-of-goods-and-materials dd{
-        width: 340px;
+        width: 335px;
         margin-top: 2%;
         margin-left: 3%;
     }
@@ -553,7 +554,7 @@ footer{
         width: 356px;
     }
     #cleaning .scat-special-cleaning-advanced-team dd{
-        width: 340px;
+        width: 335px;
         margin-top: 2%;
         margin-left: 3%;
     }
@@ -565,12 +566,12 @@ footer{
         margin-left: -3.2%;
     }
     #cleaning .environmental-conservation-initiatives dd:nth-of-type(1){
-        width: 345px;
+        width: 343px;
         padding-left: 2%;
     }
     #cleaning .environmental-conservation-initiatives dd:nth-of-type(2){
-        width: 340px;
-        font-size: 14.5px;
+        width: 330px;
+        font-size: 13.9px;
         margin-left: -3.6%;
     }
     #contact-us-here p{
@@ -599,7 +600,7 @@ footer{
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 359px;
+	  width: 357px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
