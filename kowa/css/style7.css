@@ -50,16 +50,101 @@
 	display: flex;
 	flex-wrap: wrap;
     text-decoration: none;
+    position: relative;
+}
+#business-introduction-menu ul{
+    text-decoration: none;
+    color: #000000;
+    list-style: none;
 }
 #business-introduction-menu a{
     text-decoration: none;
     color: #000000;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dt{
-	margin-top: 75%;
+#business-introduction-menu .business-introduction-menu-building-equipment-management img{
+	margin-top: 30%;
     border-top: solid 10px #007A66;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
+#business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(1){
+	color: #007A66;
+	margin-bottom: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 25px;
+    border-bottom: 1px solid #000000;
+    width: 475px;
+}
+#business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(2){
+	padding-top: 10px;
+	font-size: 14px;
+    width: 475px;
+}
+#business-introduction-menu .business-introduction-menu-cleaning-management img{
+    margin-left: 520px;
+    border-top: solid 10px #82A61C;
+    position: absolute;
+    top: 25.9%;
+}
+#business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(1){
+	margin-left: 515px;
+	color: #82A61C;
+	margin-top: -8.7%;
+	padding-bottom: 10px;
+	font-size: 25px;
+    border-bottom: 1px solid #000000;
+}
+#business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(2){
+	margin-left: 515px;
+	padding-top: 10px;
+	margin-top: 9px;
+	width: 476px;
+	font-size: 14px;;
+}
+#business-introduction-menu .business-introduction-menu-construction img{
+	margin-top: 20%;
+    border-top: solid 10px #8F671E;
+}
+#business-introduction-menu .business-introduction-menu-construction p:nth-of-type(1){
+	color: #8F671E;
+	margin-bottom: 10px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 25px;
+    border-bottom: 1px solid #000000;
+    width: 475px;
+}
+#business-introduction-menu .business-introduction-menu-construction p:nth-of-type(2){
+	padding-top: 10px;
+	width: 475px;
+	font-size: 14px;;
+}
+#business-introduction-menu .business-introduction-menu-customer-support img{
+	margin-left: 515px;
+    border-top: solid 10px #0076A9;
+    position: absolute;
+    top: 71.5%;
+}
+#business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(1){
+	color: #0076A9;
+    margin-top: -9.7%;
+	margin-bottom: 10px;
+	margin-left: 515px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	font-size: 25px;
+    border-bottom: 1px solid #000000;
+}
+#business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(2){
+	padding-top: 10px;
+	width: 475px;
+	margin-left: 515px;
+	font-size: 14px;
+}
+#business-introduction-menu .quality-improvement-and-environmental-conservation img{
+	margin-top: 20%;
+    border-top: solid 10px #007A66;
+}
+#business-introduction-menu .quality-improvement-and-environmental-conservation p:nth-of-type(1){
 	color: #007A66;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -67,17 +152,17 @@
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
+#business-introduction-menu .quality-improvement-and-environmental-conservation p:nth-of-type(2){
 	padding-top: 10px;
 	font-size: 14px;
     width: 440px;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dt{
+#business-introduction-menu .inspection img{
 	margin-top: -32.9%;
     margin-left: 520px;
     border-top: solid 10px #82A61C;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
+#business-introduction-menu .inspection p:nth-of-type(1){
 	margin-left: 515px;
 	color: #82A61C;
 	margin-top: 10px;
@@ -85,18 +170,18 @@
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
+#business-introduction-menu .inspection p:nth-of-type(2){
 	margin-left: 515px;
 	padding-top: 10px;
 	margin-top: 9px;
 	width: 476px;
 	font-size: 14px;;
 }
-#business-introduction-menu .business-introduction-menu-construction dt{
+#business-introduction-menu .safety-initiatives img{
 	margin-top: 20%;
     border-top: solid 10px #8F671E;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
+#business-introduction-menu .safety-initiatives p:nth-of-type(1){
 	color: #8F671E;
 	margin-bottom: 10px;
 	padding-top: 10px;
@@ -104,17 +189,17 @@
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
+#business-introduction-menu .safety-initiatives p:nth-of-type(2){
 	padding-top: 10px;
 	width: 475px;
 	font-size: 14px;;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dt{
+#business-introduction-menu .cs-improvement img{
 	margin-top: -33%;
 	margin-left: 515px;
     border-top: solid 10px #0076A9;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
+#business-introduction-menu .cs-improvement p:nth-of-type(1){
 	color: #0076A9;
 	margin-bottom: 10px;
 	margin-left: 515px;
@@ -123,89 +208,7 @@
 	font-size: 25px;
     border-bottom: 1px solid #000000;
 }
-#business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
-	padding-top: 10px;
-	width: 475px;
-	margin-left: 515px;
-	font-size: 14px;
-}#business-introduction-menu{
-	display: flex;
-	flex-wrap: wrap;
-    text-decoration: none;
-}
-#business-introduction-menu a{
-    text-decoration: none;
-    color: #000000;
-}
-#business-introduction-menu .quality-improvement-and-environmental-conservation dt{
-	margin-top: 20%;
-    border-top: solid 10px #007A66;
-}
-#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(1){
-	color: #007A66;
-	margin-bottom: 10px;
-	padding-top: 10px;
-    padding-bottom: 10px;
-	font-size: 25px;
-    border-bottom: 1px solid #000000;
-}
-#business-introduction-menu .quality-improvement-and-environmental-conservation dd:nth-of-type(2){
-	padding-top: 10px;
-	font-size: 14px;
-    width: 440px;
-}
-#business-introduction-menu .inspection dt{
-	margin-top: -32.9%;
-    margin-left: 520px;
-    border-top: solid 10px #82A61C;
-}
-#business-introduction-menu .inspection dd:nth-of-type(1){
-	margin-left: 515px;
-	color: #82A61C;
-	margin-top: 10px;
-	padding-bottom: 10px;
-	font-size: 25px;
-    border-bottom: 1px solid #000000;
-}
-#business-introduction-menu .inspection dd:nth-of-type(2){
-	margin-left: 515px;
-	padding-top: 10px;
-	margin-top: 9px;
-	width: 476px;
-	font-size: 14px;;
-}
-#business-introduction-menu .safety-initiatives dt{
-	margin-top: 20%;
-    border-top: solid 10px #8F671E;
-}
-#business-introduction-menu .safety-initiatives dd:nth-of-type(1){
-	color: #8F671E;
-	margin-bottom: 10px;
-	padding-top: 10px;
-    padding-bottom: 10px;
-	font-size: 25px;
-    border-bottom: 1px solid #000000;
-}
-#business-introduction-menu .safety-initiatives dd:nth-of-type(2){
-	padding-top: 10px;
-	width: 475px;
-	font-size: 14px;;
-}
-#business-introduction-menu .cs-improvement dt{
-	margin-top: -33%;
-	margin-left: 515px;
-    border-top: solid 10px #0076A9;
-}
-#business-introduction-menu .cs-improvement dd:nth-of-type(1){
-	color: #0076A9;
-	margin-bottom: 10px;
-	margin-left: 515px;
-	padding-top: 10px;
-    padding-bottom: 10px;
-	font-size: 25px;
-    border-bottom: 1px solid #000000;
-}
-#business-introduction-menu .cs-improvement dd:nth-of-type(2){
+#business-introduction-menu .cs-improvement p:nth-of-type(2){
 	padding-top: 10px;
 	width: 475px;
 	margin-left: 515px;
@@ -369,88 +372,76 @@ footer{
       position: relative;
     }
     #business-introduction-menu .business-introduction-menu-building-equipment-management{
-      width: 357px;
+      width: 355px;
       margin-top: 130%;
     }
-    #business-introduction-menu .business-introduction-menu-building-equipment-management dt{
+    #business-introduction-menu .business-introduction-menu-building-equipment-management img{
       width: 357px;
     }
-    #business-introduction-menu .business-introduction-menu-building-equipment-management dt img{
-      width: 357px;
-    }
-    #business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(1){
+    #business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(1){
         width: 353px;
         padding-left: 1%;
     }
-    #business-introduction-menu .business-introduction-menu-building-equipment-management dd:nth-of-type(2){
+    #business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
         position: absolute;
         left: 2%;
     }
-    #business-introduction-menu .business-introduction-menu-cleaning-management{
+    #business-introduction-menu .business-introduction-menu-cleaning-management img{
         width: 357px;
-        position: absolute;
-        top: 128%;
-        left: -144%
+        margin-top: 190%;
+        margin-left: 0%;
     }
-    #business-introduction-menu .business-introduction-menu-cleaning-management dt{
-        width: 357px;
-    }
-    #business-introduction-menu .business-introduction-menu-cleaning-management dt img{
-        width: 357px;
-        margin-left: 0.1%;        
-    }
-    #business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(1){
+    #business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(1){
         width: 354px;
-        padding-left: 1%;
+        position: absolute;
+        top: 141%;
+        left: -143%;
     }
-    #business-introduction-menu .business-introduction-menu-cleaning-management dd:nth-of-type(2){
+    #business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
         position: absolute;
-        left: 3%;
+        top: 142%;
+        left: -143%;
     }
     #business-introduction-menu .business-introduction-menu-construction{
         width: 357px;
         position: absolute;
         top: 145%;;
     }
-    #business-introduction-menu .business-introduction-menu-construction dt{
+    #business-introduction-menu .business-introduction-menu-construction img{
         width: 357px;
     }
-    #business-introduction-menu .business-introduction-menu-construction dt img{
-        width: 357px;
-    }
-    #business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(1){
+    #business-introduction-menu .business-introduction-menu-construction p:nth-of-type(1){
         width: 354px;
         padding-left: 1%;
     }
-    #business-introduction-menu .business-introduction-menu-construction dd:nth-of-type(2){
+    #business-introduction-menu .business-introduction-menu-construction p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
         position: absolute;
         left: 2%;
     }
-    #business-introduction-menu .business-introduction-menu-customer-support{
+    #business-introduction-menu .business-introduction-menu-customer-support img{
         width: 357px;
         position: absolute;
-        top: 219%;
-        left: -142.5%;
+        top: 193%;
+        left: -143%;
     }
-    #business-introduction-menu .business-introduction-menu-customer-support dt{
-        width: 357px;
-    }
-    #business-introduction-menu .business-introduction-menu-customer-support dt img{
-        width: 357px;
-    }
-    #business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(1){
+    #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(1){
         width: 354px;
-        padding-left: 1%;
+        position: absolute;
+        top: 219%;
+        left: -143%;
     }
-    #business-introduction-menu .business-introduction-menu-customer-support dd:nth-of-type(2){
+    #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
+        position: absolute;
+        top: 221%;
+        left: -143%;
     }
     #business {
       display: none;
@@ -459,7 +450,7 @@ footer{
       display: flex;
       flex-wrap: wrap;
 	  float: left;
-      margin-top: 280%;
+      margin-top: 290%;
     }
     #guidelines p {
       border: none;
@@ -502,7 +493,7 @@ footer{
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 330%;
+	  margin-top: 335%;
 	  height: 50px;
     }
   }
