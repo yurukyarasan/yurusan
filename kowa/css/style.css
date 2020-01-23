@@ -395,7 +395,7 @@
 	flex-direction: row;
 }
 
-#guidelines-about-the-use-of-the-site{
+#guidelines .guidelines-about-the-use-of-the-site{
 	border-left: 1px solid;
 	border-right: 1px solid;
 	padding-left: 10px;
@@ -403,35 +403,35 @@
 	margin-left: -20px;
 	text-align: center;
 }
-#guidelines-privacy-policy{
+#guidelines .guidelines-privacy-policy{
 	margin-left: 5px;
 	border-right: 1px solid;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 7px;
 }
-#guidelines-basic-policy-on-specific-personal-information{
+#guidelines .guidelines-basic-policy-on-specific-personal-information{
 	margin-left: 5px;
 	border-right: 1px solid;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
 }
-#guidelines-compliance-initiatives{
+#guidelines .guidelines-compliance-initiatives{
 	margin-left: 5px;
 	border-right: 1px solid;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
 }
-#guidelines-anti-social-forces{
+#guidelines .guidelines-anti-social-forces{
 	margin-left: 5px;
 	border-right: 1px solid;
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
 }
-#guidelines-site-map{
+#guidelines .guidelines-site-map{
 	margin-left: 5px;
 	border-right: 1px solid;
 	padding-left: 10px;
@@ -665,46 +665,50 @@
       display: flex;
       flex-wrap: wrap;
 	  float: left;
+      margin-top: 15%;
     }
-    #guidelines p{
-      text-align: center;
+    #guidelines p {
+      border: none;
     }
     #guidelines .guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
       margin-top: 0px;
-      margin-left: -150px;
+      margin-left: -170px;
       background-color: #888888;
-      width: 360px;
-      }
+	  width: 358px;
+    }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
-      margin-left: -150px;
+      margin-left: -155px;
+      padding-left: 130px;
       background-color: #888888;
+	  width: 60px;
     }
     #guidelines .guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
-      margin-left: -150px;
+      margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-compliance-initiatives {
       flex-basis: 360px;
-      margin-left: -150px;
+      margin-left: -159px;
       background-color: #888888;
     }
     #guidelines .guidelines-anti-social-forces {
       flex-basis: 360px;
-      margin-left: -150px;
+      margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-site-map {
       flex-basis: 360px;
-      margin-left: -150px;
+      margin-left: -155px;
+      padding-left: 135px;
       background-color: #888888;
     }
     footer {
       width: 310px;
       font-size: 14px;
-	  margin-top: 227px;
+	  margin-top: 63%;
 	  height: 50px;
     }
   }
