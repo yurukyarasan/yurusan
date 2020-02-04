@@ -453,12 +453,13 @@ footer{
     position: absolute;
     top: 98.2%;
     left: -25%;
+    z-index: 2;
 }
 #contact-us-here .circle{
-    display: none;
     position: absolute;
-    top: 440.8%;
-    left: -25%;
+    top: 40.8%;
+    left: -26%;
+    z-index: 1;
 }
     #business {
       display: none;

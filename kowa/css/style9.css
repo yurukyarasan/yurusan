@@ -288,6 +288,7 @@ footer{
       display: flex;
       flex-direction: column;
       position: relative;
+      z-index: -1;
       }
     #inspection .title h2{
       font-size: 45px;
@@ -327,16 +328,17 @@ footer{
     left: -35%;
     }
     #inspection .arrow-first{
-    border-color: #000000 transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
     position: absolute;
     top: 80.2%;
     left: -32%;
+    z-index: 2;
     }
     #inspection .circle-first{
-    display: none;
     position: absolute;
-    top: 70.4%;
-    left: -32%;
+    top: 79.6%;
+    left: -33%;
+    z-index: 1;
     }
     #inspection .inspection-cleaning-management{
     margin-top: 54%;
@@ -364,16 +366,17 @@ footer{
     left: -35%;
     }
     #inspection .arrow-second{
-    border-color: #000000 transparent transparent transparent;
+    border-color: #ffffff transparent transparent transparent;
     position: absolute;
     top: 109.3%;
     left: -32%;
+    z-index: 2;
     }
     #inspection .circle-second{
-    display: none;
     position: absolute;
     top: 108.7%;
-    left: -32%;
+    left: -33%;
+    z-index: 1;
     }
     #business {
       display: none;

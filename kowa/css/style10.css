@@ -273,7 +273,8 @@ footer{
     }
     #initiatives-for-safety{
       position: relative;
-      }
+      z-index: -1;
+    }
     #initiatives-for-safety .safety-first h2{
       width: 340px;
       font-size: 21px;
@@ -324,21 +325,22 @@ footer{
         height: 0px;
         border-style: solid;
         border-width: 5px 5px 0px 5px;
-        border-color: #000000 transparent transparent transparent;
+        border-color: #ffffff transparent transparent transparent;
         transform: rotate(270deg);
         position: absolute;
         top: 1361%;
         left: -32%;
+        z-index: 2;
     }
     #initiatives-for-safety .circle{
-        display: none;
         width: 20px;
         height: 20px;
         background-color: #B7AA00;
         border-radius: 50%;
         position: absolute;
-        top: 1348%;
-        left: -32%;
+        top: 1348.3%;
+        left: -33%;
+        z-index: 1;
     }
     #business {
       display: none;

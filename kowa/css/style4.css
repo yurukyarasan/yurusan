@@ -435,6 +435,7 @@ footer{
     #construction{
       width: 360px;
       position: relative;
+      z-index: -1;
     }
     #construction .construction-value-up-construction dd img{
       width: 360px;
@@ -484,12 +485,14 @@ footer{
         position: absolute;
         top: 104%;
         left: -165%;
+        z-index: -1
     }
     #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
         width: 180px;
         position: absolute;
         top: 103.5%;
         left: -165%;
+        z-index: -1
     }
     #construction .arrow-first{
     content: "";
@@ -497,19 +500,20 @@ footer{
 	height: 0px;
 	border-style: solid;
 	border-width: 8px 8px 0px 8px;
-	border-color: #000000 transparent transparent transparent;
+	border-color: #ffffff transparent transparent transparent;
 	transform: rotate(270deg);
 	margin-top: 17.8%;
 	margin-left: 20.0%;
+    z-index: 3;
     }
     #construction .circle-first{
-    display: none;
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
     border-radius: 50%;
     margin-top: -4.8%;
-    margin-left: 18.4%;
+    margin-left: 18%;
+    z-index: 2;
     }
     #construction .arrow-second{
     content: "";
@@ -517,19 +521,20 @@ footer{
 	height: 0px;
 	border-style: solid;
 	border-width: 8px 8px 0px 8px;
-	border-color: #000000 transparent transparent transparent;
+	border-color: #ffffff transparent transparent transparent;
 	transform: rotate(270deg);
-	margin-top: 16.6%;
-	margin-left: 20.0%;
+	margin-top: 13.8%;
+	margin-left: 20%;
+    z-index: 3
     }
     #construction .circle-second{
-    display: none;
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
     border-radius: 50%;
     margin-top: -4.8%;
-    margin-left: 18.4%;
+    margin-left: 18%;
+    z-index: 2;
     }
     #construction-examples p:nth-of-type(1){
      display: none;
@@ -544,20 +549,20 @@ footer{
 	  height: 0px;
 	  border-style: solid;
 	  border-width: 8px 8px 0px 8px;
-	  border-color: #000000 transparent transparent transparent;
+	  border-color: #ffffff transparent transparent transparent;
 	  transform: rotate(270deg);
 	  margin-top: -8%;
       margin-left: 22%;
+      z-index: 1;
     }
     #construction-examples .circle-third{
-      display: none;
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
       border-radius: 50%;
-      position: absolute;
-      top: 527.5%;
-      left: -31.5%;
+      margin-top: -4.6%;
+      margin-left: 20%;
+      z-index: -1;
           }
     #contact-us-here{
       position: relative;
@@ -576,17 +581,18 @@ footer{
 	  transform: rotate(270deg);
 	  position: absolute;
       top: 104%;
-      left: -17%;
+      left: -17.5%;
+      z-index: 2
     }
     #contact-us-here .circle-fourth{
-      display: none;
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
       border-radius: 50%;
       position: absolute;
-      top: 34%;
+      top: 33.8%;
       left: -19%;
+      z-index: 1;
     }
     #business {
       display: none;
