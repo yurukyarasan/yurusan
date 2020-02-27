@@ -35,15 +35,16 @@
 	line-height: 1.5em;
 	margin-top: 150px;
 }
+#specialist-in-building-management-that-plays-a-role .title img{
+	margin-top: 4%;
+	margin-left: 70%;
+}
 #specialist-in-building-management-that-plays-a-role .title p{
 	font-size: 14px;
 	width: 620px;
 	line-height: 2em;
-	margin-top: 50px;
-}
-#specialist-in-building-management-that-plays-a-role .title img{
-	margin-top: -20%;
-	margin-left: 70%;
+	margin-top: -25%;
+	padding-top: 3%;
 }
 #company-profile-link ul li{
 	list-style: none;
@@ -100,7 +101,6 @@
 	transform: rotate(270deg);
 	margin-top: -27px;
 	margin-left: 33.2%;
-	z-index: 2;
 }
 #company-profile-link .circle-second{
 	 width: 25px;
@@ -109,7 +109,6 @@
     border-radius: 50%;
     margin-top: -1.7%;
     margin-left: 32.5%;
-	z-index: 3;
 }
 #company-profile-link .group-enterprise p{
 	border: 2px solid #5c8934;
@@ -163,7 +162,6 @@
 	transform: rotate(270deg);
 	margin-top: -27px;
 	margin-left: 2%;
-	z-index: 2;
 }
 #company-profile-link .circle-fourth{
 	 width: 25px;
@@ -172,7 +170,6 @@
     border-radius: 50%;
     margin-top: -1.8%;
     margin-left: 1.5%;
-	z-index: 3;
 }
 #company-profile-link .access-map p{
 	border: 2px solid #5c8934;
@@ -196,7 +193,6 @@
 	transform: rotate(270deg);
 	margin-top: -27px;
 	margin-left: 33.2%;
-	z-index: 2;
 }
 #company-profile-link .circle-five{
 	 width: 25px;
@@ -205,7 +201,6 @@
     border-radius: 50%;
     margin-top: -1.8%;
     margin-left: 32.5%;
-	z-index: 3;
 }
 #business {
     background-color: #888888;
@@ -341,7 +336,183 @@ footer{
     #contact{
       display: none;
       }
-    
+	#specialist-in-building-management-that-plays-a-role .title h2{
+	  width: 300px;
+	  margin-left: 30px;
+	}
+	#specialist-in-building-management-that-plays-a-role .title img{
+		margin-top: 10%;
+		margin-left: 20%;
+	}
+	#specialist-in-building-management-that-plays-a-role .title p{
+		width: 350px;
+		margin-top: 10%;
+		margin-left: 1%;
+	}
+	#company-profile-link{
+	position: relative;
+}
+    #company-profile-link .greeting p{
+	border: 2px solid #5c8934;
+	height: 30px;
+	width: 230px;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding-top: 10px;
+	padding-left: 40px;
+	z-index: -1;
+	}
+   #company-profile-link .arrow-first{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 15%;
+	left: 18%;
+	z-index: 3;
+}
+   #company-profile-link .circle-first{
+	 width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+	top: 5%;
+	left: 17%;
+	z-index: 2;
+}
+   #company-profile-link .about-us p{
+	border: 2px solid #5c8934;
+	height: 30px;
+	width: 230px;
+	margin-top: 5%;
+	margin-left: 14%;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+   #company-profile-link .arrow-second{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 36%;
+	left: -13%;
+	z-index: 3;
+}
+   #company-profile-link .circle-second{
+	 width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+	top: 26%;
+	left: -14%;
+	z-index: 2;
+}
+   #company-profile-link .group-enterprise p{
+	border: 2px solid #5c8934;
+	height: 30px;
+	width: 230px;
+	margin-top: 5%;
+	margin-left: 14%;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+   #company-profile-link .arrow-third{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 51%;
+	left: -44%;
+	z-index: 3;
+}
+   #company-profile-link .circle-third{
+	 width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+	top: 47%;
+	left: -45%;
+	z-index: 2;
+}
+   #company-profile-link .list-of-technical-qualifications p{
+	border: 2px solid #5c8934;
+	height: 30px;
+	width: 230px;
+	margin-top: 5%;
+	margin-left: 14%;
+	padding-top: 10px;
+	padding-left: 40px;	
+}
+   #company-profile-link .arrow-fourth{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 78%;
+	left: 18%;
+	z-index: 3
+}
+  #company-profile-link .circle-fourth{
+	 width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+	top: 68%;
+	left: 17%;
+	z-index: 2
+}
+  #company-profile-link .access-map p{
+	border: 2px solid #5c8934;
+	height: 30px;
+	width: 230px;
+	margin-top: 5%;
+	margin-left: 14%;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+  #company-profile-link .arrow-five{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	position: absolute;
+	top: 99%;
+	left: -13%;
+	z-index: 3
+}
+  #company-profile-link .circle-five{
+	 width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+	top: 89%;
+	left: -14%;
+	z-index: 2
+}
     #business {
       display: none;
     }
