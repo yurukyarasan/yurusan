@@ -273,7 +273,7 @@ footer{
     }
     #initiatives-for-safety{
       position: relative;
-      z-index: -1;
+      z-index: 1;
     }
     #initiatives-for-safety .safety-first h2{
       width: 340px;
@@ -330,7 +330,7 @@ footer{
         position: absolute;
         top: 1361%;
         left: -32%;
-        z-index: 2;
+        z-index: 3;
     }
     #initiatives-for-safety .circle{
         width: 20px;
@@ -340,7 +340,7 @@ footer{
         position: absolute;
         top: 1348.3%;
         left: -33%;
-        z-index: 1;
+        z-index: 2;
     }
     #business {
       display: none;
@@ -351,39 +351,42 @@ footer{
 	  float: left;
       margin-top: 410%;
     }
-    #guidelines p{
-      width: 360px;
-      text-align: center;
+    #guidelines p {
+      border: none;
     }
     #guidelines .guidelines-about-the-use-of-the-site {
       flex-basis: 360px;
       margin-top: 0px;
-      margin-left: -172px;
+      margin-left: -170px;
       background-color: #888888;
+	  width: 358px;
     }
 	#guidelines .guidelines-privacy-policy {
       flex-basis: 360px;
-      margin-left: -171px;
+      margin-left: -155px;
+      padding-left: 130px;
       background-color: #888888;
+	  width: 60px;
     }
     #guidelines .guidelines-basic-policy-on-specific-personal-information {
       flex-basis: 360px;
-      margin-left: -171px;
+      margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-compliance-initiatives {
       flex-basis: 360px;
-      margin-left: -171px;
+      margin-left: -159px;
       background-color: #888888;
     }
     #guidelines .guidelines-anti-social-forces {
       flex-basis: 360px;
-      margin-left: -171px;
+      margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-site-map {
       flex-basis: 360px;
-      margin-left: -171px;
+      margin-left: -155px;
+      padding-left: 135px;
       background-color: #888888;
     }
     footer {
