@@ -7,11 +7,6 @@
     margin: 0 auto 0 auto;
     max-width: 960px;
   }
-  #company-fictional-real-estate-facilities {
-    font-size: 16px;
-    margin-top: 60px;
-    margin-left: 100px;
-  }
  　header {
    margin-left: 10px;
   }
@@ -19,27 +14,28 @@
     font-size: 12px;
     display: flex;
     flex-direction: row;
-    margin-left: 443px;
-    margin-top: -40px;
+    float: right;
+	margin-top: -40px;
   }
+#business-overview::after {
+	content: "";
+	display: block;
+	clear: both;
+}
   #contact p{
     font-size: 12px;
     color: #5B8834;
-	position: relative;
-    
+	text-align: right;
   }
   #contact .contact-contact-us{
-	position: absolute;
-	top: 30px;
-	left: 64.3%;
+	margin-top: -70px;
+	margin-right: 100px;
   }
   #contact .contact-site-map {
-    position: absolute;
-	top: 30px;
-	left: 69%;
+    margin-top: -12px;
   }
 #main-image {
-    margin-top: 30px;
+    margin-top: 70px;
 	width: 100%;
     height: 445px;
     background: url("../img/png/building-equipment-management.html/building-equipment-management.html-No.1.png");
@@ -290,23 +286,27 @@ footer{
 	width: 900px;
 	height: 30px;
 }
-@media(max-width: 960px) {
+
+@media(min-width: 360px) and (max-width: 360px) {
     #container {
-      width: auto;
-    }
+      width: 360px;
+	 }
     .head-content h1 img{
-      width: 300px;
+      width: 95%;
       float: left;
+	  margin-top: 0px;
+	  margin-left: 10px;
     }
     #business-overview {
-      width: 360px;
-      margin-left: 0px;
-      font-size: 4px;
+      font-size: 8px;
+	  width: 340px;
+	  margin-left: 10px;
     }
     #contact{
       display: none;
       }
     #main-image{
+	  width: 352px;
       position: relative;
     }
     #main-image p {
@@ -344,7 +344,7 @@ footer{
     }
     #resident h3{
       flex-basis: 360px;
-      width: 356px;
+      width: 352px;
       margin-top: 50px;
 	  background-color: #008b8b;
 	  border-left: 4px solid #1e90ff;
@@ -363,14 +363,14 @@ footer{
       left: -150%;
 }
     #resident img{
-	  width: 356px;
+	  width: 352px;
       flex-basis: 360px;
       position: absolute;
       top: 18%;
 }
     #patrol h3{
       flex-basis: 360px;
-      width:356px;
+      width:352px;
 	  margin-top: 390px;
 	  background-color: #008b8b;
       border-left: 4px solid #1e90ff;
@@ -385,17 +385,17 @@ footer{
       left: -150%;
 }
 #patrol img:nth-of-type(1){
-	width: 356px;
+	width: 352px;
     margin-top: 7%;
 }
 #patrol img:nth-of-type(2){
-	width: 356px;
+	width: 352px;
     flex-basis: 360px;
     margin-top: 4%;
 }
 #building-equipment-business h3{
 	flex-basis: 360px;
-    width: 356px;
+    width: 352px;
     margin-top: 130px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
@@ -410,12 +410,13 @@ footer{
     left: -150%;
 }
 #building-equipment-business img{
-	width: 356px;
+	width: 352px;
     flex-basis: 360px;
     margin-top: 6%;
 }
 #security h3{
     flex-basis: 360px;
+	width: 352px;
 	margin-top: 145px;
 	background-color: #008b8b;
 	border-left: 4px solid #1e90ff;
@@ -430,7 +431,7 @@ footer{
     left: -150%;;
 }
 #security img{
-    width: 356px;
+    width: 352px;
     flex-basis: 360px;
     position: absolute;
     top: 414%;
@@ -513,5 +514,998 @@ footer{
       font-size: 14px;
 	  margin-top: 65%;
 	  height: 50px;
+    }
+  }
+
+@media(min-width: 375px) and (max-width: 410px) {
+    #container {
+      width: 375px;
+	 }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 95%;
+      margin-left: 10px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 348px;
+	  margin: 15px 0px 0 10px;
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 36px;
+      position: absolute;
+      top: 40%;
+	  left: 10%;
+    }
+    #uninterrupted-service{
+	  width: 347px;
+	  margin-left: 5px;
+      position: relative;
+      }
+    #uninterrupted-service h2{
+      width: 365px;
+      font-size: 21px;
+      margin-left: 0px;
+      }
+    #uninterrupted-service p{
+      margin-left: 0px;
+      width: 365px;
+      }
+    #management{
+      width: 335px;
+      display: flex;
+      flex-basis: 375px;
+      flex-direction: column;
+      position: relative;
+    }
+    #resident h3{
+      flex-basis: 375px;
+      width: 367px;
+      margin-top: 50px;
+	  background-color: #008b8b;
+	  border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 15px;
+}
+    #resident-management{
+	  flex-basis: 375px;
+      font-size: 11px;
+	}
+    #resident p{
+	  width: 335px;
+      flex-basis: 335px;
+      position: absolute;
+      top: 38.4%;
+      left: -158%;
+}
+    #resident img{
+	  width: 367px;
+      flex-basis: 375px;
+      position: absolute;
+      top: 18%;
+}
+    #patrol h3{
+      flex-basis: 375px;
+      width: 367px;
+	  margin-top: 410px;
+	  background-color: #008b8b;
+      border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 10px;
+}
+#patrol p{
+	  width: 335px;
+      flex-basis: 335px;
+      position: absolute;
+      top: 100.1%;
+      left: -158%;
+}
+#patrol img:nth-of-type(1){
+	width: 367px;
+    margin-top: 7%;
+}
+#patrol img:nth-of-type(2){
+	width: 367px;
+    flex-basis: 320px;
+    margin-top: 4%;
+}
+#building-equipment-business h3{
+	flex-basis: 375px;
+    width: 367px;
+    margin-top: 140px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#building-equipment-business p{
+    width: 335px;
+    flex-basis: 375px;
+    position: absolute;
+    top: 275.8%;
+    left: -142%;
+}
+#building-equipment-business img{
+	width: 367px;
+    flex-basis: 375px;
+    margin-top: 6%;
+}
+#security h3{
+    flex-basis: 375px;
+	width: 367px;
+	margin-top: 145px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#security p{
+	width: 335px;
+    flex-basis: 375px;
+    position: absolute;
+    top: 327.1%;
+    left: -142%;;
+}
+#security img{
+    width: 367px;
+    flex-basis: 375px;
+    position: absolute;
+    top: 305%;
+}
+#contact-us-here{
+    position: relative;
+}
+#contact-us-here p{
+    margin-top: 125%;
+    margin-left: 15%;
+}
+#contact-us-here .arrow{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+    position: absolute;
+    top: 98.2%;
+    left: -25%;
+    z-index: 2;
+}
+#contact-us-here .circle{
+    position: absolute;
+    top: 40.8%;
+    left: -26%;
+    z-index: 1;
+}
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 25%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 375px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 373px;
+    }
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 375px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 75px;
+    }
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 375px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 375px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 375px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 375px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 345px;
+      font-size: 14px;
+	  margin-top: 60%;
+	  margin-left: -20px;
+	  height: 50px;
+    }
+  }
+@media(min-width: 411px) and (max-width: 411px) {
+    #container {
+      width: 411px;
+	 }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 95%;
+      margin-left: 10px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 411px;
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 36px;
+      position: absolute;
+      top: 40%;
+	  left: 10%;
+    }
+    #uninterrupted-service{
+	  width: 406px;
+	  margin-left: 5px;
+      position: relative;
+      }
+    #uninterrupted-service h2{
+      width: 406px;
+      font-size: 21px;
+      margin-left: 0px;
+      }
+    #uninterrupted-service p{
+      margin-left: 0px;
+      width: 406px;
+      }
+    #management{
+      width: 371px;
+      display: flex;
+      flex-basis: 411px;
+      flex-direction: column;
+      position: relative;
+    }
+    #resident h3{
+      flex-basis: 411px;
+      width: 403px;
+      margin-top: 50px;
+	  background-color: #008b8b;
+	  border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 15px;
+}
+    #resident-management{
+	  flex-basis: 411px;
+      font-size: 11px;
+	}
+    #resident p{
+	  width: 371px;
+      flex-basis: 411px;
+      position: absolute;
+      top: 38.4%;
+      left: -143%;
+}
+    #resident img{
+	  width: 403px;
+      flex-basis: 411px;
+      position: absolute;
+      top: 18%;
+}
+    #patrol h3{
+      flex-basis: 411px;
+      width: 403px;
+	  margin-top: 410px;
+	  background-color: #008b8b;
+      border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 10px;
+}
+#patrol p{
+	  width: 371px;
+      flex-basis: 371px;
+      position: absolute;
+      top: 100.1%;
+      left: -143%;
+}
+#patrol img:nth-of-type(1){
+	width: 403px;
+    margin-top: 7%;
+}
+#patrol img:nth-of-type(2){
+	width: 403px;
+    flex-basis: 320px;
+    margin-top: 4%;
+}
+#building-equipment-business h3{
+	flex-basis: 411px;
+    width: 403px;
+    margin-top: 130px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#building-equipment-business p{
+    width: 371px;
+    flex-basis: 411px;
+    position: absolute;
+    top: 273.8%;
+    left: -130%;
+}
+#building-equipment-business img{
+	width: 403px;
+    flex-basis: 411px;
+    margin-top: 6%;
+}
+#security h3{
+    flex-basis: 411px;
+	width: 403px;
+	margin-top: 145px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#security p{
+	width: 371px;
+    flex-basis: 411px;
+    position: absolute;
+    top: 328.1%;
+    left: -130%;;
+}
+#security img{
+    width: 403px;
+    flex-basis: 411px;
+    position: absolute;
+    top: 305%;
+}
+#contact-us-here{
+	margin-left: 20px;
+    position: relative;
+}
+#contact-us-here p{
+    margin-top: 125%;
+    margin-left: 15%;
+}
+#contact-us-here .arrow{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+    position: absolute;
+    top: 98.2%;
+    left: -25%;
+    z-index: 2;
+}
+#contact-us-here .circle{
+    position: absolute;
+    top: 40.8%;
+    left: -26%;
+    z-index: 1;
+}
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 411px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 406px;
+    }
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 411px;
+      margin-left: -155px;
+      padding-left: 150px;
+      background-color: #888888;
+	  width: 111px;
+    }
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 411px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 411px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 411px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 411px;
+      margin-left: -155px;
+      padding-left: 155px;
+      background-color: #888888;
+    }
+    footer {
+      width: 361px;
+      font-size: 14px;
+	  margin-top: 47%;
+	  height: 50px;
+    }
+}
+@media(min-width: 412px) and (max-width: 414px) {
+    #container {
+      width: 414px;
+	 }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 100%;
+      margin-left: 10px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 411px;
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 36px;
+      position: absolute;
+      top: 40%;
+    }
+    #uninterrupted-service{
+	  margin-left: 10px;
+      position: relative;
+      }
+    #uninterrupted-service h2{
+      width: 414px;
+      font-size: 21px;
+      margin-left: 5px;
+      }
+    #uninterrupted-service p{
+      margin-left: 5px;
+      width: 384px;
+      }
+    #management{
+      width: 335px;
+      display: flex;
+      flex-basis: 414px;
+      flex-direction: column;
+      position: relative;
+    }
+    #resident h3{
+      flex-basis: 414px;
+      width: 404px;
+      margin-top: 50px;
+	  background-color: #008b8b;
+	  border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 15px;
+}
+    #resident-management{
+	  flex-basis: 414px;
+      font-size: 11px;
+	}
+    #resident p{
+	  width: 384px;
+      flex-basis: 414px;
+	  margin-top: 20px;
+      position: absolute;
+      top: 39.4%;
+      left: -161%;
+}
+    #resident img{
+	  width: 406px;
+      flex-basis: 415px;
+      margin-top: 30px;
+}
+    #patrol h3{
+	  width: 404px;
+	  background-color: #008b8b;
+      border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  margin-top: 160px;
+	  padding-top: 10px;
+}
+#patrol p{
+	  width: 384px;
+      flex-basis: 335px;
+      position: absolute;
+      top: 100.1%;
+      left: -161%;
+}
+#patrol img:nth-of-type(1){
+	width: 404px;
+    margin-top: 7%;
+}
+#patrol img:nth-of-type(2){
+	width: 404px;
+    flex-basis: 320px;
+    margin-top: 4%;
+}
+#building-equipment-business h3{
+	flex-basis: 375px;
+    width: 404px;
+    margin-top: 130px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#building-equipment-business p{
+    width: 384px;
+    flex-basis: 414px;
+    position: absolute;
+    top: 308.8%;
+    left: -130%;
+}
+#building-equipment-business img{
+	width: 404px;
+    flex-basis: 414px;
+    margin-top: 6%;
+}
+#security h3{
+    flex-basis: 414px;
+	width: 404px;
+	margin-top: 145px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#security p{
+	width: 384px;
+    flex-basis: 414px;
+    position: absolute;
+    top: 370.1%;
+    left: -130%;;
+}
+#security img{
+    width: 404px;
+    flex-basis: 414px;
+    position: absolute;
+    top: 344%;
+}
+#contact-us-here{
+    position: relative;
+}
+#contact-us-here p{
+    margin-top: 125%;
+    margin-left: 15%;
+}
+#contact-us-here .arrow{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+    position: absolute;
+    top: 98.2%;
+    left: -25%;
+    z-index: 2;
+}
+#contact-us-here .circle{
+    position: absolute;
+    top: 40.8%;
+    left: -26%;
+    z-index: 1;
+}
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 25%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 414px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 412px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 415px;
+      margin-left: -155px;
+      padding-left: 155px;
+      background-color: #888888;
+	  width: 115px;
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 415px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 415px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 415px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 415px;
+      margin-left: -155px;
+      padding-left: 165px;
+      background-color: #888888;
+    }
+    footer {
+      width: 384px;
+      font-size: 14px;
+	  margin-top: 57%;
+	  margin-left: -20px;
+	  height: 50px;
+    }
+  }
+@media(min-width: 415PX) and (max-width: 768px) {
+    #container {
+      width: 768px;
+	 }
+    .head-content h1 img{
+      width: 768px;
+      float: left;
+    }
+    #business-overview {
+      width: 748px;
+      margin-left: 30px;
+      font-size: 18px;
+    }
+   #contact p{
+    font-size: 12px;
+    color: #5B8834;
+	position: relative;
+    
+  }
+  #contact .contact-contact-us{
+	position: absolute;
+	top: 40px;
+	left: 69.3%;
+  }
+  #contact .contact-site-map {
+    position: absolute;
+	top: 40px;
+	left: 82%;
+  }
+    #main-image{
+	  width: 764px;
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 36px;
+      position: absolute;
+      top: 40%;
+	  left: 10%;
+    }
+    #uninterrupted-service{
+      position: relative;
+      }
+    #uninterrupted-service h2{
+      width: 748px;
+      font-size: 41px;
+      margin-left: 10px;
+      }
+    #uninterrupted-service p{
+      margin-left: 10px;
+      width: 758px;
+	  font-size: 41px;
+      }
+    #management{
+      width: 768px;
+      display: flex;
+      flex-basis: 768px;
+      flex-direction: column;
+      position: relative;
+    }
+    #resident h3{
+      flex-basis: 768px;
+      width: 760px;
+      margin-top: 50px;
+	  background-color: #008b8b;
+	  border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 15px;
+}
+    #resident-management{
+	  flex-basis: 768px;
+      font-size: 11px;
+	}
+    #resident p{
+	  width: 324px;
+      flex-basis: 768px;
+	  float: right;
+      margin-top: 15px;
+	  margin-right: 10px;
+}
+    #resident img{
+	  width: 404px;
+      flex-basis: 768px;
+      margin-top: -19%;
+}
+    #patrol h3{
+      flex-basis: 768px;
+      width:760px;
+	  margin-top: 20px;
+	  background-color: #008b8b;
+      border-left: 4px solid #1e90ff;
+	  height: 30px;
+	  padding-top: 10px;
+}
+#patrol p{
+	  width: 324px;
+      flex-basis: 768px;
+	  float: right;
+      margin-top: 15px;
+	  margin-right: 10px;
+}
+#patrol img:nth-of-type(1){
+	width: 404px;
+    margin-top: -14%;
+}
+#patrol img:nth-of-type(2){
+	width: 764px;
+    flex-basis: 768px;
+    margin-top: 4%;
+}
+#building-equipment-business h3{
+	flex-basis: 768px;
+    width: 764px;
+    margin-top: 20px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#building-equipment-business p{
+    width: 324px;
+    flex-basis: 768px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#building-equipment-business img{
+	width: 404px;
+    flex-basis: 768px;
+    margin-top: -17%;
+}
+#security h3{
+    flex-basis: 768px;
+	width: 764px;
+	margin-top: 20px;
+	background-color: #008b8b;
+	border-left: 4px solid #1e90ff;
+	height: 30px;
+	padding-top: 10px;
+}
+#security p{
+	width: 324px;
+    flex-basis: 768px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+#security img{
+    width: 404px;
+    flex-basis: 768px;
+    margin-top: -19%;
+}
+#contact-us-here{
+    position: relative;
+}
+#contact-us-here p{
+    margin-top: 10%;
+    margin-left: 35%;
+}
+#contact-us-here .arrow{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+    margin-top: -27px;
+	margin-left: 290px;
+    z-index: 2;
+}
+#contact-us-here .circle{
+    margin-top: -16px;
+	margin-left: 283px;
+    z-index: 1;
+}
+    #business {
+    background-color: #888888;
+    height: 160px;
+    line-height: 20px;
+	font-size: 10px;
+  }
+#business .introduction-of-each-business {
+    margin-top: 20%;
+    margin-left: 35px;
+    padding-top: 15px;
+  }
+#efforts {
+    margin-top: -16%;
+    margin-left: 180px;
+  }
+#overview {
+    margin-top: -18.5%;
+    margin-left: 380px;
+  }
+#case {
+    margin-top: -18.5%;
+    margin-left: 560px;
+  }
+#business .introduction-of-each-business-introducation {
+    border-bottom: 1px solid;
+    width: 110px;
+    line-height: 30px;
+  }
+#business .efforts-quality-improvement {
+    border-bottom: 1px solid;
+    width: 165px;
+    line-height: 30px;
+  }
+#business .overview-company-profile {
+    border-bottom: 1px solid;
+    width: 140px;
+    line-height: 30px;
+  }
+#business .case-entrusted-property {
+    border-bottom: 1px solid;
+    width: 200px;
+    line-height: 30px;
+  }
+#business .introduction-of-each-business-building-equipment-management {
+    line-height: 30px;
+  }
+#business .efforts-quality {
+    line-height: 30px;
+  }
+#business .overview-greetings {
+    line-height: 30px;
+  }
+#business .case-examples-of-construction-work {
+    line-height: 30px;
+  }
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#guidelines .guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -110px;
+	text-align: center;
+}
+#guidelines .guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines .guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 0px;
+	padding-left: 150px;
+	}
+    footer {
+      width: 718px;
+      font-size: 14px;
+	  height: 50px;
+	  margin-top: 70px;
     }
   }
