@@ -5,7 +5,7 @@
   }
   #container {
     margin: 0 auto 0 auto;
-    max-width: 960px;
+    width: 960px;
   }
  　header {
    margin-left: 10px;
@@ -88,10 +88,10 @@
 	clear: both;
 }
 .introduction-of-each-company-02 {
-width: 100%;
+width: 960px;;
 height: 430px;
 background: url("../img/png/index.html/index.html-No.4.png");
-float: left;
+position: relative;
 }
 .introduction-of-each-company-02 h2 {
 	background-color: #A2A2A2;
@@ -104,16 +104,13 @@ float: left;
 	margin-right: auto;
 	margin-left: auto;
 }
-.introduction-of-each-company-02 ul {
-	position: absolute;
-}
 .introduction-of-each-company-02 li {
 	display: inline;
 	list-style: none;
 	background-color: #A2A2A2;
-	width: 105px;
+	width: 960px;
 	font-size: 14px;
-	margin-right: auto;
+	margin-top: 160px;
 	margin-left: auto;
 }
 .introduction-of-each-company-02  ul li:nth-of-type(1) {
@@ -153,9 +150,7 @@ float: left;
 	display: block;
 	clear: both;
 }
-.introduction-of-each-company-02  ul li {
-	margin-top: 160px;
-}.introduction-of-each-company-03 {
+.introduction-of-each-company-03 {
 	background: url("../img/png/index.html/index.html-No.7.png");
 	background-repeat: no-repeat;
 	width: 100%;
@@ -218,12 +213,12 @@ float: left;
 	background-color: #A2A2A2;
 	text-align: center;
 	width: 40%;
-	height: 30px;
+	height: 45px;
 	font-size: 18px;
 	padding-top: 10px;
 	position: absolute;
 	top: 50px;
-	left: 30%;
+	left: 318px;
 }
 .introduction-of-each-company-05 li {
 	display: inline;
@@ -319,14 +314,13 @@ float: left;
 	clear: both;
 }
 .introduction-of-each-company-07 {
-	width: 100%;
+	width: 480px;
 	height: 324px;
 	background: url("../img/png/index.html/index.html-No.14.png");
 	background-repeat: no-repeat;
-	margin-top: 35.8%;
+	margin-top: 478px;
 	margin-left: 480px;
-	position: absolute;
-	float: left;
+	position: relative;
 }
 .introduction-of-each-company-07 p {
 	background-color: #0033CC;
@@ -336,17 +330,16 @@ float: left;
 	margin-left: 210px;
 	padding-top: 10px;
 	padding-left: 5px;
+	position: absolute;
+	top: 40px;
 	}
 .introduction-of-each-company-07::after {
 	content: "";
 	display: block;
 	clear: both;
 }
-#news {
-	position: relative;
-}
 #news p:nth-of-type(1) {
-	margin-top: -15px;
+	margin-top: 15px;
 	margin-left: 45%;
 }
 #news p:nth-of-type(2) {
@@ -354,7 +347,7 @@ float: left;
 	float: right;
 }
 #news-paper dl {
-	margin-top: 20px;
+	margin-top: -20px;
 }
 #news-paper dt {
 	border-top: 1px dashed;
@@ -532,7 +525,7 @@ float: left;
 		width: 100%;
       }
     #promoted-by-professionals h2{
-      width: 340px;
+      width: 90%;
       font-size: 21px;
       margin-left: 10px;
       }
@@ -554,11 +547,8 @@ float: left;
        margin-top: 0px;
       }
 	  #introduction-of-each-company .introduction-of-each-company-02{
-		  
+		  width: 100%;
 	  }
-    #introduction-of-each-company .introduction-of-each-company-02 h2{
-      
-      }
     #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1){
 		margin-top: 30px;
 		margin-left: -150px;
@@ -575,9 +565,6 @@ float: left;
         margin-top: 150px;
 		margin-left: -440px;
       }
-    #introduction-of-each-company .introduction-of-each-company-03 {
-     
-      }
     #introduction-of-each-company .introduction-of-each-company-03 p{
         margin-left: 130px;
       }
@@ -591,9 +578,10 @@ float: left;
     #introduction-of-each-company .introduction-of-each-company-05{
       margin-top: -135px;
       }
-    #introduction-of-each-company .introduction-of-each-company-05 h2{
-      
-    }
+	#introduction-of-each-company .introduction-of-each-company-05 h2{
+      margin-top: -25px;
+	  margin-left: -200px;
+      }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
       margin-top: -50px;
 	  margin-left: -150px;
@@ -622,10 +610,10 @@ float: left;
     }
     #introduction-of-each-company .introduction-of-each-company-07{
     margin-left: auto;
-	margin-top: 338%;
+	margin-top: 218%;
     }
     #introduction-of-each-company .introduction-of-each-company-07 p{
-    margin-top: 50px;
+    margin-top: 20px;
 	margin-left: 150px;
     }
     #news {
@@ -633,7 +621,6 @@ float: left;
 }
     #news h2{
     font-size: 36px;
-    
       }
     #news p:nth-of-type(1) {
     margin-top: 10px;
@@ -653,25 +640,6 @@ float: left;
     #news-paper dt:last-of-type {
 	border-bottom: 1px dashed;
 }
-    #news-paper dd:nth-of-type(1) {
-	
-}
-    #news-paper dd:nth-of-type(2) {
-	
-		
-}
-    #news-paper dd:nth-of-type(3) {
-	
-	  }
-    #news-paper dd:nth-of-type(4) {
-	
-	  }
-    #news-paper dd:nth-of-type(5) {
-	
-	  }
-    #news-paper dd:nth-of-type(6) {
-	
-	  }
     #business {
       display: none;
     }

@@ -5,3 +5,18 @@ body {
 	font-size: 14px;
 	color: #666666;
 }
+#container {
+	width: 900px;
+}
+heder {
+	height: 140px;
+}
+#menu {
+	width: 265px;
+	float: left;
+}
+#content {
+	width: 635px;
+	float: right;
+	background-dolor: #ffffff;
+}
