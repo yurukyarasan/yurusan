@@ -1428,60 +1428,119 @@ position: relative;
 	border-bottom: 1px dashed;
 }
     #business {
-      display: none;
-    }
-    #guidelines {
-      display: flex;
-      flex-wrap: wrap;
-	  float: left;
-      margin-top: 15%;
-    }
-    #guidelines p {
-      border: none;
-    }
-    #guidelines .guidelines-about-the-use-of-the-site {
-      flex-basis: 758px;
-      margin-top: 0px;
-      margin-left: -170px;
-      background-color: #888888;
-	  width: 758px;
-    }
-	#guidelines .guidelines-privacy-policy {
-      flex-basis: 424px;
-      margin-left: -155px;
-      padding-left: 330px;
-      background-color: #888888;
-	  width: 424px
-    }
-    #guidelines .guidelines-basic-policy-on-specific-personal-information {
-      flex-basis: 759px;
-      margin-left: -170px;
-      background-color: #888888;
-	  width: 759px;
-    }
-    #guidelines .guidelines-compliance-initiatives {
-      flex-basis: 748px;
-      margin-left: -159px;
-      background-color: #888888;
-	  width: 748px;
-    }
-    #guidelines .guidelines-anti-social-forces {
-      flex-basis: 759px;
-      margin-left: -170px;
-      background-color: #888888;
-	  width: 759px;
-    }
-    #guidelines .guidelines-site-map {
-      flex-basis: 409px;
-      margin-left: -155px;
-      padding-left: 345px;
-      background-color: #888888;
-	  width: 409px;
-    }
+    background-color: #888888;
+    height: 160px;
+    line-height: 20px;
+	font-size: 10px;
+  }
+#business .introduction-of-each-business {
+    margin-top: 20%;
+    margin-left: 35px;
+    padding-top: 15px;
+  }
+#efforts {
+    margin-top: -16%;
+    margin-left: 180px;
+  }
+#overview {
+    margin-top: -18.5%;
+    margin-left: 380px;
+  }
+#case {
+    margin-top: -18.5%;
+    margin-left: 560px;
+  }
+#business .introduction-of-each-business-introducation {
+    border-bottom: 1px solid;
+    width: 110px;
+    line-height: 30px;
+  }
+#business .efforts-quality-improvement {
+    border-bottom: 1px solid;
+    width: 165px;
+    line-height: 30px;
+  }
+#business .overview-company-profile {
+    border-bottom: 1px solid;
+    width: 140px;
+    line-height: 30px;
+  }
+#business .case-entrusted-property {
+    border-bottom: 1px solid;
+    width: 200px;
+    line-height: 30px;
+  }
+#business .introduction-of-each-business-building-equipment-management {
+    line-height: 30px;
+  }
+#business .efforts-quality {
+    line-height: 30px;
+  }
+#business .overview-greetings {
+    line-height: 30px;
+  }
+#business .case-examples-of-construction-work {
+    line-height: 30px;
+  }
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#guidelines .guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -110px;
+	text-align: center;
+}
+#guidelines .guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines .guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 0px;
+	padding-left: 150px;
+	}
     footer {
-      width: 710px;
+      width: 718px;
       font-size: 14px;
-	  margin-top: 52%;
 	  height: 50px;
+	  margin-top: 70px;
     }
   }
