@@ -494,7 +494,7 @@ position: relative;
     width: 900px;
     height: 30px;
   }
-  @media(max-width: 360px) {
+  @media(min-width: 360px) and (max-width: 360px) {
     #container {
       width: 100%;
     }
@@ -689,6 +689,797 @@ position: relative;
     }
     footer {
       width: 310px;
+      font-size: 14px;
+	  margin-top: 52%;
+	  height: 50px;
+    }
+  }
+@media(min-width: 375px) and (max-width: 410px) {
+    #container {
+      width: 100%;
+    }
+    .head-content h1 img{
+      width: 100%;
+    }
+    #business-overview {
+      width: 96%;
+	  margin-top: 10px;
+      margin-left: px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 100%;
+      }
+    #main-image .section p {
+      width: 220px;
+      font-size: 5px;
+      margin-top: 50px;
+      margin-left: 20px;
+      padding-top: 130px;
+      line-height: 1.5em;
+    }
+    #promoted-by-professionals{
+		width: 100%;
+      }
+    #promoted-by-professionals h2{
+      width: 90%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      padding-top: -20%;
+      }
+    #promoted-by-professionals img{
+      width: 95%;
+      margin-top: 70px;
+      }
+    #introduction-of-each-company {
+	  width: 100%;
+      margin-top: 10px;
+      position: relative;
+      }
+    #introduction-of-each-company .introduction-of-each-company-01 img{
+       margin-top: 0px;
+      }
+	  #introduction-of-each-company .introduction-of-each-company-02{
+		  width: 100%;
+	  }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1){
+		margin-top: 30px;
+		margin-left: -150px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(2){
+        margin-top: 30px;
+		margin-left: -150px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(3){
+        margin-top: 150px;
+		margin-left: -440px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(4){
+        margin-top: 150px;
+		margin-left: -440px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-03 p{
+        margin-left: 130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04{
+      margin-left: 0px;
+	  margin-top: -290px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04 p{
+      margin-left: 125px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05{
+      margin-top: -135px;
+      }
+	#introduction-of-each-company .introduction-of-each-company-05 h2{
+      margin-top: -25px;
+	  margin-left: -200px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
+      margin-top: -50px;
+	  margin-left: -150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
+      margin-top: -50px;
+	  margin-left: -100px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1){
+      margin-left: 150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2){
+      margin-left: -50px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07{
+    margin-left: auto;
+	margin-top: 211%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07 p{
+    margin-top: 20px;
+	margin-left: 150px;
+    }
+    #news {
+	width: 100%;
+}
+    #news h2{
+    font-size: 36px;
+      }
+    #news p:nth-of-type(1) {
+    margin-top: 10px;
+	margin-left: auto;
+}
+    #news p:nth-of-type(2) {
+	
+}
+    #news-paper dl {
+	margin-top: 120px;
+}
+    #news-paper dt {
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    #news-paper dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+    #business {
+      display: none;
+    }
+    #guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 360px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 358px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 60px;
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 360px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 310px;
+      font-size: 14px;
+	  margin-top: 52%;
+	  height: 50px;
+    }
+  }
+@media(min-width: 411px) and (max-width: 411px) {
+    #container {
+      width: 100%;
+    }
+    .head-content h1 img{
+      width: 100%;
+    }
+    #business-overview {
+      width: 100%;
+	  margin-top: 10px;
+      margin-left: 0px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 100%;
+      }
+    #main-image .section p {
+      width: 220px;
+      font-size: 5px;
+      margin-top: 50px;
+      margin-left: 20px;
+      padding-top: 130px;
+      line-height: 1.5em;
+    }
+    #promoted-by-professionals{
+		width: 100%;
+      }
+    #promoted-by-professionals h2{
+      width: 90%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      padding-top: -20%;
+      }
+    #promoted-by-professionals img{
+      width: 360px;
+      margin-top: 70px;
+      }
+    #introduction-of-each-company {
+	  width: 100%;
+      margin-top: 10px;
+      position: relative;
+      }
+    #introduction-of-each-company .introduction-of-each-company-01 img{
+       margin-top: 0px;
+      }
+	  #introduction-of-each-company .introduction-of-each-company-02{
+		  width: 100%;
+	  }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1){
+		margin-top: 30px;
+		margin-left: -130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(2){
+        margin-top: 30px;
+		margin-left: -130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(3){
+        margin-top: 150px;
+		margin-left: -420px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(4){
+        margin-top: 150px;
+		margin-left: -420px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-03 p{
+        margin-left: 130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04{
+      margin-left: 0px;
+	  margin-top: -290px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04 p{
+      margin-left: 125px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05{
+      margin-top: -135px;
+      }
+	#introduction-of-each-company .introduction-of-each-company-05 h2{
+      margin-top: -25px;
+	  margin-left: -200px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
+      margin-top: -50px;
+	  margin-left: -150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
+      margin-top: -50px;
+	  margin-left: -100px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1){
+      margin-left: 150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2){
+      margin-left: -50px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07{
+    margin-left: auto;
+	margin-top: 190%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07 p{
+    margin-top: 20px;
+	margin-left: 150px;
+    }
+    #news {
+	width: 100%;
+}
+    #news h2{
+    font-size: 36px;
+      }
+    #news p:nth-of-type(1) {
+    margin-top: 10px;
+	margin-left: auto;
+}
+    #news p:nth-of-type(2) {
+	
+}
+    #news-paper dl {
+	margin-top: 120px;
+}
+    #news-paper dt {
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    #news-paper dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+    #business {
+      display: none;
+    }
+    #guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 360px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 358px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 60px;
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 360px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 310px;
+      font-size: 14px;
+	  margin-top: 52%;
+	  height: 50px;
+    }
+  }
+@media(min-width: 412px) and (max-width: 414px) {
+    #container {
+      width: 100%;
+    }
+    .head-content h1 img{
+      width: 100%;
+    }
+    #business-overview {
+      width: 100%;
+	  margin-top: 10px;
+      margin-left: 0px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 100%;
+      }
+    #main-image .section p {
+      width: 220px;
+      font-size: 5px;
+      margin-top: 50px;
+      margin-left: 20px;
+      padding-top: 130px;
+      line-height: 1.5em;
+    }
+    #promoted-by-professionals{
+		width: 100%;
+      }
+    #promoted-by-professionals h2{
+      width: 90%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 10px;
+      width: 340px;
+      padding-top: -20%;
+      }
+    #promoted-by-professionals img{
+      width: 100%;
+      margin-top: 70px;
+      }
+    #introduction-of-each-company {
+	  width: 100%;
+      margin-top: 10px;
+      position: relative;
+      }
+    #introduction-of-each-company .introduction-of-each-company-01 img{
+       margin-top: 0px;
+      }
+	  #introduction-of-each-company .introduction-of-each-company-02{
+		  width: 100%;
+	  }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1){
+		margin-top: 30px;
+		margin-left: -150px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(2){
+        margin-top: 30px;
+		margin-left: -150px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(3){
+        margin-top: 150px;
+		margin-left: -440px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(4){
+        margin-top: 150px;
+		margin-left: -440px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-03 p{
+        margin-left: 130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04{
+      margin-left: 0px;
+	  margin-top: -290px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04 p{
+      margin-left: 125px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05{
+      margin-top: -135px;
+      }
+	#introduction-of-each-company .introduction-of-each-company-05 h2{
+      margin-top: -25px;
+	  margin-left: -200px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
+      margin-top: -50px;
+	  margin-left: -150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
+      margin-top: -50px;
+	  margin-left: -100px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
+      margin-top: 60px;
+	  margin-left: -420px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1){
+      margin-left: 150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2){
+      margin-left: -50px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07{
+    margin-left: auto;
+	margin-top: 190%;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07 p{
+    margin-top: 20px;
+	margin-left: 150px;
+    }
+    #news {
+	width: 100%;
+}
+    #news h2{
+    font-size: 36px;
+      }
+    #news p:nth-of-type(1) {
+    margin-top: 10px;
+	margin-left: auto;
+}
+    #news p:nth-of-type(2) {
+	
+}
+    #news-paper dl {
+	margin-top: 120px;
+}
+    #news-paper dt {
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    #news-paper dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+    #business {
+      display: none;
+    }
+    #guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 360px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 358px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 60px;
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 360px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 360px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 360px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 310px;
+      font-size: 14px;
+	  margin-top: 52%;
+	  height: 50px;
+    }
+  }
+@media(min-width: 415PX) and (max-width: 768px) {
+    #container {
+      width: 100%;
+    }
+    .head-content h1 img{
+      width: 100%;
+    }
+    #business-overview {
+      width: 100%;
+	  margin-top: 10px;
+      margin-left: 5px;
+      font-size: 19.5px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+	  width: 100%;
+      }
+    #main-image .section p {
+      width: 70%;
+      font-size: 5px;
+      margin-top: 50px;
+      margin-left: 70px;
+      padding-top: 130px;
+      line-height: 1.5em;
+    }
+    #promoted-by-professionals{
+		width: 100%;
+      }
+    #promoted-by-professionals h2{
+      width: 100%;
+      font-size: 21px;
+      margin-left: 30px;
+      }
+    #promoted-by-professionals p{
+      margin-left: 30px;
+      width: 90%;
+      padding-top: -20%;
+      }
+    #promoted-by-professionals img{
+      width: 90%;
+      margin-top: 70px;
+	  margin-right: 50px;
+      }
+    #introduction-of-each-company {
+	  width: 100%;
+      margin-top: 10px;
+      position: relative;
+      }
+    #introduction-of-each-company .introduction-of-each-company-01 img{
+	   width: 758px;
+       margin-top: 0px;
+      }
+	  #introduction-of-each-company .introduction-of-each-company-02{
+		  width: 758px;
+	  }
+    #introduction-of-each-company .introduction-of-each-company-02 ul li {
+		margin-left: -10%;
+		
+      }
+	#introduction-of-each-company .introduction-of-each-company-03 {
+		width: 384px;
+	}
+    #introduction-of-each-company .introduction-of-each-company-03 p{
+        margin-left: 130px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04{
+      width:374px;
+	  margin-left: 384px;
+	  margin-top: -58%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-04 p{
+      margin-left: 125px;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05{
+	  width: 758px;
+      margin-top: -38%;
+      }
+	#introduction-of-each-company .introduction-of-each-company-05 h2{
+      margin-top: -25px;
+	  margin-left: -10%;
+      }
+    #introduction-of-each-company .introduction-of-each-company-05 ul li {
+      margin-left: -10%;
+    }
+	#introduction-of-each-company .introduction-of-each-company-06 {
+	  width: 384px;
+	}
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1){
+      margin-left: 150px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2){
+      margin-left: -50px;
+    }
+    #introduction-of-each-company .introduction-of-each-company-07{
+    width: 374px;
+	margin-top: 62.2%;
+	margin-right: auto;
+	margin-left: 384px;
+	
+    }
+    #introduction-of-each-company .introduction-of-each-company-07 p{
+    margin-top: 20px;
+	margin-left: 150px;
+    }
+    #news {
+	width: 100%;
+}
+    #news h2{
+    font-size: 36px;
+      }
+    #news p:nth-of-type(1) {
+    margin-top: -30px;
+	margin-left: 400px;
+}
+    #news p:nth-of-type(2) {
+	margin-top: -20px;
+	margin-right: 20px;
+}
+    #news-paper dl {
+	width: 100%;
+	margin-top: 120px;
+}
+    #news-paper dt {
+	width: 100%;
+	border-top: 1px dashed;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+    #news-paper dt:last-of-type {
+	border-bottom: 1px dashed;
+}
+    #business {
+      display: none;
+    }
+    #guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 758px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 758px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 424px;
+      margin-left: -155px;
+      padding-left: 330px;
+      background-color: #888888;
+	  width: 424px
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 759px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 759px;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 748px;
+      margin-left: -159px;
+      background-color: #888888;
+	  width: 748px;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 759px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 759px;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 409px;
+      margin-left: -155px;
+      padding-left: 345px;
+      background-color: #888888;
+	  width: 409px;
+    }
+    footer {
+      width: 710px;
       font-size: 14px;
 	  margin-top: 52%;
 	  height: 50px;
