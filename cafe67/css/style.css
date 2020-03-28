@@ -27,6 +27,16 @@ body {
 	border-width: 1px;
 	border-color: #86a331;
 	padding: 10px 10px 10px 6px;
+	background-color: #ffffff;
+	margin-top: 14px;
+	margin-right: 14px;
+}
+a:link {
+	color: #6a8125;
+	text-decoration: none;
+}
+a:hover {
+	color: #f3a42c;
 }
 #content {
 	width: 665px;
@@ -36,14 +46,32 @@ body {
 #content h2 {
 	padding-top: 20px;
 }
-#content h3 {
-	margin-top: 20px;
-	margin-bottom: 20px;
+#content h2 img{
+	width: 100%;
 }
 #content h3 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	margin-left: 15px;
+	background-image: url("../img-3/icon.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	color: #6a8125;
+	padding-left: 16px
 }
-footer {
-	margin-top: 20px;
+#content p {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+#content p img {
+	float: right;
+}
+#content h3 {
+	clear: right;
+}
+footer p {
+	clear: right;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
