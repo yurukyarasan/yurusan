@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url("../img-4/bg_body.png");
+	font-size: 87.5%;
+	color: #060606;
+}
+a:link {
+	color: #666600;
+}
+a:visited {
+	color: #666600;
+}
+a:hover {
+	color: #ff9900;
+}
+#container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-image: url("../img-4/bg_header.png");
+	backgroud-repeat: repeat-x;
+}
+#content {
+	margin-top: 17px;
+}
+#footer {
+	margin-top: 20px;
+	margin-bottom: 65px;
+}
+#main {
+	width: 690px;
+	float: left;
+	background-color: #f7f1e2;
+}
+#aside {
+	width: 250px;
+	float: right;
+	background-color: #f7f1e2;
+}
+#content:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 18px;
+	float: left;
+	height: 45px;
+}
+#header ul:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume dl {
+	width: 210px;
+	float: left;
+	margin-right: 10px;
+}
+#main .osusume:after {
+   display: block;
+   clear: both;
+   content: "";
+}
+#main .osusume dt {
+	height: 27px;
+}
+#main .osusume dd {
+	font-size: 86%;
+	line-height: 1.5;
+}
+#aside h2 {
+	text-align: center;
+}
+#aside li {
+	list-style: none;
+	height: 70px;
+	margin-top: 20px;
+	text-align: center;
+}
+#aside ul {
+	margin-bottom: 20px;
+}
