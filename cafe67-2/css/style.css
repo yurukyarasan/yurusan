@@ -78,9 +78,13 @@ header li {
 #main .osusume {
 	margin: 10px 0px 20px 20px;
 }
+#main .osusume h2 img{
+	margin-left: -20px;
+}
 #main .osusume dl {
 	width: 210px;
 	float: left;
+	margin-top: 10px;
 	margin-right: 10px;
 }
 #main .osusume:after {
