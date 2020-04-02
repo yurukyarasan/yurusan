@@ -22,6 +22,7 @@ a:hover {
 #header {
 	background-image: url("../img-4/bg_header.png");
 	backgroud-repeat: repeat-x;
+	height: 140px;
 }
 #content {
 	margin-top: 17px;
@@ -52,7 +53,8 @@ header h1{
 }
 header li {
 	list-style: none;
-	margin-top: 18px;
+	margin-top: 30px;
+	margin-left: 22%;
 	float: left;
 	height: 45px;
 }
@@ -60,6 +62,10 @@ header li {
 	display: block;
 	clear: both;
 	content: "";
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
 }
 #main p {
 	margin-top: 1em;
@@ -72,14 +78,38 @@ header li {
 #main .kodawari {
 	margin-top: 0px;
 }
+#main h2.kodawari {
+	background-image: url("../img-4/main_image_2.jpg");
+	height: 120px;
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-left: 10px;
+}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 660px;
+	height: 28px;
+	padding-top: 9px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
 #main p em {
 	color: #ff6600;
 }
 #main .osusume {
 	margin: 10px 0px 20px 20px;
 }
-#main .osusume h2 img{
+#main .osusume h2{
 	margin-left: -20px;
+	background-color: #422201;
+	width: 660px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
 }
 #main .osusume dl {
 	width: 210px;
@@ -93,7 +123,13 @@ header li {
    content: "";
 }
 #main .osusume dt {
-	height: 27px;
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_1.png");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-color: #d3a764;
+	color: #422201;
+	padding-top: 8px;
 }
 #main .osusume dd {
 	font-size: 86%;
@@ -110,4 +146,682 @@ header li {
 }
 #aside ul {
 	margin-bottom: 20px;
+}
+@media(min-width: 360px) and (max-width: 360px) {
+#container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 14%;
+	height: 45px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main h2.kodawari {
+	background-size: contain;
+	font-size: 14px;
+	height: 69px;
+	padding-top: 20px;
+	}
+#main p.healing {
+	margin-top: 20px;	
+	}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 320px;
+	height: 28px;
+	padding-top: 9px;
+	
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume h2{
+	margin-left: -20px;
+	background-color: #422201;
+	width: 320px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main .osusume dl {
+	width: 320px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d3a764;
+}
+#main .osusume dt {
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_.png");
+	background-repeat: no-repeat;
+	background-position: 80%;
+	color: #422201;
+	padding-top: 8px;
+	text-align: center;
+}
+#main .osusume dd {
+	font-size: 86%;
+	line-height: 1.5;
+	margin-left: 60px;
+	width: 220px;
+}
+#aside {
+	width: 320px;
+	clear: right;
+	background-color: #f7f1e2;
+	margin-right: 20px;
+}
+#aside h2 {
+	display: none;
+}
+#aside li {
+	list-style: none;
+	height: 48px;
+	margin-top: 20px;
+	background-color: #b67e39;
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+#aside ul {
+	margin-bottom: 20px;
+}
+#aside ul li a span.resnone img{
+	display: none;
+}
+#aside ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+footer p {
+	text-align: center;	
+}
+}
+@media(min-width: 375px) and (max-width: 410px) {
+#container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 14%;
+	height: 45px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	width: 365px;
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main h2.kodawari {
+	background-size: 100%;
+	font-size: 18px;
+	height: 69px;
+	padding-top: 20px;
+	}
+#main p.healing {
+	margin-top: 20px;	
+	}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 335px;
+	height: 28px;
+	padding-top: 9px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume h2{
+	margin-left: -20px;
+	background-color: #422201;
+	width: 335px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main .osusume dl {
+	width: 335px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d3a764;
+}
+#main .osusume dt {
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_.png");
+	background-repeat: no-repeat;
+	background-position: 85%;
+	color: #422201;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 20px;
+}
+#main .osusume dd {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-left: 40px;
+	width: 235px;
+}
+#main .osusume dd img {
+	width: 275px;
+	margin-left: -10px;
+}
+#aside {
+	width: 335px;
+	clear: right;
+	background-color: #f7f1e2;
+	margin-right: 20px;
+}
+#aside h2 {
+	display: none;
+}
+#aside li {
+	list-style: none;
+	height: 48px;
+	margin-top: 20px;
+	background-color: #b67e39;
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+#aside ul {
+	margin-bottom: 20px;
+}
+#aside ul li a span.resnone img{
+	display: none;
+}
+#aside ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+footer p {
+	text-align: center;	
+}
+}
+@media(min-width: 411px) and (max-width: 411px) {
+#container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 14%;
+	height: 45px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main h2.kodawari {
+	background-size: 100%;
+	font-size: 18px;
+	height: 69px;
+	padding-top: 20px;
+	}
+#main p.healing {
+	margin-top: 20px;	
+	}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 371px;
+	height: 28px;
+	padding-top: 9px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume h2{
+	margin-left: -20px;
+	background-color: #422201;
+	width: 371px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main .osusume dl {
+	width: 371px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d3a764;
+}
+#main .osusume dt {
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_.png");
+	background-repeat: no-repeat;
+	background-position: 80%;
+	color: #422201;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 20px;
+}
+#main .osusume dd {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-left: 40px;
+	width: 271px;
+}
+#main .osusume dd img {
+	width: 311px;
+	margin-left: -10px;
+}
+#aside {
+	width: 371px;
+	clear: right;
+	background-color: #f7f1e2;
+	margin-right: 20px;
+}
+#aside h2 {
+	display: none;
+}
+#aside li {
+	list-style: none;
+	height: 48px;
+	margin-top: 20px;
+	background-color: #b67e39;
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+#aside ul {
+	margin-bottom: 20px;
+}
+#aside ul li a span.resnone img{
+	display: none;
+}
+#aside ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+footer p {
+	text-align: center;	
+}
+}
+@media(min-width: 412px) and (max-width: 414px) {
+    #container {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+#main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 14%;
+	height: 45px;
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	width: 404px;
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main h2.kodawari {
+	background-size: 100%;
+	font-size: 18px;
+	height: 69px;
+	padding-top: 20px;
+	}
+#main p.healing {
+	margin-top: 20px;	
+	}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 374px;
+	height: 28px;
+	padding-top: 9px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume h2{
+	margin-left: -20px;
+	background-color: #422201;
+	width: 374px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main .osusume dl {
+	width: 374px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d3a764;
+}
+#main .osusume dt {
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_.png");
+	background-repeat: no-repeat;
+	background-position: 85%;
+	color: #422201;
+	padding-top: 8px;
+	text-align: center;
+	font-size: 20px;
+}
+#main .osusume dd {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-left: 40px;
+	width: 274px;
+}
+#main .osusume dd img {
+	width: 314px;
+	margin-left: -10px;
+}
+#aside {
+	width: 335px;
+	clear: right;
+	background-color: #f7f1e2;
+	margin-right: 40px;
+}
+#aside h2 {
+	display: none;
+}
+#aside li {
+	list-style: none;
+	height: 48px;
+	margin-top: 20px;
+	background-color: #b67e39;
+	font-size: 24px;
+	padding-top: 20px;
+
+}
+#aside ul {
+	margin-bottom: 20px;
+}
+#aside ul li a span.resnone img{
+	display: none;
+}
+#aside ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+footer p {
+	text-align: center;	
+}
+}
+@media(min-width: 415PX) and (max-width: 768px) {
+body {
+	font-size: 87.5%;
+}
+a:link {
+	color: #666600;
+}
+a:visited {
+	color: #666600;
+}
+a:hover {
+	color: #ff9900;
+}
+#container {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-image: url("../img-4/bg_header.png");
+	backgroud-repeat: repeat-x;
+	height: 140px;
+}
+#content {
+	margin-top: 17px;
+}
+#footer {
+	margin-top: 20px;
+	margin-bottom: 65px;
+}
+#main {
+	width: 498px;
+	float: left;
+	background-color: #f7f1e2;
+}
+#aside {
+	width: 220px;
+	float: right;
+	background-color: #f7f1e2;
+	margin-right: 25px;
+}
+#content:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+header h1{
+	margin-left: 20px;
+	padding-top: 17px;
+	height: 66px;
+}
+header li {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: 22%;
+	float: left;
+	height: 45px;
+}
+#header ul:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+#header ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#main p {
+	margin-top: 1em;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#main h2 {
+	margin-top: 1em;
+}
+#main .kodawari {
+	margin-top: 0px;
+}
+#main h2.kodawari {
+	background-image: url("../img-4/main_image_2.jpg");
+	background-size: cover;
+	height: 120px;
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 50px;
+	padding-left: 10px;
+	width: 488px;
+}
+#main h2.meal-and-cake {
+	background-color: #422201;
+	width: 468px;
+	height: 28px;
+	padding-top: 9px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main p em {
+	color: #ff6600;
+}
+#main .osusume {
+	margin: 10px 0px 20px 20px;
+}
+#main .osusume h2{
+	margin-left: -20px;
+	background-color: #422201;
+	width: 468px;
+	height: 28px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-radius: 0px 10px 10px 0px;
+	color: #ffffff;
+}
+#main .osusume dl {
+	width: 210px;
+	float: left;
+	margin-top: 10px;
+}
+#main .osusume:after {
+   display: block;
+   clear: both;
+   content: "";
+}
+#main .osusume dt {
+	height: 18px;
+	background-image: url("../img-4/dt_cofee_been_1.png");
+	background-repeat: no-repeat;
+	background-position: 95%;
+	background-color: #d3a764;
+	color: #422201;
+	padding-top: 8px;
+}
+#main .osusume dd {
+	font-size: 86%;
+	line-height: 1.5;
+}
+#main .osusume dl.lunch-set {
+	margin-right: 28%;
+}
+#aside h2 {
+	text-align: center;
+	display: none;
+}
+#aside li {
+	list-style: none;
+	height: 70px;
+	margin-top: 20px;
+	text-align: center;
+}
+#aside ul {
+	margin-bottom: 20px;
+}
+#aside ul li a span.pcnone{
+	display: none;
+}
+footer p {
+	text-align: center;	
+	margin-top: 20px;
+}
 }
