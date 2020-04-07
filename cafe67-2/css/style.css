@@ -136,7 +136,7 @@ header li {
 	line-height: 1.5;
 }
 #aside h2 {
-	text-align: center;
+	display: none;
 }
 #aside li {
 	list-style: none;
@@ -146,6 +146,9 @@ header li {
 }
 #aside ul {
 	margin-bottom: 20px;
+}
+#aside ul li a span.pcnone {
+	display: none;
 }
 @media(min-width: 360px) and (max-width: 360px) {
 #container {

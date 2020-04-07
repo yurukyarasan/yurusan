@@ -843,54 +843,55 @@ position: relative;
     #business {
       display: none;
     }
-    #guidelines {
+	#guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
-      margin-top: 15%;
+      margin-top: 25%;
     }
     #guidelines p {
       border: none;
     }
-    #guidelines .guidelines-about-the-use-of-the-site {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 375px;
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 358px;
+	  width: 373px;
     }
-	#guidelines .guidelines-privacy-policy {
-      flex-basis: 360px;
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 375px;
       margin-left: -155px;
       padding-left: 130px;
       background-color: #888888;
-	  width: 60px;
+	  width: 75px;
     }
-    #guidelines .guidelines-basic-policy-on-specific-personal-information {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 375px;
       margin-left: -170px;
       background-color: #888888;
     }
-    #guidelines .guidelines-compliance-initiatives {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 375px;
       margin-left: -159px;
       background-color: #888888;
     }
-    #guidelines .guidelines-anti-social-forces {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 375px;
       margin-left: -170px;
       background-color: #888888;
     }
-    #guidelines .guidelines-site-map {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 375px;
       margin-left: -155px;
       padding-left: 135px;
       background-color: #888888;
     }
     footer {
-      width: 310px;
+      width: 345px;
       font-size: 14px;
-	  margin-top: 52%;
+	  margin-top: 60%;
+	  margin-left: -20px;
 	  height: 50px;
     }
   }
@@ -1043,7 +1044,7 @@ position: relative;
     #business {
       display: none;
     }
-    #guidelines {
+	#guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
@@ -1052,48 +1053,48 @@ position: relative;
     #guidelines p {
       border: none;
     }
-    #guidelines .guidelines-about-the-use-of-the-site {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 411px;
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 358px;
+	  width: 406px;
     }
-	#guidelines .guidelines-privacy-policy {
-      flex-basis: 360px;
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 411px;
       margin-left: -155px;
-      padding-left: 130px;
+      padding-left: 150px;
       background-color: #888888;
-	  width: 60px;
+	  width: 111px;
     }
-    #guidelines .guidelines-basic-policy-on-specific-personal-information {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 411px;
       margin-left: -170px;
       background-color: #888888;
     }
-    #guidelines .guidelines-compliance-initiatives {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 411px;
       margin-left: -159px;
       background-color: #888888;
     }
-    #guidelines .guidelines-anti-social-forces {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 411px;
       margin-left: -170px;
       background-color: #888888;
     }
-    #guidelines .guidelines-site-map {
-      flex-basis: 360px;
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 411px;
       margin-left: -155px;
-      padding-left: 135px;
+      padding-left: 155px;
       background-color: #888888;
     }
     footer {
-      width: 310px;
+      width: 361px;
       font-size: 14px;
-	  margin-top: 52%;
+	  margin-top: 47%;
 	  height: 50px;
     }
-  }
+}
 @media(min-width: 412px) and (max-width: 414px) {
     #container {
       width: 100%;
@@ -1243,54 +1244,55 @@ position: relative;
     #business {
       display: none;
     }
-    #guidelines {
+	#guidelines {
       display: flex;
       flex-wrap: wrap;
 	  float: left;
-      margin-top: 15%;
+      margin-top: 25%;
     }
     #guidelines p {
       border: none;
     }
     #guidelines .guidelines-about-the-use-of-the-site {
-      flex-basis: 360px;
+      flex-basis: 414px;
       margin-top: 0px;
       margin-left: -170px;
       background-color: #888888;
-	  width: 358px;
+	  width: 412px;
     }
 	#guidelines .guidelines-privacy-policy {
-      flex-basis: 360px;
+      flex-basis: 415px;
       margin-left: -155px;
-      padding-left: 130px;
+      padding-left: 155px;
       background-color: #888888;
-	  width: 60px;
+	  width: 115px;
     }
     #guidelines .guidelines-basic-policy-on-specific-personal-information {
-      flex-basis: 360px;
+      flex-basis: 415px;
       margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-compliance-initiatives {
-      flex-basis: 360px;
+      flex-basis: 415px;
       margin-left: -159px;
       background-color: #888888;
     }
     #guidelines .guidelines-anti-social-forces {
-      flex-basis: 360px;
+      flex-basis: 415px;
       margin-left: -170px;
       background-color: #888888;
     }
     #guidelines .guidelines-site-map {
-      flex-basis: 360px;
+      flex-basis: 415px;
       margin-left: -155px;
-      padding-left: 135px;
+      padding-left: 165px;
       background-color: #888888;
     }
     footer {
-      width: 310px;
+      width: 384px;
       font-size: 14px;
-	  margin-top: 52%;
+	  margin-top: 57%;
+	  margin-left: -20px;
 	  height: 50px;
     }
   }
