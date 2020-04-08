@@ -387,7 +387,7 @@ footer{
 	width: 900px;
 	height: 30px;
 }
-@media(max-width: 960px) {
+@media(min-width: 360px) and (max-width: 360px) {
     #container {
       width: auto;
     }
@@ -645,5 +645,1116 @@ footer{
       font-size: 14px;
 	  margin-top: 227px;
 	  height: 50px;
+    }
+  }
+@media(min-width: 375px) and (max-width: 410px) {
+    #container {
+      width: auto;
+    }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 100%;
+      margin-left: 0px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+    #main-image{
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+    }
+    #abundant-experience-in-functions-designs-customer-needs-etc{
+      position: relative;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc h2{
+      width: 95%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc p{
+      margin-left: 10px;
+      width: 95%;
+      }
+    #construction{
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    #construction .construction-value-up-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-value-up-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 18.1%;
+        left: -145%;
+    }
+    #construction .construction-tenant-layout-work dd img{
+      width: 100%;
+    }
+    #construction .construction-tenant-layout-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 48.1%;
+        left: -142%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 72.8%;
+        left: -139%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd img{
+      width: 100%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 96.3%;
+        left: -139.7%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+      width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+        width: 180px;
+        position: absolute;
+        top: 104%;
+        left: -165%;
+        z-index: -1
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+        width: 180px;
+        position: absolute;
+        top: 103.5%;
+        left: -165%;
+        z-index: -1
+    }
+    #construction .arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 16.8%;
+	margin-left: 11.0%;
+    z-index: 3;
+    }
+    #construction .circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.8%;
+    margin-left: 9%;
+    z-index: 2;
+    }
+    #construction .arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 13.8%;
+	margin-left: 11%;
+    z-index: 3
+    }
+    #construction .circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.8%;
+    margin-left: 9%;
+    z-index: 2;
+    }
+    #construction-examples p:nth-of-type(1){
+     display: none;
+    }
+    #construction-examples p:nth-of-type(2){
+      margin-top: 46%;
+      margin-left: 15%;
+    }
+    #construction-examples .arrow-third{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #ffffff transparent transparent transparent;
+	  transform: rotate(270deg);
+	  margin-top: -7%;
+      margin-left: 19.7%;
+      z-index: 1;
+    }
+    #construction-examples .circle-third{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      margin-top: -4.6%;
+      margin-left: 18%;
+      z-index: -1;
+          }
+    #contact-us-here{
+      position: relative;
+    }
+    #contact-us-here p{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    #contact-us-here .arrow-fourth{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #000000 transparent transparent transparent;
+	  transform: rotate(270deg);
+	  position: absolute;
+      top: 104%;
+      left: -18.5%;
+      z-index: 2
+    }
+    #contact-us-here .circle-fourth{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      position: absolute;
+      top: 33.8%;
+      left: -19%;
+      z-index: 1;
+    }
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 25%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 375px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 373px;
+    }
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 375px;
+      margin-left: -155px;
+      padding-left: 130px;
+      background-color: #888888;
+	  width: 75px;
+    }
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 375px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 375px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 375px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 375px;
+      margin-left: -155px;
+      padding-left: 135px;
+      background-color: #888888;
+    }
+    footer {
+      width: 345px;
+      font-size: 14px;
+	  margin-top: 60%;
+	  margin-left: -20px;
+	  height: 50px;
+    }
+  }
+@media(min-width: 411px) and (max-width: 411px) {
+     #container {
+      width: auto;
+    }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 95%;
+      margin-left: 10px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+	#main-image{
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+    }
+    #abundant-experience-in-functions-designs-customer-needs-etc{
+      position: relative;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc h2{
+      width: 95%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc p{
+      margin-left: 10px;
+      width: 95%;
+      }
+    #construction{
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    #construction .construction-value-up-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-value-up-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 19.1%;
+        left: -131%;
+    }
+    #construction .construction-tenant-layout-work dd img{
+      width: 100%;
+    }
+    #construction .construction-tenant-layout-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 48.1%;
+        left: -131%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 72.8%;
+        left: -126%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd img{
+      width: 100%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 96.3%;
+        left: -126.7%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+      width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+        width: 65%;
+        position: absolute;
+        top: 104%;
+        left: -148%;
+        z-index: -1
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+        width: 65%;
+        position: absolute;
+        top: 103.5%;
+        left: -148%;
+        z-index: -1
+    }
+    #construction .arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 16.6%;
+	margin-left: 12.5%;
+    z-index: 3;
+    }
+    #construction .circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.6%;
+    margin-left: 11%;
+    z-index: 2;
+    }
+    #construction .arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 11.6%;
+	margin-left: 12.5%;
+    z-index: 3
+    }
+    #construction .circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.6%;
+    margin-left: 11%;
+    z-index: 2;
+    }
+    #construction-examples p:nth-of-type(1){
+     display: none;
+    }
+    #construction-examples p:nth-of-type(2){
+      margin-top: 46%;
+      margin-left: 15%;
+    }
+    #construction-examples .arrow-third{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #ffffff transparent transparent transparent;
+	  transform: rotate(270deg);
+	  margin-top: -7%;
+      margin-left: 19.7%;
+      z-index: 1;
+    }
+    #construction-examples .circle-third{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      margin-top: -4.3%;
+      margin-left: 18%;
+      z-index: -1;
+          }
+    #contact-us-here{
+      position: relative;
+    }
+    #contact-us-here p{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    #contact-us-here .arrow-fourth{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #000000 transparent transparent transparent;
+	  transform: rotate(270deg);
+	  position: absolute;
+      top: 104%;
+      left: -20.2%;
+      z-index: 2
+    }
+    #contact-us-here .circle-fourth{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      position: absolute;
+      top: 33.8%;
+      left: -21%;
+      z-index: 1;
+    }
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 15%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines p:nth-of-type(1) {
+      flex-basis: 411px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 406px;
+    }
+	#guidelines p:nth-of-type(2) {
+      flex-basis: 411px;
+      margin-left: -155px;
+      padding-left: 150px;
+      background-color: #888888;
+	  width: 111px;
+    }
+    #guidelines p:nth-of-type(3) {
+      flex-basis: 411px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(4) {
+      flex-basis: 411px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(5) {
+      flex-basis: 411px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines p:nth-of-type(6) {
+      flex-basis: 411px;
+      margin-left: -155px;
+      padding-left: 155px;
+      background-color: #888888;
+    }
+    footer {
+      width: 361px;
+      font-size: 14px;
+	  margin-top: 47%;
+	  height: 50px;
+    }
+}
+@media(min-width: 412px) and (max-width: 414px) {
+    #container {
+      width: auto;
+    }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 95%;
+      margin-left: 10px;
+      font-size: 4px;
+    }
+    #contact{
+      display: none;
+      }
+	#main-image{
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+    }
+    #abundant-experience-in-functions-designs-customer-needs-etc{
+      position: relative;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc h2{
+      width: 95%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc p{
+      margin-left: 10px;
+      width: 95%;
+      }
+    #construction{
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    #construction .construction-value-up-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-value-up-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 19.1%;
+        left: -131%;
+    }
+    #construction .construction-tenant-layout-work dd img{
+      width: 100%;
+    }
+    #construction .construction-tenant-layout-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 48.1%;
+        left: -131%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 72.8%;
+        left: -126%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd img{
+      width: 100%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 96.3%;
+        left: -126.7%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+      width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+        width: 65%;
+        position: absolute;
+        top: 104%;
+        left: -148%;
+        z-index: -1
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+        width: 65%;
+        position: absolute;
+        top: 103.5%;
+        left: -148%;
+        z-index: -1
+    }
+    #construction .arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 16.6%;
+	margin-left: 11%;
+    z-index: 3;
+    }
+    #construction .circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.6%;
+    margin-left: 9.5%;
+    z-index: 2;
+    }
+    #construction .arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 11.6%;
+	margin-left: 11%;
+    z-index: 3
+    }
+    #construction .circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -4.4%;
+    margin-left: 9.5%;
+    z-index: 2;
+    }
+    #construction-examples p:nth-of-type(1){
+     display: none;
+    }
+    #construction-examples p:nth-of-type(2){
+      margin-top: 46%;
+      margin-left: 15%;
+    }
+    #construction-examples .arrow-third{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #ffffff transparent transparent transparent;
+	  transform: rotate(270deg);
+	  margin-top: -7%;
+      margin-left: 19.7%;
+      z-index: 1;
+    }
+    #construction-examples .circle-third{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      margin-top: -4.1%;
+      margin-left: 18%;
+      z-index: -1;
+          }
+    #contact-us-here{
+      position: relative;
+    }
+    #contact-us-here p{
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+    #contact-us-here .arrow-fourth{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #000000 transparent transparent transparent;
+	  transform: rotate(270deg);
+	  position: absolute;
+      top: 104%;
+      left: -21.2%;
+      z-index: 2
+    }
+    #contact-us-here .circle-fourth{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      position: absolute;
+      top: 33.8%;
+      left: -22%;
+      z-index: 1;
+    }
+    #business {
+      display: none;
+    }
+	#guidelines {
+      display: flex;
+      flex-wrap: wrap;
+	  float: left;
+      margin-top: 25%;
+    }
+    #guidelines p {
+      border: none;
+    }
+    #guidelines .guidelines-about-the-use-of-the-site {
+      flex-basis: 414px;
+      margin-top: 0px;
+      margin-left: -170px;
+      background-color: #888888;
+	  width: 412px;
+    }
+	#guidelines .guidelines-privacy-policy {
+      flex-basis: 415px;
+      margin-left: -155px;
+      padding-left: 155px;
+      background-color: #888888;
+	  width: 115px;
+    }
+    #guidelines .guidelines-basic-policy-on-specific-personal-information {
+      flex-basis: 415px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-compliance-initiatives {
+      flex-basis: 415px;
+      margin-left: -159px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-anti-social-forces {
+      flex-basis: 415px;
+      margin-left: -170px;
+      background-color: #888888;
+    }
+    #guidelines .guidelines-site-map {
+      flex-basis: 415px;
+      margin-left: -155px;
+      padding-left: 165px;
+      background-color: #888888;
+    }
+    footer {
+      width: 384px;
+      font-size: 14px;
+	  margin-top: 57%;
+	  margin-left: -20px;
+	  height: 50px;
+    }
+  }
+@media(min-width: 415PX) and (max-width: 768px) {
+    #container {
+      width: auto;
+    }
+    .head-content h1 img{
+      width: 100%;
+      float: left;
+    }
+    #business-overview {
+      width: 95%;
+      margin-left: 15px;
+      font-size: 19px;
+    }
+    #contact{
+      display: none;
+      }
+	#main-image{
+      position: relative;
+    }
+    #main-image p {
+      width: 220px;
+    }
+    #main-image p:nth-of-type(1) a{
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 10%;
+    }
+    #main-image p:nth-of-type(2) a{
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+	  left: 10%;
+    }
+    #abundant-experience-in-functions-designs-customer-needs-etc{
+      position: relative;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc h2{
+      width: 95%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc p{
+      margin-left: 10px;
+      width: 95%;
+      }
+    #construction{
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    #construction .construction-value-up-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-value-up-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 23.6%;
+        left: -70%;
+    }
+    #construction .construction-tenant-layout-work dd img{
+      width: 100%;
+    }
+    #construction .construction-tenant-layout-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 48.1%;
+        left: -70%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 72.8%;
+        left: -67%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd img{
+      width: 100%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+        width: 95%;
+        position: absolute;
+        top: 97.3%;
+        left: -67%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+      width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+        width: 65%;
+        position: absolute;
+        top: 104%;
+        left: -78%;
+        z-index: -1
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+        width: 65%;
+        position: absolute;
+        top: 104.5%;
+        left: -78%;
+        z-index: -1
+    }
+    #construction .arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 19.9%;
+	margin-left: 8%;
+    z-index: 3;
+    }
+    #construction .circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -2.4%;
+    margin-left: 7%;
+    z-index: 2;
+    }
+    #construction .arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 10.3%;
+	margin-left: 8%;
+    z-index: 3
+    }
+    #construction .circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -2.4%;
+    margin-left: 7%;
+    z-index: 2;
+    }
+    #construction-examples p:nth-of-type(1){
+     display: none;
+    }
+    #construction-examples p:nth-of-type(2){
+      margin-top: 36%;
+      margin-left: 15%;
+    }
+    #construction-examples .arrow-third{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #ffffff transparent transparent transparent;
+	  transform: rotate(270deg);
+	  margin-top: -3.7%;
+      margin-left: 17.7%;
+      z-index: 1;
+    }
+    #construction-examples .circle-third{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      margin-top: -2.2%;
+      margin-left: 16.8%;
+      z-index: -1;
+          }
+    #contact-us-here{
+      position: relative;
+    }
+    #contact-us-here p{
+      margin-top: 70px;
+      margin-left: 30%;
+    }
+    #contact-us-here .arrow-fourth{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #000000 transparent transparent transparent;
+	  transform: rotate(270deg);
+	  position: absolute;
+      top: 104%;
+      left: -5.2%;
+      z-index: 2
+    }
+    #contact-us-here .circle-fourth{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      position: absolute;
+      top: 40.4%;
+      left: -5.4%;
+      z-index: 1;
+    }
+   
+    #business {
+    background-color: #888888;
+    height: 160px;
+    line-height: 20px;
+	font-size: 10px;
+  }
+#business .introduction-of-each-business {
+    margin-top: 20%;
+    margin-left: 35px;
+    padding-top: 15px;
+  }
+#efforts {
+    margin-top: -16%;
+    margin-left: 180px;
+  }
+#overview {
+    margin-top: -18.5%;
+    margin-left: 380px;
+  }
+#case {
+    margin-top: -18.5%;
+    margin-left: 560px;
+  }
+#business .introduction-of-each-business-introducation {
+    border-bottom: 1px solid;
+    width: 110px;
+    line-height: 30px;
+  }
+#business .efforts-quality-improvement {
+    border-bottom: 1px solid;
+    width: 165px;
+    line-height: 30px;
+  }
+#business .overview-company-profile {
+    border-bottom: 1px solid;
+    width: 140px;
+    line-height: 30px;
+  }
+#business .case-entrusted-property {
+    border-bottom: 1px solid;
+    width: 200px;
+    line-height: 30px;
+  }
+#business .introduction-of-each-business-building-equipment-management {
+    line-height: 30px;
+  }
+#business .efforts-quality {
+    line-height: 30px;
+  }
+#business .overview-greetings {
+    line-height: 30px;
+  }
+#business .case-examples-of-construction-work {
+    line-height: 30px;
+  }
+#guidelines{
+	font-size: 12px;
+	margin-top: 73px;
+	margin-left: 60px;
+	display: flex;
+	flex-direction: row;
+}
+
+#guidelines .guidelines-about-the-use-of-the-site{
+	border-left: 1px solid;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: -110px;
+	text-align: center;
+}
+#guidelines .guidelines-privacy-policy{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines .guidelines-basic-policy-on-specific-personal-information{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-compliance-initiatives{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-anti-social-forces{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+#guidelines .guidelines-site-map{
+	margin-left: 5px;
+	border-right: 1px solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+}
+#guidelines{
+	margin-left: 0px;
+	padding-left: 150px;
+	}
+    footer {
+      width: 718px;
+      font-size: 14px;
+	  height: 50px;
+	  margin-top: 70px;
     }
   }
