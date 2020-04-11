@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+color: green;
+font-size: 250%;
+}
+div{
+width: 640px;
+margin-left: auto;
+margin-right: auto;
+}
+h1,h2,li,footer {
+text-align: center;
+font-family: 'Josefin Slab', serif;
+}
+li {
+width: 33%;
+float: left;
+}
+ul:after {
+content: "";
+display: block;
+clear: both;
+}
+ul {
+padding: 0;
+}
+table {
+width: 100%;
+}
+th {
+text-align: left;
+}
+td {
+vertical-align: middle;
+}
+.price {
+text-align: right;
+}
+li a {
+color: #000;
+}
+li a:hover {
+text-decoration: none;
+}
+header {
+border-top: solid 10px #c2e08f;
+}
+h2 {
+background-image: url("../img-1/bg_h2.png");
+background-repeat: no-repeat;
+background-position: center bottom;
+background-size: 220px 28px;
+}
