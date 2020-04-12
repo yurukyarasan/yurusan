@@ -5,7 +5,7 @@ color: green;
 font-size: 250%;
 }
 div{
-width: 640px;
+max-width: 640px;
 margin-left: auto;
 margin-right: auto;
 }
@@ -51,4 +51,32 @@ background-image: url("../img-1/bg_h2.png");
 background-repeat: no-repeat;
 background-position: center bottom;
 background-size: 220px 28px;
+}
+section {
+box-shadow: 0 0 10px 0 #ccc;
+margin-top: 40px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+}
+th img {
+border-radius: 6px;
+}
+img {
+max-width: 100%;
+}
+@media(max-width:640px) {
+li {
+width: auto;
+float: none;
+}
+li a {
+background-color: #c2e08f;
+display: block;
+margin-bottom: 0.5em;
+padding: 1em;
+border-radius: 6px;
+text-decoration: none;
+}
 }
