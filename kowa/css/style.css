@@ -22,17 +22,6 @@
 	display: block;
 	clear: both;
 }
-  #main-image .section p {
-    font-size: 20px;
-    color: #ffffff;
-    height: 311px;
-	width: 100%;
-	margin-top: 80px;
-	padding-top: 100px;
-	padding-left: 100px;
-	background-repeat: no-repeat;
-    background-image: url("../img/png/index.html/index.html-No.1.png")
-   }
   header {
    margin-left: 10px;
   }
@@ -62,6 +51,7 @@
 }
 #promoted-by-professionals h2 {
 	width: 280px;
+	margin-top: 50px;
 	margin-right: 33.3%;
 	}
 #promoted-by-professionals p {

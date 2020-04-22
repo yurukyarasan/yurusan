@@ -12,6 +12,9 @@
 <link rel="icon" type="image/png" href="img/png/logo/kakuuno-favicon.png">
 <link rel="apple-touch-icon" sizes="180×180" href="img/png/logo/kowa-kaisaha-logo-bookmark.png">
 <link rel="icon" sizes="192×192" href="img/png/logo/kowa-kaisaha-logo-bookmark.png">
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+			
 </head>
 
 <body>
@@ -43,9 +46,11 @@
   </div>
   <main>
     <div id="main-image">
-<div class="section">
-	   <p>街角のビルも、都市のランドマークも<br>
-豊かな経験、蓄積されるノウハウ。</p>
+<div class="img-content">
+<img src="img/png/index.html/index.html_top_images_No.1.png" alt="">
+<img src="img/png/index.html/index.html_top_images_No.2.png" alt="">
+<img src="img/png/index.html/index.html_top_images_No.3.png" alt="">
+<img src="img/png/index.html/index.html_top_images_No.4.png" alt="">
     </div>
 </div>
     <section>
@@ -172,5 +177,24 @@
       </footer>
   </main>
 </div>
+<script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js">
+<script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"</script>
+<script type="text/javascript" src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.section').slick({
+    autoplay: true,
+	fade: true
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $('.img-content').slick({
+    autoplay: true,
+  });
+});
+
+</script>
 </body>
 </html>
