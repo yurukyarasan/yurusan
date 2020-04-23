@@ -1,0 +1,53 @@
+@charset "utf-8";
+#header {
+	position: relative;
+}
+#header h1{
+	position: absolute;
+	left: 23px;
+	top: 45px;
+}
+#header p {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+#main .lead {
+	background-image: url("file:///C:/SourceTree/jewelry/img/pict_rose.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	min-height: 100px;
+}
+#main .lead p {
+	width: 375px;
+	margin-top: 1em;
+	line-height: 1.5;
+}
+#main .item-list {
+	margin-top: 30px;
+}
+#main .item-list dl {
+	margin-top: 10px;
+	border: solid 1px #ccc;
+	width: 200px;
+	float: left;
+	margin-right: 22px;
+}
+#main .item-list dl.last {
+	margin-right: 0px;
+}
+#main .item-list div:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+#main .item-list dl a {
+	border: solid 1px #dfdfdf;
+	padding: 1px;
+	display: block;
+	width: 180px;
+	height: 180px;
+}
+#main .item-list dt a:hover {
+	border-color: #9ec24b;
+}

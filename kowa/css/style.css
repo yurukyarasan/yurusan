@@ -44,6 +44,9 @@
   #contact .contact-site-map {
     margin-top: -12px;
   }
+#main-image {
+	margin-top: 100px;
+}
 #promoted-by-professionals::after {
   content: "";
   clear: both;

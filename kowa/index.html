@@ -43,15 +43,12 @@
 	  <p class="contact-site-map"><a href="site-map.html">サイトマップ</a></p>
 </div>
 </section>
-  </div>
   <main>
     <div id="main-image">
-<div class="img-content">
-<img src="img/png/index.html/index.html_top_images_No.1.png" alt="">
-<img src="img/png/index.html/index.html_top_images_No.2.png" alt="">
-<img src="img/png/index.html/index.html_top_images_No.3.png" alt="">
-<img src="img/png/index.html/index.html_top_images_No.4.png" alt="">
-    </div>
+<div><img src="img/png/index.html/index.html_top_images_No.1.png" alt=""></div>
+<div><img src="img/png/index.html/index.html_top_images_No.2.png" alt=""></div>
+<div><img src="img/png/index.html/index.html_top_images_No.3.png" alt=""></div>
+<div><img src="img/png/index.html/index.html_top_images_No.4.png" alt=""></div>
 </div>
     <section>
       <div id="promoted-by-professionals">
@@ -182,19 +179,15 @@
 <script type="text/javascript" src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script>
 <script>
 $(document).ready(function(){
-  $('.section').slick({
+  $('#main-image').slick({
     autoplay: true,
-	fade: true
+	fade: true,
+	slidesToShow: 1,
+	slidesToScroll: 1,
+	transition: 3
   });
 });
 </script>
-<script>
-$(document).ready(function(){
-  $('.img-content').slick({
-    autoplay: true,
-  });
-});
-
-</script>
+</div>
 </body>
 </html>

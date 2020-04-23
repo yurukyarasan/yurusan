@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>オリジナルアクセサリーの「Accessory Shop」</title>
+<meta name="Keywords" content="ネックレス,イヤリング,ブレスレット,アンクレット,オーダーメイド">
+<meta name="Description" content="世界にひとつだけのオリジナルアクセサリーを身につけてみませんか？24時間営業のアクセサリーショップ">
+<link href="css/reset.css" rel="stylesheet" media="screen,print">
+<link href="css/base.css" rel="stylesheet" media="screen,print">
+<link href="css/style.css" rel="stylesheet" media="screen,print">
+<link rel="stylesheet" type="text/css" href="slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<h1><img src="img/logo.png" alt="Accessory Shop"></h1>
+		<p>オリジナルアクセサリーのオンラインショップ「Accessory Shop」へようこそ！</p>
+	</div>
+	<div id="content">
+		<div id="nav">
+			<h2>商品カテゴリ</h2>
+			<ul>
+				<li><a href="necklace.html"><img src="img/menu_necklace.png" alt="Necklace"></a> </li>
+				<li><a href="earring.html"><img src="img/menu_earring.png" alt="Earring"></a></li>
+				<li><a href="bracelet.html"><img src="img/menu_bracelet.png" alt="Bracelet"></a></li>
+				<li><a href="anklet.html"><img src="img/menu_anklet.png" alt="Anklet"></a></li>
+			</ul>
+		</div>
+		<div id="main">
+			<div class="fade">
+				<div><img src="img/main_green.jpg" alt=""></div>
+				<div><img src="img/main_box.jpg" alt=""></div>
+				<div><img src="img/main_present.jpg" alt=""></div>
+			</div>
+			<div class="lead">
+				<h2><img src="img/ttl_sekaini-hitotsu.png" alt="世界に一つだけのオリジナルアクセサリー"></h2>
+				<p>当店で取り扱う商品は、すべて一点もののオリジナルアクセサリー。あなただけのアクセサリーをオーダーメイドでおつくりすることも可能です。どうぞお気軽にご連絡ください。</p>
+			</div>
+			<div class="item-list">
+				<h2><img src="img/ttl_item-list.png" alt="Item List"></h2>
+				<div>
+					<dl>
+						<dt><a href="item1.html"><img src="img/pict_item1.jpg" alt="［アイテム1の商品写真］"></a></dt>
+						<dd class="icon"><img src="img/icn_new.png" alt="NEW"></dd>
+						<dd class="text">アンティークな雰囲気のチェーンがポイント。</dd>
+						<dd class="button"><a href="item1.html"><img src="img/btn_detail.png" alt="Detail" class="btn"></a></dd>
+					</dl>
+					<dl>
+						<dt><a href="item2.html"><img src="img/pict_item2.jpg" alt="［アイテム2の商品写真］"></a></dt>
+						<dd class="icon"><img src="img/icn_new.png" alt="NEW"></dd>
+						<dd class="text">大きめのペンダントヘッドは樹脂にビーズを閉じ込めてあります。Tシャツなど夏の装いにぴったり。</dd>
+						<dd class="button"><a href="item2.html"><img src="img/btn_detail.png" alt="Detail" class="btn"></a></dd>
+					</dl>
+					<dl class="last">
+						<dt><a href="item3.html"><img src="img/pict_item3.jpg" alt="［アイテム3の商品写真］"></a></dt>
+						<dd class="text">赤のワンポイントでさりげない存在感。</dd>
+						<dd class="button"><a href="item3.html"><img src="img/btn_detail.png" alt="Detail" class="btn"></a></dd>
+					</dl>
+				</div>
+			</div>
+			<p class="page-top"><a href="#header">ページトップへもどる</a></p>
+		</div>
+	</div>
+	<div id="footer">
+		<h2>コピーライト</h2>
+		<p><img src="img/copyright.png" alt="Copyright(c) 2015 Accessory Shop All rights reserved."></p>
+	</div>
+</div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/jquery.heightLine.js"></script>
+<script>
+$(document).ready(function(){
+  $('.fade').slick({
+    autoplay: true,
+	fade: true
+  });
+ $(".item-list dl").heightLine();
+});
+		
+</script>
+</body>
+</html>
