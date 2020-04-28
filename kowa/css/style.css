@@ -17,7 +17,7 @@
     float: right;
 	margin-top: -40px;
   }
-#business-overview::after {
+#business-overview:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -47,7 +47,7 @@
 #main-image {
 	margin-top: 100px;
 }
-#promoted-by-professionals::after {
+#promoted-by-professionals:after {
   content: "";
   clear: both;
   display: block;
@@ -75,7 +75,7 @@
 	width: 100%;
 	margin-top: -300px;
 }
-.introduction-of-each-company-01::after {
+.introduction-of-each-company-01:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -331,13 +331,26 @@ position: relative;
 	display: block;
 	clear: both;
 }
+#news {
+	position: relative;
+}
+#news h2 {
+	position: absolute;
+	top: 72%;
+	left: 0%;
+	width: 960px;
+	border-bottom: 1px dashed;
+	padding-bottom: 15px;
+}
 #news p:nth-of-type(1) {
-	margin-top: 15px;
-	margin-left: 45%;
+	position: absolute;
+	top: 72%;
+	left: 45%;
 }
 #news p:nth-of-type(2) {
-	margin-top: -15px;
-	float: right;
+	position: absolute;
+	top: 72%;
+	left: 91%;
 }
 #news-paper dl {
 	margin-top: -20px;
@@ -613,14 +626,14 @@ position: relative;
 	width: 100%;
 }
     #news h2{
-    font-size: 36px;
+    font-size: 16px;
+	width: 100%;
       }
     #news p:nth-of-type(1) {
-    margin-top: 10px;
-	margin-left: auto;
+	margin-left: -30px;
 }
     #news p:nth-of-type(2) {
-	
+	margin-left: -40px;
 }
     #news-paper dl {
 	margin-top: 120px;
@@ -809,18 +822,15 @@ position: relative;
     margin-top: 20px;
 	margin-left: 150px;
     }
-    #news {
+   #news h2{
+    font-size: 16px;
 	width: 100%;
-}
-    #news h2{
-    font-size: 36px;
       }
     #news p:nth-of-type(1) {
-    margin-top: 10px;
-	margin-left: auto;
+	margin-left: -30px;
 }
     #news p:nth-of-type(2) {
-	
+	margin-left: -40px;
 }
     #news-paper dl {
 	margin-top: 120px;
@@ -1014,14 +1024,14 @@ position: relative;
 	width: 100%;
 }
     #news h2{
-    font-size: 36px;
+    font-size: 16px;
+	width: 100%;
       }
     #news p:nth-of-type(1) {
-    margin-top: 10px;
-	margin-left: auto;
+	margin-left: -60px;
 }
     #news p:nth-of-type(2) {
-	
+	margin-left: -80px;
 }
     #news-paper dl {
 	margin-top: 120px;
@@ -1214,14 +1224,14 @@ position: relative;
 	width: 100%;
 }
     #news h2{
-    font-size: 36px;
+    font-size: 16px;
+	width: 100%;
       }
     #news p:nth-of-type(1) {
-    margin-top: 10px;
-	margin-left: auto;
+	margin-left: -50px;
 }
     #news p:nth-of-type(2) {
-	
+	margin-left: -40px;
 }
     #news-paper dl {
 	margin-top: 120px;
@@ -1400,14 +1410,16 @@ position: relative;
 }
     #news h2{
     font-size: 36px;
+	width: 100%;
+	padding-bottom: 5px;
       }
     #news p:nth-of-type(1) {
-    margin-top: -30px;
-	margin-left: 400px;
+    margin-top: 15px;
+	margin-left: -10px;
 }
     #news p:nth-of-type(2) {
-	margin-top: -20px;
-	margin-right: 20px;
+	margin-top: 15px;
+	margin-right: -20px;
 }
     #news-paper dl {
 	width: 100%;

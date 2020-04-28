@@ -13,7 +13,7 @@
 	top: 10px;
 }
 #main .lead {
-	background-image: url("file:///C:/SourceTree/jewelry/img/pict_rose.jpg");
+	background-image: url("../img/pict_rose.jpg");
 	background-repeat: no-repeat;
 	background-position: right top;
 	min-height: 100px;
@@ -32,6 +32,8 @@
 	width: 200px;
 	float: left;
 	margin-right: 22px;
+	position: relative;
+	padding-bottom: 54px;
 }
 #main .item-list dl.last {
 	margin-right: 0px;
@@ -50,4 +52,30 @@
 }
 #main .item-list dt a:hover {
 	border-color: #9ec24b;
+}
+#main .item-list .icon {
+	position: absolute;
+	top: 10px;
+	left: 146px;
+}
+#main .item-list .button {
+	position: absolute;
+	bottom: 8px;
+	left: 21px;
+}
+#main .page-top {
+	margin-top: 30px;
+	font-size: 85.7%;
+}
+#main .page-top a {
+	background-image: url("../img/icn_totop.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 20px;
+	display: block;
+	float: right;
+	min-height: 16px;
+}
+#main .page-top a:hover {
+	background-image: url("../img/icn_totop-on.png");
 }
