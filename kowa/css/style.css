@@ -95,6 +95,7 @@ z-index: -1;
 	margin-left: auto;
 	z-index: 1;
 }
+
 .introduction-of-each-company-02  ul li:nth-of-type(1) {
 	position: absolute;
 	top: -30%;
@@ -170,7 +171,7 @@ z-index: -1;
 }
 .introduction-of-each-company-04 {
 	float: right;
-	margin-top: -16.5%;
+	margin-top: -0.5%;
 	position: relative;
 	}
 .introduction-of-each-company-04 img {
@@ -232,6 +233,7 @@ z-index: -1;
 	height: 70px;
 	padding-top: 30px;
 	text-align: center;
+	line-height: 1.5;
 }
 .introduction-of-each-company-05 ul li:nth-of-type(3) {
 	font-size: 14px;
@@ -240,9 +242,10 @@ z-index: -1;
 	top: 160px;
 	left: 325px;
 	width: 95px;
-	height: 60px;
-	padding-top: 40px;
+	height: 70px;
+	padding-top: 30px;
 	text-align: center;
+	line-height: 1.5;
 }
 .introduction-of-each-company-05 ul li:nth-of-type(4) {
 	font-size: 14px;
@@ -251,9 +254,10 @@ z-index: -1;
 	top: 160px;
 	left: 435px;
 	width: 97px;
-	height: 60px;
-	padding-top: 40px;
+	height: 75px;
+	padding-top: 25px;
 	text-align: center;
+	line-height: 1.5;
 	}
 .introduction-of-each-company-05 ul li:nth-of-type(5) {
 	font-size: 14px;
@@ -553,6 +557,7 @@ z-index: -1;
     #introduction-of-each-company {
 	  width: 100%;
       margin-top: 10px;
+	  float: left;
       position: relative;
       }
     #introduction-of-each-company .introduction-of-each-company-01 img{
@@ -599,6 +604,7 @@ z-index: -1;
       }
     #introduction-of-each-company .introduction-of-each-company-04 img{
       width: 100%;
+	  margin-top: 0px;
       }
     #introduction-of-each-company .introduction-of-each-company-04 p{
       margin-left: -15px;
@@ -615,29 +621,29 @@ z-index: -1;
 	padding-top: 10px;
 	  }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
-      margin-top: -30px;
+      margin-top: -45px;
 	  margin-left: -150px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
-      margin-top: -70px;
+      margin-top: -95px;
 	  margin-left: -120px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
-      margin-top: -75px;
+      margin-top: -100px;
 	  margin-left: -120px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -380px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -400px;
 	  padding-left: 15px;
 	  width: 49px;
     }
 	#introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(6){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -410px;
 	  padding-left: 15px;
 	  width: 49px;
@@ -851,29 +857,29 @@ z-index: -1;
 	padding-top: 10px;
 	  }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1){
-      margin-top: -30px;
+      margin-top: -45px;
 	  margin-left: -150px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2){
-      margin-top: -70px;
+      margin-top: -95px;
 	  margin-left: -120px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3){
-      margin-top: -75px;
+      margin-top: -100px;
 	  margin-left: -120px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -380px;
     }
     #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -400px;
 	  padding-left: 15px;
 	  width: 49px;
     }
 	#introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(6){
-      margin-top: -22px;
+      margin-top: -47px;
 	  margin-left: -410px;
 	  padding-left: 15px;
 	  width: 49px;
@@ -1452,8 +1458,8 @@ z-index: -1;
     #business-overview {
       width: 100%;
 	  margin-top: 10px;
-      margin-left: -5px;
-      font-size: 19.5px;
+      margin-left: -20px;
+      font-size: 18.5px;
     }
     #contact{
       display: none;
@@ -1541,9 +1547,9 @@ z-index: -1;
         margin-left: 151px;
       }
     #introduction-of-each-company .introduction-of-each-company-04 img{
-      width: 77.2%;
+      width: 80%;
 	  float: right;
-	  margin-top: -31px;
+	  margin-top: -156px;
       }
 	#introduction-of-each-company .introduction-of-each-company-04 {
 		content: "";
@@ -1551,7 +1557,7 @@ z-index: -1;
 		clear: both;
 	}
     #introduction-of-each-company .introduction-of-each-company-04 p{
-	  margin-top: -20px;
+	  margin-top: -109px;
       margin-left: 65px;
       }
     .introduction-of-each-company-05 img {
