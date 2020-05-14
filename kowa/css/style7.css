@@ -371,7 +371,6 @@ footer{
     #business-introduction-menu{
       display: flex;
       flex-direction: column;
-      position: relative;
     }
     #business-introduction-menu .business-introduction-menu-building-equipment-management{
       width: 355px;
@@ -387,8 +386,7 @@ footer{
     #business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
-        position: absolute;
-        left: 2%;
+        
     }
     #business-introduction-menu .business-introduction-menu-cleaning-management img{
         width: 357px;
@@ -404,14 +402,11 @@ footer{
     #business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
-        position: absolute;
-        top: 142%;
-        left: -143%;
+        
     }
     #business-introduction-menu .business-introduction-menu-construction{
         width: 357px;
-        position: absolute;
-        top: 145%;
+        
     }
     #business-introduction-menu .business-introduction-menu-construction img{
         width: 357px;
@@ -423,27 +418,20 @@ footer{
     #business-introduction-menu .business-introduction-menu-construction p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
-        position: absolute;
-        left: 2%;
+        
     }
     #business-introduction-menu .business-introduction-menu-customer-support img{
         width: 357px;
-        position: absolute;
-        top: 193%;
-        left: -143%;
+        
     }
     #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(1){
         width: 354px;
-        position: absolute;
-        top: 219%;
-        left: -143%;
+        
     }
     #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(2){
         width: 350px;
         font-size: 13px;
-        position: absolute;
-        top: 221%;
-        left: -143%;
+        
     }
     #business {
       display: none;

@@ -38,14 +38,14 @@ body {
 	top: 30px;
 	left: 69%;
   }
-#main-image {
+#sub-main-image-3 {
     margin-top: 30px;
 	width: 100%;
     height: 455px;
     background: url("../img/png/costruction.html/costruction.html-No.1.png");
     background-repeat: no-repeat;
   }
-#main-image p:nth-of-type(1) a{
+#sub-main-image-3 p:nth-of-type(1) a{
     color: #d99365;
     text-decoration: none;
     border-style: none;
@@ -53,7 +53,7 @@ body {
     top: 22%;
     left: 30%;
     }
-#main-image p:nth-of-type(2) a{
+#sub-main-image-3 p:nth-of-type(2) a{
 	color: #ffffff;
     text-decoration: none;
     border-style: none;
@@ -170,7 +170,7 @@ section{
 	width: 180px;
 	border: 2px solid #ffff00;
 }
-.arrow-first{
+.construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -181,7 +181,7 @@ section{
 	margin-top: -9.7%;
 	margin-left: 70.0%;
 }
-.circle-first{
+.construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -189,7 +189,7 @@ section{
     margin-top: -1.8%;
     margin-left: 69.4%;
 }
-.arrow-second{
+.construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -200,7 +200,7 @@ section{
 	margin-top: 4.4%;
 	margin-left: 70.0%;
 }
-.circle-second{
+.construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -222,7 +222,7 @@ section{
 	padding-top: 18px;
     padding-left: 40px;
 }
-.arrow-third{
+.construction-arrow-third{
 	content: "";
 	width: 0px;
 	height: 0px;
@@ -233,7 +233,7 @@ section{
 	margin-top: -3%;
 	margin-left: 52.0%;
 	}
-.circle-third{
+.construction-circle-third{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -250,7 +250,7 @@ section{
 	height: 30px;
 	padding-top: 10px;
 }
-.arrow-fourth{
+.construction-arrow-fourth{
 	content: "";
 	width: 0px;
 	height: 0px;
@@ -261,7 +261,7 @@ section{
 	margin-top: -27px;
 	margin-left: 37.3%;
 	}
-.circle-fourth{
+.construction-circle-fourth{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -325,7 +325,7 @@ section{
   }
 #guidelines{
 	font-size: 12px;
-	margin-top: 73px;
+	margin-top: 153px;
 	margin-left: 60px;
 	display: flex;
 	flex-direction: row;
@@ -403,19 +403,19 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-3{
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-3 p {
       width: 220px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-3 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-3 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -494,7 +494,7 @@ footer{
         left: -165%;
         z-index: -1
     }
-    #construction .arrow-first{
+    #construction .construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -506,7 +506,7 @@ footer{
 	margin-left: 20.0%;
     z-index: 3;
     }
-    #construction .circle-first{
+    #construction .construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -515,7 +515,7 @@ footer{
     margin-left: 18%;
     z-index: 2;
     }
-    #construction .arrow-second{
+    #construction .construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -527,7 +527,7 @@ footer{
 	margin-left: 20%;
     z-index: 3
     }
-    #construction .circle-second{
+    #construction .construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -543,7 +543,7 @@ footer{
       margin-top: 46%;
       margin-left: 15%;
     }
-    #construction-examples .arrow-third{
+    #construction-examples .construction-arrow-third{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -555,7 +555,7 @@ footer{
       margin-left: 22%;
       z-index: 1;
     }
-    #construction-examples .circle-third{
+    #construction-examples .construction-circle-third{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -571,7 +571,7 @@ footer{
       margin-top: 50px;
       margin-left: 50px;
     }
-    #contact-us-here .arrow-fourth{
+    #contact-us-here .construction-arrow-fourth{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -584,7 +584,7 @@ footer{
       left: -17.5%;
       z-index: 2
     }
-    #contact-us-here .circle-fourth{
+    #contact-us-here .construction-circle-fourth{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -663,19 +663,19 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-3{
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-3 p {
       width: 220px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-3 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-3 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -754,7 +754,7 @@ footer{
         left: -165%;
         z-index: -1
     }
-    #construction .arrow-first{
+    #construction .construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -766,7 +766,7 @@ footer{
 	margin-left: 11.0%;
     z-index: 3;
     }
-    #construction .circle-first{
+    #construction .construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -775,7 +775,7 @@ footer{
     margin-left: 9%;
     z-index: 2;
     }
-    #construction .arrow-second{
+    #construction .construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -787,7 +787,7 @@ footer{
 	margin-left: 11%;
     z-index: 3
     }
-    #construction .circle-second{
+    #construction .construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -803,7 +803,7 @@ footer{
       margin-top: 46%;
       margin-left: 15%;
     }
-    #construction-examples .arrow-third{
+    #construction-examples .construction-arrow-third{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -815,7 +815,7 @@ footer{
       margin-left: 19.7%;
       z-index: 1;
     }
-    #construction-examples .circle-third{
+    #construction-examples .construction-circle-third{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -831,7 +831,7 @@ footer{
       margin-top: 50px;
       margin-left: 50px;
     }
-    #contact-us-here .arrow-fourth{
+    #contact-us-here .construction-arrow-fourth{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -844,7 +844,7 @@ footer{
       left: -18.5%;
       z-index: 2
     }
-    #contact-us-here .circle-fourth{
+    #contact-us-here .construction-circle-fourth{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -925,19 +925,19 @@ footer{
     #contact{
       display: none;
       }
-	#main-image{
+	#sub-main-image-3{
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-3 p {
       width: 220px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-3 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-3 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1016,7 +1016,7 @@ footer{
         left: -148%;
         z-index: -1
     }
-    #construction .arrow-first{
+    #construction .construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1028,7 +1028,7 @@ footer{
 	margin-left: 12.5%;
     z-index: 3;
     }
-    #construction .circle-first{
+    #construction .construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1037,7 +1037,7 @@ footer{
     margin-left: 11%;
     z-index: 2;
     }
-    #construction .arrow-second{
+    #construction .construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1049,7 +1049,7 @@ footer{
 	margin-left: 12.5%;
     z-index: 3
     }
-    #construction .circle-second{
+    #construction .construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1065,7 +1065,7 @@ footer{
       margin-top: 46%;
       margin-left: 15%;
     }
-    #construction-examples .arrow-third{
+    #construction-examples .construction-arrow-third{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1077,7 +1077,7 @@ footer{
       margin-left: 19.7%;
       z-index: 1;
     }
-    #construction-examples .circle-third{
+    #construction-examples .construction-circle-third{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -1093,7 +1093,7 @@ footer{
       margin-top: 50px;
       margin-left: 50px;
     }
-    #contact-us-here .arrow-fourth{
+    #contact-us-here .construction-arrow-fourth{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1106,7 +1106,7 @@ footer{
       left: -20.2%;
       z-index: 2
     }
-    #contact-us-here .circle-fourth{
+    #contact-us-here .construction-circle-fourth{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -1186,19 +1186,19 @@ footer{
     #contact{
       display: none;
       }
-	#main-image{
+	#sub-main-image-3{
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-3 p {
       width: 220px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-3 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-3 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1277,7 +1277,7 @@ footer{
         left: -148%;
         z-index: -1
     }
-    #construction .arrow-first{
+    #construction .construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1289,7 +1289,7 @@ footer{
 	margin-left: 11%;
     z-index: 3;
     }
-    #construction .circle-first{
+    #construction .construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1298,7 +1298,7 @@ footer{
     margin-left: 9.5%;
     z-index: 2;
     }
-    #construction .arrow-second{
+    #construction .construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1310,7 +1310,7 @@ footer{
 	margin-left: 11%;
     z-index: 3
     }
-    #construction .circle-second{
+    #construction .construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1326,7 +1326,7 @@ footer{
       margin-top: 46%;
       margin-left: 15%;
     }
-    #construction-examples .arrow-third{
+    #construction-examples .construction-arrow-third{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1338,7 +1338,7 @@ footer{
       margin-left: 19.7%;
       z-index: 1;
     }
-    #construction-examples .circle-third{
+    #construction-examples .construction-circle-third{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -1354,7 +1354,7 @@ footer{
       margin-top: 50px;
       margin-left: 50px;
     }
-    #contact-us-here .arrow-fourth{
+    #contact-us-here .construction-arrow-fourth{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1367,7 +1367,7 @@ footer{
       left: -21.2%;
       z-index: 2
     }
-    #contact-us-here .circle-fourth{
+    #contact-us-here .construction-circle-fourth{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -1448,19 +1448,19 @@ footer{
     #contact{
       display: none;
       }
-	#main-image{
+	#sub-main-image-3{
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-3 p {
       width: 220px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-3 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 10%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-3 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1540,7 +1540,7 @@ footer{
         left: -78%;
         z-index: -1
     }
-    #construction .arrow-first{
+    #construction .construction-arrow-first{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1552,7 +1552,7 @@ footer{
 	margin-left: 8%;
     z-index: 3;
     }
-    #construction .circle-first{
+    #construction .construction-circle-first{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1561,7 +1561,7 @@ footer{
     margin-left: 7%;
     z-index: 2;
     }
-    #construction .arrow-second{
+    #construction .construction-arrow-second{
     content: "";
 	width: 0px;
 	height: 0px;
@@ -1573,7 +1573,7 @@ footer{
 	margin-left: 8%;
     z-index: 3
     }
-    #construction .circle-second{
+    #construction .construction-circle-second{
     width: 25px;
     height: 25px;
     background-color: #B7AA00;
@@ -1589,7 +1589,7 @@ footer{
       margin-top: 36%;
       margin-left: 15%;
     }
-    #construction-examples .arrow-third{
+    #construction-examples .construction-arrow-third{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1601,7 +1601,7 @@ footer{
       margin-left: 17.7%;
       z-index: 1;
     }
-    #construction-examples .circle-third{
+    #construction-examples .construction-circle-third{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;
@@ -1617,7 +1617,7 @@ footer{
       margin-top: 70px;
       margin-left: 30%;
     }
-    #contact-us-here .arrow-fourth{
+    #contact-us-here .construction-arrow-fourth{
       content: "";
 	  width: 0px;
 	  height: 0px;
@@ -1630,7 +1630,7 @@ footer{
       left: -5.2%;
       z-index: 2
     }
-    #contact-us-here .circle-fourth{
+    #contact-us-here .construction-circle-fourth{
       width: 25px;
       height: 25px;
       background-color: #B7AA00;

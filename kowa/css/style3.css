@@ -38,14 +38,14 @@ body {
 	top: 30px;
 	left: 69%;
   }
-#main-image {
+#sub-main-image-2 {
     margin-top: 30px;
 	width: 100%;
     height: 445px;
     background: url("../img/png/cleaning-management.html/cleaning-management.html-No.1.png");
     background-repeat: no-repeat;
   }
-#main-image p:nth-of-type(1) a{
+#sub-main-image-2 p:nth-of-type(1) a{
     color: #ffd802;
     text-decoration: none;
     border-style: none;
@@ -53,7 +53,7 @@ body {
     top: 22%;
     left: 30%;
     }
-#main-image p:nth-of-type(2) a{
+#main-image-2 p:nth-of-type(2) a{
 	color: #ffffff;
     text-decoration: none;
     border-style: none;
@@ -382,6 +382,25 @@ footer{
 	width: 900px;
 	height: 30px;
 }
+.arrow{
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: -27px;
+	margin-left: 45.3%;
+	}
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -1.8%;
+    margin-left: 44.7%;
+}
 @media(min-width: 360px) and (max-width: 360px) {
     #container {
       width: auto;
@@ -398,20 +417,20 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-2{
       width: 358px;
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-2 p {
       width: 180px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-2 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-2 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -581,10 +600,10 @@ footer{
     #contact-us-here p{
         margin-left: 15%;
     }
-    #contact-us-here .arrow{
+    #contact-us-here .cleaning-arrow{
         margin-left: 19.5%;
     }
-    #contact-us-here .circle{
+    #contact-us-here .cleaning-circle{
         margin-top: -4.2%;
         margin-left: 18%;
     }
@@ -657,20 +676,20 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-2{
       width: 100%;
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-2 p {
       width: 180px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-2 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-2 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -840,10 +859,10 @@ footer{
     #contact-us-here p{
         margin-left: 15%;
     }
-    #contact-us-here .arrow{
+    #contact-us-here .cleaning-arrow{
         margin-left: 19.5%;
     }
-    #contact-us-here .circle{
+    #contact-us-here .cleaning-circle{
         margin-top: -4.2%;
         margin-left: 18%;
     }
@@ -918,20 +937,20 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-2{
       width: 100%;
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-2 p {
       width: 180px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-2 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-2 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1101,10 +1120,10 @@ footer{
     #contact-us-here p{
         margin-left: 15%;
     }
-    #contact-us-here .arrow{
+    #contact-us-here .cleaning-arrow{
         margin-left: 19.5%;
     }
-    #contact-us-here .circle{
+    #contact-us-here .cleaning-circle{
         margin-top: -4.2%;
         margin-left: 18%;
     }
@@ -1178,20 +1197,20 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-2{
       width: 100%;
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-2 p {
       width: 180px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-2 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-2 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1361,10 +1380,10 @@ footer{
     #contact-us-here p{
         margin-left: 15%;
     }
-    #contact-us-here .arrow{
+    #contact-us-here .cleaning-arrow{
         margin-left: 19.5%;
     }
-    #contact-us-here .circle{
+    #contact-us-here .cleaning-circle{
         margin-top: -4.2%;
         margin-left: 18%;
     }
@@ -1439,20 +1458,20 @@ footer{
     #contact{
       display: none;
       }
-    #main-image{
+    #sub-main-image-2{
       width: 100%;
       position: relative;
     }
-    #main-image p {
+    #sub-main-image-2 p {
       width: 180px;
     }
-    #main-image p:nth-of-type(1) a{
+    #sub-main-image-2 p:nth-of-type(1) a{
       font-size: 35px;
       position: absolute;
       top: 30%;
       left: 30%;
     }
-    #main-image p:nth-of-type(2) a{
+    #sub-main-image-2 p:nth-of-type(2) a{
       font-size: 45px;
       position: absolute;
       top: 40%;
@@ -1622,10 +1641,10 @@ footer{
     #contact-us-here p{
         margin-left: 15%;
     }
-    #contact-us-here .arrow{
+    #contact-us-here .cleaning-arrow{
         margin-left: 17.8%;
     }
-    #contact-us-here .circle{
+    #contact-us-here .cleaning-circle{
         margin-top: -2.3%;
         margin-left: 17%;
     }
