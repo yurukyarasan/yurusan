@@ -3,3 +3,132 @@
 body {
     margin: 0 0 0 0;
 }
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+#head-content h1 {
+    text-align: center;
+}
+#head-content h2 {
+    text-align: center;
+    margin-right: 223px;
+}
+#head-content p:nth-of-type(1) {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head-content p:nth-of-type(2) {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#news h2 {
+    text-align: center;
+}
+#news dl {
+    float: left;
+    text-align: center;
+    margin-left: 80px;
+}
+#news dd {
+    width: 300px;
+    text-align: left;
+}
+#news p {
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
+#tea-theory-shop {
+    position: relative;
+}
+#tea-theory-shop h2 {
+    text-align: center;
+}
+#tea-theory-shop dt {
+    white-space: pre;
+    position: absolute;
+    top: 30px;
+    left: 200px;
+}
+#tea-theory-shop dd:nth-of-type(1) {
+    text-align: center;
+}
+#tea-theory-shop dd:nth-of-type(2) {
+    margin-left: 300px;
+}
+#tea-theory-shop dd:nth-of-type(3) {
+    margin-left: 300px;
+    width: 440px;
+}
+#tea-theory-shop p {
+    text-align: center;
+}
+#cafe {
+    position: relative;
+}
+#cafe dt {
+    white-space: pre;
+    position: absolute;
+    top: 260px;
+    left: 1000px;
+}
+#cafe dd:nth-of-type(1) {
+    float: left;
+    margin-top: 250px;
+}
+#cafe dd:nth-of-type(2) {
+    margin-top: 100px;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+}
+#cafe dd:nth-of-type(3) {
+    width: 150px;
+    position: absolute;
+    top: 650px;
+    left: 650px;
+}
+#cafe p {
+    width: 150px;
+    position: absolute;
+    top: 830px;
+    left: 650px;
+}
+#the-show {
+    position: relative;
+}
+#the-show dt {
+    white-space: pre;
+    position: absolute;
+    top: 1010px;
+    left: 150px;
+}
+#the-show dd:nth-of-type(1) {
+    float: right;
+    margin-top: 1000px;
+}
+#the-show dd:nth-of-type(2) {
+    position: absolute;
+    top: 1270px;
+    left: 150px;
+}
+#the-show dd:nth-of-type(3) {
+    width: 280px;
+    position: absolute;
+    top: 1320px;
+    left: 150px;
+}
+#the-show p:nth-of-type(1) {
+    width: 150px;
+    position: absolute;
+    top: 1450px;
+    left: 150px;
+}
