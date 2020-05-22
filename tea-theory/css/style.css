@@ -9,27 +9,37 @@ body {
 }
 #head-content h1 {
     text-align: center;
+    margin-top: 150px;
+}
+#head-content .top-img {
+    text-align: center;
+    margin-top: 200px;
 }
 #head-content h2 {
     text-align: center;
+    margin-top: 100px;
     margin-right: 223px;
 }
 #head-content p:nth-of-type(1) {
     width: 320px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 #head-content p:nth-of-type(2) {
     width: 320px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 #news h2 {
     text-align: center;
+    margin-top: 50px;
 }
 #news dl {
     float: left;
     text-align: center;
+    margin-top: 50px;
     margin-left: 80px;
 }
 #news dd {
@@ -38,8 +48,34 @@ body {
 }
 #news p {
     width: 120px;
+    line-height: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+#news .end-of-business dd:nth-of-type(1) {
+    transform: rotate(90deg);
+    margin-top: -150px;
+    margin-left: -160px
+     
+}
+#news .end-of-business dd:nth-of-type(2) {
+    margin-top: 150px;
+}
+#news .open-lectures dd:nth-of-type(1) {
+    transform: rotate(90deg);
+    margin-top: -150px;
+    margin-left: -160px
+}
+#news .open-lectures dd:nth-of-type(2) {
+    margin-top: 150px;
+}
+#news .end-of-new-membership dd:nth-of-type(1) {
+    transform: rotate(90deg);
+    margin-top: -150px;
+    margin-left: -160px
+}
+#news .end-of-new-membership dd:nth-of-type(2) {
+    margin-top: 150px;
 }
 section {
     content: "";
@@ -51,15 +87,17 @@ section {
 }
 #tea-theory-shop h2 {
     text-align: center;
+    margin-top: 50px;
 }
 #tea-theory-shop dt {
     white-space: pre;
     position: absolute;
-    top: 30px;
+    top: 130px;
     left: 200px;
 }
 #tea-theory-shop dd:nth-of-type(1) {
     text-align: center;
+    margin-top: 100px;
 }
 #tea-theory-shop dd:nth-of-type(2) {
     margin-left: 300px;
@@ -70,6 +108,7 @@ section {
 }
 #tea-theory-shop p {
     text-align: center;
+    margin-top: 20px;
 }
 #cafe {
     position: relative;
@@ -102,6 +141,11 @@ section {
     top: 830px;
     left: 650px;
 }
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
 #the-show {
     position: relative;
 }
@@ -131,4 +175,359 @@ section {
     position: absolute;
     top: 1450px;
     left: 150px;
+}
+#the-show p:nth-of-type(2) {
+    border-bottom: solid 1px;
+    padding-left: 20px;
+    position: absolute;
+    top: 1550px;
+    left: 1050px;
+    transform: rotate(90deg);
+}
+#the-show p.arrow::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-right: 15px solid #000;
+    transform: rotate(145deg);
+    position: absolute;
+    top: 11px;
+    left: -1px;
+}
+#the-show p.arrow a {
+    text-decoration: none;
+}
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
+.service-link ul li{
+    width: 300px;
+    float: left;
+    list-style: none;
+}
+.service-link ul li:nth-of-type(1) {
+    margin-top: 300px;
+    margin-left: 150px;
+}
+.service-link ul li:nth-of-type(2) {
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.service-link ul li:nth-of-type(3) {
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.service-link ul li:nth-of-type(4) {
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.service-link ul li:nth-of-type(5) {
+    margin-top: 50px;
+}
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
+.tea-theory-link {
+    margin-top: 500px;
+}
+.tea-theory-link ul li{
+    width: 100px;
+    float: left;
+    list-style: none;
+}
+.tea-theory-link ul li:nth-of-type(1) {
+    margin-top: 50px;
+    margin-left: 150px;
+    border-right: 1px solid #000;
+}
+.tea-theory-link ul li:nth-of-type(2) {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 30px;
+    border-right: 1px solid #000;
+}
+.tea-theory-link ul li:nth-of-type(3) {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.tea-theory-link ul li:nth-of-type(4) {
+    width: 210px;
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 1px solid #000;
+}
+.tea-theory-link ul li:nth-of-type(5) {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 30px;
+    border-left: 1px solid #000;
+}
+.tea-theory-link ul li:nth-of-type(6) {
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 0px;
+    border-left: 1px solid #000;
+    padding-left: 30px;
+}
+section {
+    content: "";
+    display: block;
+    clear: both;
+}
+footer {
+    width: 300px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media(max-width: 768px){
+#container {
+    width: 100%;
+}
+#head-content h1 img {
+    width: 100%;
+}
+#head-content .top-img img {
+    width: 100%;
+}
+#news dl {
+    width: 100%;
+    margin-left: 5px;
+}
+#news dt img {
+    width: 50%;
+    margin-left: -170px;
+}
+#news dd {
+    width: 20%;
+}
+#news .end-of-business {
+    position: relative;    
+}
+#news .end-of-business dd:nth-of-type(1) {
+    transform: none;
+    position: absolute;
+    top: 200px;
+    left: 103.3333333333333%;
+}
+#news .end-of-business dd:nth-of-type(2) {
+    width: 40%;
+    position: absolute;
+    top: -50px;
+    left: 58%;
+}
+#news .open-lectures {
+    position: relative;    
+}
+#news .open-lectures dd:nth-of-type(1) {
+    transform: none;
+    position: absolute;
+    top: 470px;
+    left: 103.3333333333333%;
+}
+#news .open-lectures dd:nth-of-type(2) {
+    width: 40%;
+    position: absolute;
+    top: 220px;
+    left: 58%;
+}
+#news .end-of-new-membership {
+    position: relative;    
+}
+#news .end-of-new-membership dd:nth-of-type(1) {
+    transform: none;
+    position: absolute;
+    top: 83.66990291262136%;
+    left: 103.3333333333333%;
+}
+#news .end-of-new-membership dd:nth-of-type(2) {
+    width: 40%;
+    position: absolute;
+    top: 52.97258709308966%;
+    left: 58%;
+}
+#news p {
+    line-height: 100px;
+}
+#tea-theory-shop h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+#tea-theory-shop dt {
+    width: 3%;
+    white-space: pre;
+    margin-left: -200px;
+}
+#tea-theory-shop dd img {
+    width: 80%;
+    padding-left: 19.9%;
+}
+#tea-theory-shop dd:nth-of-type(1) {
+    margin-top: 100px;
+}
+#tea-theory-shop dd:nth-of-type(2) {
+    width: 50%;
+    margin-left: 20px;
+}
+#tea-theory-shop dd:nth-of-type(3) {
+    width: 90%;
+    margin-left: 20px;
+}
+#tea-theory-shop p {
+    text-align: center;
+    margin-top: 30px;
+}
+#cafe dt {
+    white-space: pre;
+    margin-top: -150px;
+    margin-left: -1000px;
+}
+#cafe dd img {
+    width: 80%;
+    padding-left: 19.9%;
+}
+#cafe dd:nth-of-type(1) {
+    margin-top: 100px;
+}
+#cafe dd:nth-of-type(2) {
+    margin-top: -50px;
+    margin-left: -630px;
+}
+#cafe dd:nth-of-type(3) {
+    width: 90%;
+    margin-top: -180px;
+    margin-left: -630px;
+}
+#cafe p {
+    width: 150px;
+    margin-top: -250px;
+    margin-left: -530px;
+}
+#the-show dt {
+    white-space: pre;
+    margin-top: -360px;
+    margin-left: -150px;
+}
+#the-show dd {
+    float: left;
+}
+#the-show dd img {
+    width: 80%;
+    margin-top: 150px;
+    padding-left: 19.9%;
+}
+#the-show dd:nth-of-type(1) {
+    margin-top: 100px;
+}
+#the-show dd:nth-of-type(2) {
+    margin-top: -300px;
+    margin-left: -130px;
+}
+#the-show dd:nth-of-type(3) {
+    width: 90%;
+    margin-top: -330px;
+    margin-left: -130px;
+}
+#the-show p:nth-of-type(1) {
+    width: 150px;
+    margin-top: -350px;
+    margin-left: -30px;
+}
+#the-show p:nth-of-type(2) {
+    width: 100px;
+    border-bottom: solid 1px;
+    padding-left: 20px;
+    position: absolute;
+    top: 1150px;
+    left: 75%;
+    transform: rotate(90deg);
+}
+#the-show p.arrow::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 1px;
+    border-right: 15px solid #000;
+    transform: rotate(145deg);
+    position: absolute;
+    top: 11px;
+    left: -1px;
+}
+.service-link ul li{
+    width: 70%;
+    list-style: none;
+}
+.service-link ul li:nth-of-type(1) {
+    margin-top: 400px;
+    margin-left: 90px;
+}
+.service-link ul li:nth-of-type(2) {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.service-link ul li:nth-of-type(3) {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.service-link ul li:nth-of-type(4) {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.service-link ul li:nth-of-type(5) {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.tea-theory-link {
+    width: 100%;
+    margin-top: 500px;
+}
+.tea-theory-link ul li:nth-of-type(1) {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 11.11111111111111%;
+}
+.tea-theory-link ul li:nth-of-type(2) {
+    width: 20%;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+.tea-theory-link ul li:nth-of-type(3) {
+    margin-top: 50px;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tea-theory-link ul li:nth-of-type(4) {
+    width: 210px;
+    margin-top: 20px;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.tea-theory-link ul li:nth-of-type(5) {
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 10px;
+}
+.tea-theory-link ul li:nth-of-type(6) {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 16.66666666666667%;
+    padding-left: 10px;
+}
+footer {
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
