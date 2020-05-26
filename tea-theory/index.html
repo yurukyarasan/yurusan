@@ -12,6 +12,22 @@
 <link rel="icon" type="image/png" href="img/salon-logo-favicon.png">
 <link rel="apple-touch-icon" sizes="180×180" href="img/salon-bookmark-t.png">
 <link rel="icon" sizes="192×192" href="img/salon-bookmark-t.png">
+<script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script> 
+<script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"></script> 
+<script>
+$(function() {
+　$('.hamburger-menu').click(function() {
+　　$(this).toggleClass('active');
+
+　if ($(this).hasClass('active')) {
+　　$('.Nav-Menu').addClass('active');
+　} else {
+　　$('.Nav-Menu').removeClass('active');
+　}
+　});
+});
+</script>
 </head>
 
 <body>
@@ -22,7 +38,39 @@
 <div class="top-img"><img src="img/main.jpg" alt="モダンな女性"></div>
 <h2>茶論について</h2>
 <p>茶論とは「以茶論美」をコンセプトとした、茶道に興味をお持ちの方が気軽に始められる教室･喫茶･茶道具のお店です。敷居が高く感じられる茶道文化の入り口を開きます。</p>
-<p>詳しくはこちら</p>
+<p><a href="#">詳しくはこちら</a></p>
+</div>
+<div class="hamburger-menu">
+<span class="hamburger-icon"></span>
+<span class="hamburger-icon"></span>
+<span class="hamburger-icon"></span>
+</div>
+<div class="global-navi">
+<nav class="Nav-Menu">
+<ul class="menu">     
+<li>
+<a href="#">
+稽
+古
+を
+予
+約
+す
+る
+</a>
+</li>
+<li>
+<a href="#">
+初
+め
+て
+の
+方
+へ
+</a>
+</li>
+</ul>
+</nav>
 </div>
 </section>
 <section>
@@ -48,7 +96,7 @@
 <dd>2019.01.28</dd>
 <dd>[奈良町店]体験稽古の開講･新規ご入会終了のおしらせ</dd>
 </dl>
-<p>詳しくはこちら</p>
+<p><a href="#">詳しくはこちら</a></p>
 </div>
 </div>
 </section>
@@ -76,7 +124,7 @@
     れたコースと多様な単科をご用意しております。
 </dd>
 </dl>
-<p>詳しくはこちら</p>
+<p><a href="#">詳しくはこちら</a></p>
 </div>
 <div id="cafe">
 <dl>
@@ -95,7 +143,7 @@
     めて提供いたします。
 </dd>
 </dl>
-<p>詳しくはこちら</p>
+<p><a href="#">詳しくはこちら</a></p>
 </div>
 <div id="the-show">
 <dl>
@@ -116,7 +164,7 @@
     します。
 </dd>
 </dl>
-<p>詳しくはこちら</p>
+<p><a href="#">詳しくはこちら</a></p>
 <p class="arrow"><a href="#head-content">PAGE TOP</a></p>
 </div>
 </section>
@@ -134,12 +182,12 @@
 <section>
 <div class="tea-theory-link">
 <ul>
-<li>会社概要</li>
-<li>採用情報</li>
-<li>お問い合わせ</li>
-<li>個人情報の取り扱いについて</li>
-<li>会員規約</li>
-<li>特定商取引に基づく表示</li>
+<li><a href="#">会社概要</a></li>
+<li><a href="#">採用情報</a></li>
+<li><a href="#">お問い合わせ</a></li>
+<li><a href="#">個人情報の取り扱いについて</a></li>
+<li><a href="#">会員規約</a></li>
+<li><a href="#">特定商取引に基づく表示</a></li>
 </ul>
 </div>
 </section>
