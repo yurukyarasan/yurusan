@@ -495,20 +495,15 @@ section {
     margin-top: 50px;
   }
   #news dl {
-    width: 80%;
     margin-top: 50px;
     margin-left: 0;
     box-sizing: border-box;
   }
   #news dt {
-    width: 100%;
     margin-left: 30px;
   }
   #news dt img {
-    width: 30%;
-  }
-  #news dd {
-    width: 20%;
+    width: 40%;
   }
   #news .end-of-business {
     position: relative;
@@ -517,13 +512,13 @@ section {
     transform: none;
     position: absolute;
     top: 65px;
-    left: 37.9%;
+    left: 44.9%;
   }
   #news .end-of-business dd:nth-of-type(2) {
     width: 50%;
     position: absolute;
     top: 103px;
-    left: 38.7%;
+    left: 45.7%;
   }
   #news .open-lectures {
     position: relative;
@@ -531,14 +526,14 @@ section {
   #news .open-lectures dd:nth-of-type(1) {
     transform: none;
     position: absolute;
-    top: 253px;
-    left: 37.9%;
+    top: 283px;
+    left: 44.9%;
   }
   #news .open-lectures dd:nth-of-type(2) {
     width: 50%;
     position: absolute;
-    top: 283px;
-    left: 38.7%;
+    top: 313px;
+    left: 45.7%;
   }
   #news .end-of-new-membership {
     position: relative;
@@ -546,19 +541,22 @@ section {
   #news .end-of-new-membership dd:nth-of-type(1) {
     transform: none;
     position: absolute;
-    top: 443px;
-    left: 37.9%;
+    top: 503px;
+    left: 44.9%;
   }
   #news .end-of-new-membership dd:nth-of-type(2) {
     width: 50%;
     position: absolute;
-    top: 473px;
-    left: 38.7%;
+    top: 533px;
+    left: 45.7%;
   }
   #news p {
     text-align: center;
     line-height: 100px;
   }
+    .tea-theory-area {
+     text-align: left;   
+    }
   #tea-theory-shop h2 {
     text-align: center;
     margin-top: 50px;
