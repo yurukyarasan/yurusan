@@ -278,27 +278,27 @@ section {
   margin: 60px 0 0 150px;
 }
 #the-show p:nth-of-type(1) {
-  width: 150px;
+  width: 1200px;
   float: left;
-  margin: 80px 0 0 150px;
+  margin: 0px 0 0 150px;
 }
 #the-show p:nth-of-type(2) {
   float: right;
   border-bottom: solid 1px;
   padding-left: 20px;
-  margin: 100px 0 0 500px;
+  margin-top: 50px;
   transform: rotate(90deg);
 }
 #the-show p.arrow::after {
   content: "";
   display: block;
-  width: 1px;
+  width: 2px;
   height: 1px;
   border-right: 15px solid #000;
   transform: rotate(145deg);
   position: absolute;
-  top: 11px;
-  left: -1px;
+  top: 9.49px;
+  left: -2px;
 }
 #the-show p.arrow a {
   text-decoration: none;
@@ -308,27 +308,31 @@ section {
   display: block;
   clear: both;
 }
+footer .txtarea {
+    margin-left: auto;
+    margin-right: auto;
+  }
 .service-link ul li {
   float: left;
+  text-align: center;
   list-style: none;
 }
 .service-link ul li:nth-of-type(1) {
-  margin-top: 200px;
-  margin-left: 150px;
+  margin: 200px 0 0 300px;
 }
 .service-link ul li:nth-of-type(2) {
-  margin-top: 200px;
-  margin-left: 50px;
+  margin: 200px 100px 0 100px;
 }
 .service-link ul li:nth-of-type(3) {
-  margin-top: 200px;
-  margin-left: 50px;
+  margin: 200px 200px 0 0;
 }
 .service-link ul li:nth-of-type(4) {
+  width: 200px;
   margin-top: 50px;
-  margin-left: 400px;
+  margin-left: 450px;
 }
 .service-link ul li:nth-of-type(5) {
+  width: 300px;
   margin-top: 50px;
 }
 section {
@@ -667,7 +671,7 @@ section {
     border-right: 15px solid #000;
     transform: rotate(145deg);
     position: absolute;
-    top: 11px;
+    top: 10px;
     left: -1px;
   }
   .service-link ul li {
@@ -676,20 +680,20 @@ section {
   }
   .service-link ul li:nth-of-type(1) {
     margin-top: 100px;
-    margin-left: 25%;
+    margin-left: 0%;
   }
   .service-link ul li:nth-of-type(2) {
     margin-top: 50px;
-    margin-left: 25%;
+    margin-left: 0%;
   }
   .service-link ul li:nth-of-type(3) {
     margin-top: 50px;
-    margin-left: 25%;
+    margin-left: -8%;
   }
   .service-link ul li:nth-of-type(4) {
     width: 30%;
     margin-top: 50px;
-    margin-left: 16.66666666666667%;
+    margin-left: 13.66666666666667%;
   }
   .service-link ul li:nth-of-type(5) {
     width: 35%;
