@@ -11,11 +11,11 @@ body {
   line-height: 1;
 }
 #container {
-  width: 1200px;
   margin: 0 auto;
 }
 section.toparea {
-  margin: 100px 0;
+  width: 1200px;
+  margin: 100px auto;
 }
 #head-content {
   margin-left: 0;
@@ -24,7 +24,11 @@ section.toparea {
 #head-content h1 img {
   width: 100px;
 }
-section.top-images {
+section.main-img-area{
+  text-align: center;
+}
+section.top-img {
+  width: 1200px;
   display: block;
   text-align: center;
 }
@@ -132,7 +136,9 @@ nav.Nav-Menu.active {
   transform: rotate(45deg);
 }
 section.newsarea {
+  width: 1200px;
   text-align: center;
+  margin: 0 auto;
 }
 section.newsarea h2{
   font-size: 163.5%;
@@ -206,6 +212,10 @@ section.newsarea h2{
 #news p a {
   color: #333;
 }
+section.tea-theory-area{
+  width: 1200px;
+  margin: 0 auto;
+}
 #tea-theory-shop {
   position: relative;
 }
@@ -223,7 +233,7 @@ section.newsarea h2{
 }
 #tea-theory-shop dd:nth-of-type(1) {
   text-align: center;
-  margin-top: 100px;
+  margin: 100px auto;
 }
 #tea-theory-shop dd:nth-of-type(2) {
   margin: 45px 0 0 300px;
@@ -258,19 +268,19 @@ section.newsarea h2{
 }
 #cafe dd:nth-of-type(2) {
   width: 500px;
-  margin: 0 0 0 300px;
+  margin: 0 0 0 280px;
   font-size: 121.4%;
   font-weight: bold;
   line-height: 1.6;
 }
 #cafe dd:nth-of-type(3) {
   width: 600px;
-  margin: 20px 0 0 300px;
+  margin: 20px 0 0 280px;
   line-height: 2.28em;
 }
 #cafe p {
   width: 150px;
-  margin: 30px 0 0 300px;
+  margin: 30px 0 0 280px;
 }
 #cafe p a {
   color: #333;
@@ -330,6 +340,7 @@ section {
 #the-show p.arrow a {
   text-decoration: none;
   color: #333;
+  font-size: 11px;
 }
 #the-show p a {
   color: #333;
@@ -348,7 +359,7 @@ footer .txtarea {
   height: 250px;
   background-color: #858585;
   z-index: -1;
-  text-align: center;
+  margin: 0 auto;
 }
 .service-link ul li {
   float: left;
@@ -359,24 +370,28 @@ footer .txtarea {
   color: #333;
 }
 .service-link ul li:nth-of-type(1) {
-  margin: 50px 0 0 10px;
+  margin: 50px 0 0 300px;
+  line-height: 60px;
   background-color: #fff;
 }
 .service-link ul li:nth-of-type(2) {
   margin: 50px 100px 0 20px;
+  line-height: 60px;
   background-color: #fff;
 }
 .service-link ul li:nth-of-type(3) {
   margin: 50px 0 0 -80px;
+  line-height: 60px;
   background-color: #fff;
 }
 .service-link ul li:nth-of-type(4) {
   margin: 50px 0 0 20px;
+  line-height: 60px;
   background-color: #fff;
 }
 .service-link ul li:nth-of-type(5) {
   width: 150px;
-  margin: 50px 0 0 450px;
+  margin: 50px 0 0 740px;
   border-right: 1px solid #000;
 }
 .service-link ul li:nth-of-type(6) {
@@ -384,8 +399,11 @@ footer .txtarea {
 }
 .service-link ul li img {
   vertical-align: middle;
+  width: 18px;
+  padding-right: 7px;
 }
 .service-link ul li a {
+  text-decoration: none;
   color: #333;
 }
 section {
@@ -394,7 +412,8 @@ section {
   clear: both;
 }
 .tea-theory-link {
-  margin-top: 50px;
+  width: 1200px;
+  margin: 50px auto;
 }
 .tea-theory-link ul li {
   float: left;
@@ -415,9 +434,9 @@ section {
   padding: 0 30px;
 }
 .tea-theory-link ul li:nth-of-type(4) {
-  width: 210px;
+  width: 190px;
   margin: 50px 0 0 0;
-  padding: 0 30px;
+  padding: 0 40px;
   border-left: 1px solid #000;
 }
 .tea-theory-link ul li:nth-of-type(5) {
@@ -433,6 +452,7 @@ section {
 }
 .tea-theory-link ul li a {
   color: #333;
+  text-decoration: none;
 }
 section {
   content: "";
@@ -441,12 +461,15 @@ section {
 }
 .txt-last-area {
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0 75px 0;
 }
 @media(max-width: 768px) {
   #container {
     width: 100%;
   }
+  section.toparea {
+  width: 100%;
+}
   #head-content h1 img {
     width: 20%;
   }
@@ -543,166 +566,183 @@ section {
     -moz-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-  .newsarea {
+  section.newsarea {
     width: 100%;
   }
+  #news {
+	width: 100%;	
+	}
   #news h2 {
-    text-align: center;
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
   }
   #news dl {
     margin: 50px 0 0 0;
     box-sizing: border-box;
   }
   #news dt {
-    margin-left: 30px;
+    margin-left: 15px;
   }
   #news dt img {
     width: 40%;
   }
   #news .end-of-business {
+	clear: both;
+	float: none;
     position: relative;
   }
   #news .end-of-business dd:nth-of-type(1) {
     transform: none;
     position: absolute;
     top: 65px;
-    left: 44.9%;
+    left: 44%;
   }
   #news .end-of-business dd:nth-of-type(2) {
-    width: 50%;
+    width: 42%;
     position: absolute;
     top: 103px;
-    left: 45.7%;
+    left: 44%;
   }
   #news .open-lectures {
+	clear: both;
+	float: none;
     position: relative;
   }
   #news .open-lectures dd:nth-of-type(1) {
     transform: none;
     position: absolute;
-    top: 233px;
-    left: 44.9%;
+    top: 65px;
+    left: 44%;
   }
   #news .open-lectures dd:nth-of-type(2) {
-    width: 50%;
+    width: 42%;
     position: absolute;
-    top: 263px;
-    left: 45.7%;
+    top: 103px;
+    left: 44%;
   }
   #news .end-of-new-membership {
+	clear: both;
+	float: none;
     position: relative;
   }
   #news .end-of-new-membership dd:nth-of-type(1) {
     transform: none;
     position: absolute;
-    top: 403px;
-    left: 44.9%;
+    top: 65px;
+    left: 44%;
   }
   #news .end-of-new-membership dd:nth-of-type(2) {
-    width: 50%;
+    width: 42%;
     position: absolute;
-    top: 433px;
-    left: 45.7%;
+    top: 103px;
+    left: 44%;
   }
   #news p {
-    float: left;
-    margin-left: 35%;
+	width: 30%;
+    margin: 50px auto 0 auto;
     }
-  .tea-theory-area {
+  section.tea-theory-area {
     width: 100%;
     text-align: left;
   }
   #tea-theory-shop h2 {
     text-align: center;
-    margin-top: 50px;
+    margin: 50px auto 50px auto;
   }
   #tea-theory-shop dt {
     width: 3%;
-    margin-left: -180px;
+	margin-left: -180px;
   }
   #tea-theory-shop dd img {
-    width: 85%;
-    margin-left: 14%;
+    width: 90%;
+    margin-left: 10%;
   }
   #tea-theory-shop dd:nth-of-type(1) {
     margin-top: 100px;
   }
   #tea-theory-shop dd:nth-of-type(2) {
-    float: left;
-    width: 65%;
-    margin: 20px 0 0 20px;
+    clear: both;
+	float: none;
+    width: 90%;
+    margin: -90px 0 0 20px;
   }
   #tea-theory-shop dd:nth-of-type(3) {
-    float: left;
+    clear: both;
+	float: none;
     width: 90%;
-    margin-left: 20px;
+    margin: 20px 0 0 20px;
   }
   #tea-theory-shop p {
-    float: left;
+    clear: both;
+	float: none;
     width: 120px;
-    margin: 20px 0 0 35%;
+    margin: 20px auto 0 auto;
   }
   #cafe {
+	float: left;
     width: 100%;
+	position: relative;
   }
   #cafe dt {
-    float: left;
-    margin: 50px 130px 0 0;
+	float: left;
+	text-align: left;
+    margin: 120px 130px 0 1%;
   }
   #cafe dd {
-    float: left;
+	float: left;
   }
   #cafe dd img {
-    float: left;
-    width: 105.5%;
-    margin: -400px 0 0 -7%;
+	float: left;
+    width: 90%;
+	position: absolute;
+	top: 110px;
+	left: 40px;
   }
   #cafe dd:nth-of-type(2) {
-    float: left;
-    width: 90%;
-    margin: -60px 0 0 15px;
+    width: 70%;
+    margin: 160px 0 0 15px;
   }
   #cafe dd:nth-of-type(3) {
-    float: left;
     width: 90%;
-    margin: -20px 0 20px 15px;
+    margin: 20px 0 20px 15px;
   }
   #cafe p {
-   float: right;
-   margin-right: 25%;
+   clear: both;
+   float: none;
+   width: 120px;
+   margin: 20px auto 0 auto;
   }
   #the-show {
+	float: left;
+	margin-top: 0px;
     position: relative;
   }
   #the-show dt {
     float: left;
-    margin: 50px 0 0 0;
+	text-align: left;
+    margin: 120px 0% 0 1%;
   }
   #the-show dd {
     float: left;
   }
   #the-show dd img {
-    float: left;
-    width: 105.5%;
-    margin: -400px 0 0 -7%;
+    width: 90%;
+	position: absolute;
+	top: 110px;
+	left: 40px;
   }
   #the-show dd:nth-of-type(2) {
-    float: left;
     width: 95%;
-    margin: -120px 0 0 15px;
+    margin: 90px 0 0 15px;
   }
   #the-show dd:nth-of-type(3) {
-    float: left;
-    width: 90%;
-    margin: -90px 0 20px 15px;
+    width: 95%;
+    margin: 20px 0 20px 15px;
   }
   #the-show p:nth-of-type(1) {
-    float: right;
-    margin-right: 25%;
+    margin: 450px auto 0 auto;
   }
   #the-show p:nth-of-type(2) {
-    width: 100px;
+    width: 70px;
     border-bottom: solid 1px;
     transform: rotate(90deg);
     margin-top: 80px;
@@ -720,7 +760,7 @@ section {
   }
   .service-link {
     width: 100%;
-    height: 450px;
+    height: 550px;
     z-index: -1;
     margin: -400px 0 0 0;
   }
@@ -748,38 +788,39 @@ section {
   }
   .service-link ul li:nth-of-type(6) {
     width: 120px;
-    margin: 50px 0 0 4%;
+    margin: 55px 0 0 4%;
   }
   .tea-theory-link {
+	width: 100%;
     margin-top: 20px;
   }
   .tea-theory-link ul li:nth-of-type(1) {
-    width: 22%;
-    margin: 50px 0 0 27.11111111111111%;
+    width: 20%;
+    margin: 50px 0 0 12.61111111111111%;
   }
   .tea-theory-link ul li:nth-of-type(2) {
-    width: 22%;
+    width: 20%;
     margin-top: 50px;
-    padding-left: 10px;
+    padding-left: 16px;
   }
   .tea-theory-link ul li:nth-of-type(3) {
-    width: 30%;
-    margin: 20px 0 0 35%;
+    width: 25%;
+    margin: 50px 0 0 0%;
     padding: 0 10px;
   }
   .tea-theory-link ul li:nth-of-type(4) {
-    width: 65%;
-    margin: 20px 0 0 20%;
+    width: 60%;
+    margin: 20px 0 0 23%;
     padding: 0 10px;
   }
   .tea-theory-link ul li:nth-of-type(5) {
     width: 20%;
-    margin: 20px 0 0 11.11111111111111%;
+    margin: 20px 26% 0 18%;
     padding-left: 10px;
   }
   .tea-theory-link ul li:nth-of-type(6) {
-    width: 57%;
-    margin: 20px 0 0 10px;
+    width: 47%;
+    margin: 20px 0 0 -27%;
     padding-left: 10px;
   }
   footer .txtarea {
