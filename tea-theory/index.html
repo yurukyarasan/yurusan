@@ -13,26 +13,18 @@
 <link rel="apple-touch-icon" sizes="180×180" href="img/salon-bookmark-t.png">
 <link rel="icon" sizes="192×192" href="img/salon-bookmark-t.png">
 <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
-<script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous"></script> 
-<script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"></script> 
-<script>
-$(function() {
-　$('.hamburger-menu').click(function() {
-　　$(this).toggleClass('active');
-
-　if ($(this).hasClass('active')) {
-　　$('.Nav-Menu').addClass('active');
-　} else {
-　　$('.Nav-Menu').removeClass('active');
-　}
-　});
-});
-</script>
 </head>
 
 <body>
 <div id="container">
+  <section class="hamburger-menu">
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">ここに中身を入れる</div>
+    </div>
+  </section>
   <section class="toparea">
     <header>
       <div id="head-content">
@@ -48,17 +40,6 @@ $(function() {
       <h2>茶論について</h2>
       <p>茶論とは「以茶論美」をコンセプトとした、茶道に興味をお持ちの方が気軽に始められる教室･喫茶･茶道具のお店です。敷居が高く感じられる茶道文化の入り口を開きます。</p>
       <p><a href="#">詳しくはこちら</a></p>
-    </div>
-  </section>
-  <section>
-    <div class="hamburger-menu"> <span class="hamburger-icon"></span> <span class="hamburger-icon"></span> <span class="hamburger-icon"></span> </div>
-    <div class="global-navi">
-      <nav class="Nav-Menu">
-        <ul class="menu">
-          <li> <a href="#"> 稽古を予約する</a></li>
-          <li> <a href="#"> 初めての方へ</a></li>
-        </ul>
-      </nav>
     </div>
   </section>
   <section class="newsarea">
@@ -122,16 +103,22 @@ $(function() {
   </section>
   <section>
     <footer class="txtarea">
-      <div class="service-link">
+	  <div class="service-link">
+      <div class="service-first-link">
         <ul>
           <li><a href="#"><img src="img/gnavi_online_shop.png" alt="">中川政七商店オンラインショップ</a></li>
           <li><a href="#"><img src="img/gnavi_online_shop.png" alt="">茶論特設オンラインショップ</a></li>
           <li><a href="#"><img src="img/gnavi_mail_mag.png" alt="">メールマガジン登録</a></li>
           <li><a href="#"><img src="img/gnavi_line_at.png" alt="">LINE@登録</a></li>
+		</ul>
+	  </div>
+	  <div class="service-second-link">
+		<ul>
           <li><a href="#"><img src="img/gnavi_facebook.png" alt="">Facebook</a></li>
           <li><a href="#"><img src="img/gnavi_instagram.png" alt="">Instagram</a></li>
         </ul>
       </div>
+	  </div>
       <div class="tea-theory-link">
         <ul>
           <li><a href="#">会社概要</a></li>

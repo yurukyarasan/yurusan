@@ -1039,7 +1039,7 @@ footer {
 .construction-safety-management-and-construction-quality-control dt {
   margin-top: 20px;
 }
-.construction-safety-management-and-construction-quality-control dd:nth-of-type(1) {
+.construction-safety-management-and-construction-quality-control dd {
   margin-top: 10px;
   padding-top: 10px;
   width: 650px;
@@ -1168,7 +1168,9 @@ footer {
   margin-top: -6.8%;
   margin-left: 5.2%;
 }
+
 /* customer-support.html css  カスタマーサポート*/
+
 #sub-main-image-4 {
   margin-top: 30px;
   width: 100%;
@@ -1176,18 +1178,18 @@ footer {
   background: url("../img/png/customer-support.html/customer-support.html-No.1.png");
   background-repeat: no-repeat;
 }
-#sub-main-image-4 p:nth-of-type(1) a {
+#sub-main-image-4 p:nth-of-type(1) a{
   color: #0076a9;
   position: absolute;
   top: 22%;
-  left: 35%;
+  left: 30%;
 }
-#sub-main-image-4 p:nth-of-type(2) a {
+#sub-main-image-4 p:nth-of-type(2) a{
   color: #ffffff;
   font-size: 24px;
   position: absolute;
   top: 24%;
-  left: 35%;
+  left: 20%;
 }
 #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations h2 {
   color: #0076a9;
@@ -1323,7 +1325,9 @@ footer {
   margin-top: -1.6%;
   margin-left: 36.7%;
 }
+
 /* business-introduction.html css 事業紹介 */
+
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2 {
   color: #5c8934;
   font-size: 35px;
@@ -1507,175 +1511,7 @@ footer {
   font-size: 14px;
 }
 
-/* initiatives-to-improve-quality-and-protect-the-environment.html css 品質環境･保全への取り組み */
-
-#sub-main-image-5 {
-    margin-top: 30px;
-	width: 100%;
-    height: 445px;
-    background: url("../img/png/customer-support.html/customer-support.html-No.1.png");
-    background-repeat: no-repeat;
-  }
-#sub-main-image-5 p:nth-of-type(1) a{
-    color: #0076a9;
-    position: absolute;
-    top: 22%;
-    left: 35%;
-    }
-#sub-main-image-5 p:nth-of-type(2) a{
-	color: #ffffff;
-	font-size: 24px;
-	position: absolute;
-    top: 24%;
-    left: 35%;
-}
-#one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations h2{
-	color: #0076a9;
-	margin-top: 150px;
-	margin-left: 220px;
-}
-#one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations p{
-	font-size: 12px;
-	margin-top: 20px;
-	margin-left: 220px;
-}
-.costomer-support-maintenance-preventive-maintenance-proposal dt{
-	margin-top: 50px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-maintenance-preventive-maintenance-proposal img{
-	margin-top: 20px;
-}
-.costomer-support-maintenance-preventive-maintenance-proposal dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -282px;
-	margin-left: 550px;
-}
-.costomer-support-energy-saving-proposal dt{
-	margin-top: 213px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-energy-saving-proposal img{
-	margin-top: 20px;
-}
-.costomer-support-energy-saving-proposal dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -278px;
-	margin-left: 544px;
-}
-.costomer-support-disaster-response dt{
-	margin-top: 220px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-disaster-response img{
-	margin-top: 20px;
-}
-.costomer-support-disaster-response dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -282px;
-	margin-left: 530px;
-}
-.costomer-support-management-service-business dt{
-	margin-top: 240px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-management-service-business img{
-	margin-top: 20px;
-}
-.costomer-support-management-service-business dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -285px;
-	margin-left: 530px;
-}
-.costomer-support-customer-service-for-building-operation-and-management dt{
-	margin-top: 240px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-customer-service-for-building-operation-and-management img{
-	margin-top: 20px;
-}
-.costomer-support-customer-service-for-building-operation-and-management dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -283px;
-	margin-left: 530px;
-	}
-.costomer-support-Regular-cleaning-special-cleaning-proposal dt{
-	margin-top: 240px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-Regular-cleaning-special-cleaning-proposal img{
-	margin-top: 20px;
-}
-.costomer-support-Regular-cleaning-special-cleaning-proposal dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -285px;
-	margin-left: 530px;
-}
-
-.costomer-support-cleaning-man-hour-management dt{
-	margin-top: 240px;
-	background-color: #1E90FF;
-	border-left: 4px solid #00BFFF;
-	height: 30px;
-	padding-top: 15px;
-}
-.costomer-support-cleaning-man-hour-management img{
-	margin-top: 20px;
-}
-.costomer-support-cleaning-man-hour-management dd:nth-of-type(2){
-	font-size: 13px;
-	margin-top: -285px;
-	margin-left: 530px;
-}
-#customer-support-contact-us-here p{
-	margin-top: 280px;
-	margin-left: 340px;
-	background-color: #149000;
-	padding-left: 40px;
-	width: 200px;
-	height: 30px;
-	padding-top: 10px;
-	color: #ffffff;
-}
-.customer-support-arrow{
-	content: "";
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 8px 8px 0px 8px;
-	border-color: #ffffff transparent transparent transparent;
-	transform: rotate(270deg);
-	margin-top: -27px;
-	margin-left: 37.3%;
-	}
-.customer-support-circle{
-    width: 25px;
-    height: 25px;
-    background-color: #B7AA00;
-    border-radius: 50%;
-    margin-top: -1.6%;
-    margin-left: 36.7%;
-}
-
-/* initiatives-to-improve-quality-and-protect-the-environment.html 品質環境･保全への取り組み */
+/* initiatives-to-improve-quality-and-protect-the-environment.html 品質向上･環境保全への取り組み */
 
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2{
     color: #5c8934;
@@ -3710,7 +3546,9 @@ footer {
     margin-top: 0px;
     height: 50px;
   }
+
 /* building-equipment-management.html css */
+
   #sub-main-image-1 {
     width: 100%;
     position: relative;
@@ -3871,7 +3709,9 @@ footer {
 	margin-right: 27%;
     z-index: 1;
   }
+
 /* cleaning-management.html css */
+
   #sub-main-image-2 {
     width: 100%;
     position: relative;
@@ -4110,7 +3950,9 @@ footer {
 	margin-right: 27%;
     z-index: 1;
   }
+
 /* construction.html css */
+	
   #sub-main-image-3{
       position: relative;
 	  width: 100%
@@ -4183,22 +4025,20 @@ footer {
         left: 0%;
     }
     #construction .construction-safety-management-and-construction-quality-control{
-        width: 100%;
+        width: 98%;
     }
     #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
-      width: 100%;
+      width: 98%;
     }
     #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
         width: 50%;
         margin-top: 80px;
 		margin-left: 60px;
-        z-index: -1
     }
-    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3){
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3) {
         width: 50%;
         margin-top: 20px;
 		margin-left: 60px;
-        z-index: -1
     }
     #construction .construction-arrow-first{
     content: "";
@@ -4298,21 +4138,23 @@ footer {
 	margin-right: 27%;
     z-index: 1;
   }
+
 /* customer-support.html css */
-#sub-main-image-5{
+
+#sub-main-image-4{
       width: 100%;
       position: relative;
     }
-    #sub-main-image-5 p {
+    #sub-main-image-4 p {
       width: 280px;
     }
-    #sub-main-image-5 p:nth-of-type(1) a{
+    #sub-main-image-4 p:nth-of-type(1) {
       font-size: 35px;
       position: absolute;
       top: 30%;
-      left: 10%;
+      left: 2%;
     }
-    #sub-main-image-5 p:nth-of-type(2) a{
+    #sub-main-image-4 p:nth-of-type(2) {
       font-size: 30px;
       position: absolute;
       top: 40%;
@@ -4434,7 +4276,9 @@ footer {
     margin-top: -15.5px;
     margin-left: 23.7%;
     }
+
 /* business-introduction.html css */
+
 #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service {
     position: relative;
   }
@@ -4650,7 +4494,7 @@ footer {
       margin-left: 10px;
       }
     #quality-improvement-and-environmental-conservation .human-quality{
-        width: 95%;
+        width: 100%;
         margin-top: 10%;
         margin-left: 2%;
     }
@@ -5096,6 +4940,265 @@ footer {
 	margin-top: 10px;
 	margin-left: 10px;
 	float: left;
+  }
+
+/* quality-improvement-and-environmental-conservation.html css */
+	
+  #quality-improvement-and-environmental-conservation{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+      }
+    #quality-improvement-and-environmental-conservation .title h2{
+      width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .quality-policy h2{
+      width: 356px;
+      font-size: 21px;
+      }
+    #quality-improvement-and-environmental-conservation .quality-policy p{
+      width: 340px;
+      margin-left: 10px;
+      }
+    #quality-improvement-and-environmental-conservation .human-quality{
+        width: 340px;
+        margin-top: 10%;
+        margin-left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 20.3%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 25.6%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 26.9%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality{
+        width: 340px;
+        position: absolute;
+        top: 34%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -2%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality{
+        width: 340px;
+        position: absolute;
+        top: 41.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -48%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality{
+        width: 350px;
+        position: absolute;
+        top: 52.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 2%;
+    }
+	#quality-improvement-and-environmental-conservation .inspection-quality dd{
+        width: 310px;
+        position: absolute;
+        top: 39%;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy h2{
+        width: 356px;
+        margin-top: 650px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(1){
+        width: 340px;
+        margin-left: 5px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(2){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(3){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(4){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(5){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control h2{
+        width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dt img{
+        width: 360px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dd{
+        width: 356px;
+        position: absolute;
+        top: 106%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control p{
+        position: absolute;
+        top: 110%;
+        left: -40%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-arrow{
+        width: 0px;
+	    height: 0px;
+	    border-style: solid;
+	    border-width: 5px 5px 0px 5px;
+	    border-color: #ffffff transparent transparent transparent;
+	    transform: rotate(270deg);
+        position: absolute;
+        top: 107.6%;
+	    left: -35.9%;
+        z-index: 3;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-circle{
+        width: 20px;
+        height: 20px;
+        background-color: #B7AA00;
+        border-radius: 50%;
+        position: absolute;
+        top: 106.9%;
+        left: -37%;
+        z-index: 2;
+    }
+
+/* inspection.html インスペクション */
+	
+  #inspection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+  }
+  #inspection .title h2 {
+	width: 100%;
+    font-size: 45px;
+  }
+  #inspection .build-a-reliable-quality-system h2 {
+    width: 100%;
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  #inspection .build-a-reliable-quality-system p {
+    margin-left: 10px;
+    width: 90%;
+  }
+  #inspection .build-a-reliable-quality-system img {
+    width: 100%;
+    margin-top: 20%;
+  }
+  #inspection .inspection-equipment-management dt {
+	width: 100%;
+    margin-top: 50px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-equipment-management img {
+    width: 100%;
+    margin-top: -40px;
+  }
+  #inspection .inspection-equipment-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 80.5%;
+    left: 3%;
+  }
+  #inspection .inspection-equipment-management ul {
+    position: absolute;
+    top: 82.5%;
+    left: -35%;
+  }
+  #inspection .arrow-first {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 81.0%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .circle-first {
+    position: absolute;
+    top: 80.4%;
+    left: -33%;
+    z-index: 2;
+  }
+  #inspection .inspection-cleaning-management {
+	width: 100%;
+    margin-top: 54%;
+    z-index: -1;
+  }
+  #inspection .inspection-cleaning-management dt {
+	width: 100%;
+    margin-top: 213px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-cleaning-management img {
+    width: 100%;
+    position: absolute;
+    top: 88.9%;
+  }
+  #inspection .inspection-cleaning-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 108.2%;
+    left: 3%;
+  }
+  #inspection .inspection-cleaning-management ul {
+    position: absolute;
+    top: 110.6%;
+    left: -35%;
+  }
+  #inspection .arrow-second {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 109.1%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .circle-second {
+    position: absolute;
+    top: 108.5%;
+    left: -33%;
+    z-index: 2;
   }
 
 /* construction-examples.html css 工事事例 */
@@ -5616,7 +5719,7 @@ footer {
     position: absolute;
     top: 78%;
     left: 18%;
-    z-index: 3
+    z-index: 3;
   }
   #company-profile-link .circle-fourth {
     width: 25px;
@@ -5626,7 +5729,7 @@ footer {
     position: absolute;
     top: 68%;
     left: 17%;
-    z-index: 2
+    z-index: 2;
   }
   #company-profile-link .access-map p {
     border: 2px solid #5c8934;
@@ -5648,7 +5751,7 @@ footer {
     position: absolute;
     top: 99%;
     left: -13%;
-    z-index: 3
+    z-index: 3;
   }
   #company-profile-link .circle-five {
     width: 25px;
@@ -5658,7 +5761,7 @@ footer {
     position: absolute;
     top: 89%;
     left: -14%;
-    z-index: 2
+    z-index: 2;
   }
 
 /* greeting.html ごあいさつ */
