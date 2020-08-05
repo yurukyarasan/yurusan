@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	padding: 10px;
+	background: #00FF00;
+}
+#nav-drawer{
+	position: relative;
+}
+/*チェックボックス等は非表示*/
+.nav-unshown{
+	display: none;
+}
+
+/*アイコンのスペース*/
+
+#nav-open {
+  display: inline-block;
+  width: 30px;
+  height: 22px;
+  vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+
+#nav-open span,#nav-open span:before,#nav-open span:after{
+	position: absolute;
+	height: 3px;
+	width: 25px;
+	background: #555;
+	border-radius: 3px;
+	display: block;
+	cursor: pointer;
+	content: "";
+}
+#nav-open span:before{
+   bottom: -8px;
+}
+#nav-open span:after{
+   bottom: -16px;	
+}
+#nav-close{
+	display: none;
+	position: fixed;
+	z-index: 99;
+	top: 55px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #F5E50B;
+	opacity: 0;
+	transition: .3 ease-in-out;
+}
+
+/*中身*/
+#nav-content{
+	position: fixed;
+	top: 60px;
+	left: 0;
+	z-index: 9999;
+	width: 90%;
+	height: 100%;
+	background: #0EB7FF;
+	transition: .3 ease-in-out;
+	transform: translateX(-105%);
+	overflow: auto;
+	-webkit-transform: translateX(-105%);
+}
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
