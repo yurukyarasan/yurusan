@@ -15,9 +15,6 @@ h2 {
 a {
 	color: #4BFB4E;
 }
-p1 {
-	color: #46F732;
-}
 img {
 	max-width:  100%;
 }
@@ -109,8 +106,9 @@ img {
 }
 #news .page-title {
     text-align: center;
+	margin-top: 13%;
 }
-.news-contents {
+.news-contents-wrapper {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 50px;
@@ -189,16 +187,13 @@ aside p {
 	background-image: url(../images/menu-bg.jpg);
 	min-height: 100vh;
 }
-.menu-content {
-	max-width: 560px;
-	margin-top: 10%;
+.menu-content-wrapper {
+	margin: 0 auto;
 }
-.menu-content .page-title {
-	text-align: center;
-}
-.menu-content p {
+.menu-content-wrapper p.message {
+	color: #46F732;
 	font-size: 1.125rem;
-	margin: 10px 0 0;
+	width: 600px;
 }
 .grid {
 	display: grid;
@@ -242,13 +237,17 @@ footer p {
 	.home-content{
 		margin-top: 20%;
 	}
+/* h1 */
+	h1 {
+		font-size: 140%;
+	}
 	
 /* NEWS */
 	.news-contents{
 		flex-direction: column;
 	}
-	#news .page-title {
-        margin-top: 30px;
+	h2.page-title {
+        margin-top: 43%;
 	}
 	article,
 	aside {
@@ -283,13 +282,24 @@ footer p {
 }
 
 /* MENU */
-    .menu-content {
-        margin-top: 20%;
+    #menu {
+	    background-size: cover;
     }
-	.big-box {
+    .menu-content-wrapper {
+	    width: 100%;
+    }
+    .menu-content-wrapper h2.page-title {
+		width: 60%;
+        margin: 10% 0 0 35%;
+    }
+    .menu-content-wrapper p.message {
+		width: 90%;
+        margin: 10% 0 0 5%;
+    }
+    .item-big-box {
 		grid-colum: auto;
 		grid-row: auto;
 	}
-	.big-box img {
-		height: 78%;
+	.item-big-box img {
+		
 	}
