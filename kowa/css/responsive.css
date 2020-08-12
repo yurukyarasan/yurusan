@@ -1,0 +1,2490 @@
+@charset "utf-8";
+@media(max-width: 768px) {
+/* index html css */
+  #container {
+    width: 100%;
+  }
+  .head-content h1 img {
+    width: 100%;
+  }
+  #business-overview {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #main-image {
+	max-width: 100%;
+    margin-top: 100px;
+  }
+  #promoted-by-professionals {
+    width: 100%;
+  }
+  #promoted-by-professionals h2 {
+    width: 90%;
+    font-size: 21px;
+    margin-top: 100px;
+    margin-left: 10px;
+  }
+  #promoted-by-professionals p {
+    margin-left: 10px;
+    width: 340px;
+    padding-top: -20%;
+  }
+  #promoted-by-professionals img {
+    width: 100%;
+    margin-top: 70px;
+  }
+  #introduction-of-each-company {
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
+  #introduction-of-each-company .introduction-of-each-company-01 img {
+    margin-top: 0px;
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 img {
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 li {
+    width: 65px;
+    height: 25px;
+    font-size: 4px;
+    margin-top: 160px;
+    margin-left: auto;
+    padding-top: 10px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(1) {
+    margin-top: 70px;
+    margin-left: -20px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(2) {
+    margin-top: 30px;
+    margin-left: -150px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(3) {
+    margin-top: 30px;
+    margin-left: -140px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(4) {
+    margin-top: 90px;
+    margin-left: -440px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-02 ul li:nth-of-type(5) {
+    margin-top: 90px;
+    margin-left: -420px;
+    padding-left: 0;
+  }
+  #introduction-of-each-company .introduction-of-each-company-03 img {
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-03 p {
+    margin-left: 130px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-04 img {
+    width: 100%;
+    margin-top: 0px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-04 p {
+    margin-left: -15px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 img {
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 li {
+    width: 65px;
+    height: 35px;
+    font-size: 4px;
+    margin-top: 160px;
+    margin-left: auto;
+    padding-top: 10px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(1) {
+    margin-top: -45px;
+    margin-left: -150px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(2) {
+    margin-top: -95px;
+    margin-left: -120px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(3) {
+    margin-top: -100px;
+    margin-left: -120px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(4) {
+    margin-top: -47px;
+    margin-left: -380px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(5) {
+    margin-top: -47px;
+    margin-left: -400px;
+    padding-left: 15px;
+    width: 49px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-05 ul li:nth-of-type(6) {
+    margin-top: -47px;
+    margin-left: -410px;
+    padding-left: 15px;
+    width: 49px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-06 img {
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(1) {
+    margin-top: -20px;
+    margin-left: 150px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-06 p:nth-of-type(2) {
+    margin-top: -20px;
+    margin-left: -50px;
+  }
+  #introduction-of-each-company .introduction-of-each-company-07 img {
+    width: 100%;
+  }
+  #introduction-of-each-company .introduction-of-each-company-07 p {
+    margin-top: 160%;
+    margin-left: 150px;
+  }
+  #news {
+    width: 100%;
+    margin-top: 20px;
+  }
+  #news h2 {
+    font-size: 14px;
+    margin-top: 113px;
+  }
+  #news p:nth-of-type(1) {
+    margin-left: -30px;
+  }
+  #news p:nth-of-type(2) {
+    margin-left: -40px;
+  }
+  #news-paper {
+    position: relative;
+  }
+  #news-paper dl {
+    margin-top: 150px;
+  }
+  #news-paper dt {
+    border-top: 1px dashed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #news-paper dt:last-of-type {
+    border-bottom: 1px dashed;
+  }
+  #business {
+    display: none;
+  }
+  #guidelines {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 240px;
+	width: 100%;
+  }
+  #guidelines p {
+    border: none;
+  }
+  #guidelines .guidelines-about-the-use-of-the-site {
+    flex-basis: 100%;
+    margin-top: 0px;
+    background-color: #888888;
+    width: 100%;
+  }
+  #guidelines .guidelines-privacy-policy {
+    flex-basis: 100%;
+    background-color: #888888;
+    width: 100%;
+  }
+  #guidelines .guidelines-basic-policy-on-specific-personal-information {
+    flex-basis: 100%;
+    background-color: #888888;
+	width: 100%;
+  }
+  #guidelines .guidelines-compliance-initiatives {
+    flex-basis: 100%;
+    background-color: #888888;
+	width: 100%;
+  }
+  #guidelines .guidelines-anti-social-forces {
+    flex-basis: 100%;
+    background-color: #888888;
+	width: 100%;
+  }
+  #guidelines .guidelines-site-map {
+    flex-basis: 100%;
+    padding-left: 38%;
+    background-color: #888888;
+	width: 100%;
+  }
+  footer {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 0px;
+    height: 50px;
+  }
+
+/* building-equipment-management.html css */
+
+  #sub-main-image-1 {
+    width: 100%;
+    position: relative;
+  }
+  #sub-main-image-1 p {
+    width: 220px;
+  }
+  #sub-main-image-1 p:nth-of-type(1) a {
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+  #sub-main-image-1 p:nth-of-type(2) a {
+    font-size: 36px;
+    position: absolute;
+    top: 40%;
+  }
+  #uninterrupted-service {
+    position: relative;
+  }
+  #uninterrupted-service h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-top: 50px;
+    margin-left: 10px;
+	text-align: justify;
+  }
+  #uninterrupted-service p {
+    margin-left: 10px;
+    width: 95%;
+  }
+  #management {
+    width: 100%;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+    position: relative;
+  }
+  #resident h3 {
+    
+	flex-basis: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008b8b;
+    border-left: 4px solid #1e90ff;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #resident-management {
+    flex-basis: 100%;
+	width: 100%;
+    font-size: 11px;
+  }
+  #resident img {
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  #resident p {
+    width: 95%;
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #patrol h3 {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008b8b;
+    border-left: 4px solid #1e90ff;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #patrol img:nth-of-type(1) {
+    width: 100%;
+    margin-top: 7%;
+  }
+  #patrol img:nth-of-type(2) {
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 4%;
+  }
+  #patrol p {
+    width: 95%;
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #building-equipment-business h3 {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008b8b;
+    border-left: 4px solid #1e90ff;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #building-equipment-business img {
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  #building-equipment-business p {
+    width: 95%;
+    flex-basis: 100%;
+    margin-top: 12px;
+    margin-right: 10px;
+  }
+  #security h3 {
+    flex-basis: 100%;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008b8b;
+    border-left: 4px solid #1e90ff;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #security img {
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  #security p {
+    width: 95%;
+    flex-basis: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #building-contact-us-here {
+	margin-left: 18%;
+    position: relative;
+  }
+  #building-contact-us-here p {
+    margin-top: -150px;
+    margin-left: auto;
+	margin-right: auto;
+  }
+  #building-contact-us-here .building-arrow {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    margin-top: -12%;
+    margin-left: 8%;
+	margin-right: 24%;
+    z-index: 2;
+  }
+  #building-contact-us-here .building-circle {
+    margin-top: -6.4%;
+    margin-left: 5.3%;
+	margin-right: 27%;
+    z-index: 1;
+  }
+
+/* cleaning-management.html css */
+
+  #sub-main-image-2 {
+    width: 100%;
+    position: relative;
+  }
+  #sub-main-image-2 p {
+    width: 100%;
+  }
+  #sub-main-image-2 p:nth-of-type(1) a {
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+  }
+  #sub-main-image-2 p:nth-of-type(2) a {
+    font-size: 45px;
+    position: absolute;
+    top: 40%;
+  }
+  #cleaning-management {
+	width: 100%;
+    position: relative;
+  }
+  #cleaning-management h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px;
+	text-align: justify;
+  }
+  #cleaning-management p {
+    margin-left: 10px;
+    width: 95%;
+  }
+  #cleaning {
+	width: 100%;
+    position: relative;
+  }
+  #cleaning h3 {
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #cleaning .daily-cleaning dt img {
+    width: 100%;
+    margin-top: 5%;
+  }
+  #cleaning .daily-cleaning dd:nth-of-type(1) {
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #cleaning .daily-cleaning dd:nth-of-type(2) {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .regular-cleaning {
+	width: 100%;
+    margin-top: -5%;
+  }
+  #cleaning .regular-cleaning dt img {
+    width: 100%;
+  }
+  #cleaning .regular-cleaning dd:nth-of-type(1) {
+    
+	width: 95%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #cleaning .regular-cleaning dd:nth-of-type(2) {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .glass-cleaning {
+	width: 100%;
+    margin-top: -5%;
+  }
+  #cleaning .glass-cleaning dt img {
+    width: 100%;
+  }
+  #cleaning .glass-cleaning dd:nth-of-type(1) {
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #cleaning .glass-cleaning dd:nth-of-type(2) {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .special-cleaning {
+	width: 100%;
+    margin-top: -5%;
+  }
+  #cleaning .special-cleaning dt img {
+    width: 100%;
+  }
+  #cleaning .special-cleaning dd:nth-of-type(1) {
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  #cleaning .special-cleaning dd:nth-of-type(2) {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .cleaning-of-commercial-facilities h3 {
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #cleaning .cleaning-of-commercial-facilities dt img {
+    width: 100%;
+  }
+  #cleaning .cleaning-of-commercial-facilities dd {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .cleaning-of-condominiums {
+	width: 100%;
+    margin-top: 5%;
+  }
+  #cleaning .cleaning-of-condominiums h3 {
+    width: 100%;
+	height: 50px;
+    box-sizing: border-box;
+  }
+  #cleaning .cleaning-of-condominiums dt img {
+    width: 100%;
+  }
+  #cleaning .cleaning-of-condominiums dd {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #other-business .pest-control-business {
+	width: 100%;
+    margin-top: 5%;
+  }
+  #other-business .pest-control-business h3 {
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #other-business .pest-control-business dt {
+    width: 100%;
+  }
+  #other-business .pest-control-business dd {
+    width: 95%;;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #other-business .sales-of-goods-and-materials {
+	width: 100%;
+    margin-top: 5%;
+  }
+  #other-business .sales-of-goods-and-materials dt {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0%;
+  }
+  #other-business .sales-of-goods-and-materials dd {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .scat-special-cleaning-advanced-team {
+	width: 100%;
+    margin-top: 5%;
+  }
+  #cleaning .scat-special-cleaning-advanced-team h3 {
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 15px;
+	box-sizing: border-box;
+  }
+  #cleaning .scat-special-cleaning-advanced-team dt img {
+    width: 100%;
+  }
+  #cleaning .scat-special-cleaning-advanced-team dd {
+    width: 95%;
+    margin-top: 2%;
+    margin-left: 3%;
+  }
+  #cleaning .environmental-conservation-initiatives {
+    margin-top: 5%;
+    width: 100%;
+	box-sizing: border-box;
+  }
+  #cleaning .environmental-conservation-initiatives dt {
+	width: 100%;
+    margin-left: auto;
+	box-sizing: border-box;
+  }
+  #cleaning .environmental-conservation-initiatives dd:nth-of-type(1) {
+    width: 100%;
+	margin-left: auto;
+    padding-left: 16px;
+	box-sizing: border-box;
+  }
+  #cleaning .environmental-conservation-initiatives dd:nth-of-type(2) {
+    width: 100%;
+    font-size: 13.9px;
+    margin-left: auto;
+	box-sizing: border-box;
+  }
+  #cleaning-contact-us-here {
+	margin-left: 18%;
+    position: relative;
+  }
+  #cleaning-contact-us-here p {
+    margin-top: 0px;
+    margin-left: auto;
+	margin-right: auto;
+  }
+  #cleaning-contact-us-here .cleaning-arrow {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    margin-top: -12%;
+    margin-left: 8%;
+	margin-right: 24%;
+    z-index: 2;
+  }
+  #cleaning-contact-us-here .cleaning-circle {
+    margin-top: -6.4%;
+    margin-left: 5.3%;
+	margin-right: 27%;
+    z-index: 1;
+  }
+
+/* construction.html css */
+	
+  #sub-main-image-3{
+      position: relative;
+	  width: 100%
+    }
+    #sub-main-image-3 p {
+      width: 220px;
+    }
+    #sub-main-image-3 p:nth-of-type(1) a{
+     
+	  font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 30%;
+    }
+    #sub-main-image-3 p:nth-of-type(2) a{
+      font-size: 45px;
+      position: absolute;
+      top: 40%;
+    }
+    #abundant-experience-in-functions-designs-customer-needs-etc{
+      position: relative;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc h2{
+      width: 95%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #abundant-experience-in-functions-designs-customer-needs-etc p{
+      margin-left: 10px;
+      width: 90%;
+      }
+    #construction{
+      width: 100%;
+      position: relative;
+      z-index: -1;
+    }
+    #construction .construction-value-up-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-value-up-construction dd:nth-of-type(2){
+        width: 100%;
+        position: absolute;
+        top: 18.1%;
+        left: 0%;
+    }
+    #construction .construction-tenant-layout-work dd img{
+      width: 100%;
+    }
+    #construction .construction-tenant-layout-work dd:nth-of-type(2){
+        width: 100%;
+        position: absolute;
+        top: 48.1%;
+        left: 0%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd img{
+      width: 100%;
+    }
+    #construction .construction-facilitie-and-energy-saving-renewal-construction dd:nth-of-type(2){
+        width: 100%;
+        position: absolute;
+        top: 72.8%;
+        left: 0%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd img{
+      width: 100%;
+    }
+    #construction .construction-exterior-wall-waterproofing-parking-lot-roadway-collection-work dd:nth-of-type(2){
+        width: 100%;
+        position: absolute;
+        top: 96.3%;
+        left: 0%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control{
+        width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(1){
+      width: 98%;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(2){
+        width: 50%;
+        margin-top: 80px;
+		margin-left: 60px;
+    }
+    #construction .construction-safety-management-and-construction-quality-control dd:nth-of-type(3) {
+        width: 50%;
+        margin-top: 20px;
+		margin-left: 60px;
+    }
+    #construction .construction-arrow-first{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: -105px;
+	margin-left: 80px;
+    z-index: 3;
+    }
+    #construction .construction-circle-first{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -17px;
+    margin-left: 73px;
+    z-index: 2;
+    }
+    #construction .construction-arrow-second{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: 55px;
+	margin-left: 80px;
+    z-index: 3
+    }
+    #construction .construction-circle-second{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -17px;
+    margin-left: 73px;
+    z-index: 2;
+    }
+    #construction-examples p:nth-of-type(1){
+     display: none;
+    }
+    #construction-examples p:nth-of-type(2){
+      margin-top: 60%;
+      margin-left: 16%;
+    }
+    #construction-examples .construction-arrow-third{
+      content: "";
+	  width: 0px;
+	  height: 0px;
+	  border-style: solid;
+	  border-width: 8px 8px 0px 8px;
+	  border-color: #ffffff transparent transparent transparent;
+	  transform: rotate(270deg);
+	  margin-top: -28px;
+	  margin-left: 80px;
+      z-index: 1;
+    }
+    #construction-examples .construction-circle-third{
+      width: 25px;
+      height: 25px;
+      background-color: #B7AA00;
+      border-radius: 50%;
+      margin-top: -17px;
+      margin-left: 73px;
+      z-index: -1;
+          }
+    #construction-contact-us-here {
+	margin-left: 18%;
+    position: relative;
+  }
+  #construction-contact-us-here p {
+    margin-top: 0px;
+    margin-left: auto;
+	margin-right: auto;
+  }
+  #construction-contact-us-here .construction-arrow {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    margin-top: -12%;
+    margin-left: 8%;
+	margin-right: 24%;
+    z-index: 2;
+  }
+  #construction-contact-us-here .construction-circle {
+    margin-top: -6.4%;
+    margin-left: 5.3%;
+	margin-right: 27%;
+    z-index: 1;
+  }
+
+/* customer-support.html css */
+
+#sub-main-image-4{
+      width: 100%;
+      position: relative;
+    }
+    #sub-main-image-4 p {
+      width: 280px;
+    }
+    #sub-main-image-4 p:nth-of-type(1) {
+      font-size: 35px;
+      position: absolute;
+      top: 30%;
+      left: 2%;
+    }
+    #sub-main-image-4 p:nth-of-type(2) {
+      font-size: 30px;
+      position: absolute;
+      top: 40%;
+      left: 10%;
+    }
+    #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations{
+      width: 100%;
+      position: relative;
+      }
+    #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations h2{
+      width: 90%;
+      font-size: 21px;
+      margin-left: 10px;
+      }
+    #one-stop-support-for-various-needs-that-meet-customer-needs-and-expectations p{
+      margin-left: 10px;
+      width: 90%;
+      }
+    #costomer-support{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    #costomer-support .costomer-support-maintenance-preventive-maintenance-proposal dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-maintenance-preventive-maintenance-proposal dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-energy-saving-proposal{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-energy-saving-proposal dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-energy-saving-proposal dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-disaster-response{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-disaster-response dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-disaster-response dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-management-service-business{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-management-service-business dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-management-service-business dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-customer-service-for-building-operation-and-management{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-customer-service-for-building-operation-and-management dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-customer-service-for-building-operation-and-management dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-Regular-cleaning-special-cleaning-proposal dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #costomer-support .costomer-support-cleaning-man-hour-management{
+        margin-top: -20%;
+    }
+    #costomer-support .costomer-support-cleaning-man-hour-management dd img{
+      width: 100%;
+    }
+    #costomer-support .costomer-support-cleaning-man-hour-management dd:nth-of-type(2){
+        width: 90%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+    #customer-support-contact-us-here {
+        margin-top: 10%;
+		margin-right: 20%
+    }
+    #customer-support-contact-us-here .customer-support-arrow{
+    content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 8px 8px 0px 8px;
+	border-color: #ffffff transparent transparent transparent;
+	transform: rotate(270deg);
+	margin-top: -27px;
+	margin-left: 7.3%;
+    }
+    #customer-support-contact-us-here .customer-support-circle{
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -15.5px;
+    margin-left: 5.3%;
+    }
+
+/* business-introduction.html css */
+
+#promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service {
+    position: relative;
+  }
+  #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service h2 {
+    width: 90%;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #promoted-by-professionals-familiar-with-building-sites-reliable-and-reliable-one-stop-service p {
+    margin-left: 10px;
+    width: 90%;
+  }
+	#sub-main-image-6 {
+	width: 100%;
+	}
+#sub-main-image-6 img {
+	width: 100%;
+	margin-top: 100px;
+	margin-left: 0%;
+	}
+  #business-introduction-menu{
+      display: flex;
+      flex-direction: column;
+	  margin-top: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management{
+		width: 100%;
+		margin-left: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management img{
+        width: 100%;
+		margin-left: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(1){
+        width: 99%;
+		margin-left: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-building-equipment-management p:nth-of-type(2){
+        width: 95%;
+        font-size: 13px;
+        margin-left: 0;
+    }
+	#business-introduction-menu .business-introduction-menu-cleaning-management {
+		width: 100%;
+		margin-left: 0;
+	}
+    #business-introduction-menu .business-introduction-menu-cleaning-management img{
+        width: 100%;
+        margin-top: 80px;
+        margin-left: 0%;
+    }
+    #business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(1){
+        width: 99%;
+		margin-top: 240px;
+		margin-left: 0%;
+	}
+    #business-introduction-menu .business-introduction-menu-cleaning-management p:nth-of-type(2){
+        width: 95%;
+        font-size: 13px;
+        margin-left: 0%;
+    }
+    #business-introduction-menu .business-introduction-menu-construction{
+        width: 100%;
+		margin-top: 0;
+		margin-left: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-construction img{
+        width: 100%;
+		margin-top: 50px;
+		margin-left: 0;
+    }
+    #business-introduction-menu .business-introduction-menu-construction p:nth-of-type(1){
+        width: 99%;
+		margin-top: 0%;
+		margin-left: 0;
+        padding-left: 1%;
+    }
+    #business-introduction-menu .business-introduction-menu-construction p:nth-of-type(2){
+        width: 95%;
+        font-size: 13px;
+        margin-left: 0;
+    }
+	#business-introduction-menu .business-introduction-menu-customer-support {
+		width: 100%;
+		margin-top: 0;
+		margin-left: 0;
+	}
+    #business-introduction-menu .business-introduction-menu-customer-support img{
+        width: 100%;
+		margin-top: 100px;
+		margin-left: 0;
+        
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(1){
+        width: 99%;
+		margin-top: 230px;
+		margin-left: 0;
+        
+    }
+    #business-introduction-menu .business-introduction-menu-customer-support p:nth-of-type(2){
+        width: 95%;
+        font-size: 13px;
+		margin-left: 0;
+        
+    }
+	#business-introduction-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  #business-introduction-menu .quality-improvement-and-environmental-conservation {
+    width: 100%;
+    margin-top: 15%;
+  }
+  #business-introduction-menu .quality-improvement-and-environmental-conservation img {
+    width: 100%;
+  }
+  #business-introduction-menu .quality-improvement-and-environmental-conservation p:nth-of-type(1) {
+    width: 95%;
+    padding-left: 1%;
+  }
+  #business-introduction-menu .quality-improvement-and-environmental-conservation p:nth-of-type(2) {
+    width: 98%;
+    font-size: 13px;
+    margin-left: 2%;
+  }
+  #business-introduction-menu .inspection img {
+    width: 100%;
+    margin-top: 42%;
+    margin-left: 0%;
+  }
+  #business-introduction-menu .inspection p:nth-of-type(1) {
+    width: 100%;
+    margin-top: 2.5%;
+    margin-left: 0%;
+  }
+  #business-introduction-menu .inspection p:nth-of-type(2) {
+    width: 99%;
+    font-size: 13px;
+    margin-top: 3%;
+    margin-left: 1%;
+  }
+  #business-introduction-menu .safety-initiatives img {
+   width: 100%;
+    margin-top: 10%;
+  }
+  #business-introduction-menu .safety-initiatives p:nth-of-type(1) {
+    width: 99%;
+    padding-left: 1%;
+  }
+  #business-introduction-menu .safety-initiatives p:nth-of-type(2) {
+    width: 99%;
+    font-size: 13px;
+    margin-left: 1%;
+  }
+  #business-introduction-menu .cs-improvement img {
+    width: 100%;
+    margin-top: 24%;
+    margin-left: 0%;
+  }
+  #business-introduction-menu .cs-improvement p:nth-of-type(1) {
+    width: 99%;
+    margin-top: 1%;
+    margin-left: 0%;
+    padding-left: 1%;
+  }
+  #business-introduction-menu .cs-improvement p:nth-of-type(2) {
+    width: 99%;
+    font-size: 13px;
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  #business-introduction-menu .education-and-training img {
+    width: 100%;
+    margin-top: 13%;
+    margin-left: 0%;
+  }
+  #business-introduction-menu .education-and-training p:nth-of-type(1) {
+    width: 99%;
+    margin-top: 2%;
+    margin-left: 0%;
+    padding-left: 1%;
+  }
+  #business-introduction-menu .education-and-training p:nth-of-type(2) {
+    width: 99%;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+	
+/* initiatives-to-improve-quality-and-protect-the-environment.html css */
+	
+#quality-improvement-and-environmental-conservation{
+      display: flex;
+      flex-direction: column;
+	  margin-left: 0;
+      position: relative;
+      z-index: 1;
+      }
+    #quality-improvement-and-environmental-conservation .title h2{
+      width: 100%;
+	  margin-left: 0;
+    }
+    #quality-improvement-and-environmental-conservation .quality-policy h2{
+      width: 100%;
+	  height: 50px;
+      font-size: 21px;
+	  margin-left: 0;
+	  box-sizing: border-box;
+      }
+    #quality-improvement-and-environmental-conservation .quality-policy p{
+      width: 95%;
+      margin-left: 10px;
+      }
+    #quality-improvement-and-environmental-conservation .human-quality{
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dt{
+        width: 85%;
+        position: absolute;
+        top: 20%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(1){
+        width: 100%;
+        position: absolute;
+        top: 25.2%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(2){
+        width: 85%;
+        position: absolute;
+        top: 26.7%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality{
+        width: 95%;
+		margin-left: 0;
+        position: absolute;
+        top: 34%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dt{
+        width: 87%;
+        position: absolute;
+        top: -2%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd{
+        width: 85%;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality{
+        width: 95%;
+	    margin-left: 0;
+        position: absolute;
+        top: 41%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dt{
+        width: 87%;
+        position: absolute;
+        top: -48%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd{
+        width: 85%;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality{
+        width: 95%;
+	    margin-left: 0;
+        position: absolute;
+        top: 52%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality dt{
+        width: 87%;
+        position: absolute;
+        top: 2%;
+    }
+	#quality-improvement-and-environmental-conservation .inspection-quality dd{
+        width: 85%;
+        position: absolute;
+        top: 39%;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy {
+        width: 100%;
+        margin-top: 50px;
+		margin-left: 0;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy h2{
+        width: 100%;
+		height: 50px;
+        margin-top: 650px;
+		box-sizing: border-box;
+    }
+	#quality-improvement-and-environmental-conservation .environmental-policy p {
+		width: 90%;
+	}
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(1){
+        width: 95%;
+        margin-left: 5px;
+    }
+	 #quality-improvement-and-environmental-conservation .construction-quality-control {
+        width: 100%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control h2{
+        width: 100%;
+		height: 50px;
+		box-sizing: border-box;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dt img{
+        width: 100%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dd{
+        width: 100%;
+        position: absolute;
+        top: 106%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control p{
+        position: absolute;
+        top: 110%;
+        left: -40%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-arrow{
+        width: 0px;
+	    height: 0px;
+	    border-style: solid;
+	    border-width: 5px 5px 0px 5px;
+	    border-color: #ffffff transparent transparent transparent;
+	    transform: rotate(270deg);
+        position: absolute;
+        top: 107.6%;
+	    left: -35.9%;
+        z-index: 3;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-circle{
+        width: 20px;
+        height: 20px;
+        background-color: #B7AA00;
+        border-radius: 50%;
+        position: absolute;
+        top: 107%;
+        left: -37%;
+        z-index: 2;
+    }
+  #inspection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+  }
+  #inspection .title h2 {
+	width: 100%;
+    font-size: 45px;
+  }
+  #inspection .build-a-reliable-quality-system h2 {
+    width: 100%;
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  #inspection .build-a-reliable-quality-system p {
+    margin-left: 15px;
+    width: 90%;
+  }
+  #inspection .build-a-reliable-quality-system img {
+    width: 100%;
+    margin-top: 20%;
+  }
+  #inspection .inspection-equipment-management dt {
+	width: 100%;
+    margin-top: 50px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-equipment-management img {
+    width: 100%;
+    margin-top: -40px;
+  }
+  #inspection .inspection-equipment-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 80.5%;
+    left: 3%;
+  }
+  #inspection .inspection-equipment-management ul {
+    position: absolute;
+    top: 82.5%;
+    left: -35%;
+  }
+  #inspection .inspection-equipment-management-arrow-first {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 81.0%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .inspection-equipment-management-circle-first {
+    position: absolute;
+    top: 80.4%;
+    left: -33%;
+    z-index: 2;
+  }
+  #inspection .inspection-cleaning-management {
+	width: 100%;
+    margin-top: 54%;
+    z-index: -1;
+  }
+  #inspection .inspection-cleaning-management dt {
+	width: 100%;
+    margin-top: 213px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-cleaning-management img {
+    width: 100%;
+    position: absolute;
+    top: 88.9%;
+  }
+  #inspection .inspection-cleaning-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 108.2%;
+    left: 3%;
+  }
+  #inspection .inspection-cleaning-management ul {
+    position: absolute;
+    top: 110.6%;
+    left: -35%;
+  }
+  #inspection .inspection-cleaning-management-arrow-second {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 109.1%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .inspection-cleaning-management-circle-second {
+    position: absolute;
+    top: 108.5%;
+    left: -33%;
+    z-index: 2;
+  }
+#initiatives-for-safety .title {
+    width: 100%;
+  }
+  #initiatives-for-safety {
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	float: left;
+    z-index: 1;
+	position: relative;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 100%;
+	float: left;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 100%;
+	float: left;
+    margin-left: 0px;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 100%;
+	height: 50px;
+	float: left;
+	box-sizing: border-box;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 100%;
+	float: left;
+	margin-top: 20px;
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 100%;
+	float: left;
+    margin-top: 20px;
+	margin-left: 0px;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 100%;
+	height: 50px;
+	float: left;
+    margin-top: 20px;
+	box-sizing: border-box;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    width: 100%;
+	float: left;
+	margin-top: 20px;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 100%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 0px;
+  }
+  .construction-txtarea p {
+	float: left;
+	margin-top: 20%;
+	margin-left: 15%;
+	
+  }
+  #initiatives-for-safety .construction-safety-arrow {
+    width: 0px;
+    height: 0px;
+	float: left;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+	margin-top: -6%;
+	margin-left: 19%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .construction-safety-circle {
+    width: 20px;
+    height: 20px;
+	float: left;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    margin-top: -7.7%;
+	margin-left: 17.5%;
+    z-index: 2;
+  }
+#cs-improvement {
+    width: 100%;
+  }
+  #cs-improvement .title h2 {
+    font-size: 45px;
+  }
+  #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes h2 {
+    width: 100%;
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes p {
+    margin-left: 10px;
+    width: 95%;
+  }
+  #cs-improvement .learn-from-customers-voices-and-respond-to-their-wishes img {
+    width: 100%;
+    margin-top: 100px;
+  }
+#education-and-training .title h2 {
+    font-size: 25px;
+    color: #898500;
+    width: 97.77777777777778%;
+    border-bottom: 1px solid #000000;
+    margin-top: 150px;
+    padding-left: 2px;
+    padding-bottom: 15px;
+  }
+  #education-and-training {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  #education-and-training .the-growth-of-each-employee-is-the-driving-force-of-development h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px
+  }
+  #education-and-training .the-growth-of-each-employee-is-the-driving-force-of-development p {
+    width: 95%;
+	margin-left: 15px;
+  }
+  #education-and-training .building-equipment-management-training h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .building-equipment-management-training dt img {
+    width: 100%;
+  }
+  #education-and-training .building-equipment-management-training dd {
+    width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  }
+  #education-and-training .cleaning-management-training h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .cleaning-management-training dt img {
+    width: 355px;
+    
+  }
+  #education-and-training .cleaning-management-training dd {
+    width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  }
+  #education-and-training .on-site-ojt-training h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .on-site-ojt-training dt img {
+    width: 355px;
+   
+  }
+  #education-and-training .on-site-ojt-training dd {
+    width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  }
+  #education-and-training .business-skills-training h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .business-skills-training dt img {
+    width: 355px;
+      }
+  #education-and-training .business-skills-training dd {
+    width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+     }
+  #education-and-training .qualification-assistance h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .qualification-assistance dt {
+   width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  }
+  #education-and-training .participation-in-various-skill-competitions-and-judging-committees h2 {
+    width: 100%;
+	height: 50px;
+	box-sizing: border-box;
+  }
+  #education-and-training .participation-in-various-skill-competitions-and-judging-committees dt img {
+    width: 100%;
+    float: left;
+  }
+  #education-and-training .participation-in-various-skill-competitions-and-judging-committees dd img {
+    width: 90.7%;
+	margin-top: 150px;
+    margin-left: 300px;
+  }
+  #education-and-training .participation-in-various-skill-competitions-and-judging-committees dd:nth-of-type(2) {
+    width: 94.44444444444444%;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+  }
+
+/* quality-improvement-and-environmental-conservation.html css */
+	
+  #quality-improvement-and-environmental-conservation{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+      }
+    #quality-improvement-and-environmental-conservation .title h2{
+      width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .quality-policy h2{
+      width: 356px;
+      font-size: 21px;
+      }
+    #quality-improvement-and-environmental-conservation .quality-policy p{
+      width: 340px;
+      margin-left: 10px;
+      }
+    #quality-improvement-and-environmental-conservation .human-quality{
+        width: 340px;
+        margin-top: 10%;
+        margin-left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 20.3%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 25.6%;
+    }
+    #quality-improvement-and-environmental-conservation .human-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 26.9%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality{
+        width: 340px;
+        position: absolute;
+        top: 34%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -2%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .technology-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality{
+        width: 340px;
+        position: absolute;
+        top: 41.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dt{
+        width: 310px;
+        position: absolute;
+        top: -48%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(1){
+        width: 310px;
+        position: absolute;
+        top: 37%;
+    }
+    #quality-improvement-and-environmental-conservation .equipment-quality dd:nth-of-type(2){
+        width: 310px;
+        position: absolute;
+        top: 60%;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality{
+        width: 350px;
+        position: absolute;
+        top: 52.5%;
+        left: 10px;
+    }
+    #quality-improvement-and-environmental-conservation .inspection-quality dt{
+        width: 310px;
+        position: absolute;
+        top: 2%;
+    }
+	#quality-improvement-and-environmental-conservation .inspection-quality dd{
+        width: 310px;
+        position: absolute;
+        top: 39%;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy h2{
+        width: 356px;
+        margin-top: 650px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(1){
+        width: 340px;
+        margin-left: 5px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(2){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(3){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(4){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .environmental-policy p:nth-of-type(5){
+        width: 340px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control h2{
+        width: 356px;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dt img{
+        width: 100%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control dd{
+        width: 100%;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-arrow{
+        width: 0px;
+	    height: 0px;
+	    border-style: solid;
+	    border-width: 5px 5px 0px 5px;
+	    border-color: #ffffff transparent transparent transparent;
+	    transform: rotate(270deg);
+        margin-top: -2%;
+        z-index: 3;
+    }
+    #quality-improvement-and-environmental-conservation .construction-quality-control-circle{
+        width: 20px;
+        height: 20px;
+        background-color: #B7AA00;
+        border-radius: 50%;
+        margin-top: -1%;
+        z-index: 2;
+    }
+
+/* inspection.html インスペクション */
+	
+  #inspection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+  }
+  #inspection .title h2 {
+	width: 100%;
+    font-size: 45px;
+  }
+  #inspection .build-a-reliable-quality-system h2 {
+    width: 100%;
+    font-size: 17px;
+    padding-top: 20px;
+  }
+  #inspection .build-a-reliable-quality-system p {
+    margin-left: 10px;
+    width: 90%;
+  }
+  #inspection .build-a-reliable-quality-system img {
+    width: 100%;
+    margin-top: 20%;
+  }
+  #inspection .inspection-equipment-management dt {
+	width: 100%;
+    margin-top: 50px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-equipment-management img {
+    width: 100%;
+    margin-top: -40px;
+  }
+  #inspection .inspection-equipment-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 80.5%;
+    left: 3%;
+  }
+  #inspection .inspection-equipment-management ul {
+    position: absolute;
+    top: 82.5%;
+    left: -35%;
+  }
+  #inspection .arrow-first {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 81.0%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .circle-first {
+    position: absolute;
+    top: 80.4%;
+    left: -33%;
+    z-index: 2;
+  }
+  #inspection .inspection-cleaning-management {
+	width: 100%;
+    margin-top: 54%;
+    z-index: -1;
+  }
+  #inspection .inspection-cleaning-management dt {
+	width: 100%;
+    margin-top: 213px;
+    height: 30px;
+    padding-top: 15px;
+  }
+  #inspection .inspection-cleaning-management img {
+    width: 100%;
+    position: absolute;
+    top: 88.9%;
+  }
+  #inspection .inspection-cleaning-management dd {
+    width: 95%;
+    font-size: 13px;
+    position: absolute;
+    top: 108.2%;
+    left: 3%;
+  }
+  #inspection .inspection-cleaning-management ul {
+    position: absolute;
+    top: 110.6%;
+    left: -35%;
+  }
+  #inspection .arrow-second {
+    border-color: #ffffff transparent transparent transparent;
+    position: absolute;
+    top: 109.1%;
+    left: -32%;
+    z-index: 3;
+  }
+  #inspection .circle-second {
+    position: absolute;
+    top: 108.5%;
+    left: -33%;
+    z-index: 2;
+  }
+
+/* construction-examples.html css 工事事例 */
+
+#construction-examples {
+    position: relative;
+  }
+  #construction-examples .text h2 {
+    width: 100%;
+  }
+  #construction-examples .case001 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction1 {
+    width: 96.66666666666667%;
+    height: 620px;
+  }
+  #construction-examples .value-up-construction1 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction1 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction1 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction1 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .value-up-construction1 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction1 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-first-1-1 {
+    position: absolute;
+    top: 27%;
+    left: 22.8%;
+  }
+  #construction-examples .arrow-first-1-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 64.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-first-1-3 {
+    position: absolute;
+    top: 70.2%;
+    left: 22.8%;
+  }
+  #construction-examples .case002 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction2 {
+    width: 96.66666666666667%;
+    height: 620px;
+  }
+  #construction-examples .value-up-construction2 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction2 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction2 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction2 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .value-up-construction2 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction2 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-second-2-1 {
+    position: absolute;
+    top: 27%;
+    left: 22.8%;
+  }
+  #construction-examples .arrow-second-2-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 64.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-second-2-3 {
+    position: absolute;
+    top: 70.2%;
+    left: 22.8%;
+  }
+  #construction-examples .case003 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction3 {
+    width: 96.66666666666667%;
+    height: 700px;
+  }
+  #construction-examples .value-up-construction3 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction3 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .value-up-construction3 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction3 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .value-up-construction3 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .value-up-construction3 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-third-3-1 {
+    position: absolute;
+    top: 33%;
+    left: 22.8%;
+  }
+  #construction-examples .arrow-third-3-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 66.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-third-3-3 {
+    position: absolute;
+    top: 71.2%;
+    left: 22.8%;
+  }
+  #construction-examples .case004 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 {
+    width: 96.66666666666667%;
+    height: 1760px;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(6) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(6) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(8) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work1 dd:nth-of-type(8) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-fourth-4-1 {
+    position: absolute;
+    top: 12.16%;
+    left: 22.7%;
+  }
+  #construction-examples .arrow-fourth-4-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 33.3%;
+	left: 35%;
+  }
+  #construction-examples .arrow-fourth-4-3 {
+    position: absolute;
+    top: 35.55%;
+    left: 22.5%;
+  }
+  #construction-examples .arrow-fourth-4-4 {
+    position: absolute;
+    top: 52.9%;
+    left: 22.6%;
+  }
+  #construction-examples .arrow-fourth-4-5 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 74.3%;
+	left: 35%;
+  }
+  #construction-examples .arrow-fourth-4-6 {
+    position: absolute;
+    top: 76.3%;
+    left: 22.7%;
+  }
+  #construction-examples .case005 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 {
+    width: 96.66666666666667%;
+    height: 620px;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work2 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-five-5-1 {
+    position: absolute;
+    top: 24.2%;
+    left: 22.8%;
+  }
+  #construction-examples .arrow-five-5-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 61.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-five-5-3 {
+    position: absolute;
+    top: 67.4%;
+    left: 22.8%;
+  }
+  #construction-examples .case006 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 {
+    width: 96.66666666666667%;
+    height: 720px;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work3 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-six-6-1 {
+    position: absolute;
+    top: 31.9%;
+    left: 22.8%;
+  }
+  #construction-examples .arrow-six-6-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 64.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-six-6-3 {
+    position: absolute;
+    top: 69.1%;
+    left: 22.8%;
+  }
+  #construction-examples .case007 h2 {
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 {
+    width: 96.66666666666667%;
+    height: 720px;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dt {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dd:nth-of-type(1) {
+    width: 94.44444444444444%;
+    margin-left: 0%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dd:nth-of-type(2) {
+    width: 22.22222222222222%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dd:nth-of-type(2) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -22.8%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dd:nth-of-type(4) {
+    width: 22.22222222222222%;
+    margin-top: 10%;
+    margin-left: 3%;
+  }
+  #construction-examples .equipment-and-energy-saving-renewal-work4 dd:nth-of-type(4) + dd img {
+    width: 90.27777777777778%;
+    margin-left: -83.2%;
+  }
+  #construction-examples .arrow-seven-7-1 {
+    position: absolute;
+    top: 25.2%;
+    left: 22.6%;
+  }
+  #construction-examples .arrow-seven-7-2 {
+    transform: rotate(360deg);
+    position: absolute;
+    top: 57.5%;
+	left: 35%;
+  }
+  #construction-examples .arrow-seven-7-3 {
+    position: absolute;
+    top: 62.5%;
+    left: 22.6%;
+  }
+
+/* company-profile.html 会社概要 */
+
+  #specialist-in-building-management-that-plays-a-role {
+	width: 100%;
+	}
+　#specialist-in-building-management-that-plays-a-role .title h2 {
+    width: 90%;
+    margin-left: 30px;
+  }
+  #specialist-in-building-management-that-plays-a-role .title img {
+    float: left;
+    margin-top: 10%;
+    padding-left: 20%;
+  }
+  #specialist-in-building-management-that-plays-a-role .title p {
+    width: 95%;
+    margin-top: 10%;
+    margin-left: 1%;
+  }
+  #company-profile-link {
+    position: relative;
+  }
+  #company-profile-link .greeting p {
+    border: 2px solid #5c8934;
+    height: 30px;
+    width: 63.88888888888889%;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+    padding-left: 40px;
+    z-index: -1;
+  }
+  #company-profile-link .arrow-first {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    z-index: 3;
+  }
+  #company-profile-link .circle-first {
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    z-index: 2;
+  }
+  #company-profile-link .about-us p {
+    border: 2px solid #5c8934;
+    height: 30px;
+    width: 63.88888888888889%;
+    margin-top: 5%;
+    margin-left: 14%;
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  #company-profile-link .arrow-second {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 36%;
+    left: -13%;
+    z-index: 3;
+  }
+  #company-profile-link .circle-second {
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 26%;
+    left: -14%;
+    z-index: 2;
+  }
+  #company-profile-link .group-enterprise p {
+    border: 2px solid #5c8934;
+    height: 30px;
+    width: 63.88888888888889%;
+    margin-top: 5%;
+    margin-left: 14%;
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  #company-profile-link .arrow-third {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 51%;
+    left: -44%;
+    z-index: 3;
+  }
+  #company-profile-link .circle-third {
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 47%;
+    left: -45%;
+    z-index: 2;
+  }
+  #company-profile-link .list-of-technical-qualifications p {
+    border: 2px solid #5c8934;
+    height: 30px;
+    width: 63.88888888888889%;
+    margin-top: 5%;
+    margin-left: 14%;
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  #company-profile-link .arrow-fourth {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 78%;
+    left: 18%;
+    z-index: 3;
+  }
+  #company-profile-link .circle-fourth {
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 68%;
+    left: 17%;
+    z-index: 2;
+  }
+  #company-profile-link .access-map p {
+    border: 2px solid #5c8934;
+    height: 30px;
+    width: 63.88888888888889%;
+    margin-top: 5%;
+    margin-left: 14%;
+    padding-top: 10px;
+    padding-left: 40px;
+  }
+  #company-profile-link .arrow-five {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 8px 8px 0px 8px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 99%;
+    left: -13%;
+    z-index: 3;
+  }
+  #company-profile-link .circle-five {
+    width: 25px;
+    height: 25px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 89%;
+    left: -14%;
+    z-index: 2;
+  }
+
+/* greeting.html ごあいさつ */
+
+#greeting .title h2 {
+    font-size: 30px;
+    width: 100%;
+    margin-top: 100px;
+  }
+  #greeting .title img {
+    width: 100%;
+    margin-top: 4%;
+  }
+  #greeting .greeting-sentence {
+    position: relative;
+  }
+  #greeting .greeting-sentence p {
+    white-space: pre-wrap;
+  }
+  #greeting .greeting-sentence p:nth-of-type(1) {
+    font-size: 25px;
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  #greeting .greeting-sentence p:nth-of-type(2) {
+    font-size: 14px;
+    margin-top: -58%;
+    margin-left: 15%;
+  }
+  #greeting .greeting-sentence p:nth-of-type(3) {
+    font-size: 14px;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  #greeting .greeting-sentence p:nth-of-type(4) {
+    font-size: 25px;
+    line-height: 2em;
+    margin-top: -10%;
+    margin-left: 36%;
+  }
+  #greeting .greeting-sentence p:nth-of-type(5) {
+    font-size: 14px;
+    width: 100%;
+    margin-top: 47%;
+  }
+  #greeting .greeting-sentence p:nth-of-type(6) {
+    font-size: 14px;
+    width: 100%;
+    line-height: 2em;
+    margin-top: 0.5%;
+  }
+}
