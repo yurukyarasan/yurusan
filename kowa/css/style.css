@@ -53,9 +53,6 @@ nav::after {
 }
 #main-image {
   margin-top: 50px;
-  width: 960px;
-  height: 311px;
-  background-image: url("../img/png/index.html/index.html_top_images_No.1.png"), url("../img/png/index.html/index.html_top_images_No.2.png"), url("../img/png/index.html/index.html_top_images_No.3.png"), url("../img/png/index.html/index.html_top_images_No.4.png");
 }
 #promoted-by-professionals:after {
   content: "";
