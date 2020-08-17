@@ -156,6 +156,7 @@
   #news h2 {
     font-size: 14px;
     margin-top: 113px;
+	margin-left: 5px;
   }
   #news p:nth-of-type(1) {
     margin-left: -30px;
@@ -171,8 +172,7 @@
   }
   #news-paper dt {
     border-top: 1px dashed;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 20px 0 20px 0;
   }
   #news-paper dt:last-of-type {
     border-bottom: 1px dashed;
