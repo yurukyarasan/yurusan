@@ -84,6 +84,11 @@ section.customer-link {
 	border-left: none;
 	padding: 15px 20px 0 0;
 }
+.customer {
+	display: block;
+	content: "";
+	clear: both;
+}
 section.mitui-logo {
 	width: 960px;
 	margin: 0 auto;
@@ -131,5 +136,110 @@ section.mitui-logo p.middle {
 	margin: 32px 0 0 10px;
 }
 section.mitui-logo p.big {
-	margin: 32px 0 0 10px;
+	margin: 32px 0 30px 10px;
+}
+section.mitui-logo {
+	display: block;
+	content: "";
+	clear: both;
+}
+section.service-link {
+	width: 100%;
+}
+.service {
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #00FF00;
+	border-bottom: 10px solid #1A7300;
+}
+.service ul {
+	width: 960px;
+	margin: 0 auto;
+}
+.service ul li a img{
+	float: left;
+	margin: 0px 0 0 10%;
+}
+.service ul li {
+	float: left;
+	list-style: none;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	height: 35px;
+	margin-left: 14px;
+}
+.service ul li:nth-of-type(1) {
+	padding: 15px 20px 0 20px;
+	margin: 0 0 0 30px;
+}
+.service ul li:nth-of-type(2) {
+	border-left: none;
+	padding: 15px 30px 0 30px;
+}
+.service ul li:nth-of-type(3) {
+	border-left: none;
+	padding: 15px 30px 0 30px;
+}
+.service ul li:nth-of-type(4) {
+	border-left: none;
+	padding: 15px 30px 0 30px;
+}
+.service ul li:nth-of-type(5) {
+	border-left: none;
+	padding: 15px 30px 0 30px;
+}
+.service ul li:nth-of-type(6) {
+	border-left: none;
+	padding: 15px 30px 0 30px;
+}
+.service {
+	display: block;
+	content: "";
+	clear: both;
+}
+.urgent-notice {
+	width: 960px;
+	margin: 0 auto;
+}
+.urgent-notice dl dt img,.urgent-notice dl dd.urgent-notice-news {
+   float: left;
+}
+.urgent-notice dl dt img {
+   margin: 20px 0 0 40px;
+}
+.urgent-notice dl dd:nth-of-type(1) {
+	float: left;
+	width: 800px;
+	margin: 20px 0 0 10px;
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 20px;
+}
+.urgent-notice dl dd:nth-of-type(2) {
+	float: left;
+	width: 800px;
+	margin: 20px 0 0 67px;
+	color: #FF0000;
+	font-size: 16px;
+}
+.urgent-notice dl dd:nth-of-type(3) {
+	float: left;
+	width: 800px;
+	margin: 20px 0 0 67px;
+	color: #FF0000;
+	font-size: 16px;
+}
+.urgent-notice {
+	display: block;
+	content: "";
+	clear: both;
+}
+section.top-images {
+	width: 100%;
+	margin: 150px 0 0 0;
+}
+#main-image {
+	width: 100%;
+	margin: 0 auto;
 }
