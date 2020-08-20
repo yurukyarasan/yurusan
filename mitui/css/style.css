@@ -198,7 +198,7 @@ section.service-link {
 	content: "";
 	clear: both;
 }
-.urgent-notice {
+section.urgent-notice {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -242,4 +242,204 @@ section.top-images {
 #main-image {
 	width: 100%;
 	margin: 0 auto;
+}
+section.service-hamberger {
+	margin: 0 auto;
+	position: relative;
+}
+#login-hamberger-menu p.login {
+	width: 240px;
+	height: 30px;
+	padding-top: 10px;
+	margin: 20px 0 20px 0;
+	background-color: #FC660D;
+	text-align: center;
+}
+#login-hamberger-menu p.acount-opening {
+	width: 240px;
+	height: 30px;
+	padding-top: 10px;
+	margin: 20px 0 20px 0;
+	background-color: #1A7300;
+	text-align: center;
+}
+#login-hamberger-menu p.login-with-the-app {
+	width: 240px;
+	height: 30px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.1.png");
+	background-repeat: no-repeat;
+	background-position: 10px;
+	text-align: center;
+	border: 1px solid #000;
+}
+#login-hamberger-menu p.cash-card-balance-inquiry {
+	width: 240px;
+	height: 30px;
+	padding-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#various-procedures-hamberger-menu .procedure p {
+	float: left;
+	font-size: 12px;
+}
+#various-procedures-hamberger-menu .procedure p.store-atm {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.2.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+}
+#various-procedures-hamberger-menu .procedure p.book-a-visit {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.3.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+	margin-left: 35px;
+}
+#various-procedures-hamberger-menu .procedure p.various-procedures {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.4.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+	margin-left: 35px;
+}
+#various-procedures-hamberger-menu {
+	display: block;
+	content: "";
+	clear: both;
+}
+#various-procedures-hamberger-menu .things-about-money p {
+	float: left;
+	font-size: 12px;
+}
+#various-procedures-hamberger-menu .things-about-money p.commission {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.5.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+	margin-left: 10px;
+}
+#various-procedures-hamberger-menu .things-about-money p.interest-rate-forex {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.6.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+	margin-left: 30px;
+}
+#various-procedures-hamberger-menu .things-about-money p.faq {
+	height: 50px;
+	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.7.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 45px;
+	margin-left: 15px;
+}
+#various-procedures-hamberger-menu {
+	display: block;
+	content: "";
+	clear: both;
+}
+.hamberger-content {
+	width: 280px;
+	height: 440px;
+	padding: 5px 0 0 20px;
+	background-color: #FFF;
+	position: absolute;
+	top: -502px;
+	left: 59.8%;
+}
+section.past-news {
+	width: 100%;
+	text-align: center;
+	margin: 50px 0 50px 0;
+}
+section.goods-services {
+	width: 100%;
+	height: 500px;
+	background-color: #EDE6E6;
+}
+.card-related-service {
+	width: 1200px;
+	margin: 0 auto;
+}
+.card-related-service dt {
+	text-align: center;
+	margin: 50px 0 50px 0;
+}
+.card-related-service dd {
+    float: left;
+	margin: 0 5px 5px 0;
+}
+.card-related-service dd:nth-of-type(1) {
+	width: 140px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.1.png");
+	background-repeat: no-repeat;
+	background-position: 70px 20px;
+	padding: 100px 0 0 30px;
+	margin-left: 75px;
+}
+.card-related-service dd:nth-of-type(2) {
+	width: 135px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.2.png");
+	background-repeat: no-repeat;
+	background-position: 60px 20px;
+	padding: 100px 0 0 35px;
+}
+.card-related-service dd:nth-of-type(3) {
+	width: 140px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.3.png");
+	background-repeat: no-repeat;
+	background-position: 60px 20px;
+	padding: 100px 0 0 30px;
+}
+.card-related-service dd:nth-of-type(4) {
+	width: 115px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.4.png");
+	background-repeat: no-repeat;
+	background-position: 60px 20px;
+	padding: 100px 0 0 55px;
+}
+.card-related-service dd:nth-of-type(5) {
+	width: 115px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.5.png");
+	background-repeat: no-repeat;
+	background-position: 60px 20px;
+	padding: 100px 0 0 55px;
+}
+.card-related-service dd:nth-of-type(6) {
+	width: 120px;
+	height: 30px;
+	background-color: aquamarine;
+	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.6.png");
+	background-repeat: no-repeat;
+	background-position: 55px 20px;
+	padding: 100px 0 0 50px;
+}
+.card-related-service dd:nth-of-type(7) {
+	width: 600px;
+	margin-top: 50px;
+}
+.card-related-service dd:nth-of-type(8) {
+	width: 600px;
+	margin-top: 50px;
+}
+.card-related-service dd:nth-of-type(9) {
+	
 }

@@ -94,7 +94,8 @@
 		<source media="(max-width:768px)" srcset="img/PNG/index.html-png/index-html-main-img/main-m_768-No.2.png" alt="">
 		<source media="(min-width:960px)" srcset="img/PNG/index.html-png/index-html-main-img/main-No.2.png" alt="">
         <img src="img/PNG/index.html-png/index-html-main-img/main-No.2.png" alt="">
-		</picture>3		<picture>
+		</picture>
+	    <picture>
 		<source media="(max-width:320px)" srcset="img/PNG/index.html-png/index-html-main-img/main-s_320-No.3.png" alt="">
 		<source media="(max-width:360px)" srcset="img/PNG/index.html-png/index-html-main-img/main-s_360-No.3.png" alt="">
 		<source media="(max-width:375px)" srcset="img/PNG/index.html-png/index-html-main-img/main-s_375-No.3.png" alt="">
@@ -207,10 +208,45 @@
   </div>
 </section>
 <section class="service-hamberger">
+<div class="hamberger-content">
+<div id="login-hamberger-menu">
+<p class="login">ログイン</p>
+<p class="acount-opening">口座開設</p>
+<p class="login-with-the-app">アプリでログイン</p>
+<p class="cash-card-balance-inquiry">キャッシュカードで残高照会</p>
+</div>
+<div id="various-procedures-hamberger-menu">
+<div class="procedure">
+<p class="store-atm">店舗･ATM</p>
+<p class="book-a-visit">来店予約</p>
+<p class="various-procedures">各種お手続</p>
+</div>
+<div class="things-about-money">
+<p class="commission">手数料</p>
+<p class="interest-rate-forex">金利外国為替</p>
+<p class="faq">よくあるご質問</p>
+</div>
+</div>
+</div>
 </section>
 <section class="past-news">
+<p>過去の重要なお知らせはこちら</p>
 </section>
 <section class="goods-services">
+<div class="card-related-service">
+<dl>
+<dt>商品･サービス</dt>
+<dd>SMBCダイレクト</dd>
+<dd>デビットカード</dd>
+<dd>クレジットカード</dd>
+<dd>口座開設</dd>
+<dd>投資信託</dd>
+<dd>住宅ローン</dd>
+<dd>資産運用のご案内</dd>
+<dd>積立投資のご案内</dd>
+<dd>全ての商品･サービス</dd>
+</dl>
+</div>
 </section>
 <section class="future-money-guide">
 </section>
@@ -246,10 +282,13 @@
   <script>
   $(document).ready(function(){
     $('#main-image').slick({
-      slidesToShow: 3,
-  slidesToScroll: 1,
+      dots: true,
+  infinite: true,
   autoplay: true,
-  autoplaySpeed: 2000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  centerMode: true,
+  variableWidth: true
     });
   });
   </script>
