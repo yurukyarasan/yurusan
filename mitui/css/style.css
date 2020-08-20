@@ -355,6 +355,9 @@ section.service-hamberger {
 	top: -502px;
 	left: 59.8%;
 }
+#login-hamberger-menu {
+	margin-left: 15px;
+}
 section.past-news {
 	width: 100%;
 	text-align: center;
@@ -362,7 +365,7 @@ section.past-news {
 }
 section.goods-services {
 	width: 100%;
-	height: 500px;
+	height: 350px;
 	background-color: #EDE6E6;
 }
 .card-related-service {
@@ -372,6 +375,7 @@ section.goods-services {
 .card-related-service dt {
 	text-align: center;
 	margin: 50px 0 50px 0;
+	padding-top: 40px;
 }
 .card-related-service dd {
     float: left;
@@ -380,7 +384,7 @@ section.goods-services {
 .card-related-service dd:nth-of-type(1) {
 	width: 140px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.1.png");
 	background-repeat: no-repeat;
 	background-position: 70px 20px;
@@ -390,7 +394,7 @@ section.goods-services {
 .card-related-service dd:nth-of-type(2) {
 	width: 135px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.2.png");
 	background-repeat: no-repeat;
 	background-position: 60px 20px;
@@ -399,7 +403,7 @@ section.goods-services {
 .card-related-service dd:nth-of-type(3) {
 	width: 140px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.3.png");
 	background-repeat: no-repeat;
 	background-position: 60px 20px;
@@ -408,7 +412,7 @@ section.goods-services {
 .card-related-service dd:nth-of-type(4) {
 	width: 115px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.4.png");
 	background-repeat: no-repeat;
 	background-position: 60px 20px;
@@ -417,7 +421,7 @@ section.goods-services {
 .card-related-service dd:nth-of-type(5) {
 	width: 115px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.5.png");
 	background-repeat: no-repeat;
 	background-position: 60px 20px;
@@ -426,20 +430,38 @@ section.goods-services {
 .card-related-service dd:nth-of-type(6) {
 	width: 120px;
 	height: 30px;
-	background-color: aquamarine;
+	background-color: #FFF;
 	background-image: url("../img/PNG/index.html-png/index-html-goods-services/service-link-No.6.png");
 	background-repeat: no-repeat;
 	background-position: 55px 20px;
 	padding: 100px 0 0 50px;
 }
 .card-related-service dd:nth-of-type(7) {
-	width: 600px;
-	margin-top: 50px;
+	float: left;
+	width: 520px;
+	height: 40px;
+	margin: 0 0 0 75px;
+	padding-top: 20px;
+	text-align: center;
+	background-color: #FFF;
 }
 .card-related-service dd:nth-of-type(8) {
-	width: 600px;
-	margin-top: 50px;
+	float: right;
+	width: 520px;
+	height: 40px;
+	margin: 0 80px 0 0;
+	padding-top: 20px;
+	text-align: center;
+	background-color: #FFF;
 }
 .card-related-service dd:nth-of-type(9) {
-	
+	width: 1055px;
+	height: 40px;
+	margin: 20px 0 0 65px;
+	text-align: center;
+}
+.card-related-service {
+	display: block;
+	content: "";
+	clear: both;
 }
