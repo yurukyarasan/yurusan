@@ -5,12 +5,12 @@ body {
   background: #f8f8f8;
   color: #5c5c5c;
   font-size: 14px;
-  font-family: '游明朝', 'Yu Mincho', YuMincho, serif;
+  font-family: 'Meiryo','メイリオ','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro',Verdana,'ＭＳ Ｐゴシック',sans-serif;
   font-weight: normal;
   letter-spacing: .04em;
   line-height: 1;
 }
-#container {
+#containar {
   margin: 0 auto;
 }
 section.smbc-logo {
@@ -28,7 +28,7 @@ section.smbc-logo {
  margin-top: 10px;
  width: 55px
 }
-#SMBC p:nth-of-type(1) {
+#SMBC h1 {
  color: #FFFFFF;
  width: 200px;
  font-size: 40px;
@@ -36,12 +36,12 @@ section.smbc-logo {
  top: 20px;
  left: 50px;
 }
-#SMBC p:nth-of-type(2) {
+#SMBC p {
  color: #FFFFFF;
  width: 200px;
  font-size: 20px;
  position: absolute;
- top: 30px;
+ top: 10px;
  left: 850px;
 }
 section.customer-link {
@@ -94,11 +94,11 @@ section.mitui-logo {
 	margin: 0 auto;
 	position: relative;
 }
-section.mitui-logo p,img,input {
+section.mitui-logo h2,p,img,input {
 	float: left;
 	margin-top: 20px;
 }
-section.mitui-logo p.mitui {
+section.mitui-logo h2.mitui {
 	font-size: 30px;
 	font-weight: bold;
 	color: #1A7300;
@@ -251,7 +251,7 @@ section.service-hamberger {
 	width: 240px;
 	height: 30px;
 	padding-top: 10px;
-	margin: 20px 0 20px 0;
+	margin: 20px 0 10px 0;
 	background-color: #FC660D;
 	text-align: center;
 }
@@ -259,7 +259,7 @@ section.service-hamberger {
 	width: 240px;
 	height: 30px;
 	padding-top: 10px;
-	margin: 20px 0 20px 0;
+	margin: 10px 0 10px 0;
 	background-color: #1A7300;
 	text-align: center;
 }
@@ -267,7 +267,7 @@ section.service-hamberger {
 	width: 240px;
 	height: 30px;
 	padding-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.1.png");
 	background-repeat: no-repeat;
 	background-position: 10px;
@@ -278,8 +278,11 @@ section.service-hamberger {
 	width: 240px;
 	height: 30px;
 	padding-top: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: center;
+}
+#various-procedures-hamberger-menu {
+	position: relative;
 }
 #various-procedures-hamberger-menu .procedure p {
 	float: left;
@@ -312,6 +315,10 @@ section.service-hamberger {
 	display: block;
 	content: "";
 	clear: both;
+}
+#various-procedures-hamberger-menu .things-about-money {
+	position: absolute;
+	top: 80px;
 }
 #various-procedures-hamberger-menu .things-about-money p {
 	float: left;
@@ -348,7 +355,7 @@ section.service-hamberger {
 }
 .hamberger-content {
 	width: 280px;
-	height: 440px;
+	height: 460px;
 	padding: 5px 0 0 20px;
 	background-color: #FFF;
 	position: absolute;
@@ -359,9 +366,9 @@ section.service-hamberger {
 	margin-left: 15px;
 }
 section.past-news {
-	width: 100%;
+	width: 220px;
 	text-align: center;
-	margin: 50px 0 50px 0;
+	margin: 50px auto 150px auto;
 }
 section.goods-services {
 	width: 100%;
@@ -457,11 +464,314 @@ section.goods-services {
 .card-related-service dd:nth-of-type(9) {
 	width: 1055px;
 	height: 40px;
-	margin: 20px 0 0 65px;
+	margin: 20px 0 50px 65px;
 	text-align: center;
 }
 .card-related-service {
 	display: block;
 	content: "";
 	clear: both;
+}
+section.future-money-guide {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.title {
+	width: 100%;
+}
+.title h3 {
+	width: 460px;
+	margin: 0 auto;
+}
+.overview {
+	width: 1050px;
+	height: 420px;
+	background-color: #0BFFEC;
+	position: absolute;
+	top: 180px;
+	left: 75px;
+}
+dl.student-campus-life {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 70px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.student-campus-life dt {
+	width: 50px;
+}
+dl.student-campus-life dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.student-campus-life dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.employment-career-life {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.employment-career-life dt {
+	width: 50px;
+}
+dl.employment-career-life dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.employment-career-life dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.marriage-new-life {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.marriage-new-life dt {
+	width: 50px;
+}
+dl.marriage-new-life dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.marriage-new-life dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.child-birth {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 70px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.child-birth dt {
+	width: 50px;
+}
+dl.child-birth dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.child-birth dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.buying-a-house {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.buying-a-house dt {
+	width: 50px;
+}
+dl.buying-a-house dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.buying-a-house dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.nursing {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.nursing dt {
+	width: 50px;
+}
+dl.nursing dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.nursing dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+dl.retirement-second-life {
+	width: 310px;
+	height: 100px;
+	float: left;
+	margin: 30px 0 0 70px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.retirement-second-life dt {
+	width: 50px;
+}
+dl.retirement-second-life dd:nth-of-type(1) {
+	width: 300px;
+	margin: 30px 0 0 0;
+}
+dl.retirement-second-life dd:nth-of-type(2) {
+	width: 300px;
+	margin: 5px 0 0 0;
+}
+.overview {
+	display: block;
+	content: "";
+	clear: both;
+}
+section.user-service {
+	display: block;
+	content: "";
+	clear: both;
+	width: 400px;
+	height: 700px;
+	margin: 600px 0 0 415px;
+}
+dl.various-procedures {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.various-procedures dt {
+	width: 52px;
+	margin: 0 auto;
+}
+dl.various-procedures dd:nth-of-type(1) {
+	width: 100px;
+	margin: 80px auto 0 auto;
+}
+dl.various-procedures dd:nth-of-type(2) {
+	font-size: 12px;
+	width: 170px;
+	margin: 5px auto 0 auto;
+}
+dl.fee-list {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 30px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.fee-list dt {
+	width: 52px;
+	margin: 0 auto;
+}
+dl.fee-list dd {
+	width: 85px;
+	margin: 100px auto 0 auto;
+}
+section.user-service .clear-flex-1 {
+	display: block;
+	content: "";
+	clear: both;
+}
+dl.store-atm {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 10px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.store-atm dt {
+	width: 62px;
+	margin: 0 auto;
+}
+dl.store-atm dd {
+	width: 80px;
+	margin: 100px auto 0 auto;
+}
+dl.book-a-visit-or-seminar {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 10px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.book-a-visit-or-seminar dt {
+	width: 60px;
+	margin: 0 auto;
+}
+dl.book-a-visit-or-seminar dd {
+	width: 120px;
+	margin: 100px auto 0 auto;
+}
+section.user-service .clear-flex-2 {
+	display: block;
+	content: "";
+	clear: both;
+}
+dl.document-request {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 10px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.document-request dt {
+	width: 60px;
+	margin: 0 auto;
+}
+dl.document-request dd {
+	width: 70px;
+	margin: 100px auto 0 auto;
+}
+dl.faq {
+	width: 150px;
+	height: 144px;
+	float: left;
+	margin: 10px 0 0 10px;
+	padding-left: 10px;
+	background-color: #FFF;
+	border: solid 1px #000;
+	box-sizing: border-box;
+}
+dl.faq dt {
+	width: 60px;
+	margin: 0 auto;
+}
+dl.faq dd {
+	width: 110px;
+	margin: 100px auto 0 auto;
 }
