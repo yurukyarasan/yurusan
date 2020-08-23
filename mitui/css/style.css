@@ -14,9 +14,9 @@ body {
   margin: 0 auto;
 }
 section.smbc-logo {
-	border-bottom: 10px solid #00FF00;
+	border-bottom: 10px solid #C6D80E;
 	height: 75px;
-	background-color: #1A7300;
+	background-color: #004831;
 	width: 100%
 }
 #SMBC {
@@ -47,7 +47,7 @@ section.smbc-logo {
 section.customer-link {
 	width: 100%;
 	height: 40px;
-	background-color: #C0C0C0;
+	background-color: #EBEBEB;
 }
 .customer {
 	width: 960px;
@@ -150,8 +150,8 @@ section.service-link {
 	width: 100%;
 	height: 50px;
 	margin: 0 auto;
-	background-color: #00FF00;
-	border-bottom: 10px solid #1A7300;
+	background-color: #A0C81E;
+	border-bottom: 10px solid #508827;
 }
 .service ul {
 	width: 960px;
@@ -212,7 +212,7 @@ section.urgent-notice {
 	float: left;
 	width: 800px;
 	margin: 20px 0 0 10px;
-	color: #FF0000;
+	color: #D12318;
 	font-weight: bold;
 	font-size: 20px;
 }
@@ -220,14 +220,14 @@ section.urgent-notice {
 	float: left;
 	width: 800px;
 	margin: 20px 0 0 67px;
-	color: #FF0000;
+	color: #D12318;
 	font-size: 16px;
 }
 .urgent-notice dl dd:nth-of-type(3) {
 	float: left;
 	width: 800px;
 	margin: 20px 0 0 67px;
-	color: #FF0000;
+	color: #D12318;
 	font-size: 16px;
 }
 .urgent-notice {
@@ -252,7 +252,7 @@ section.service-hamberger {
 	height: 30px;
 	padding-top: 10px;
 	margin: 20px 0 10px 0;
-	background-color: #FC660D;
+	background-color: #F27329;
 	text-align: center;
 }
 #login-hamberger-menu p.acount-opening {
@@ -260,7 +260,7 @@ section.service-hamberger {
 	height: 30px;
 	padding-top: 10px;
 	margin: 10px 0 10px 0;
-	background-color: #1A7300;
+	background-color: #004833;
 	text-align: center;
 }
 #login-hamberger-menu p.login-with-the-app {
@@ -373,7 +373,7 @@ section.past-news {
 section.goods-services {
 	width: 100%;
 	height: 350px;
-	background-color: #EDE6E6;
+	background-color: #EBEBEB;
 }
 .card-related-service {
 	width: 1200px;
@@ -487,7 +487,7 @@ section.future-money-guide {
 .overview {
 	width: 1050px;
 	height: 420px;
-	background-color: #0BFFEC;
+	background-color: #F0FFD1;
 	position: absolute;
 	top: 180px;
 	left: 75px;
@@ -496,7 +496,7 @@ dl.student-campus-life {
 	width: 310px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 70px;
+	margin: 30px 0 0 50px;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -504,6 +504,9 @@ dl.student-campus-life {
 }
 dl.student-campus-life dt {
 	width: 50px;
+}
+dl.student-campus-life dt img {
+	padding-right: 10px;
 }
 dl.student-campus-life dd:nth-of-type(1) {
 	width: 300px;
@@ -526,6 +529,9 @@ dl.employment-career-life {
 dl.employment-career-life dt {
 	width: 50px;
 }
+dl.employment-career-life dt img {
+	padding-right: 10px;
+}
 dl.employment-career-life dd:nth-of-type(1) {
 	width: 300px;
 	margin: 30px 0 0 0;
@@ -547,6 +553,9 @@ dl.marriage-new-life {
 dl.marriage-new-life dt {
 	width: 50px;
 }
+dl.marriage-new-life dt img {
+	padding-right: 10px;
+}
 dl.marriage-new-life dd:nth-of-type(1) {
 	width: 300px;
 	margin: 30px 0 0 0;
@@ -559,7 +568,7 @@ dl.child-birth {
 	width: 310px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 70px;
+	margin: 30px 0 0 50px;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -567,6 +576,9 @@ dl.child-birth {
 }
 dl.child-birth dt {
 	width: 50px;
+}
+dl.child-birth dt img {
+	padding-right: 10px;
 }
 dl.child-birth dd:nth-of-type(1) {
 	width: 300px;
@@ -589,6 +601,9 @@ dl.buying-a-house {
 dl.buying-a-house dt {
 	width: 50px;
 }
+dl.buying-a-house dt img {
+	padding-right: 10px;
+}
 dl.buying-a-house dd:nth-of-type(1) {
 	width: 300px;
 	margin: 30px 0 0 0;
@@ -610,6 +625,9 @@ dl.nursing {
 dl.nursing dt {
 	width: 50px;
 }
+dl.nursing dt img {
+	padding-right: 10px;
+}
 dl.nursing dd:nth-of-type(1) {
 	width: 300px;
 	margin: 30px 0 0 0;
@@ -622,7 +640,7 @@ dl.retirement-second-life {
 	width: 310px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 70px;
+	margin: 30px 0 0 50px;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -630,6 +648,9 @@ dl.retirement-second-life {
 }
 dl.retirement-second-life dt {
 	width: 50px;
+}
+dl.retirement-second-life dt img {
+	padding-right: 10px;
 }
 dl.retirement-second-life dd:nth-of-type(1) {
 	width: 300px;
@@ -658,7 +679,7 @@ dl.various-procedures {
 	float: left;
 	margin: 30px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -681,7 +702,7 @@ dl.fee-list {
 	float: left;
 	margin: 30px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -704,7 +725,7 @@ dl.store-atm {
 	float: left;
 	margin: 10px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -722,7 +743,7 @@ dl.book-a-visit-or-seminar {
 	float: left;
 	margin: 10px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -745,7 +766,7 @@ dl.document-request {
 	float: left;
 	margin: 10px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -763,7 +784,7 @@ dl.faq {
 	float: left;
 	margin: 10px 0 0 10px;
 	padding-left: 10px;
-	background-color: #FFF;
+	background-color: #EDF3B2;
 	border: solid 1px #000;
 	box-sizing: border-box;
 }
@@ -774,4 +795,9 @@ dl.faq dt {
 dl.faq dd {
 	width: 110px;
 	margin: 100px auto 0 auto;
+}
+section.user-service {
+	display: block;
+	content: "";
+	clear: both;
 }
