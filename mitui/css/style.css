@@ -2121,7 +2121,7 @@ section.breadcrumb {
 }
 section.site-map {
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	background-color: #014029;
 }
 .site-map-txt-area {
@@ -2149,4 +2149,27 @@ section.site-map {
 .site-map-txt-area p:nth-of-type(17){
 	border-right: none;
 	margin-top: -2px;
+}
+section.last-footer {
+	display: block;
+	content: "";
+	dlear: both;
+}
+section.last-footer {
+	width: 100%;
+	height: 70px;
+	background-color: #014029;
+}
+.last-txt-area {
+	width: 1028px;
+	margin: 0 auto;
+}
+.last-txt-area p:nth-of-type(1) {
+	font-size: 11px;
+	color: #FFF;
+}
+.last-txt-area p:nth-of-type(2) {
+	font-size: 15px;
+	color: #FFF;
+	margin: 20px 0 0 220px;
 }
