@@ -13,7 +13,7 @@ section.smbc-logo {
   width: 100%;
 }
 #SMBC img {
- margin-top: 10px;
+ margin-top: 4%;
  width: 55px;
 }
 #SMBC h1 {
@@ -74,20 +74,20 @@ section.urgent-notice {
 }
 .urgent-notice dl dd:nth-of-type(1) {
 	width: 85%;
-	margin: 20px 0 0 40px;
+	margin: 7% 0 0 12.5%;
 	color: #D12318;
 	font-weight: bold;
 	font-size: 20px;
 }
 .urgent-notice dl dd:nth-of-type(2) {
 	width: 93.75%;
-	margin: 20px 0 0 20px;
+	margin: 8% 0 0 6.25%;
 	color: #D12318;
 	font-size: 14px;
 }
 .urgent-notice dl dd:nth-of-type(3) {
 	width: 93.75%;
-	margin: 20px 0 0 20px;
+	margin: 8% 0 0 6.25%;
 	color: #D12318;
 	font-size: 16px;
 }
@@ -106,26 +106,26 @@ section.service-hamberger {
 }
 #login-hamberger-menu p.login {
 	float: right;
-	width: 110px;
+	width: 34.375%;
 	height: 100px;
 	padding-top: 45px;
-	margin: 20px 40px 10px 0;
+	margin: 8% 14.8% 4% 0;
 	background-color: #F27329;
 	text-align: center;
 	box-sizing: border-box;
 }
 #login-hamberger-menu p.acount-opening {
 	float: left;
-	width: 110px;
+	width: 34.375%;
 	height: 100px;
 	padding-top: 45px;
-	margin: 20px 0 10px 0;
+	margin: 8% 0 6.25% 0;
 	background-color: #004833;
 	text-align: center;
 	box-sizing: border-box;
 }
 #login-hamberger-menu p.login-with-the-app {
-	width: 240px;
+	width: 84%;
 	height: 30px;
 	padding-top: 10px;
 	margin-bottom: 10px;
@@ -136,7 +136,7 @@ section.service-hamberger {
 	border: 1px solid #000;
 }
 #login-hamberger-menu p.cash-card-balance-inquiry {
-	width: 240px;
+	width: 84%;
 	height: 30px;
 	padding-top: 10px;
 	margin-bottom: 10px;
@@ -162,7 +162,7 @@ section.service-hamberger {
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-top: 45px;
-	margin-left: 35px;
+	margin-left: 10.9375%;
 }
 #various-procedures-hamberger-menu .procedure p.various-procedures {
 	height: 50px;
@@ -170,7 +170,7 @@ section.service-hamberger {
 	background-repeat: no-repeat;
 	background-position: center top;
 	padding-top: 45px;
-	margin-left: 35px;
+	margin-left: 10.9375%;
 }
 #various-procedures-hamberger-menu {
 	display: block;
@@ -230,10 +230,10 @@ section.service-hamberger {
 section.past-news {
 	width: 100%;
 	text-align: center;
-	margin: 50px auto 150px auto;
+	margin: 20% auto 46.875% auto;
 }
 section.past-news  p{
-	margin: 40px 0 50px 60px;
+	margin: 16% 0 11.325% 20%;
 }
 section.goods-services {
 	width: 100%;
@@ -254,7 +254,7 @@ section.goods-services {
 }
 .card-related-service dd {
     float: left;
-	margin: 0 5px 5px 0;
+	margin: 0 2% 2% 0;
 }
 .card-related-service dd:nth-of-type(1) {
 	font-size: 12px;
@@ -345,7 +345,7 @@ section.goods-services {
 	background-color: #FFF;
 	background-position: 40px 25px;
 	padding: 55px 0 0 18px;
-	margin: 20px 22px 0 0;
+	margin: 20px 7% 0 0;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(9) {
