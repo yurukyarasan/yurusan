@@ -453,10 +453,10 @@ section.goods-services {
 	background-color: #FFF;
 }
 .card-related-service dd:nth-of-type(8) {
-	float: right;
+	float: left;
 	width: 520px;
 	height: 40px;
-	margin: 0 0 0 0;
+	margin: 0 0 0 5px;
 	padding-top: 20px;
 	text-align: center;
 	background-color: #FFF;
@@ -907,21 +907,6 @@ section.column .news {
 	top: -600px;
 	left: 19%;
 }
-section.column .txt-1 {
-	position: absolute;
-	top: -90px;
-	left: 10px;
-}
-section.column .txt-1 p.selected {
-	width: 150px;
-	height: 45px;
-	background-color: #004831;
-	cursor: default;
-	text-align: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	color: #FFF;
-}
 section.column .txt-1 p.over{
 	color: #8EAEA4;
 	cursor:pointer;
@@ -1117,25 +1102,6 @@ section.column .goods-services {
 	top: -600px;
 	left: 19%;
 }
-section.column .txt-3 {
-	position: absolute;
-	top: -90px;
-	left: 170px;
-}
-section.column .txt-3 p.selected {
-	width: 150px;
-	height: 45px;
-	background-color: #004831;
-	cursor: default;
-	text-align: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	color: #FFF;
-}
-section.column .txt-3 p.over{
-	color: #8EAEA4;
-	cursor:pointer;
-}
 section.column .goods-services-1 dt {
 	float: left;
 }
@@ -1252,25 +1218,6 @@ section.column .campain {
 	top: -600px;
 	left: 19%;
 }
-section.column .txt-5 {
-	position: absolute;
-	top: -90px;
-	left: 330px;
-}
-section.column .txt-5 p.selected {
-	width: 150px;
-	height: 45px;
-	background-color: #004831;
-	cursor: default;
-	text-align: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	color: #FFF;
-}
-section.column .txt-5 p.over{
-	color: #8EAEA4;
-	cursor:pointer;
-}
 section.column .campain-1 dt {
 	float: left;
 }
@@ -1386,25 +1333,6 @@ section.column .announcement {
 	top: -600px;
 	left: 19%;
 }
-section.column .txt-7 {
-	position: absolute;
-	top: -90px;
-	left: 490px;
-}
-section.column .txt-7 p.selected {
-	width: 150px;
-	height: 45px;
-	background-color: #004831;
-	cursor: default;
-	text-align: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	color: #FFF;
-}
-section.column .txt-7 p.over{
-	color: #8EAEA4;
-	cursor:pointer;
-}
 section.column .announcement-1 dt {
 	float: left;
 }
@@ -1519,8 +1447,7 @@ section.column ul {
 section.column ul.tab li{
 	list-style-type: none;
 	float: left;
-	margin-top: -97%;
-	margin-left: 19%;
+	margin: -97% 0 0 19%;
 }
 section.column ul.tab li:nth-of-type(1){
 	position: absolute;

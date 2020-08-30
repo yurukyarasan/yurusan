@@ -10,7 +10,7 @@ section.smbc-logo {
 #SMBC {
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  width: 100%
 }
 #SMBC img {
  margin-top: 4%;
@@ -60,7 +60,7 @@ section.urgent-notice {
 	margin: 0 auto;
 }
 .urgent-notice {
-	width: 100%;
+	width: 95%;
     position: relative;
 }
 .urgent-notice dl dt {
@@ -94,10 +94,12 @@ section.urgent-notice {
 section.top-images {
 	width: 100%;
 	margin: 150px 0 0 0;
+	overflow: hidden;
 }
 #main-image {
 	width: 100%;
 	margin: 0 auto;
+	overflow: hidden;
 }
 section.service-hamberger {
 	width: 100%;
@@ -109,7 +111,7 @@ section.service-hamberger {
 	width: 34.375%;
 	height: 100px;
 	padding-top: 45px;
-	margin: 8% 14.8% 4% 0;
+	margin: 8% 14.9% 4% 0;
 	background-color: #F27329;
 	text-align: center;
 	box-sizing: border-box;
@@ -154,6 +156,7 @@ section.service-hamberger {
 	background-image: url("../img/PNG/index.html-png/index-html-service-hamberger/service-hamberger-No.2.png");
 	background-repeat: no-repeat;
 	background-position: center top;
+	margin-left: 10%;
 	padding-top: 45px;
 }
 #various-procedures-hamberger-menu .procedure p.book-a-visit {
@@ -180,6 +183,7 @@ section.service-hamberger {
 #various-procedures-hamberger-menu .things-about-money {
 	position: absolute;
 	top: 80px;
+	left: 10%;
 }
 #various-procedures-hamberger-menu .things-about-money p {
 	float: left;
@@ -226,17 +230,18 @@ section.service-hamberger {
 }
 #login-hamberger-menu {
 	margin-left: 15px;
+	box-sizing: border-box;
 }
 section.past-news {
-	width: 100%;
+	width: 95%;
 	text-align: center;
 	margin: 20% auto 46.875% auto;
 }
 section.past-news  p{
-	margin: 16% 0 11.325% 20%;
+	margin: 12% 0 11.325% 20%;
 }
 section.goods-services {
-	width: 100%;
+	width: 95%;
 	height: 100px;
 	background-color: #EBEBEB;
 }
@@ -265,7 +270,7 @@ section.goods-services {
 	background-repeat: no-repeat;
 	background-position: 50px 20px;
 	padding: 100px 0 0 20px;
-	margin: 20px 0 0 25px;
+	margin: 20px 0 0 10%;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(2) {
@@ -289,7 +294,7 @@ section.goods-services {
 	background-repeat: no-repeat;
 	background-position: 40px 25px;
 	padding: 100px 0 0 15px;
-	margin: 20px 0 0 25px;
+	margin: 20px 0 0 10%;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(4) {
@@ -313,7 +318,7 @@ section.goods-services {
 	background-repeat: no-repeat;
 	background-position: 40px 25px;
 	padding: 100px 0 0 38px;
-	margin: 20px 0 0 25px;
+	margin: 20px 0 0 10%;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(6) {
@@ -334,8 +339,8 @@ section.goods-services {
 	height: 130px;
 	background-color: #FFF;
 	background-position: 40px 25px;
-	padding: 55px 0 0 18px;
-	margin: 20px 0 0 25px;
+	padding: 55px 0 0 8px;
+	margin: 20px 0 0 10%;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(8) {
@@ -344,8 +349,8 @@ section.goods-services {
 	height: 130px;
 	background-color: #FFF;
 	background-position: 40px 25px;
-	padding: 55px 0 0 18px;
-	margin: 20px 7% 0 0;
+	padding: 55px 0 0 8px;
+	margin: 20px 0 0 13px;
 	box-sizing: border-box;
 }
 .card-related-service dd:nth-of-type(9) {
@@ -385,7 +390,7 @@ dl.student-campus-life {
 	width: 130px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 27px;
+	margin: 30px 0 0 10%;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -404,8 +409,9 @@ dl.student-campus-life dd:nth-of-type(1) {
 	margin: 10px 0 0 0;
 }
 dl.student-campus-life dd:nth-of-type(2) {
+	font-size: 14px;
 	width: 130px;
-	margin: 5px 0 0 0;
+	margin: 5px 0 0 -5px;
 }
 dl.employment-career-life {
 	width: 130px;
@@ -430,14 +436,15 @@ dl.employment-career-life dd:nth-of-type(1) {
 	margin: 10px 0 0 0;
 }
 dl.employment-career-life dd:nth-of-type(2) {
+	font-size: 14px;
 	width: 130px;
-	margin: 5px 0 0 0;
+	margin: 5px 0 0 -5px;
 }
 dl.marriage-new-life {
 	width: 130px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 27px;
+	margin: 30px 0 0 10%;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -456,14 +463,15 @@ dl.marriage-new-life dd:nth-of-type(1) {
 	margin: 20px 0 0 0;
 }
 dl.marriage-new-life dd:nth-of-type(2) {
+	font-size: 14px;
 	width: 130px;
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 -5px;
 }
 dl.child-birth {
 	width: 130px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 13px;
+	margin: 30px 0 0 4%;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -482,14 +490,15 @@ dl.child-birth dd:nth-of-type(1) {
 	margin: 20px 0 0 0;
 }
 dl.child-birth dd:nth-of-type(2) {
+	font-size: 14px;
 	width: 130px;
-	margin: 20px 0 0 0;
+	margin: 15px 0 0 -5px;
 }
 dl.buying-a-house {
 	width: 130px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 27px;
+	margin: 30px 0 0 10%;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -509,7 +518,7 @@ dl.buying-a-house dd:nth-of-type(1) {
 }
 dl.buying-a-house dd:nth-of-type(2) {
 	width: 110px;
-	margin: 20px 0 0 0;
+	margin: 20px 0 0 -5%;
 }
 dl.nursing {
 	width: 130px;
@@ -535,13 +544,13 @@ dl.nursing dd:nth-of-type(1) {
 }
 dl.nursing dd:nth-of-type(2) {
 	width: 130px;
-	margin: 20px 0 0 0;
+	margin: 20px 0 0 -5%;
 }
 dl.retirement-second-life {
 	width: 130px;
 	height: 100px;
 	float: left;
-	margin: 30px 0 0 27px;
+	margin: 30px 0 0 10%;
 	padding-left: 10px;
 	background-color: #FFF;
 	border: solid 1px #000;
@@ -561,7 +570,7 @@ dl.retirement-second-life dd:nth-of-type(1) {
 }
 dl.retirement-second-life dd:nth-of-type(2) {
 	width: 130px;
-	margin: 20px 0 0 0;
+	margin: 20px 0 0 -5%;
 }
 .overview {
 	display: block;
@@ -575,12 +584,14 @@ section.user-service {
 	width: 100%;
 	height: 700px;
 	margin: 1450px 0 0 0;
+	padding-left: 4.5%; 
+	box-sizing: border-box;
 }
 dl.various-procedures {
 	width: 96px;
 	height: 98.47px;
 	float: left;
-	margin: 30px 0 0 10px;
+	margin: 30px 0 0 15px;
 	padding-left: 10px;
 	background-color: #EDF3B2;
 	border: solid 1px #000;
@@ -636,7 +647,7 @@ dl.store-atm {
 	width: 96px;
 	height: 98.47px;
 	float: left;
-	margin: -98px 0 0 212px;
+	margin: -98px 0 0 217px;
 	padding-left: 10px;
 	background-color: #EDF3B2;
 	border: solid 1px #000;
@@ -659,7 +670,7 @@ dl.book-a-visit-or-seminar {
 	width: 96px;
 	height: 98.47px;
 	float: left;
-	margin: 5px 0 0 10px;
+	margin: 5px 0 0 15px;
 	padding-left: 10px;
 	background-color: #EDF3B2;
 	border: solid 1px #000;
@@ -687,7 +698,7 @@ dl.document-request {
 	width: 96px;
 	height: 98.47px;
 	float: left;
-	margin: -98px 0 0 111px;
+	margin: -98px 0 0 116px;
 	padding-left: 10px;
 	background-color: #EDF3B2;
 	border: solid 1px #000;
@@ -710,7 +721,7 @@ dl.faq {
 	width: 96px;
 	height: 98.47px;
 	float: left;
-	margin: -98px 0 0 212px;
+	margin: -98px 0 0 217px;
 	padding-left: 10px;
 	background-color: #EDF3B2;
 	border: solid 1px #000;
@@ -737,6 +748,8 @@ section.user-service {
 .money-link {
 	width: 100%;
 	margin: -500px 0 0 0;
+	padding-left: 7%;
+	box-sizing: border-box;
 }
 .money-link p {
 	font-size: 12px;
@@ -771,10 +784,11 @@ section.user-service {
 	clear: both;
 }
 .various-news {
-	width: 96.875%;
+	width: 97.3%;
 	height: 80px;
-	margin: 0 0 0 0;
+	margin: 0 0 0 1%;
 	border: 1px solid #000;
+	box-sizing: border-box;
 }
 .various-news p {
 	float: left;
@@ -798,13 +812,13 @@ section.various-sns {
 	clear: both;
 }
 section.various-sns {
-	width: 96.875%;
+	width: 97.3%;
 	height: 170px;
-	margin: 0 0 0 0;
+	margin: 0 0 0 1%;
 	border: 1px solid #000;
+	box-sizing: border-box;
 }
 section.various-sns .txt-mitui {
-	width: 240px;
 	margin: 0 auto;
 }
 section.various-sns .txt-mitui p:nth-of-type(1){
@@ -815,16 +829,19 @@ section.various-sns .txt-mitui p:nth-of-type(2){
 	margin: 5px 0 0 0;
 }
 section.various-sns .sns-icon {
-	margin: 0 0 0 16%;
+	margin: 0 0 0 0;
 }
 section.various-sns .sns-icon img:nth-of-type(1) {
-	margin-right: 5%;
+	margin: 5% 5% 0 15%;
 }
 section.various-sns .sns-icon img:nth-of-type(2) {
-	margin-right: 5%;
+	margin: 5% 5% 0 0;
 }
 section.various-sns .sns-icon img:nth-of-type(3) {
-	margin-right: 5%;
+	margin: 5% 5% 0 0;
+}
+section.various-sns .sns-icon img:nth-of-type(4) {
+	margin: 5% 0 0 0;
 }
 section.various-sns .sns-terms-of-use {
 	display: block;
@@ -836,7 +853,7 @@ section.various-sns .sns-terms-of-use {
 	margin: 0 auto;
 }
 section.bank-cord {
-	width: 96.875%;
+	width: 100%;
 	height: 50px;
 	margin: 10px 0 0 0;
 	background-color: #7F7F7F;
@@ -846,38 +863,19 @@ section.bank-cord p {
 	color: #FFF;
 }
 section.column{
-	width: 100%;
-	margin: 670px auto 0 auto;
+	width: 95%;
+	margin: 200% auto 0 auto;
 	position: relative;
 }
 section.column ul.tab {
 	width: 100%;
-	margin: -320px 0 0 -90px;
+	margin: -95% 0 0 -25%;
 	position: relative;
 }
 section.column .news {
 	position: absolute;
-	top: -250px;
+	top: -300px;
 	left: 0%;
-}
-section.column .txt-1 {
-	position: absolute;
-	top: -90px;
-	left: 10px;
-}
-section.column .txt-1 p.selected {
-	width: 150px;
-	height: 45px;
-	background-color: #004831;
-	cursor: default;
-	text-align: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	color: #FFF;
-}
-section.column .txt-1 p.over{
-	color: #8EAEA4;
-	cursor:pointer;
 }
 section.column .news .news-release-1 dt {
 	float: left;
@@ -886,7 +884,7 @@ section.column .news .news-release-1 dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -7px 0 0 55px;
+	margin: -7px 0 0 70px;
 	padding: 7px 10px 0 10px;
 	background-color: #8372A6;
 	color: #FFF;
@@ -948,7 +946,7 @@ section.column .news .mega-big-campain dd:nth-of-type(1) {
 	height: 20px;
 	margin: 20px 0 0 50px;
 	padding: 7px 10px 0 10px;
-	background-color: #8372A6;
+	background-color: #E88EB2;
 	color: #FFF;
 }
 section.column .news .mega-big-campain dd:nth-of-type(2) {
@@ -966,7 +964,7 @@ section.column .txt-2 {
 section.column .news .goods-services {
 	width: 100%;
 	float: left;
-	margin: 980px 0 0 -60px;
+	margin: 980px 0 0 -65px;
 }
 section.column .news .goods-services dt {
 	float: left;
@@ -975,9 +973,9 @@ section.column .news .goods-services dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -17px 0 0 160px;
+	margin: -17px 0 0 170px;
 	padding: 7px 10px 0 10px;
-	background-color: #8372A6;
+	background-color: #67BEE8;
 	color: #FFF;
 }
 section.column .news .goods-services dd:nth-of-type(2) {
@@ -999,9 +997,9 @@ section.column .news .net dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -17px 0 0 160px;
+	margin: -17px 0 0 170px;
 	padding: 7px 10px 0 10px;
-	background-color: #8372A6;
+	background-color: #FDE281;
 	color: #FFF;
 }
 section.column .news .net dd:nth-of-type(2) {
@@ -1011,7 +1009,7 @@ section.column .news .net dd:nth-of-type(2) {
 	margin: 20px 0 0 0;
 }
 section.column .news .sumitomo-mitsui-financial-group {
-	width: 100%;
+	width: 95%;
 	float: left;
 	margin-top: 10px;
 }
@@ -1023,7 +1021,7 @@ section.column .news .sumitomo-mitsui-financial-group dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -17px 0 0 160px;
+	margin: -17px 0 0 170px;
 	padding: 7px 10px 0 10px;
 	background-color: #8372A6;
 	color: #FFF;
@@ -1035,7 +1033,7 @@ section.column .news .sumitomo-mitsui-financial-group dd:nth-of-type(2) {
 	margin: 20px 0 0 0;
 }
 section.column .news .news-release-2 {
-	width: 100%;
+	width: 100%;;
 	float: left;
 	margin-top: 10px;
 }
@@ -1047,7 +1045,7 @@ section.column .news .news-release-2 dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -17px 0 0 160px;
+	margin: -17px 0 0 170px;
 	padding: 7px 10px 0 10px;
 	background-color: #8372A6;
 	color: #FFF;
@@ -1071,7 +1069,7 @@ section.column .news .news-release-3 dd:nth-of-type(1) {
 	width: 118px;
 	float: left;
 	height: 20px;
-	margin: -17px 0 0 160px;
+	margin: -17px 0 0 170px;
 	padding: 7px 10px 0 10px;
 	background-color: #8372A6;
 	color: #FFF;
@@ -1085,7 +1083,7 @@ section.column .news .news-release-3 dd:nth-of-type(2) {
 section.column .txt-2 {
 	width: 70px;
 	position: absolute;
-	top: 700px;
+	top: 650px;
 	left: 200px;
 }
 section.column .txt-3 {
@@ -1109,7 +1107,7 @@ section.column .txt-3 p.over{
 }
 section.column .goods-services-1  {
 	width: 100%;
-	margin: 350px 0 0 -57px;
+	margin: 310px 0 0 -57px;
 }
 section.column .goods-services-1 dt {
 	float: left;
@@ -1200,7 +1198,7 @@ section.column .goods-services-4 dd:nth-of-type(2) {
 	margin: 25px 0 0 0;
 }
 section.column .goods-services-5  {
-	width: 100%;
+	width: 95%;
 	margin: 350px 0 0 -57px;
 }
 section.column .goods-services-5 dt {
@@ -1233,13 +1231,13 @@ section.column .txt-4 p:nth-of-type(2) {
 }
 section.column .campain {
 	position: absolute;
-	top: -600px;
+	top: -650px;
 	left: 19%;
 }
 section.column .txt-5 {
 	position: absolute;
 	top: -90px;
-	left: 330px;
+	left: 310px;
 }
 section.column .txt-5 p.selected {
 	width: 150px;
@@ -1256,7 +1254,7 @@ section.column .txt-5 p.over{
 	cursor:pointer;
 }
 section.column .campain-1 {
-	width: 100%;
+	width: 95%;
 	margin: 350px 0 0 -57px;
 }
 section.column .campain-1 dt {
@@ -1279,7 +1277,7 @@ section.column .campain-1 dd:nth-of-type(2) {
 	margin: 25px 0 0 0;
 }
 section.column .campain-2 {
-	width: 100%;
+	width: 95%;
 	margin: 350px 0 0 -57px;
 }
 section.column .campain-2 dt {
@@ -1303,7 +1301,7 @@ section.column .campain-2 dd:nth-of-type(2) {
 	margin: 25px 0 0 0;
 }
 section.column .campain-3 {
-	width: 100%;
+	width: 95%;
 	margin: 350px 0 0 -57px;
 }
 section.column .campain-3 dt {
@@ -1351,7 +1349,7 @@ section.column .campain-4 dd:nth-of-type(2) {
 	margin: 25px 0 0 0;
 }
 section.column .campain-5 {
-	width: 100%;
+	width: 95%;
 	margin: 350px 0 0 -57px;
 }
 section.column .campain-5 dt {
@@ -1387,7 +1385,7 @@ section.column .txt-6 p:nth-of-type(2) {
 
 section.column .announcement {
 	position: absolute;
-	top: -250px;
+	top: -300px;
 	left: 0%;
 }
 section.column .txt-7 {
@@ -1410,7 +1408,7 @@ section.column .txt-7 p.over{
 	cursor:pointer;
 }
 section.column .announcement-1 {
-	width: 100%;
+	width: 95%;
 	margin: 20px 0 0 0;
 }
 section.column .announcement-1 dt {
@@ -1542,9 +1540,7 @@ section.column ul {
 }
 section.column ul.tab li{
 	list-style-type: none;
-	float: left;
-	margin-top: -97%;
-	margin-left: 19%;
+	margin: -97% 0 0 19%;
 }
 section.column ul.tab li:nth-of-type(1){
 	font-size: 12px;
@@ -1560,13 +1556,13 @@ section.column ul.tab li:nth-of-type(3){
 	width: 90px;
 	font-size: 12px;
 	position: absolute;
-	left: 64%;
+	left: 60%;
 }
 section.column ul.tab li:nth-of-type(4){
 	width: 60px;
 	font-size: 12px;
 	position: absolute;
-	left: 90%;
+	left: 86%;
 }
 section.column ul.panel li{
 	list-style-type: none;
@@ -1589,7 +1585,7 @@ section.content {
 }
 section.content .contents-news p {
 	width: 100%;
-	margin: 800px 0 0 0;
+	margin: 200% 0 0 0;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #000;
 }
@@ -1616,19 +1612,19 @@ section.content .content-1 img:nth-of-type(4){
 }
 section.content .content-1 p:nth-of-type(1){
 	width: 40%;
-	margin: 10px 0 0 -270px;
+	margin: -44% 0 0 6%;
 }
 section.content .content-1 p:nth-of-type(2){
 	width: 40%;
-	margin: 10px 0 0 -130px;
+	margin: -44% 0 0 52%;
 }
 section.content .content-1 p:nth-of-type(3){
 	width: 40%;
-	margin: 10px 0 0 20px;
+	margin: 5% 0 0 6%;
 }
 section.content .content-1 p:nth-of-type(4){
 	width: 40%;
-	margin: 10px 0 0 20px;
+	margin: -5% 0 0 52%;
 	
 }
 section.content .content-2 {
@@ -1650,15 +1646,15 @@ section.content .content-2 img:nth-of-type(3){
 }
 section.content .content-2 p:nth-of-type(1){
 	width: 40%;
-	margin: 10px 0 0 -127px;
+	margin: 4% 0 0 -40%;
 }
 section.content .content-2 p:nth-of-type(2){
 	width: 40%;
-	margin: 20px 0 0 10px;
+	margin: 4% 0 0 5%;
 }
 section.content .content-2 p:nth-of-type(3){
 	width: 40%;
-	margin: 120px 0 0 -267px;
+	margin: 36% 0 0 -85%;
 }
 section.content .content-2 {
 	display: block;
@@ -1670,7 +1666,7 @@ section.group-company {
 	margin: 0 auto;	
 }
 section.group-company p:nth-of-type(1){
-	width: 100%;
+	width: 95%;
 	margin: 50px 0 0 0;
 	padding-bottom: 10px;
 	border-bottom: 1px solid #000;
@@ -1850,7 +1846,7 @@ section.smbc-group-company {
 	text-align: left;
 }
 .company-registration {
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 }
 .company-registration p {
@@ -1870,7 +1866,7 @@ section.site-map {
 	margin-top: 400px;
 }
 .site-map-txt-area {
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
 }
 .site-map-txt-area p {
