@@ -167,7 +167,8 @@ section.service-link {
 	border-left: 1px solid #FFFFFF;
 	border-right: 1px solid #FFFFFF;
 	height: 35px;
-	margin-left: 14px;
+	margin-right: 6px;
+	position: relative;
 }
 .service ul li:nth-of-type(1) {
 	padding: 15px 20px 0 20px;
@@ -175,23 +176,83 @@ section.service-link {
 }
 .service ul li:nth-of-type(2) {
 	border-left: none;
-	padding: 15px 30px 0 30px;
+	padding: 15px 20px 0 30px;
+}
+.service ul li:nth-of-type(2)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 87%;
 }
 .service ul li:nth-of-type(3) {
 	border-left: none;
-	padding: 15px 30px 0 30px;
+	padding: 15px 34px 0 30px;
+}
+.service ul li:nth-of-type(3)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 87%;
 }
 .service ul li:nth-of-type(4) {
 	border-left: none;
-	padding: 15px 30px 0 30px;
+	padding: 15px 54px 0 54px;
+}
+.service ul li:nth-of-type(4)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 82%;
 }
 .service ul li:nth-of-type(5) {
 	border-left: none;
-	padding: 15px 30px 0 30px;
+	padding: 15px 34px 0 30px;
+}
+.service ul li:nth-of-type(5)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 87%;
 }
 .service ul li:nth-of-type(6) {
 	border-left: none;
 	padding: 15px 30px 0 30px;
+}
+.service ul li:nth-of-type(6)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 87%;
 }
 .service {
 	display: block;
@@ -201,6 +262,7 @@ section.service-link {
 section.urgent-notice {
 	width: 960px;
 	margin: 0 auto;
+	position: relative;
 }
 .urgent-notice dl dt img,.urgent-notice dl dd.urgent-notice-news {
    float: left;
@@ -223,12 +285,36 @@ section.urgent-notice {
 	color: #D12318;
 	font-size: 16px;
 }
+.urgent-notice dl dd:nth-of-type(2)::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #D12318;
+  border-right: 3px solid #D12318;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 62px;
+  left: 4.5%;
+}
 .urgent-notice dl dd:nth-of-type(3) {
 	float: left;
 	width: 800px;
 	margin: 20px 0 0 67px;
 	color: #D12318;
 	font-size: 16px;
+}
+.urgent-notice dl dd:nth-of-type(3)::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #D12318;
+  border-right: 3px solid #D12318;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 99px;
+  left: 4.5%;
 }
 .urgent-notice {
 	display: block;
@@ -280,6 +366,18 @@ section.service-hamberger {
 	padding-top: 10px;
 	margin-bottom: 10px;
 	text-align: center;
+}
+#login-hamberger-menu p.cash-card-balance-inquiry::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 51%;
+  left: 14%;
 }
 #various-procedures-hamberger-menu {
 	position: relative;
@@ -369,11 +467,25 @@ section.past-news {
 	width: 220px;
 	text-align: center;
 	margin: 50px auto 150px auto;
+	positon: relative;
+}
+section.past-news p::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 1025px;
+  left: 43%;
 }
 section.goods-services {
 	width: 100%;
 	height: 350px;
 	background-color: #EBEBEB;
+	position: relative;
 }
 .card-related-service {
 	width: 1200px;
@@ -452,6 +564,18 @@ section.goods-services {
 	text-align: center;
 	background-color: #FFF;
 }
+.card-related-service dd:nth-of-type(7)::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 74%;
+  left: 32%;
+}
 .card-related-service dd:nth-of-type(8) {
 	float: left;
 	width: 520px;
@@ -461,11 +585,35 @@ section.goods-services {
 	text-align: center;
 	background-color: #FFF;
 }
+.card-related-service dd:nth-of-type(8)::after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 74%;
+  left: 59.5%;
+}
 .card-related-service dd:nth-of-type(9) {
 	width: 1055px;
 	height: 40px;
 	margin: 20px 0 50px 65px;
 	text-align: center;
+}
+.card-related-service dd:nth-of-type(9)::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 8px 8px 0px 8px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 91.5%;
+  left: 44.5%;
 }
 .card-related-service {
 	display: block;
@@ -801,12 +949,12 @@ section.user-service {
 	content: "";
 	clear: both;
 }
-
-.money-link {
+section.money-link {
 	width: 300px;
-	margin: -300px 0 0 420px;
+	margin: -200px 0 0 420px;
+	position: absolute;
 }
-.money-link p {
+section.money-link p {
 	float: left;
 	width: 315px;
 	height: 30px;
@@ -814,35 +962,141 @@ section.user-service {
 	box-sizing: border-box;
 	padding: 10px 0 0 30px;
 }
-.money-link p:nth-of-type(5) {
-	margin-bottom: 20px;
+section.money-link p:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 12%;
+  left: 2%;
 }
-.various-news {
+section.money-link p:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 32%;
+  left: 2%;
+}
+section.money-link p:nth-of-type(3)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 52%;
+  left: 2%;
+}
+section.money-link p:nth-of-type(4)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 72%;
+  left: 2%;
+}
+section.money-link p:nth-of-type(5)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 92%;
+  left: 2%;
+}
+section.various-news {
 	display: block;
 	content: "";
 	clear: both;
 }
-.various-news {
+section.various-news {
 	width: 310px;
 	height: 80px;
-	margin: 0 0 0 420px;
+	margin: 100px 0 0 420px;
 	border: 1px solid #000;
+	position: absolute;
 }
-.various-news p {
+section.various-news p {
 	float: left;
 	width: 120px;
 }
-.various-news p:nth-of-type(1) {
+section.various-news p:nth-of-type(1) {
 	padding-left: 30px;
 }
-.various-news p:nth-of-type(2) {
+section.various-news p:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 26%;
+  left: 2%;
+}
+section.various-news p:nth-of-type(2) {
 	
 }
-.various-news p:nth-of-type(3) {
+section.various-news p:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 26%;
+  left: 41%;
+}
+section.various-news p:nth-of-type(3) {
 	padding-left: 30px;
 }
-.various-news p:nth-of-type(4) {
+section.various-news p:nth-of-type(3)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 67%;
+  left: 2%;
+}
+section.various-news p:nth-of-type(4) {
 	margin-bottom: 20px;
+}
+section.various-news p:nth-of-type(4)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 67%;
+  left: 41%;
 }
 section.various-sns {
 	display: block;
@@ -852,8 +1106,9 @@ section.various-sns {
 section.various-sns {
 	width: 310px;
 	height: 170px;
-	margin: 0 0 0 420px;
+	margin: 200px 0 0 420px;
 	border: 1px solid #000;
+	position: relative;
 }
 section.various-sns .txt-mitui {
 	width: 240px;
@@ -886,6 +1141,18 @@ section.various-sns .sns-terms-of-use {
 section.various-sns .sns-terms-of-use {
 	width: 108px;
 	margin: 0 auto;
+}
+section.various-sns .sns-terms-of-use::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 78%;
+  left: 26%;
 }
 section.bank-cord {
 	width: 310px;
@@ -992,6 +1259,18 @@ section.column .txt-2 {
 	position: absolute;
 	top: -130px;
 	left: 780px;
+}
+section.column .txt-2::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 65%;
+  left: -10%;
 }
 section.column .news .goods-services {
 	margin: 820px 0 0 -138px;
@@ -1210,8 +1489,32 @@ section.column .txt-4 {
 section.column .txt-4 p:nth-of-type(1) {
 	margin-right: 140px;
 }
+section.column .txt-4 p:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 50%;
+}
 section.column .txt-4 p:nth-of-type(2) {
 	margin-right: 30px;
+}
+section.column .txt-4 p:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 83.5%;
 }
 section.column .campain {
 	position: absolute;
@@ -1323,11 +1626,33 @@ section.column .txt-6 {
 section.column .txt-6 p:nth-of-type(1) {
 	margin-right: 140px;
 }
+section.column .txt-6 p:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 50%;
+}
 section.column .txt-6 p:nth-of-type(2) {
 	margin-right: 30px;
 }
-
-
+section.column .txt-6 p:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 83.5%;
+}
 section.column .announcement {
 	position: absolute;
 	top: -600px;
@@ -1438,8 +1763,32 @@ section.column .txt-8 {
 section.column .txt-8 p:nth-of-type(1) {
 	margin-right: 140px;
 }
+section.column .txt-8 p:nth-of-type(1)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 50%;
+}
 section.column .txt-8 p:nth-of-type(2) {
 	margin-right: 30px;
+}
+section.column .txt-8 p:nth-of-type(2)::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 3px solid #000;
+  border-right: 3px solid #000;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 95.5%;
+  left: 83.5%;
 }
 section.column ul {
 	position: relative;
@@ -1469,12 +1818,12 @@ section.column ul.panel li{
 	list-style-type: none;
 }
 section.column ul.tab li a {
-	text-decoration: none;
+	text-decoration: none;	
 }
 section.column ul.tab li a.selected {
-	background-color: #004831;
 	cursor: default;
 	text-align: center;
+	background-color: #004831;
 	color: #FFF;
 }
 section.column ul.tab li a.over{
