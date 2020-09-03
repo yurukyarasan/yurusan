@@ -164,21 +164,30 @@ section.service-link {
 .service ul li {
 	float: left;
 	list-style: none;
-	border-left: 1px solid #FFFFFF;
-	border-right: 1px solid #FFFFFF;
 	height: 35px;
 	margin-right: 6px;
 	position: relative;
 }
-.service ul li:nth-of-type(1) {
+.service ul.menu li:nth-of-type(1) {
 	padding: 15px 20px 0 20px;
 	margin: 0 0 0 30px;
+	border-left: 1px solid #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+	height: 35px;
+	margin-right: 6px;
 }
-.service ul li:nth-of-type(2) {
-	border-left: none;
-	padding: 15px 20px 0 30px;
+.service ul.menu .service-column {
+	padding: 0px 34px 0 35px;
+	border-left: transparent;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	margin-top: 0px;
+	margin-left: -60px;
 }
-.service ul li:nth-of-type(2)::after {
+ul.service-guide {
+	float: left;
+}
+.service ul.menu .service-column::after {
   content: "";
   width: 0px;
   height: 0px;
@@ -190,11 +199,14 @@ section.service-link {
   top: 35%;
   left: 87%;
 }
-.service ul li:nth-of-type(3) {
+.service ul.menu li.bank {
 	border-left: none;
-	padding: 15px 34px 0 30px;
+	padding: 0 34px 0 0px;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	margin: 0px 6px 0 0;
 }
-.service ul li:nth-of-type(3)::after {
+.service ul li.bank::after {
   content: "";
   width: 0px;
   height: 0px;
@@ -206,11 +218,14 @@ section.service-link {
   top: 35%;
   left: 87%;
 }
-.service ul li:nth-of-type(4) {
+.service ul li.rental {
 	border-left: none;
-	padding: 15px 54px 0 54px;
+	padding: 0px 54px 0 0px;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	margin-right: 6px;
 }
-.service ul li:nth-of-type(4)::after {
+.service ul li.rental::after {
   content: "";
   width: 0px;
   height: 0px;
@@ -222,11 +237,35 @@ section.service-link {
   top: 35%;
   left: 82%;
 }
-.service ul li:nth-of-type(5) {
+.service ul li.provide-drain {
+	width: 190px;
 	border-left: none;
-	padding: 15px 34px 0 30px;
+	padding: 0px 0px 0 0px;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	margin: 0px 6px 0 0px;
 }
-.service ul li:nth-of-type(5)::after {
+.service ul li.provide-drain::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #000 transparent transparent transparent;
+  transform: rotate(360deg);
+  position: absolute;
+  top: 35%;
+  left: 86%;
+}
+.service ul li.campain {
+	width: 190px;
+	border-left: none;
+	padding: 0px 0px 0 0px;
+	border-right: 1px solid #FFFFFF;
+	height: 50px;
+	margin-right: 6px;
+}
+.service ul li.campain::after {
   content: "";
   width: 0px;
   height: 0px;
@@ -238,21 +277,132 @@ section.service-link {
   top: 35%;
   left: 87%;
 }
-.service ul li:nth-of-type(6) {
-	border-left: none;
-	padding: 15px 30px 0 30px;
+ul.menu li{
+	position:relative;
 }
-.service ul li:nth-of-type(6)::after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 5px 5px 0px 5px;
-  border-color: #000 transparent transparent transparent;
-  transform: rotate(360deg);
-  position: absolute;
-  top: 35%;
-  left: 87%;
+* html ul.menu li{
+	display:inline;
+	transform: scale(1.0);
+}
+*+html ul.menu li{
+	display:inline;
+	transform: scale(1.0);
+}
+ul.menu li a{
+	display:block;
+	width:100%;
+	height:100%;
+	line-height:48px;
+	text-indent:30px;
+	font-weight:bold;
+	text-decoration:none;
+	position:relative;
+	font-size:14px;
+}
+ul.service-guide{
+	display:none;
+}
+* html ul.service-guide{
+	transform: scale(1.0);
+	position:relative;
+}
+*+html ul.service-guide{
+	transform: scale(1.0);
+	position:relative;
+}
+ul.service-guide li{
+	float:none;
+}
+ul.service-guide li ul.service-guide{
+	position:absolute;
+	left:179px;
+	top:0;
+}
+ul.bank{
+	display:none;
+}
+* html ul.bank{
+	transform: scale(1.0);
+	position:relative;
+}
+*+html ul.bank{
+	transform: scale(1.0);
+	position:relative;
+}
+ul.bank li{
+	float:none;
+}
+ul.bank li ul.bank{
+	position:absolute;
+	left:229px;
+	top:0;
+}
+ul.rental{
+	display:none;
+}
+* html ul.rental{
+	transform: scale(1.0);
+	position:relative;
+}
+*+html ul.rental{
+	transform: scale(1.0);
+	position:relative;
+}
+ul.rental li{
+	float:none;
+}
+ul.rental li ul.rental{
+	position:absolute;
+	left:179px;
+	top:0;
+}
+ul.provide-drain{
+	display:none;
+}
+* html ul.provide-drain{
+	transform: scale(1.0);
+	position:relative;
+}
+*+html ul.provide-drain{
+	transform: scale(1.0);
+	position:relative;
+}
+ul.provide-drain li{
+	float:none;
+}
+ul.provide-drain li ul.provide-drain{
+	position:absolute;
+	left:179px;
+	top:0;
+}
+ul.campain{
+	display:none;
+}
+* html ul.campain{
+	transform: scale(1.0);
+	position:relative;
+}
+*+html ul.campain{
+	transform: scale(1.0);
+	position:relative;
+}
+ul.campain li{
+	float:none;
+}
+ul.campain li ul.campain{
+	position:absolute;
+	left:179px;
+	top:0;
+}
+ul.menu{
+	transform: scale(1.0);
+}
+ul.menu:after {
+	height:0;
+	visibility:hidden;
+	content:".";
+	display:block;
+	clear:both;
 }
 .service {
 	display: block;
