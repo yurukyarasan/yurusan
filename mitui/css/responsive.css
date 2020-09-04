@@ -274,6 +274,7 @@ section.past-news {
 	text-align: center;
 	margin: 40% auto 0 auto;
 	background-color: #EBEBEB;
+	position: relative;
 }
 section.past-news p {
 	width: 210px;
@@ -288,14 +289,13 @@ section.past-news p::after {
   border-right: 3px solid #000;
   transform: rotate(45deg);
   position: absolute;
-  top: 1190px;
+  top: 45%;
   left: 14.5%;
 }
 section.goods-services {
 	width: 100%;
 	height: 120px;
 	background-color: transparent;
-	position: relative;
 }
 .card-related-service {
 	float: left;
@@ -303,6 +303,7 @@ section.goods-services {
 	height: 710px;
 	margin: 0 auto;
 	background-color: #ABCE03;
+	position: relative;
 }
 .card-related-service dt {
 	text-align: center;
@@ -404,7 +405,7 @@ section.goods-services {
   border-right: 3px solid #000;
   transform: rotate(45deg);
   position: absolute;
-  top: 484%;
+  top: 82%;
   left: 11%;
 }
 .card-related-service dd:nth-of-type(8) {
@@ -426,8 +427,8 @@ section.goods-services {
   border-right: 3px solid #000;
   transform: rotate(45deg);
   position: absolute;
-  top: 484%;
-  left: 48.5%;
+  top: 82%;
+  left: 182px;
 }
 .card-related-service dd:nth-of-type(9) {
 	width: 93.75%;
@@ -444,7 +445,7 @@ section.goods-services {
   border-color: #000 transparent transparent transparent;
   transform: rotate(360deg);
   position: absolute;
-  top: 564%;
+  top: 95%;
   left: 19.5%;
 }
 .card-related-service {
@@ -838,6 +839,7 @@ section.money-link {
 	margin: -450px 0 0 0;
 	padding-left: 7%;
 	box-sizing: border-box;
+	position: absolute;
 }
 section.money-link p {
 	font-size: 12px;
@@ -862,7 +864,7 @@ section.money-link p:nth-of-type(1)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 16%;
-  left: 13%;
+  left: 11%;
 }
 section.money-link p:nth-of-type(2) {
 	text-align: center;
@@ -877,7 +879,7 @@ section.money-link p:nth-of-type(2)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 16%;
-  left: 51%;
+  left: 187px;
 }
 section.money-link p:nth-of-type(3) {
 	text-align: none;
@@ -893,7 +895,7 @@ section.money-link p:nth-of-type(3)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 46%;
-  left: 11.5%;
+  left: 11%;
 }
 section.money-link p:nth-of-type(4) {
 	text-align: center;
@@ -908,7 +910,7 @@ section.money-link p:nth-of-type(4)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 46%;
-  left: 52.5%;
+  left: 187px;
 }
 section.money-link p:nth-of-type(5) {
 	text-align: center;
@@ -924,7 +926,7 @@ section.money-link p:nth-of-type(5)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 76.5%;
-  left: 11.5%;
+  left: 11%;
 }
 section.various-news {
 	display: block;
@@ -937,6 +939,7 @@ section.various-news {
 	margin: -200px 0 0 1%;
 	border: 1px solid #000;
 	box-sizing: border-box;
+	position: relative;
 }
 section.various-news p {
 	float: left;
@@ -970,7 +973,7 @@ section.various-news p:nth-of-type(2)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 27%;
-  left: 37%;
+  left: 33%;
 }
 section.various-news p:nth-of-type(3) {
 	
@@ -1000,7 +1003,7 @@ section.various-news p:nth-of-type(4)::before {
   transform: rotate(45deg);
   position: absolute;
   top: 70%;
-  left: 37%;
+  left: 33%;
 }
 section.various-sns {
 	display: block;
