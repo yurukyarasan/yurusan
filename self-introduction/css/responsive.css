@@ -1,3 +1,146 @@
 @charset "utf-8";
 /* CSS Document */
-
+@media(max-width:768px) {
+  section.top-image {
+    height: 180px;
+    background: URL("../img/top-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  section.top-image p {
+    font-size: 20px;
+    color: #12DFD5;
+    text-align: center;
+    padding-top: 100px;
+  }
+  div.content-block-1 {
+    width: 100%;
+    margin: 0;
+  }
+  section.profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+  }
+  section.profiel img {
+    margin-left: 20%;
+  }
+  section.profiel p {
+    line-height: 1.5em;
+    margin-left: 20%;
+  }
+  section.wcb-cafe-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+  }
+  section.wcb-cafe-profiel img {
+    margin-left: 20%;
+  }
+  section.wcb-cafe-profiel p {
+    line-height: 1.5em;
+  }
+  section.wcb-cafe-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.virtualcamp-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    margin: 20px 0 50px 0;
+    box-sizing: border-box;
+  }
+  section.virtualcamp-profiel img {
+    margin-left: 20%;
+  }
+  section.virtualcamp-profiel p {
+    line-height: 1.5em;
+  }
+  section.virtualcamp-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  div.content-block-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.cafe-67-2-profiel {
+    content: "";
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+  }
+  section.cafe-67-2-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+  }
+  section.cafe-67-2-profiel img {
+    margin-left: 20%;
+  }
+  section.cafe-67-2-profiel p {
+    line-height: 1.5em;
+  }
+  section.cafe-67-2-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.kowa-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+  }
+  section.kowa-profiel img {
+    margin-left: 20%;
+  }
+  section.kowa-profiel p {
+    line-height: 1.5em;
+  }
+  section.kowa-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.tea-theory-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    margin: 20px 0 50px 0;
+    box-sizing: border-box;
+  }
+  section.tea-theory-profiel img {
+    margin-left: 20%;
+  }
+  section.tea-theory-profiel p {
+    line-height: 1.5em;
+  }
+  section.tea-theory-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  div.content-block-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.mitui-profiel {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  section.mitui-profiel {
+    width: 100%;
+    height: 450px;
+    border: solid 5px #000;
+    box-sizing: border-box;
+  }
+  section.mitui-profiel img {
+    margin-left: 20%;
+  }
+  section.mitui-profiel p {
+    line-height: 1.5em;
+  }
+  section.mitui-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+}
