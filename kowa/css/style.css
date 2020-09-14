@@ -53,8 +53,9 @@ nav::after {
 }
 #main-image {
   margin-top: 50px;
+  overflow: hidden;
 }
-#promoted-by-professionals:after {
+#promoted-by-professionals::after {
   content: "";
   clear: both;
   display: block;
