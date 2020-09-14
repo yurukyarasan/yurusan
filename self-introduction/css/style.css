@@ -1,3 +1,133 @@
 @charset "utf-8";
 /* CSS Document */
-
+body {
+  margin: 0 0 0 0;
+  background: #f8f8f8;
+  color: 000;
+  font-size: 14px;
+  font-family: '游明朝', 'Yu Mincho', YuMincho, serif;
+  font-weight: normal;
+  letter-spacing: .04em;
+  line-height: 1;
+}
+#container {
+  margin: 0 auto;
+}
+div.content-block-1 {
+	width: 1000px;
+	margin: 0 auto;
+}
+section.profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+}
+section.profiel img {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(1) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(2) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(3) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(4) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(5) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(6) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(7) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(8) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(9) {
+  margin: 0 0 0 45px;
+}
+section.profiel p:nth-of-type(10) {
+  margin: 0 0 0 45px;
+}
+section.wcb-cafe-profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+  margin: 0 20px 0 20px;
+}
+section.wcb-cafe-profiel img {
+  margin: 0 0 0 45px;
+}
+section.virtualcamp-profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+  margin-bottom: 50px;
+}
+section.virtualcamp-profiel img {
+  margin: 0 0 0 45px;
+}
+div.content-block-2 {
+	width: 1000px;
+	margin: 0 auto;
+}
+section.cafe-67-2-profiel {
+  content: "";
+  display: block;
+  clear: both;
+}
+section.cafe-67-2-profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+}
+section.cafe-67-2-profiel img {
+  margin: 0 0 0 45px;
+}
+section.kowa-profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+  margin: 0 20px;
+}
+section.kowa-profiel img {
+  margin: 0 0 0 45px;
+}
+section.tea-theory-profiel {
+  float: left;
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+  margin-bottom: 50px;
+}
+section.tea-theory-profiel img {
+  margin: 0 0 0 45px;
+}
+div.content-block-3 {
+	width: 1000px;
+	margin: 0 auto;
+}
+section.mitui-profiel {
+  content: "";
+  display: block;
+  clear: both;
+}
+section.mitui-profiel {
+  width: 300px;
+  height: 350px;
+  border: solid 5px #000;
+}
+section.mitui-profiel img {
+  margin: 0 0 0 45px;
+}
