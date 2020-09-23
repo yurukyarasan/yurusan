@@ -31,12 +31,12 @@ div.content-block-1 {
 section.profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
 }
 section.profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.profiel p {
   line-height: 1.5em;
@@ -45,16 +45,18 @@ section.profiel p {
 section.wcb-cafe-profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 0 20px 0 20px;
 }
 section.wcb-cafe-profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.wcb-cafe-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.wcb-cafe-profiel p:nth-of-type(4) {
   text-align: center;
@@ -62,16 +64,18 @@ section.wcb-cafe-profiel p:nth-of-type(4) {
 section.virtualcamp-profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
   margin-bottom: 50px;
 }
 section.virtualcamp-profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.virtualcamp-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.virtualcamp-profiel p:nth-of-type(4) {
   text-align: center;
@@ -88,15 +92,17 @@ section.cafe-67-2-profiel {
 section.cafe-67-2-profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
 }
 section.cafe-67-2-profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.cafe-67-2-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.cafe-67-2-profiel p:nth-of-type(4) {
   text-align: center;
@@ -104,33 +110,38 @@ section.cafe-67-2-profiel p:nth-of-type(4) {
 section.kowa-profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 0 20px;
 }
 section.kowa-profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.kowa-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.kowa-profiel p:nth-of-type(4) {
-  text-align: center;
+  width: 270px;
+  margin: 0 auto;
 }
 section.tea-theory-profiel {
   float: left;
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
   margin-bottom: 50px;
 }
 section.tea-theory-profiel img {
-  margin: 0 0 0 45px;
+  margin: 20px 0 0 45px;
 }
 section.tea-theory-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.tea-theory-profiel p:nth-of-type(4) {
   text-align: center;
@@ -146,7 +157,7 @@ section.mitui-profiel {
 }
 section.mitui-profiel {
   width: 300px;
-  height: 500px;
+  height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
 }
@@ -154,7 +165,9 @@ section.mitui-profiel img {
   margin: 0 0 0 45px;
 }
 section.mitui-profiel p {
+  width: 220px;
   line-height: 1.5em;
+  margin: 0 0 0 45px;
 }
 section.mitui-profiel p:nth-of-type(4) {
   text-align: center;
