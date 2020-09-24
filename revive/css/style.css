@@ -1,2 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
+section.revive-top-zone {
+ position: relative;
+}
+div.circle-1 {
+ width: 100px;
+ height: 100px;
+ background-color: #FF0000;
+ border-radius: 50%;
+}
+div.eazy-sixtheen-second {
+ position: absolute;
+ top: 80px;
+ left: 52%;
+}
+div.eazy-sixtheen-second p {
+ text-align: center;
+ position: absolute;
+ top: 22px;
+ left: 20px;
+ transform: rotate(-15deg);
+ color: #FFF;
+}
+div.eazy-sixtheen-second p span.sixtheen {
+ font-size: 32px;
+}
+div.eazy-sixtheen-second p span.second {
+ font-size: 22px;
+}
+div.assessment {
+ background-color: #FDE71C;
+ text-align: center;
+ width: 400px;
+ height: 50px;
+ box-sizing: border-box;
+ padding-top: 15px;
+}
+div.assessment p span.free-assessment {
+ color: #FF0000;
+ font-size: 20px;
+ font-weight: bold;
+}
+div.assessment p {
+ font-size: 20px;
+ font-weight: bold;
+}
+div.property-information {
+ position: relative;
+}
+div.property-information p:nth-of-type(2) {
+ color: #FF0000;
+ border: 1px solid #FF0000;
+ width: 50px;
+ height: 25px;
+ padding: 5px 0 0 5px;
+ box-sizing: border-box;
+}
+div.property-information input {
+ width: 250px;
+ height: 35px;
+ position: absolute;
+ top: 0px;
+ left: 80px;
+}
