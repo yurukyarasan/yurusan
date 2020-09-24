@@ -63,3 +63,75 @@ div.property-information input {
  top: 0px;
  left: 80px;
 }
+div.prefectures {
+ position: relative;
+}
+div.prefectures p:nth-of-type(2) {
+ color: #FF0000;
+ border: 1px solid #FF0000;
+ width: 50px;
+ height: 25px;
+ padding: 5px 0 0 5px;
+ box-sizing: border-box;
+}
+div.prefectures input {
+ width: 250px;
+ height: 35px;
+ position: absolute;
+ top: 0px;
+ left: 80px;
+}
+div.municipality {
+ position: relative;
+}
+div.municipality p:nth-of-type(2) {
+ color: #FF0000;
+ border: 1px solid #FF0000;
+ width: 50px;
+ height: 25px;
+ padding: 5px 0 0 5px;
+ box-sizing: border-box;
+}
+div.municipality input {
+ width: 250px;
+ height: 35px;
+ position: absolute;
+ top: 0px;
+ left: 80px;
+}
+div.town-name {
+ position: relative;
+}
+div.town-name p:nth-of-type(2) {
+ color: #FF0000;
+ border: 1px solid #FF0000;
+ width: 50px;
+ height: 25px;
+ padding: 5px 0 0 5px;
+ box-sizing: border-box;
+}
+div.town-name input {
+ width: 250px;
+ height: 35px;
+ position: absolute;
+ top: 0px;
+ left: 80px;
+}
+div.ding-name {
+ position: relative;
+}
+div.ding-name p:nth-of-type(2) {
+ color: #FF0000;
+ border: 1px solid #FF0000;
+ width: 50px;
+ height: 25px;
+ padding: 5px 0 0 5px;
+ box-sizing: border-box;
+}
+div.ding-name input {
+ width: 250px;
+ height: 35px;
+ position: absolute;
+ top: 0px;
+ left: 80px;
+}
