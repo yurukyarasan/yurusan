@@ -180,6 +180,9 @@ div.ding-name input {
 div.txt-area-2 {
  margin: 0 0 0 15px;
 }
+div.mail-assessment {
+ position: relative;
+}
 div.mail-assessment p {
  width: 370px;
  height: 60px;
@@ -190,6 +193,14 @@ div.mail-assessment p {
  text-align: center;
  color: #FFFFFF;
 }
+div.mail-assessment img {
+ position: absolute;
+ top: 35%;
+ left: 5%;
+}
+div.tel-assessment {
+ position: relative;
+}
 div.tel-assessment p {
  width: 370px;
  height: 60px;
@@ -198,6 +209,11 @@ div.tel-assessment p {
  padding: 20px 0 0 0;
  text-align: center;
  color: #FFFFFF;
+}
+div.tel-assessment img {
+ position: absolute;
+ top: 33%;
+ left: 5%;
 }
 section.hope {
  width: 1000px;
@@ -544,6 +560,9 @@ div.mail-assessment-2 p {
  text-align: center;
  color: #FFFFFF;
 }
+div.mail-assessment-2 img{
+ margin: 33.7% 0 0 -33%;
+}
 div.tel-assessment-2 p {
  float: left;
  width: 370px;
@@ -554,4 +573,7 @@ div.tel-assessment-2 p {
  padding: 20px 0 0 0;
  text-align: center;
  color: #FFFFFF;
+}
+div.tel-assessment-2 img{
+ margin: 33.5% 0 0 -33%;
 }
