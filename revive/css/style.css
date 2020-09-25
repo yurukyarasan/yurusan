@@ -252,3 +252,28 @@ section.hope p span.service-hope {
 section.hope img {
  margin: 50px 0 0 0;
 }
+section.please-leave-it-to-me p {
+ width: 600px;
+ font-size: 30px;
+ font-weight: 1000;
+ margin: 0 auto;
+}
+section.reasons-to-be-chosen div.reason-txt {
+  width: 740px;
+  margin: 0 auto;
+}
+section.reasons-to-be-chosen div.reason-txt p {
+  float: left;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 1000;
+  background-color: #0000FF;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+  color: #FFF;
+}
+section.reasons-to-be-chosen div.reason-txt p:not(first-child) {
+  margin-left: 5px;
+}
