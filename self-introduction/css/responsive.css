@@ -42,32 +42,11 @@
     margin-left: 20%;
   }
   section.wcb-cafe-profiel p {
-	margin-left: 20%;
+    margin-left: 20%;
     line-height: 1.5em;
   }
   section.wcb-cafe-profiel p:nth-of-type(4) {
     text-align: center;
-  }
-  section.virtualcamp-profiel {
-    width: 100%;
-    height: 640px;
-    border: solid 5px #000;
-    margin: 20px 0 50px 0;
-    box-sizing: border-box;
-  }
-  section.virtualcamp-profiel img {
-    margin-left: 20%;
-  }
-  section.virtualcamp-profiel p {
-    margin-left: 20%;
-    line-height: 1.5em;
-  }
-  section.virtualcamp-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
   }
   section.cafe-67-2-profiel {
     content: "";
@@ -79,16 +58,21 @@
     width: 100%;
     height: 640px;
     border: solid 5px #000;
+	margin: 20px 0 0 0;
   }
   section.cafe-67-2-profiel img {
     margin-left: 20%;
   }
   section.cafe-67-2-profiel p {
-	margin-left: 20%;
+    margin-left: 20%;
     line-height: 1.5em;
   }
   section.cafe-67-2-profiel p:nth-of-type(4) {
     text-align: center;
+  }
+  div.content-block-2 {
+    width: 100%;
+    margin: 0 auto;
   }
   section.kowa-profiel {
     width: 100%;
@@ -101,7 +85,7 @@
     margin-left: 20%;
   }
   section.kowa-profiel p {
-	margin-left: 21%;
+    margin-left: 21%;
     line-height: 1.5em;
   }
   section.kowa-profiel p:nth-of-type(4) {
@@ -111,22 +95,18 @@
     width: 100%;
     height: 640px;
     border: solid 5px #000;
-    margin: 20px 0 50px 0;
+    margin: 20px 0 20px 0;
     box-sizing: border-box;
   }
   section.tea-theory-profiel img {
     margin-left: 20%;
   }
   section.tea-theory-profiel p {
-	margin-left: 19%;
+    margin-left: 19%;
     line-height: 1.5em;
   }
   section.tea-theory-profiel p:nth-of-type(4) {
     text-align: center;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
   }
   section.mitui-profiel {
     content: "";
@@ -138,29 +118,34 @@
     height: 640px;
     border: solid 5px #000;
     box-sizing: border-box;
+	margin: 0 0 20px 0;
   }
   section.mitui-profiel img {
     margin-left: 20%;
   }
   section.mitui-profiel p {
-	margin-left: 18%;
+    margin-left: 18%;
     line-height: 1.5em;
   }
   section.mitui-profiel p:nth-of-type(4) {
     text-align: center;
   }
+  div.content-block-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
   section.revive-profiel {
     width: 100%;
     height: 640px;
     border: solid 5px #000;
-	margin: 20px 0 50px 0;
+    margin: 0 0 0 0;
     box-sizing: border-box;
   }
   section.revive-profiel img {
     margin-left: 20%;
   }
   section.revive-profiel p {
-	margin-left: 18%;
+    margin-left: 18%;
     line-height: 1.5em;
   }
   section.revive-profiel p:nth-of-type(4) {

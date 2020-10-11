@@ -61,34 +61,6 @@ section.wcb-cafe-profiel p {
 section.wcb-cafe-profiel p:nth-of-type(4) {
   text-align: center;
 }
-section.virtualcamp-profiel {
-  float: left;
-  width: 300px;
-  height: 640px;
-  border: solid 5px #000;
-  border-radius: 20px;
-  margin-bottom: 50px;
-}
-section.virtualcamp-profiel img {
-  margin: 20px 0 0 45px;
-}
-section.virtualcamp-profiel p {
-  width: 220px;
-  line-height: 1.5em;
-  margin: 0 0 0 45px;
-}
-section.virtualcamp-profiel p:nth-of-type(4) {
-  text-align: center;
-}
-div.content-block-2 {
-  width: 1000px;
-  margin: 0 auto;
-}
-section.cafe-67-2-profiel {
-  content: "";
-  display: block;
-  clear: both;
-}
 section.cafe-67-2-profiel {
   float: left;
   width: 300px;
@@ -107,13 +79,17 @@ section.cafe-67-2-profiel p {
 section.cafe-67-2-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-2 {
+  width: 1000px;
+  margin: 0 auto;
+}
 section.kowa-profiel {
   float: left;
   width: 300px;
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 0 20px;
+  margin-top: 20px;
 }
 section.kowa-profiel img {
   margin: 20px 0 0 45px;
@@ -133,7 +109,7 @@ section.tea-theory-profiel {
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin-bottom: 50px;
+  margin: 20px 0 0 20px;
 }
 section.tea-theory-profiel img {
   margin: 20px 0 0 45px;
@@ -146,21 +122,13 @@ section.tea-theory-profiel p {
 section.tea-theory-profiel p:nth-of-type(4) {
   text-align: center;
 }
-div.content-block-3 {
-  width: 1000px;
-  margin: 0 auto;
-}
-section.mitui-profiel {
-  content: "";
-  display: block;
-  clear: both;
-}
 section.mitui-profiel {
   float: left;
   width: 300px;
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
+  margin: 20px 0 0 20px;
 }
 section.mitui-profiel img {
   margin: 20px 0 0 45px;
@@ -173,13 +141,17 @@ section.mitui-profiel p {
 section.mitui-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-3 {
+  width: 1000px;
+  margin: 0 auto;
+}
 section.revive-profiel {
   float: left;
   width: 300px;
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 0 20px;
+  margin: 20px 0 0 0;
 }
 section.revive-profiel img {
   margin: 20px 0 0 45px;
