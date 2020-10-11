@@ -1642,7 +1642,7 @@
   #quality-improvement-and-environmental-conservation .human-quality {
     width: 95%;
     margin-top: 10%;
-    margin-left: 5%;
+	margin-left: 5%;
   }
   #quality-improvement-and-environmental-conservation .human-quality dt {
     width: 85%;
@@ -1660,10 +1660,10 @@
     top: 26.9%;
   }
   #quality-improvement-and-environmental-conservation .technology-quality {
-    width: 340px;
+    width: 95%;
     position: absolute;
     top: 34%;
-    left: 10px;
+	left: 5%;
   }
   #quality-improvement-and-environmental-conservation .technology-quality dt {
     width: 90%;
@@ -1681,10 +1681,10 @@
     top: 60%;
   }
   #quality-improvement-and-environmental-conservation .equipment-quality {
-    width: 340px;
+    width: 95%;
     position: absolute;
     top: 41.5%;
-    left: 10px;
+	left: 5%;
   }
   #quality-improvement-and-environmental-conservation .equipment-quality dt {
     width: 90%;
