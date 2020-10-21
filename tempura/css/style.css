@@ -1,3 +1,100 @@
 @charset "utf-8";
 /* CSS Document */
-
+body {
+  margin: 0 0 0 0;
+  background-color: #000;
+}
+#container {
+  margin: 0 auto;
+}
+section.introduce {
+	width: 1060px;
+	margin: 68px auto 0 auto;
+}
+div.introduce-img img {
+	float: left;
+	margin-right: 45px; 
+}
+div.introduce-massege p {
+	width: 995px;
+	color: #FFF;
+	letter-spacing: 0.3em;
+	line-height: 1.5em;
+	margin-bottom: 68px;
+}
+section.each-shop-link {
+	width: 1360px;
+	margin: 0 auto;
+}
+div.menu p {
+	color: #FFF;
+}
+div.menu p:nth-of-type(1) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.1.png");
+	margin-right: 34px;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+div.menu p:nth-of-type(2) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.2.png");
+	margin-right: 34px;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+div.menu p:nth-of-type(3) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.3.png");
+	margin-bottom: 34px;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+div.menu p:nth-of-type(4) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.4.png");
+	margin-right: 34px;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+div.menu p:nth-of-type(5) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.5.png");
+	margin-right: 34px;
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+div.menu p:nth-of-type(6) {
+	float: left;
+	width: 320px;
+	height: 217px;
+	background-image: url("../img/PNG/tempura_No.6.png");
+	padding-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+}
+section.explanation-of-shop-reception {
+	float: left;
+	width: 294px;
+	color: #fff;
+	margin: -250px 0 0 34px;
+}
+section.explanation-of-shop-reception p {
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+}
