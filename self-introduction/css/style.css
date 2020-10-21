@@ -170,7 +170,7 @@ section.tempura-profiel {
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 20px;
 }
 section.tempura-profiel img {
   margin: 20px 0 0 45px;
