@@ -45,80 +45,74 @@ div.menu li a:focus {
 div.menu li a:visited {
 	color: #0EF90C;
 }
-div.menu li:nth-of-type(1) {
+div.menu li.lunch {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(2) {
+div.menu li.leave-it-to-me {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(3) {
+div.menu li.assorted {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 34px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(4) {
+div.menu li.materials-used {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(5) {
+div.menu li.weird {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(6) {
+div.menu li.the-way-to-the-store {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li p.lunch{
+div.menu li.lunch p{
 	box-sizing: border-box;
 	position: absolute;
 	top: 100px;
 	left: 130px;
 }
-div.menu li p.leave-it-to-me {
+div.menu li.leave-it-to-me p {
 	font-size: 26px;
 	box-sizing: border-box;
 	position: absolute;
 	top: 100px;
 	left: 435px;
 }
-div.menu li p.assorted {
+div.menu li.assorted p {
 	font-size: 26px;
 	box-sizing: border-box;
 	position: absolute;
 	top: 100px;
 	left: 805px;
 }
-div.menu li p.materials-used {
+div.menu li.materials-used p {
 	font-size: 26px;
 	text-align: center;
 	box-sizing: border-box;
@@ -126,7 +120,7 @@ div.menu li p.materials-used {
 	top: 350px;
 	left: 110px;
 }
-div.menu li p.weird {
+div.menu li.weird p {
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
@@ -135,7 +129,7 @@ div.menu li p.weird {
 	top: 350px;
 	left: 455px;
 }
-div.menu li p.the-way-to-the-store {
+div.menu li.the-way-to-the-store p {
 	font-size: 26px;
 	text-align: center;
 	box-sizing: border-box;

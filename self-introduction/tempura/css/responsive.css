@@ -28,6 +28,9 @@
 	width: 100%;
 	position: relative;
 }
+	div.menu li img {
+	width: 100%;
+}
 div.menu li a {
 	color: #FFF;
 	font-weight: 1000;
@@ -44,101 +47,89 @@ div.menu li a:focus {
 div.menu li a:visited {
 	color: #0EF90C;
 }
-div.menu li:nth-of-type(1) {
+div.menu li.lunch {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
-	margin: 0 0 34px 0;
+	margin: 0 0 68px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(2) {
+div.menu li.leave-it-to-me {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
-	margin: 0 0 34px 0;
+	margin: 0 0 68px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(3) {
+div.menu li.assorted {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
-	margin: 0 0 34px 0;
+	margin: 0 0 68px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(4) {
+div.menu li.materials-used {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
-	margin: 0 0 34px 0;
+	margin: 0 0 68px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(5) {
+div.menu li.weird {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
-	margin: 0 0 34px 0;
+	margin: 0 0 68px 0;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li:nth-of-type(6) {
+div.menu li.the-way-to-the-store {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	text-align: center;
-	box-sizing: border-box;
 }
-div.menu li p.lunch{
-	box-sizing: border-box;
+div.menu li.lunch p {
 	position: absolute;
 	left: 40%;
 }
-div.menu li p.leave-it-to-me {
+div.menu li.leave-it-to-me p {
 	font-size: 26px;
-	box-sizing: border-box;
 	position: absolute;
-	top: 350px;
+	top: 384px;
 	left: 30%;
 }
-div.menu li p.assorted {
+div.menu li.assorted p {
 	font-size: 26px;
-	box-sizing: border-box;
 	position: absolute;
-	top: 600px;
+	top: 668px;
 	left: 33%;
 }
-div.menu li p.materials-used {
+div.menu li.materials-used p {
 	font-size: 26px;
 	text-align: center;
-	box-sizing: border-box;
 	position: absolute;
-	top: 850px;
+	top: 948px;
 	left: 33%;
 }
-div.menu li p.weird {
+div.menu li.weird p {
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
-	box-sizing: border-box;
 	position: absolute;
-	top: 1100px;
+	top: 1250px;
 	left: 33%;
 }
-div.menu li p.the-way-to-the-store {
+div.menu li.the-way-to-the-store p {
 	font-size: 26px;
 	text-align: center;
-	box-sizing: border-box;
 	position: absolute;
-	top: 1350px;
+	top: 1530px;
 	left: 22%;
 }
   section.explanation-of-shop-reception {
