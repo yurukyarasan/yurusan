@@ -3,6 +3,7 @@
 body {
   margin: 0 0 0 0;
   background-color: #000;
+  font-family: "Sawarabi Gothic";
 }
 #container {
   margin: 0 auto;
@@ -163,19 +164,15 @@ div.business-form {
 	position: relative;
 }
 div.business-form p:nth-of-type(1) {
-	
 }
 div.business-form p:nth-of-type(2) {
 	margin-bottom: 17px;
 }
 div.business-form p:nth-of-type(3) {
-	
 }
 div.business-form p:nth-of-type(4) {
-	
 }
 div.business-form p:nth-of-type(5) {
-	
 }
 div.business-form p:nth-of-type(6) {
 	font-size: 26px;
