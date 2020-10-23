@@ -30,6 +30,9 @@ section.each-shop-link {
 div.menu {
 	position: relative;
 }
+div.menu li {
+	list-style-type: none;
+}
 div.menu li a {
 	color: #FFF;
 	font-weight: 1000;
@@ -37,61 +40,118 @@ div.menu li a {
 }
 div.menu li a:hover {
 	color: #F4FB06;
-	background-color: rgba(255, 255, 255, 0.5);
 }
 div.menu li a:focus {
-	color: #F80707;
-	background-color: rgba(255, 255, 255, 0.5);		
+	color: #F80707;		
 }
 div.menu li a:visited {
 	color: #0EF90C;
 }
-div.menu li.lunch {
+div.menu li.lunch a:hover {
+	background: url("../img/PNG/tempura_hover_No.1.png");
+	color: #F4FB06;
+}
+div.menu li.leave-it-to-me a:hover {
+	background: url("../img/PNG/tempura_hover_No.2.png");
+	color: #F4FB06;
+}
+div.menu li.assorted a:hover {
+	background: url("../img/PNG/tempura_hover_No.3.png");
+	color: #F4FB06;
+}
+div.menu li.materials-used a:hover {
+	background: url("../img/PNG/tempura_hover_No.4.png");
+	color: #F4FB06;
+}
+div.menu li.weird a:hover {
+	background: url("../img/PNG/tempura_hover_No.5.png");
+	color: #F4FB06;
+}
+div.menu li.the-way-to-the-store a:hover {
+	background: url("../img/PNG/tempura_hover_No.6.png");
+	color: #F4FB06;
+}
+div.menu li.lunch a:focus {
+	background: url("../img/PNG/tempura_hover_No.1.png");
+	color: #F80707;
+}
+div.menu li.leave-it-to-me a:focus {
+	background: url("../img/PNG/tempura_hover_No.2.png");
+	color: #F80707;
+}
+div.menu li.assorted a:focus {
+	background: url("../img/PNG/tempura_hover_No.3.png");
+	color: #F80707;
+}
+div.menu li.materials-used a:focus {
+	background: url("../img/PNG/tempura_hover_No.4.png");
+	color: #F80707;
+}
+div.menu li.weird a:focus {
+	background: url("../img/PNG/tempura_hover_No.5.png");
+	color: #F80707;
+}
+div.menu li.the-way-to-the-store a:focus {
+	background: url("../img/PNG/tempura_hover_No.6.png");
+	color: #F80707;
+}
+div.menu li.lunch a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.1.png");
 }
-div.menu li.leave-it-to-me {
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+div.menu li.leave-it-to-me a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin-right: 34px;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.2.png");
 }
-div.menu li.assorted {
+div.menu li.assorted a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 34px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.3.png");
 }
-div.menu li.materials-used {
+div.menu li.materials-used a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
-	margin-right: 34px;
+	margin: 0 34px 0 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.4.png");
 }
-div.menu li.weird {
+div.menu li.weird a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
-	margin-right: 34px;
+	margin: 0 34px 0 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.5.png");
 }
-div.menu li.the-way-to-the-store {
+div.menu li.the-way-to-the-store a {
 	float: left;
 	width: 320px;
 	height: 217px;
 	font-size: 26px;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.6.png");
 }
 div.menu li.lunch p{
 	box-sizing: border-box;
@@ -139,10 +199,10 @@ div.menu li.the-way-to-the-store p {
 	left: 775px;
 }
 section.explanation-of-shop-reception {
-	float: left;
+	float: right;
 	width: 294px;
 	color: #fff;
-	margin: -250px 0 0 34px;
+	margin: -470px 0 0 0;
 }
 section.explanation-of-shop-reception p {
 	letter-spacing: 0.1em;
@@ -151,7 +211,7 @@ section.explanation-of-shop-reception p {
 section.our-shop-appeal {
 	width: 1000px;
 	color: #fff;
-	margin: 608px auto 68px auto;
+	margin: 68px auto 68px auto;
 	letter-spacing: 0.2em;
 	line-height: 1.5em;
 }

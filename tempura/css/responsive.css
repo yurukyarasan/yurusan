@@ -38,61 +38,148 @@ div.menu li a {
 }
 div.menu li a:hover {
 	color: #F4FB06;
-	background-color: rgba(255, 255, 255, 0.5);
 }
 div.menu li a:focus {
-	color: #F80707;
-	background-color: rgba(255, 255, 255, 0.5);		
+	color: #F80707;		
 }
 div.menu li a:visited {
 	color: #0EF90C;
 }
-div.menu li.lunch {
+div.menu li.lunch a:hover {
+	background: url("../img/PNG/tempura_hover_No.1.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.leave-it-to-me a:hover {
+	background: url("../img/PNG/tempura_hover_No.2.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.assorted a:hover {
+	background: url("../img/PNG/tempura_hover_No.3.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.materials-used a:hover {
+	background: url("../img/PNG/tempura_hover_No.4.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.weird a:hover {
+	background: url("../img/PNG/tempura_hover_No.5.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.the-way-to-the-store a:hover {
+	background: url("../img/PNG/tempura_hover_No.6.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F4FB06;
+}
+div.menu li.lunch a:focus {
+	background: url("../img/PNG/tempura_hover_No.1.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F80707;
+}
+div.menu li.leave-it-to-me a:focus {
+	background: url("../img/PNG/tempura_hover_No.2.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F80707;
+}
+div.menu li.assorted a:focus {
+	background: url("../img/PNG/tempura_hover_No.3.png");
+	background-size: 100%;
+	overflow: hidden;
+}
+div.menu li.materials-used a:focus {
+	background: url("../img/PNG/tempura_hover_No.4.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F80707;
+}
+div.menu li.weird a:focus {
+	background: url("../img/PNG/tempura_hover_No.5.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F80707;
+}
+div.menu li.the-way-to-the-store a:focus {
+	background: url("../img/PNG/tempura_hover_No.6.png");
+	background-size: 100%;
+	overflow: hidden;
+	color: #F80707;
+}
+div.menu li.lunch a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 68px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.1.png");
+	background-size: 100%;
+	overflow: hidden;
 }
-div.menu li.leave-it-to-me {
+div.menu li.leave-it-to-me a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 68px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.2.png");
+	background-size: 100%;
+	overflow: hidden;
 }
-div.menu li.assorted {
+div.menu li.assorted a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 68px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.3.png");
+	background-size: 100%;
+	overflow: hidden;
 }
-div.menu li.materials-used {
+div.menu li.materials-used a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 68px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.4.png");
+	background-size: 100%;
+	overflow: hidden;
 }
-div.menu li.weird {
+div.menu li.weird a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	margin: 0 0 68px 0;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.5.png");
+	background-size: 100%;
+	overflow: hidden;
 }
-div.menu li.the-way-to-the-store {
+div.menu li.the-way-to-the-store a {
 	clear: left;
 	width: 100%;
 	height: 217px;
 	font-size: 26px;
 	text-align: center;
+	background: url("../img/PNG/tempura_No.6.png");
+	background-size: 100%;
+	overflow: hidden;
 }
 div.menu li.lunch p {
 	position: absolute;
