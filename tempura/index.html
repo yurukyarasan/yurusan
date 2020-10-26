@@ -15,16 +15,69 @@
 <link rel="icon" sizes="192×192" href="img/PNG/tempura-android-bookmark.png">
 <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
 <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+<script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js"></script> 
+<script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"></script> 
+<script type="text/javascript" src="slick-1.8.1/slick-1.8.1/slick/slick.min.js"></script> 
 <title>極みの天ぷら天さん</title>
+<script>
+$(function(){
+	$("ul.link li").hover(function(){
+		$(">ul:not(:animated)",this).slideDown("fast");	
+	},function(){
+		$("ul",this).slideUp("fast");
+	})
+});
+</script>
 </head>
 
 <body>
 <div id="container">
 <header>
+<section class="menu">
+<ul class="link">
+<li><a href="#">ホーム</a></li>
+<li><a href="#">昼食</a>
+<ul class="sub">
+<li><a href="#">海老天ぷら御膳</a></li>
+<li><a href="#">キノコ天ぷら御膳</a></li>
+<li><a href="#">野菜天ぷら御膳</a></li>
+</ul>
+</li>
+<li><a href="#">お任せコース</a>
+<ul class="sub">
+<li><a href="#">梅コース</a></li>
+<li><a href="#">竹コース</a></li>
+<li><a href="#">松コース</a></li>
+</ul>
+</li>
+<li><a href="#">盛り合わせ</a>
+<ul class="sub">
+<li><a href="#">シンプル天ぷら盛り合わせ</a></li>
+<li><a href="#">季節の天ぷら盛り合わせ</a></li>
+<li><a href="#">通の天ぷら盛り合わせ</a></li>
+</ul>
+</li>
+<li><a href="#">使用材料</a>
+<ul class="sub">
+<li><a href="#">海老のこだわり</a></li>
+<li><a href="#">キノコのこだわり</a></li>
+<li><a href="#">野菜のこだわり</a></li>
+</ul>
+</li>
+<li><a href="#">変わり種</a>
+<ul class="sub">
+<li><a href="#">季節のこだわり</a></li>
+<li><a href="#">入手困難材料</a></li>
+<li><a href="#">通のこだわり天ぷら</a></li>
+</ul>
+</li>
+<li><a href="#">お店までの道のり</a></li>
+</ul>
+</section>	
+</header>
 <section class="top-image">
 <img src="img/PNG/tempura_top_image.png" alt="tempura-craftsman">
 </section>
-</header>
 <section class="introduce">
 <div class="introduce-img">
 <img src="img/PNG/tempura_top_image_2.png" alt="fried-image">

@@ -8,6 +8,73 @@ body {
 #container {
   margin: 0 auto;
 }
+section.menu {
+	width: 1580px;
+	margin: 0 auto;
+	position: relative;
+}
+section.menu ul.link li {
+	list-style-type: none;
+}
+ul.link li {
+	float: left;
+	width: 220px;
+	height: 48px;
+	background: url("../img/PNG/menu_link.jpg");
+	position: relative;
+}
+* html ul.link li {
+	display: inline;
+	zoom: 1;
+}
+* +html ul.link li {
+	display: inline;
+	zoom: 1;
+}
+ul.link li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 48px;
+	text-indent: 35px;
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	position: relative;
+	font-size: 14px;
+}
+ul.link li a:hover{
+	background: url("../img/PNG/menu_link_hover.jpg");
+}
+ul.sub{
+	display: none;
+}
+* html ul.sub{
+	zoom: 1;
+	position: relative;
+}
+*+html ul.sub{
+	zoom: 1;
+	position: relative;
+}
+ul.sub li{
+	float: none;
+}
+ul.sub li ul.sub{
+	position: absolute;
+	left: 179px;
+	top: 0;
+}
+ul.link{
+	zoom: 1;
+}
+ul.link::after {
+	height: 0;
+	visibility: hidden;
+	content: "";
+	display: block;
+	clear: both;
+}
 section.introduce {
 	width: 1060px;
 	margin: 68px auto 0 auto;
