@@ -447,11 +447,39 @@ ul.travel li.various-travel-services {
 	top: 0px;
 	left: 1150px;
 }
+section#travel-destination-link::after {
+	display: block;
+	content: "";
+	clear: both;
+}
 section#various-information {
 	width: 1920px;
 	height: 200px;
-	margin-top: 100px;
+	margin-top: 20px;
 	padding: 15px 0 0 450px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
+}
+section#recommended-information {
+	width: 1920px;
+	height: 150px;
+	background-color: #F7F7F7;
+}
+section#recommended-information h2 {
+	width: 160px;
+	margin: 0 auto 50px auto;
+	padding-top: 50px;
+}
+div.background-color {
+	width: 1920px;
+	height: 300px;
+	background-color: #F7F7F7;
+}
+section#recommended-information-image {
+	width: 1080px;
+	margin: 0 auto;
+}
+section#recommended-information-image img {
+	margin-right: 50px;
+	
 }
