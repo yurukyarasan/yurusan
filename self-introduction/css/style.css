@@ -183,3 +183,22 @@ section.tempura-profiel p {
 section.tempura-profiel p:nth-of-type(4) {
   text-align: center;
 }
+section.travel-agency-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+}
+section.travel-agency-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.travel-agency-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.travel-agency-profiel p:nth-of-type(4) {
+  text-align: center;
+}
