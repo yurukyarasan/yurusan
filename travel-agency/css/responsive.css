@@ -67,7 +67,7 @@ section.responsive-nav {
 	-webkit-overflow-scrolling: touch;
 }
 section.responsive-nav.show {
-	width: 93.51%;
+	width: 100%;
 	height: 700px;
     opacity: 1;
     visibility: visible;
@@ -245,10 +245,10 @@ ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(1){
 	padding: 30px 0 0 20px;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(2){
-	margin-right: 30px;
+	margin-right: 60px;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(3){
-	margin-right: 30px;
+	margin-right: 70px;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 {
 	display: none;
@@ -496,7 +496,7 @@ div.travel-link-group-3 {
 ul.travel div.travel-link-group-3 ul.sub-1 {
 	display: none;
 	width: 100%;
-	height: 280px;
+	height: 250px;
 	margin-top: 0;
 	background-color: #FFF;
 	box-sizing: border-box;
