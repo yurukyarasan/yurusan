@@ -25,6 +25,12 @@
 <h1><img src="img/jpg/logo/header-logo.jpg" alt=""></h1>
 <p>思い立ったら旅に出よう</p>
 </section>
+<span class="nav-toggle">
+<i></i>
+<i></i>
+<i></i>
+</span>
+<section class="responsive-nav">
 <section id="header-partial-link">
 <ul class="user-partial-link">
 <li><a href="#">新規登録･ログイン</a></li>
@@ -180,6 +186,7 @@
 </li>
 </ul>
 </section>
+</section>
 <section id="various-information">
 <p>･Go Toトラベルキャンペーン･還付申請手続き･地域共通クーポンのお問い合わせについて</p>
 <p>･新型コロナウィルス感染防止のための私たちの取り組みについて</p>
@@ -258,25 +265,16 @@
       adaptiveHeight: true,
     });
   });
-  $(document).ready(function(){
+$(document).ready(function(){
     $('section#recommended-information-image').slick({
-	  autoplay: true,
-	  dots: true,
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
-    });
-  });
-  </script> 
-  <script>
-$('.responsive').slick({
-  dots: true,
-  infinite: false,
-  speed: 10,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-	{
+	 autoplay: true,
+	 dots: true,
+     infinite: true,
+  　　speed: 300,
+ 　　 slidesToShow: 3,
+  　　slidesToScroll: 3,
+  　　responsive: [
+    {	  
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
@@ -326,9 +324,10 @@ $('.responsive').slick({
         slidesToShow: 1,
         slidesToScroll: 1
       }
-    },
-</script> 
-<script>
+    }
+	 　]
+    });
+  });
 $(function(){
 	$("ul.travel li.japan").hover(function(){
 		$(">div.travel-link-group-1 ul:not(:animated)",this).slideDown("fast");	
@@ -357,6 +356,11 @@ $(function(){
 		$("ul",this).slideUp("fast");
 	})
 });
+$(function(){
+$('span.nav-toggle').on('click', function () {
+    $('span.nav-toggle, section.responsive-nav').toggleClass('show');
+});
+})
 </script>
 </div>
 </body>
