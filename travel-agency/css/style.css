@@ -362,7 +362,7 @@ ul.travel div.travel-link-group-3 ul.sub-1 {
 	display: none;
 	width: 340px;
 	height: 260px;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-color: #FFF;
 	box-sizing: border-box;
 }
@@ -423,7 +423,7 @@ ul.travel div.travel-link-group-4 ul.sub-1 {
 	display: none;
 	width: 340px;
 	height: 150px;
-	margin-top: 50px;
+	margin-top: 20px;
 	background-color: #FFF;
 }
 section#travel-destination-link {
@@ -433,19 +433,13 @@ ul.travel li.japan {
 	margin: 0 0 0 600px;
 }
 ul.travel li.overseas {
-	position: absolute;
-	top: 0px;
-	left: 800px;
+	margin: 0 0 0 100px;
 }
 ul.travel li.a-trip-that-suits-your-purpose {
-	position: absolute;
-	top: 0px;
-	left: 950px;
+	margin: 0 0 0 100px;
 }
 ul.travel li.various-travel-services {
-	position: absolute;
-	top: 0px;
-	left: 1150px;
+	margin: 0 0 0 100px;
 }
 section#travel-destination-link::after {
 	display: block;
