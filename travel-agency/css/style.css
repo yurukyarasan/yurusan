@@ -237,6 +237,11 @@ ul.travel div.travel-link-group-1 ul.sub-7 li:nth-of-type(1){
 	box-sizing: border-box;
 	padding: 30px 0 0 45px;
 }
+div.travel-link-group-1::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 div.travel-link-group-2 {
 	width: 1500px;
 	background-color: #FFF;
@@ -351,6 +356,11 @@ ul.travel div.travel-link-group-2 ul.sub-8 li:nth-of-type(1){
 	box-sizing: border-box;
 	padding: 30px 0 0 50px;
 }
+div.travel-link-group-2::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 div.travel-link-group-3 {
 	width: 650px;
 	position: absolute;
@@ -412,6 +422,11 @@ ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(14) {
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(15) {
 	margin: 0 0 0 34px;
 }
+div.travel-link-group-3::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 div.travel-link-group-4 {
 	width: 450px;
 	position: absolute;
@@ -425,6 +440,11 @@ ul.travel div.travel-link-group-4 ul.sub-1 {
 	height: 150px;
 	margin-top: 20px;
 	background-color: #FFF;
+}
+div.travel-link-group-4::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 section#travel-destination-link {
 	position: relative;
@@ -562,4 +582,9 @@ section.txtarea section#guidance ul li a {
 section.txtarea section#guidance ul li {
 	list-style-type: none;
 	font-size: 12px;
+}
+section.txtarea::after {
+	content: "";
+	display: block;
+	clear: both;
 }

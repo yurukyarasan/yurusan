@@ -333,6 +333,11 @@ ul.travel div.travel-link-group-1 ul.sub-7 li:nth-of-type(1){
 	margin: 20px 0 0 -40px;
 	padding: 30px 0 0 45px;
 }
+div.travel-link-group-1::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 div.travel-link-group-2 {
 	width: 100%;
 	height: 700px;
@@ -753,5 +758,10 @@ section.txtarea section#guidance ul li {
 	list-style-type: none;
 	font-size: 12px;
 	margin-left: -3.3%;
+}
+section.txtarea::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 }
