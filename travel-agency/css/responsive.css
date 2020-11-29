@@ -629,8 +629,10 @@ section#various-information {
 	box-sizing: border-box;
 }
 section#main-image {
-	width: 100%;
 	margin: 50px 0 0 0;
+	overflow: hidden;
+}
+section#main-image img {
 	overflow: hidden;
 }
 section#various-information p {
@@ -661,5 +663,95 @@ section#recommended-information-image {
 section#recommended-information-image img {
 	margin: 0;
 	overflow: hidden;	
+}
+section.txtarea {
+	width: 90%;
+	margin: 50px auto 0 auto;
+	border: 5px solid #C0C0C0;
+}
+section.txtarea section#notice p {
+	margin: 50px 0 0 0;
+	text-align: center;
+}
+section.txtarea section#notice ul li a {
+	text-decoration: none;
+}
+section.txtarea section#notice ul li{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	margin: 0 auto 0 auto;
+}
+section.txtarea section#notice ul li:nth-of-type(1){
+	margin-left: 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(2){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(3){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(4){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(5){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(6){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(7){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(8){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(9){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(10){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(11){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(12){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(13){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#notice ul li:nth-of-type(14){
+	width: 91.7%;
+	margin: 10px 0 0 1%;
+}
+section.txtarea section#guidance {
+	width: 91.7%;
+	margin: 700px 0 0 4%;
+	padding-bottom: 20px;
+	border-top: 5px solid #C0C0C0;
+}
+section.txtarea section#guidance p {
+	text-align: center;
+}
+section.txtarea section#guidance ul li a {
+	text-decoration: none;
+}
+section.txtarea section#guidance ul li {
+	list-style-type: none;
+	font-size: 12px;
+	margin-left: -3.3%;
 }
 }

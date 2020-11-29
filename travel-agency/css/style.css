@@ -478,3 +478,88 @@ section#recommended-information-image img {
 	margin-right: 50px;
 	
 }
+section.txtarea {
+	width: 1050px;
+	margin: 50px auto 0 auto;
+	border: 5px solid #C0C0C0;
+}
+section.txtarea section#notice p {
+	margin: 50px 0 0 70px;
+}
+section.txtarea section#notice ul li a {
+	text-decoration: none;
+}
+section.txtarea section#notice ul li{
+	display: inline-block;
+	float: left;
+	font-size: 12px;
+	margin: 0 auto 0 auto;
+}
+section.txtarea section#notice ul li:nth-of-type(1){
+	margin-left: 30px;
+}
+section.txtarea section#notice ul li:nth-of-type(2){
+	width: 330px;
+	margin-left: 245px;
+}
+section.txtarea section#notice ul li:nth-of-type(3){
+	margin: 20px 0 0 30px;
+}
+section.txtarea section#notice ul li:nth-of-type(4){
+	width: 330px;
+	margin: 20px 0 0 100px;
+}
+section.txtarea section#notice ul li:nth-of-type(5){
+	width: 330px;
+	margin: 20px 0 0 30px;
+}
+section.txtarea section#notice ul li:nth-of-type(6){
+	margin: 20px 0 0 115px;
+}
+section.txtarea section#notice ul li:nth-of-type(7){
+	width: 330px;
+	margin: 20px 0 0 115px;
+}
+section.txtarea section#notice ul li:nth-of-type(8){
+	width: 330px;
+	margin: 50px 0 0 -775px;
+}
+section.txtarea section#notice ul li:nth-of-type(9){
+	width: 330px;
+	margin: 60px 0 0 30px;
+}
+section.txtarea section#notice ul li:nth-of-type(10){
+	width: 330px;
+	margin: 10px 0 0 115px;
+}
+section.txtarea section#notice ul li:nth-of-type(11){
+	width: 330px;
+	margin: 20px 0 0 115px;
+}
+section.txtarea section#notice ul li:nth-of-type(12){
+	width: 330px;
+	margin: 20px 0 0 30px;
+}
+section.txtarea section#notice ul li:nth-of-type(13){
+	width: 330px;
+	margin: 20px 0 0 115px;
+}
+section.txtarea section#notice ul li:nth-of-type(14){
+	width: 330px;
+	margin: 20px 0 0 30px;
+}
+section.txtarea section#guidance {
+	margin: 450px 0 0 60px;
+	width: 940px;
+	border-top: 5px solid #C0C0C0;
+	box-sizing: border-box;
+}
+section.txtarea section#guidance p {
+}
+section.txtarea section#guidance ul li a {
+	text-decoration: none;
+}
+section.txtarea section#guidance ul li {
+	list-style-type: none;
+	font-size: 12px;
+}
