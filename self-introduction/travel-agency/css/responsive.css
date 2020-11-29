@@ -764,4 +764,95 @@ section.txtarea::after {
 	display: block;
 	clear: both;
 }
+section.travel-link-area {
+	width: 100%;
+	margin: 100px auto 0 auto;
+}
+section.travel-link-area p {
+	float: left;
+	margin-right: 100px;
+	display: inline-block;
+}
+section.travel-link-area ul li {
+	float: left;
+	list-style-type: none;
+	display: inline-block;
+}
+section.travel-link-area ul li:nth-child(odd) {
+	margin-top: 15px;
+	padding: 0 10px 0 10px;
+	border-left: 1px solid #000;
+}
+section.travel-link-area ul li:nth-child(even) {
+	border-left: 1px solid #000;
+	margin-top: 15px;
+	padding: 0 10px 0 10px;
+}
+section.travel-link-area ul li:last-child {
+	border-right: 1px solid #000;
+}
+section.travel-link-area ul li a {
+	text-decoration: none;
+}
+section.travel-link-area div.hotels-ryokan-inns {
+	width: 100%;
+    float: left;
+	margin-left: 0;
+}
+section.travel-link-area div.hotels-ryokan-inns p {
+	margin: 30px 35% 0 30%;
+}
+section.travel-link-area div.hotels-ryokan-inns ul li:nth-of-type(12) {
+	margin-left: 0;
+}
+section.travel-link-area div.domestic-tour {
+    width: 100%;
+	float: left;
+	margin-left: 0;
+}
+section.travel-link-area div.domestic-tour p {
+	margin: 30px 35% 0 30%;
+}
+section.travel-link-area div.domestic-tour ul li {
+	margin: 15px 0 0 0;
+}
+section.travel-link-area div.domestic-tour ul li:nth-of-type(10) {
+	margin-left: 0;
+}
+section.travel-link-area div.overseas-tour {
+	width: 100%;
+	float: left;
+	margin-left: 0;
+}
+section.travel-link-area div.overseas-tour p {
+	margin: 30px 35% 0 30%;
+}
+section.travel-link-area div.overseas-tour ul li {
+	margin: 15px 0 0 0;
+}
+section.travel-link-area div.overseas-hotels {
+	width: 100%;
+	float: left;
+	margin-left: 0;
+}
+section.travel-link-area div.overseas-hotels p {
+	margin: 30px 35% 0 30%;
+}
+section.travel-link-area div.overseas-hotels ul li {
+	margin: 15px 0 0 0;
+}
+section.travel-link-area div.overseas-airline-tickets {
+	width: 100%;
+	float: left;
+	margin-left: 0;
+}
+section.travel-link-area div.overseas-airline-tickets p {
+	margin: 30px 35% 0 30%;
+}
+section.travel-link-area div.overseas-airline-tickets ul li {
+	margin: 15px 0 0 0;
+}
+section.travel-link-area div.overseas-airline-tickets ul li:nth-of-type(10) {
+	margin-left: 0;
+}
 }
