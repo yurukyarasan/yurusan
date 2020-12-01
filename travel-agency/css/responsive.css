@@ -229,6 +229,7 @@ ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(7){
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(8){
 	text-align: center;
+	margin-left: 1%;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 {
 	display: inline;
@@ -245,10 +246,13 @@ ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(1){
 	padding: 30px 0 0 20px;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(2){
-	margin-right: 60px;
+	margin: 0 26% 0 1%;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(3){
-	margin-right: 70px;
+	margin-right: 26%;
+}
+ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(4){
+	width: 200px;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 {
 	display: inline;
@@ -265,6 +269,7 @@ ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(1){
 	padding: 30px 0 0 5px;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(2){
+	width: 100%;
 	margin-right: 80px;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 {
@@ -283,6 +288,9 @@ ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(1){
 }
 ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(2){
 	width: 60%;
+}
+ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(4){
+	width: 100%;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 {
 	display: inline;
@@ -303,6 +311,9 @@ ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(2){
 ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(6){
 	margin-right: 70px;
 }
+ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(7){
+	width: 100%;
+}
 ul.travel div.travel-link-group-1 ul.sub-6 {
 	display: inline;
 	width: 100%;
@@ -318,6 +329,9 @@ ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(1){
 }
 ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(2){
 	margin: 0 0 0 4px;
+}
+ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(5){
+	width: 100%;
 }
 ul.travel div.travel-link-group-1 ul.sub-7 {
 	display: inline;
@@ -364,6 +378,7 @@ ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(2){
 	margin-left: 10.4%;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(6){
+	width: 100%;
 	margin-left: 10.4%;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(7){
@@ -386,10 +401,14 @@ ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(2){
 	margin-left: 10.4%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(5){
+	width: 50%;
 	margin-left: 10.4%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(6){
-	margin-left: 10px;
+	margin-left: -18%;
+}
+ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(7){
+	margin-left: -8%;
 }
 ul.travel div.travel-link-group-2 ul.sub-3 {
 	display: inline;
@@ -518,16 +537,16 @@ ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(2) {
 	margin: 0 4px 0 0;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(3) {
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 -2%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(4) {
-	margin: 0 0 0 0;
+	margin: 0 0 0 -5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(5) {
-	margin: 0 2.6px 0 -15px;
+	margin: 0 0 0 -1%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(6) {
-	margin: 0 0 0 -5px;
+	margin: 0 0 0 -5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(7) {
 	margin: 0 0 0 -14px;
@@ -572,7 +591,7 @@ ul.travel div.travel-link-group-4 ul.sub-1 {
 	box-sizing: border-box;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(1) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 -20px;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(2) {
 	margin: 0 4px 0 5px;
@@ -581,19 +600,20 @@ ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(3) {
 	margin: 0 0 0 5px;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(4) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 -20px;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(5) {
-	margin: 0 0 0 5px;
+	margin: 0 0 0 -1%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(6) {
-	margin: 0 0 0 -25px;
+	width: 47%;
+	margin: 0 3% 0 -7%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(7) {
-	margin: 0 0 0 0px;
+	margin: 0 0 0 -12%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(8) {
-	margin: 0 0 0 2px;
+	margin: 0 0 0 2%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(9) {
 	margin: 0 0 0 -25px;
@@ -899,6 +919,7 @@ section.guidance-link ul li {
 	margin: 10px 0 0 0;
 	list-style-type: none;
 	border-right: 1px solid #000;
+	display: inline-block;
 }
 section.guidance-link ul li:nth-of-type(1) {
 	margin-left: -10px;
@@ -911,7 +932,7 @@ section.guidance-link ul li:nth-of-type(3) {
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(4) {
-	margin-left: -20px;
+	margin-left: -4%;
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(5) {
