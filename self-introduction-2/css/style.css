@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0 0 0 0;
+  background: #f8f8f8;
+  color: 000;
+  font-size: 14px;
+  font-family: '游明朝', 'Yu Mincho', YuMincho, serif;
+  font-weight: normal;
+  letter-spacing: .04em;
+  line-height: 1;
+}
+#container {
+  margin: 0 auto;
+}
+section.top-image {
+  height: 990px;
+  background: URL("../img/top-image.jpg");
+  background-repeat: no-repeat;
+}
+section.top-image p {
+  font-size: 40px;
+  color: #12DFD5;
+  text-align: center;
+  padding-top: 600px;
+}
+div.content-block-1 {
+  width: 1000px;
+  margin: 50px auto 0 auto;
+}
+section.profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+}
+section.profiel img {
+  margin: 20px 0 0 45px;
+}
+section.profiel p {
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.wcb-cafe-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 0 20px 0 20px;
+}
+section.wcb-cafe-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.wcb-cafe-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.wcb-cafe-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+section.cafe-67-2-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+}
+section.cafe-67-2-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.cafe-67-2-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.cafe-67-2-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+div.content-block-2 {
+  width: 1000px;
+  margin: 0 auto;
+}
+section.kowa-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+section.kowa-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.kowa-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.kowa-profiel p:nth-of-type(4) {
+  width: 270px;
+  margin: 0 auto;
+}
+section.tea-theory-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+}
+section.tea-theory-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.tea-theory-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.tea-theory-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+section.mitui-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+}
+section.mitui-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.mitui-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.mitui-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+div.content-block-3 {
+  width: 1000px;
+  margin: 0 auto;
+}
+section.revive-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 0;
+}
+section.revive-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.revive-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.revive-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+section.tempura-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+}
+section.tempura-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.tempura-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.tempura-profiel p:nth-of-type(4) {
+  text-align: center;
+}
+section.travel-agency-profiel {
+  float: left;
+  width: 300px;
+  height: 640px;
+  border: solid 5px #000;
+  border-radius: 20px;
+  margin: 20px 0 0 20px;
+}
+section.travel-agency-profiel img {
+  margin: 20px 0 0 45px;
+}
+section.travel-agency-profiel p {
+  width: 220px;
+  line-height: 1.5em;
+  margin: 0 0 0 45px;
+}
+section.travel-agency-profiel p:nth-of-type(4) {
+  text-align: center;
+}
