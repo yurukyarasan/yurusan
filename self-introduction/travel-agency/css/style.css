@@ -378,46 +378,46 @@ ul.travel div.travel-link-group-3 ul.sub-1 {
 }
 
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(1) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(2) {
 	margin: 0 4px 0 20px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(3) {
-	margin: 0 0 0 -24px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(4) {
 	margin: 0 0 0 20px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(5) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(6) {
 	margin: 0 0 0 20px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(7) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(8) {
 	margin: 0 0 0 20px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(9) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(10) {
-	margin: 0 0 0 10px;
+	margin: 0 0 0 5px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(11) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(12) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(13) {
-	margin: 0 0 0 18px;
+	margin: 0 0 0 5px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(14) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 25px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(15) {
 	margin: 0 0 0 34px;
@@ -474,6 +474,9 @@ section#various-information {
 	background-color: #F7F7F7;
 	box-sizing: border-box;
 }
+section#various-information p {
+	margin-top: 20px;
+}
 section#recommended-information {
 	width: 1920px;
 	height: 150px;
@@ -504,7 +507,8 @@ section.txtarea {
 	border: 5px solid #C0C0C0;
 }
 section.txtarea section#notice p {
-	margin: 50px 0 0 70px;
+	width: 100px;
+	margin: 50px auto 50px auto;
 }
 section.txtarea section#notice ul li a {
 	text-decoration: none;
@@ -557,24 +561,26 @@ section.txtarea section#notice ul li:nth-of-type(11){
 	margin: 20px 0 0 115px;
 }
 section.txtarea section#notice ul li:nth-of-type(12){
+	float: left;
 	width: 330px;
-	margin: 20px 0 0 30px;
+	margin: 20px 0 0 110px;
 }
 section.txtarea section#notice ul li:nth-of-type(13){
 	width: 330px;
-	margin: 20px 0 0 115px;
+	margin: -10px 0 0 30px;
 }
 section.txtarea section#notice ul li:nth-of-type(14){
 	width: 330px;
-	margin: 20px 0 0 30px;
+	margin: 20px 0 0 -330px;
 }
 section.txtarea section#guidance {
-	margin: 450px 0 0 60px;
+	margin: 400px 0 0 60px;
 	width: 940px;
 	border-top: 5px solid #C0C0C0;
 	box-sizing: border-box;
 }
 section.txtarea section#guidance p {
+	margin-top: 20px;
 }
 section.txtarea section#guidance ul li a {
 	text-decoration: none;
@@ -582,6 +588,7 @@ section.txtarea section#guidance ul li a {
 section.txtarea section#guidance ul li {
 	list-style-type: none;
 	font-size: 12px;
+	margin: 10px 0 20px 0;
 }
 section.txtarea::after {
 	content: "";
@@ -698,9 +705,10 @@ div.sns-area p {
 }
 div.sns-area p:nth-of-type(1) {
 	padding-top: 20px;
+	margin-bottom: 20px;
 }
 div.sns-area img {
-	margin-left: 20px;
+	margin: 20px 0 0 20px;
 }
 div.sns-area img:nth-of-type(1) {
 	margin-left: 180px;

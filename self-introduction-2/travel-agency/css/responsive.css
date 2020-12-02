@@ -202,30 +202,30 @@ ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin-left: -40px;
-	padding: 30px 0 0 80px;
+	margin-left: 0;
+	padding: 30px 0 0 32%;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(2){
 	text-align: center;
-	margin-left: 3px;
+	margin-left: 10%;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(3){
 	text-align: center;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(4){
 	text-align: center;
-	margin-right: 50px;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(5){
 	text-align: center;
+	margin-left: 10%;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(6){
 	text-align: center;
-	margin-right: 20px;
+	margin-left: 2%;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(7){
 	text-align: center;
-	margin-right: 82px;
+	margin-left: 10%;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(8){
 	text-align: center;
@@ -242,17 +242,18 @@ ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin-left: -40px;
-	padding: 30px 0 0 20px;
+	margin-left: 0;
+	padding: 30px 0 0 25%;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(2){
-	margin: 0 26% 0 1%;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(3){
-	margin-right: 26%;
+	width: 60%;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(4){
-	width: 200px;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 {
 	display: inline;
@@ -265,12 +266,15 @@ ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin-left: -40px;
-	padding: 30px 0 0 5px;
+	margin-left: 0;
+	padding: 30px 0 0 19%;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(2){
-	width: 100%;
-	margin-right: 80px;
+	margin-left: 11%;
+}
+ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(3){
+	width: 60%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 {
 	display: inline;
@@ -283,14 +287,18 @@ ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin: 50px 0 0 -40px;
-	padding: 30px 0 0 5px;
+	margin: 50px 0 0 0;
+	padding: 30px 0 0 21%;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(2){
 	width: 60%;
+	margin-left: 11%;
+}
+ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(3){
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(4){
-	width: 100%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 {
 	display: inline;
@@ -302,17 +310,18 @@ ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin: 160px 0 0 -40px;
-	padding: 30px 0 0 65px;
+	margin: 160px 0 0 0;
+	padding: 30px 0 0 35%;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(2){
-	margin: 0 0 0 4px;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(6){
-	margin-right: 70px;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(7){
-	width: 100%;
+	width: 60%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-6 {
 	display: inline;
@@ -324,14 +333,14 @@ ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin: 210px 0 0 -40px;
-	padding: 30px 0 0 65px;
+	margin: 210px 0 0 0;
+	padding: 30px 0 0 34%;
 }
 ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(2){
-	margin: 0 0 0 4px;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(5){
-	width: 100%;
+	margin: 0 0 0 11%;
 }
 ul.travel div.travel-link-group-1 ul.sub-7 {
 	display: inline;
@@ -344,8 +353,8 @@ ul.travel div.travel-link-group-1 ul.sub-7 li:nth-of-type(1){
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	margin: 20px 0 0 -40px;
-	padding: 30px 0 0 45px;
+	margin: 20px 0 0 0;
+	padding: 30px 0 0 27%;
 }
 div.travel-link-group-1::after {
 	content: "";
@@ -365,44 +374,44 @@ ul.travel div.travel-link-group-2 ul.sub-1 {
 	display: inline;
 	width: 100%;
 	height: 150px;
-	margin: 0 0 0 -40px;
+	margin: 0 0 0 0;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(1){
 	width: 100%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 65px;
+	padding: 30px 0 0 34%;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(2){
-	margin-left: 10.4%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(6){
 	width: 100%;
-	margin-left: 10.4%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(7){
-	margin-left: 10.4%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 {
 	display: inline;
 	width: 100%;
 	height: 150px;
-	margin: 50px 0 0 -40px;
+	margin: 50px 0 0 0;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(1){
 	width: 100%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 65px;
+	padding: 30px 0 0 32%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(2){
-	margin-left: 10.4%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(5){
 	width: 50%;
-	margin-left: 10.4%;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(6){
 	margin-left: -18%;
@@ -414,30 +423,30 @@ ul.travel div.travel-link-group-2 ul.sub-3 {
 	display: inline;
 	width: 100%;
 	height: 150px;
-	margin: 50px 0 0 -40px;
+	margin: 50px 0 0 0;
 }
 ul.travel div.travel-link-group-2 ul.sub-3 li:nth-of-type(1){
 	width: 100%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 40px;
+	padding: 30px 0 0 30%;
 }
 ul.travel div.travel-link-group-2 ul.sub-3 li:nth-of-type(2){
-	margin-left: 30px;
+	margin-left: 11%;
 }
 ul.travel div.travel-link-group-2 ul.sub-4 {
 	display: inline;
 	width: 100%;
 	height: 150px;
-	margin: 50px 0 0 -40px;
+	margin: 50px 0 0 0;
 }
 ul.travel div.travel-link-group-2 ul.sub-4 li:nth-of-type(1){
 	width: 100%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 25px;
+	padding: 30px 0 0 27%;
 }
 ul.travel div.travel-link-group-2 ul.sub-4 li:nth-of-type(2){
 	margin-left: 10.4%;
@@ -531,7 +540,7 @@ ul.travel div.travel-link-group-3 ul.sub-1 {
 }
 
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(1) {
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(2) {
 	margin: 0 4px 0 0;
@@ -540,37 +549,37 @@ ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(3) {
 	margin: 0 0 0 -2%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(4) {
-	margin: 0 0 0 -2%;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(5) {
-	margin: 0 3% 0 -2%;
+	margin: 0 3% 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(6) {
 	margin: 0 0 0 -4%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(7) {
-	margin: 0 0 0 -6px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(8) {
 	margin: 0 0 0 -4px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(9) {
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(10) {
 	margin: 0 0 0 2px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(11) {
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(12) {
-	margin: 0 0 0 -15px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(13) {
 	margin: 0 0 0 5px;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(14) {
-	margin: 0 0 0 -13.7px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(15) {
 	margin: 0 0 0 5px;
@@ -591,7 +600,7 @@ ul.travel div.travel-link-group-4 ul.sub-1 {
 	box-sizing: border-box;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(1) {
-	margin: 0 0 0 -20px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(2) {
 	margin: 0 4px 0 5px;
@@ -600,14 +609,14 @@ ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(3) {
 	margin: 0 0 0 5px;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(4) {
-	margin: 0 0 0 -20px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(5) {
 	margin: 0 0 0 -1%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(6) {
 	width: 47%;
-	margin: 0 3% 0 -7%;
+	margin: 0 3% 0 5%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(7) {
 	margin: 0 0 0 -12%;
@@ -616,7 +625,7 @@ ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(8) {
 	margin: 0 0 0 2%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(9) {
-	margin: 0 0 0 -25px;
+	margin: 0 0 0 5%;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 li:nth-of-type(10) {
 	margin: 0 0 0 -3.19px;
@@ -625,20 +634,20 @@ section#travel-destination-link {
 	position: relative;
 }
 ul.travel li.japan {
-	width: 96.3%;
-	margin: 0 0 0 -3.7%;
+	width: 90%;
+	margin: 20px 0 0 7%;
 }
 ul.travel li.overseas {
-	width: 96.3%;
-	margin: 1450px 0 0 -3.7%;
+	width: 90%;
+	margin: 1450px 0 0 7%;
 }
 ul.travel li.a-trip-that-suits-your-purpose {
-	width: 96.3%;
-	margin: 740px 0 0 -3.7%;
+	width: 90%;
+	margin: 740px 0 0 7%;
 }
 ul.travel li.various-travel-services {
-	width: 96.3%;
-	margin: 300px 0 0 -3.7%;
+	width: 90%;
+	margin: 300px 0 0 7%;
 }
 section#travel-destination-link::after {
 	display: block;
@@ -691,11 +700,13 @@ section#recommended-information-image img {
 }
 section.txtarea {
 	width: 90%;
+	height: 700px;
 	margin: 50px auto 0 auto;
 	border: 5px solid #C0C0C0;
 }
 section.txtarea section#notice p {
-	margin: 50px 0 0 0;
+	width: 90%;
+	margin: 50px 0 0 7%;
 	text-align: center;
 }
 section.txtarea section#notice ul li a {
@@ -708,63 +719,63 @@ section.txtarea section#notice ul li{
 	margin: 0 auto 0 auto;
 }
 section.txtarea section#notice ul li:nth-of-type(1){
-	margin-left: 1%;
+	margin: 20px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(2){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(3){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(4){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(5){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(6){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(7){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(8){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(9){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(10){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(11){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(12){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(13){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#notice ul li:nth-of-type(14){
 	width: 91.7%;
-	margin: 10px 0 0 1%;
+	margin: 10px 0 0 5%;
 }
 section.txtarea section#guidance {
 	width: 91.7%;
-	margin: 700px 0 0 4%;
+	margin: 520px 0 0 4%;
 	padding-bottom: 20px;
 	border-top: 5px solid #C0C0C0;
 }
@@ -777,7 +788,7 @@ section.txtarea section#guidance ul li a {
 section.txtarea section#guidance ul li {
 	list-style-type: none;
 	font-size: 12px;
-	margin-left: -3.3%;
+	margin-left: 7.3%;
 }
 section.txtarea::after {
 	content: "";
@@ -815,9 +826,9 @@ section.travel-link-area ul li a {
 	text-decoration: none;
 }
 section.travel-link-area div.hotels-ryokan-inns {
-	width: 100%;
+	width: 90%;
     float: left;
-	margin-left: 0;
+	margin-left: 7%;
 }
 section.travel-link-area div.hotels-ryokan-inns p {
 	margin: 30px 35% 0 30%;
@@ -826,9 +837,9 @@ section.travel-link-area div.hotels-ryokan-inns ul li:nth-of-type(12) {
 	margin-left: 0;
 }
 section.travel-link-area div.domestic-tour {
-    width: 100%;
-	float: left;
-	margin-left: 0;
+    width: 90%;
+    float: left;
+	margin-left: 7%;
 }
 section.travel-link-area div.domestic-tour p {
 	margin: 30px 35% 0 30%;
@@ -840,9 +851,9 @@ section.travel-link-area div.domestic-tour ul li:nth-of-type(10) {
 	margin-left: 0;
 }
 section.travel-link-area div.overseas-tour {
-	width: 100%;
-	float: left;
-	margin-left: 0;
+	width: 90%;
+    float: left;
+	margin-left: 7%;
 }
 section.travel-link-area div.overseas-tour p {
 	margin: 30px 35% 0 30%;
@@ -851,9 +862,9 @@ section.travel-link-area div.overseas-tour ul li {
 	margin: 15px 0 0 0;
 }
 section.travel-link-area div.overseas-hotels {
-	width: 100%;
-	float: left;
-	margin-left: 0;
+	width: 90%;
+    float: left;
+	margin-left: 7%;;
 }
 section.travel-link-area div.overseas-hotels p {
 	margin: 30px 35% 0 30%;
@@ -862,9 +873,9 @@ section.travel-link-area div.overseas-hotels ul li {
 	margin: 15px 0 0 0;
 }
 section.travel-link-area div.overseas-airline-tickets {
-	width: 100%;
-	float: left;
-	margin-left: 0;
+	width: 90%;
+    float: left;
+	margin-left: 7%;
 }
 section.travel-link-area div.overseas-airline-tickets p {
 	margin: 30px 35% 0 30%;
@@ -922,7 +933,7 @@ section.guidance-link ul li {
 	display: inline-block;
 }
 section.guidance-link ul li:nth-of-type(1) {
-	margin-left: -10px;
+	margin-left: 5%;
 	padding-right: 10px;
 }
 section.guidance-link ul li:nth-of-type(2) {
@@ -932,7 +943,7 @@ section.guidance-link ul li:nth-of-type(3) {
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(4) {
-	margin-left: -4%;
+	margin-left: 5%;
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(5) {
@@ -942,14 +953,14 @@ section.guidance-link ul li:nth-of-type(6) {
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(7) {
-	margin-left: -20px;
+	margin-left: 5%;
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(8) {
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li:nth-of-type(9) {
-	margin-left: -20px;
+	margin-left: 5%;
 	padding: 0 10px 0 10px;
 }
 section.guidance-link ul li a {
