@@ -712,6 +712,9 @@ section.txtarea section#notice p {
 section.txtarea section#notice ul li a {
 	text-decoration: none;
 }
+section.txtarea section#notice ul {
+	margin: 0 0 0 0;
+}
 section.txtarea section#notice ul li{
 	display: inline-block;
 	float: left;
