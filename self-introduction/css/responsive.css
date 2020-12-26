@@ -185,4 +185,42 @@ section.travel-agency-profiel {
   section.travel-agency-profiel p:nth-of-type(4) {
     text-align: center;
 }
+div.content-block-4 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.nursery-school-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+   margin: 20px 20px 0 5%;
+    box-sizing: border-box;
+  }
+  section.nursery-school-profiel img {
+    margin-left: 17%;
+  }
+  section.nursery-school-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.nursery-school-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.trading-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+   margin: 20px 20px 0 5%;
+    box-sizing: border-box;
+  }
+  section.trading-profiel img {
+    margin-left: 17%;
+  }
+  section.trading-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.trading-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
 }
