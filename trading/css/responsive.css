@@ -888,4 +888,136 @@ section.what-group::after {
 	display: block;
 	clear: both;
 }
+section.what-group-data {
+	width: 100%;
+	margin: 0;
+}
+section.what-group-data div.what-group-data-1 {
+	width: 90%;
+	margin: 50px 0 50px 4%;
+	padding-bottom: 10px;
+	font-size: 24px;
+	font-weight: 1000;
+	border-bottom: 7px solid #000;
+}
+section.what-group-data div.what-group-data-2 {
+	float: none;
+	width: 100%;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
+	width: 90%;
+	margin: 50px 0 0 4%;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(2) {
+	width: 90%;
+	margin: 10px 0 0 4%;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-3 {
+	float: none;
+	margin-left: 0;
+}
+section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
+	width: 90%;
+	margin: 50px 0 0 4%;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
+	width: 90%;
+	margin: 10px 0 0 4%;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-4 {
+	float: none;
+	margin-left: 0;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
+	width: 90%;
+	margin: 50px 0 0 4%;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
+	width: 90%;
+	margin: 10px 0 0 4%;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-5 {
+	float: none;
+	margin-left: 0;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
+	width: 90%;
+	margin: 50px 0 0 4%;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
+	width: 90%;
+	margin: 10px 0 20px 4%;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-6 {
+	float: right;
+}
+section.what-group-data div.what-group-data-6 p {
+	width: 200px;
+	box-sizing: border-box;
+	font-weight: bold;
+	margin-right: 10px;
+}
+section.what-group-data div.what-group-data-7 p {
+	width: 160px;
+	height: 45px;
+	margin: 100px auto 0 auto;
+	padding: 15px 0 0 25px;
+	background-color: #000;
+	color: #FFF;
+	box-sizing: border-box;
+}
+section.what-group-data::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 }

@@ -845,3 +845,130 @@ section.what-group::after {
 	display: block;
 	clear: both;
 }
+section.what-group-data {
+	width: 1000px;
+	margin: 0 auto;
+}
+section.what-group-data div.what-group-data-1 {
+	width: 520px;
+	margin: 50px auto 50px auto;
+	padding-bottom: 10px;
+	font-size: 34px;
+	font-weight: 1000;
+	border-bottom: 7px solid #000;
+}
+section.what-group-data div.what-group-data-2 {
+	float: left;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
+	width: 200px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(2) {
+	width: 200px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-2 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-3 {
+	float: left;
+	margin-left: 50px;
+}
+section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
+	width: 200px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
+	width: 200px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-4 {
+	float: left;
+	margin-left: 50px;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
+	width: 200px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
+	width: 200px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-4 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-5 {
+	float: left;
+	margin-left: 50px;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
+	width: 200px;
+	padding: 10px 0 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bold;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
+	width: 200px;
+	margin: 10px 0 20px 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 34px;
+}
+section.what-group-data div.what-group-data-5 p:nth-of-type(2) span {
+	font-size: 14px;
+}
+section.what-group-data div.what-group-data-6 {
+	float: right;
+}
+section.what-group-data div.what-group-data-6 p {
+	width: 200px;
+	box-sizing: border-box;
+	font-weight: bold;
+	margin-right: 10px;
+}
+section.what-group-data div.what-group-data-7 p {
+	width: 160px;
+	height: 45px;
+	margin: 200px auto 0 auto;
+	padding: 15px 0 0 25px;
+	background-color: #000;
+	color: #FFF;
+	box-sizing: border-box;
+}
+section.what-group-data::after {
+	content: "";
+	display: block;
+	clear: both;
+}
