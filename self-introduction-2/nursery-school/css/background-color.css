@@ -4,3 +4,8 @@ body {
 	background: url("../img/gif/bg_body.gif");
 	background-color: #FFF;
 }
+@media(max-width:768px){
+body {
+	background: none;
+}
+}
