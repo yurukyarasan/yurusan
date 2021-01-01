@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gsmanifest version="1.0">
+    <loader uuid="{1D2DF83A-32C9-4b01-9033-32E1F35337B1}" version="1.0.1463.34" oemversion="1.1.1398.107">
+    <options>
+	<OEMInfo CompanyID="SANWA" ProductName="SmartDataLink1398" LoaderName="SDLLoader.exe" ListenName="OTI_KMLoader" CompareVersion="0"></OEMInfo>  
+    <ProgresBar l="23" t="395" w="300" h="7"></ProgresBar>  
+	<ProgresLabel l="24" t="375" w="462" h="23" r="0" g="0" b="0" al="-1" fs="7"></ProgresLabel>   
+    </options>      
+    </loader>
+</gsmanifest>
