@@ -79,6 +79,11 @@ section.cafe-67-2-profiel p {
 section.cafe-67-2-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-1::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 div.content-block-2 {
   width: 1000px;
   margin: 0 auto;
@@ -141,6 +146,11 @@ section.mitui-profiel p {
 section.mitui-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 div.content-block-3 {
   width: 1000px;
   margin: 0 auto;
@@ -202,6 +212,11 @@ section.travel-agency-profiel p {
 section.travel-agency-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-3::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 div.content-block-4 {
   width: 1000px;
   margin: 0 auto;
@@ -212,7 +227,7 @@ section.nursery-school-profiel {
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 20px 20px 0 0;
+  margin: 20px 0 0 0;
 }
 section.nursery-school-profiel img {
   margin: 20px 0 0 45px;
@@ -231,7 +246,7 @@ section.trading-profiel {
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 20px;
 }
 section.trading-profiel img {
   margin: 20px 0 0 45px;
