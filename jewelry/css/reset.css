@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+div, ol, ul, dl, form {
+	margin: 0px;
+	padding: 0px;
+}
+p, h1, h2, h3, h4, h5, h6, dt, dd, input, textarea {
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+table {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+	border: none;
+	font-size: 100%;
+}
+th, td {
+	margin: 0px;
+	padding: 0px;
+	line-height: normal;
+	font-weight: normal;
+}
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+a img {
+	border: none;
+}

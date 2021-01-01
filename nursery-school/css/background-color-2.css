@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: url("../img/gif/bg_body.gif")
+		        repeat-x left top;
+	color: #333;
+}
+@media(max-width:768px){
+body {
+	background: none;
+}
+}

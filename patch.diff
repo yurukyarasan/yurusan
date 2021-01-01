@@ -1,0 +1,23 @@
+From a77576e6066979bb107357055ad726781406525b Mon Sep 17 00:00:00 2001
+From: yurukyarasan <imosuna0109@gmail.com>
+Date: Tue, 8 Oct 2019 16:20:45 +0900
+Subject: [PATCH] no message
+
+---
+ kowa/index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/kowa/index.html b/kowa/index.html
+index 68a5f84..aed1582 100644
+--- a/kowa/index.html
++++ b/kowa/index.html
+@@ -6,5 +6,6 @@
+ </head>
+ 
+ <body>
++<p>おブスちゃん</p>
+ </body>
+ </html>
+-- 
+2.23.0.windows.1
+

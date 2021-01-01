@@ -1,0 +1,1042 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  margin: 0 0 0 0;
+}
+#container {
+  margin: 0 auto 0 auto;
+  max-width: 960px;
+}
+#business-overview {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 463px;
+  margin-top: -4.5%;
+}
+#contact p {
+  font-size: 12px;
+  color: #5B8834;
+  position: relative;
+}
+#contact .contact-contact-us {
+  position: absolute;
+  top: 30px;
+  left: 64.3%;
+}
+#contact .contact-site-map {
+  position: absolute;
+  top: 30px;
+  left: 69%;
+}
+#initiatives-for-safety .title h2 {
+  font-size: 25px;
+  color: #898500;
+  border-bottom: 1px solid #000000;
+  margin-top: 150px;
+  padding-bottom: 15px;
+}
+#initiatives-for-safety .safety-first h2 {
+  font-size: 25px;
+  color: #898500;
+  margin-top: 20px;
+  height: 30px;
+  padding-top: 15px;
+}
+#initiatives-for-safety .safety-first p {
+  font-size: 16px;
+  margin-top: 20px;
+  width: 520px;
+  line-height: 1.5em;
+}
+#initiatives-for-safety .health-and-safety-committee {
+  margin-top: -30%;
+}
+#initiatives-for-safety .health-and-safety-committee h2 {
+  margin-top: 35%;
+  background-color: #B7AA00;
+  border-left: 4px solid #DFD238;
+  height: 30px;
+  padding-top: 15px;
+}
+#initiatives-for-safety .health-and-safety-committee dt {
+  margin-top: 20px;
+}
+#initiatives-for-safety .health-and-safety-committee dd {
+  float: right;
+  font-size: 14px;
+  margin-top: -29.5%;
+  width: 440px;
+}
+#initiatives-for-safety .inspection-equipment-management p {
+  margin-top: -15%;
+  margin-left: 54%;
+  padding-top: 10px;
+  padding-left: 35px;
+  border: 2px solid #B7AA00;
+  width: 190px;
+  height: 30px;
+}
+#initiatives-for-safety .inspection-equipment-management p a {
+  text-decoration: none;
+  color: #B7AA00;
+}
+#initiatives-for-safety .construction-safety-patrol {
+  margin-top: -15%;
+}
+#initiatives-for-safety .construction-safety-patrol h2 {
+  margin-top: 200px;
+  background-color: #B7AA00;
+  border-left: 4px solid #DFD238;
+  height: 30px;
+  padding-top: 15px;
+}
+#initiatives-for-safety .construction-safety-patrol dt {
+  margin-top: 20px;
+}
+#initiatives-for-safety .construction-safety-patrol dd {
+  float: right;
+  font-size: 14px;
+  margin-top: -48.5%;
+  width: 440px;
+}
+#initiatives-for-safety .construction-safety-patrol p {
+  margin-top: -34%;
+  margin-left: 54%;
+  padding-top: 10px;
+  padding-left: 35px;
+  border: 2px solid #B7AA00;
+  width: 190px;
+  height: 30px;
+}
+#initiatives-for-safety .construction-safety-patrol p a {
+  text-decoration: none;
+  color: #B7AA00;
+}
+#initiatives-for-safety .construction-safety-arrow {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 5px 5px 0px 5px;
+  border-color: #ffffff transparent transparent transparent;
+  transform: rotate(270deg);
+  margin-top: -2.8%;
+  margin-left: 55.9%;
+}
+#initiatives-for-safety .construction-safety-circle {
+  width: 20px;
+  height: 20px;
+  background-color: #B7AA00;
+  border-radius: 50%;
+  margin-top: -1.3%;
+  margin-left: 55.3%;
+}
+#business {
+  background-color: #888888;
+  height: 160px;
+  line-height: 20px;
+  margin-top: 450px;
+}
+#business .introduction-of-each-business {
+  margin-top: 20%;
+  margin-left: 100px;
+  padding-top: 15px;
+}
+#efforts {
+  margin-top: -12.6%;
+  margin-left: 300px;
+}
+#overview {
+  margin-top: -141px;
+  margin-left: 550px;
+}
+#case {
+  margin-top: -141px;
+  margin-left: 750px;
+}
+#business .introduction-of-each-business-introducation {
+  border-bottom: 1px solid;
+  width: 190px;
+  line-height: 30px;
+}
+#business .efforts-quality-improvement {
+  border-bottom: 1px solid;
+  width: 235px;
+  line-height: 30px;
+}
+#business .overview-company-profile {
+  border-bottom: 1px solid;
+  width: 190px;
+  line-height: 30px;
+}
+#business .case-entrusted-property {
+  border-bottom: 1px solid;
+  width: 200px;
+  line-height: 30px;
+}
+#business .introduction-of-each-business-building-equipment-management {
+  line-height: 30px;
+}
+#business .efforts-quality {
+  line-height: 30px;
+}
+#business .overview-greetings {
+  line-height: 30px;
+}
+#business .case-examples-of-construction-work {
+  line-height: 30px;
+}
+#guidelines {
+  font-size: 12px;
+  margin-top: 73px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+}
+#guidelines .guidelines-about-the-use-of-the-site {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -20px;
+  text-align: center;
+}
+#guidelines .guidelines-privacy-policy {
+  margin-left: 5px;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+#guidelines .guidelines-basic-policy-on-specific-personal-information {
+  margin-left: 5px;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#guidelines .guidelines-compliance-initiatives {
+  margin-left: 5px;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#guidelines .guidelines-anti-social-forces {
+  margin-left: 5px;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+#guidelines .guidelines-site-map {
+  margin-left: 5px;
+  border-right: 1px solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+#guidelines {
+  margin-left: 0px;
+  padding-left: 150px;
+}
+footer {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 50px;
+  color: #FFFFFF;
+  background-color: #5B8834;
+  width: 900px;
+  height: 30px;
+}
+@media(min-width: 360px) and (max-width: 360px) {
+  #container {
+    width: auto;
+  }
+  .head-content h1 img {
+    width: 300px;
+    float: left;
+  }
+  #business-overview {
+    width: 360px;
+    margin-left: 0px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #initiatives-for-safety .title {
+    width: 350px;
+  }
+  #initiatives-for-safety {
+    position: relative;
+    z-index: 1;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 340px;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 340px;
+    margin-left: 136px;
+    position: absolute;
+    top: 85%;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 356px;
+    position: absolute;
+    top: 208%;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 360px;
+    position: absolute;
+    top: 390%
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 355px;
+    position: absolute;
+    top: 700%;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 356px;
+    position: absolute;
+    top: 557%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    position: absolute;
+    top: 804%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 355px;
+    position: absolute;
+    top: 1416%;
+  }
+  #initiatives-for-safety p {
+    position: absolute;
+    top: 1451%;
+    left: -35%;
+  }
+  #initiatives-for-safety .arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1361%;
+    left: -32%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 1348.3%;
+    left: -33%;
+    z-index: 2;
+  }
+  #business {
+    display: none;
+  }
+  #guidelines {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 410%;
+  }
+  #guidelines p {
+    border: none;
+  }
+  #guidelines .guidelines-about-the-use-of-the-site {
+    flex-basis: 360px;
+    margin-top: 0px;
+    margin-left: -170px;
+    background-color: #888888;
+    width: 358px;
+  }
+  #guidelines .guidelines-privacy-policy {
+    flex-basis: 360px;
+    margin-left: -155px;
+    padding-left: 130px;
+    background-color: #888888;
+    width: 60px;
+  }
+  #guidelines .guidelines-basic-policy-on-specific-personal-information {
+    flex-basis: 360px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-compliance-initiatives {
+    flex-basis: 360px;
+    margin-left: -159px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-anti-social-forces {
+    flex-basis: 360px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-site-map {
+    flex-basis: 360px;
+    margin-left: -155px;
+    padding-left: 135px;
+    background-color: #888888;
+  }
+  footer {
+    width: 310px;
+    font-size: 14px;
+    margin-top: 460%;
+    height: 50px;
+  }
+}
+@media(min-width: 375px) and (max-width: 410px) {
+  #container {
+    width: auto;
+  }
+  .head-content h1 img {
+    width: 100%;
+    float: left;
+  }
+  #business-overview {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #initiatives-for-safety .title {
+    width: 100%;
+  }
+  #initiatives-for-safety {
+    position: relative;
+    z-index: 1;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 95%;
+    margin-left: 141px;
+    position: absolute;
+    top: 85%;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 356px;
+    position: absolute;
+    top: 208%;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 360px;
+    position: absolute;
+    top: 390%
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 355px;
+    position: absolute;
+    top: 700%;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 356px;
+    position: absolute;
+    top: 557%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    position: absolute;
+    top: 804%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 355px;
+    position: absolute;
+    top: 1416%;
+  }
+  #initiatives-for-safety p {
+    position: absolute;
+    top: 1451%;
+    left: -35%;
+  }
+  #initiatives-for-safety .arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1361%;
+    left: -32%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 1348.3%;
+    left: -33%;
+    z-index: 2;
+  }
+  #business {
+    display: none;
+  }
+  #guidelines {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 390%;
+  }
+  #guidelines p {
+    border: none;
+  }
+  #guidelines p:nth-of-type(1) {
+    flex-basis: 375px;
+    margin-top: 0px;
+    margin-left: -170px;
+    background-color: #888888;
+    width: 373px;
+  }
+  #guidelines p:nth-of-type(2) {
+    flex-basis: 375px;
+    margin-left: -155px;
+    padding-left: 130px;
+    background-color: #888888;
+    width: 75px;
+  }
+  #guidelines p:nth-of-type(3) {
+    flex-basis: 375px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(4) {
+    flex-basis: 375px;
+    margin-left: -159px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(5) {
+    flex-basis: 375px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(6) {
+    flex-basis: 375px;
+    margin-left: -155px;
+    padding-left: 135px;
+    background-color: #888888;
+  }
+  footer {
+    width: 345px;
+    font-size: 14px;
+    margin-top: 430%;
+    margin-left: -20px;
+    height: 50px;
+  }
+}
+@media(min-width: 411px) and (max-width: 411px) {
+  #container {
+    width: auto;
+  }
+  .head-content h1 img {
+    width: 100%;
+    float: left;
+  }
+  #business-overview {
+    width: 95%;
+    margin-left: 10px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #initiatives-for-safety .title {
+    width: 100%;
+  }
+  #initiatives-for-safety {
+    position: relative;
+    z-index: 1;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 95%;
+    margin-left: 156px;
+    position: absolute;
+    top: 85%;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 99%;
+    position: absolute;
+    top: 208%;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 100%;
+    position: absolute;
+    top: 405%
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 98%;
+    position: absolute;
+    top: 750%;
+    left: 2%;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 99%;
+    position: absolute;
+    top: 577%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    position: absolute;
+    top: 834%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 98%;
+    position: absolute;
+    top: 1466%;
+    left: 2%;
+  }
+  #initiatives-for-safety p {
+    position: absolute;
+    top: 1491%;
+    left: -35%;
+  }
+  #initiatives-for-safety .arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1386%;
+    left: -32%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 1373.3%;
+    left: -33%;
+    z-index: 2;
+  }
+  #business {
+    display: none;
+  }
+  #guidelines {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 370%;
+  }
+  #guidelines p {
+    border: none;
+  }
+  #guidelines p:nth-of-type(1) {
+    flex-basis: 411px;
+    margin-top: 0px;
+    margin-left: -170px;
+    background-color: #888888;
+    width: 406px;
+  }
+  #guidelines p:nth-of-type(2) {
+    flex-basis: 411px;
+    margin-left: -155px;
+    padding-left: 150px;
+    background-color: #888888;
+    width: 111px;
+  }
+  #guidelines p:nth-of-type(3) {
+    flex-basis: 411px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(4) {
+    flex-basis: 411px;
+    margin-left: -159px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(5) {
+    flex-basis: 411px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines p:nth-of-type(6) {
+    flex-basis: 411px;
+    margin-left: -155px;
+    padding-left: 155px;
+    background-color: #888888;
+  }
+  footer {
+    width: 361px;
+    font-size: 14px;
+    margin-top: 406%;
+    height: 50px;
+  }
+}
+@media(min-width: 412px) and (max-width: 414px) {
+  #container {
+    width: auto;
+  }
+  .head-content h1 img {
+    width: 100%;
+    float: left;
+  }
+  #business-overview {
+    width: 95%;
+    margin-left: 10px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #initiatives-for-safety .title {
+    width: 100%;
+  }
+  #initiatives-for-safety {
+    position: relative;
+    z-index: 1;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 95%;
+    margin-left: 156px;
+    position: absolute;
+    top: 85%;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 99%;
+    position: absolute;
+    top: 208%;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 100%;
+    position: absolute;
+    top: 405%
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 98%;
+    position: absolute;
+    top: 750%;
+    left: 2%;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 99%;
+    position: absolute;
+    top: 577%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    position: absolute;
+    top: 834%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 98%;
+    position: absolute;
+    top: 1466%;
+    left: 2%;
+  }
+  #initiatives-for-safety p {
+    position: absolute;
+    top: 1491%;
+    left: -35%;
+  }
+  #initiatives-for-safety .arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1386%;
+    left: -32%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 1373.3%;
+    left: -33%;
+    z-index: 2;
+  }
+  #business {
+    display: none;
+  }
+  #guidelines {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    margin-top: 370%;
+  }
+  #guidelines p {
+    border: none;
+  }
+  #guidelines .guidelines-about-the-use-of-the-site {
+    flex-basis: 414px;
+    margin-top: 0px;
+    margin-left: -170px;
+    background-color: #888888;
+    width: 412px;
+  }
+  #guidelines .guidelines-privacy-policy {
+    flex-basis: 415px;
+    margin-left: -155px;
+    padding-left: 155px;
+    background-color: #888888;
+    width: 115px;
+  }
+  #guidelines .guidelines-basic-policy-on-specific-personal-information {
+    flex-basis: 415px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-compliance-initiatives {
+    flex-basis: 415px;
+    margin-left: -159px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-anti-social-forces {
+    flex-basis: 415px;
+    margin-left: -170px;
+    background-color: #888888;
+  }
+  #guidelines .guidelines-site-map {
+    flex-basis: 415px;
+    margin-left: -155px;
+    padding-left: 165px;
+    background-color: #888888;
+  }
+  footer {
+    width: 384px;
+    font-size: 14px;
+    margin-top: 406%;
+    margin-left: -20px;
+    height: 50px;
+  }
+}
+@media(min-width: 415PX) and (max-width: 768px) {
+  #container {
+    width: auto;
+  }
+  .head-content h1 img {
+    width: 100%;
+    float: left;
+  }
+  #business-overview {
+    width: 95%;
+    margin-left: 10px;
+    font-size: 4px;
+  }
+  #contact {
+    display: none;
+  }
+  #initiatives-for-safety .title {
+    width: 100%;
+  }
+  #initiatives-for-safety {
+    position: relative;
+    z-index: 1;
+  }
+  #initiatives-for-safety .safety-first h2 {
+    width: 95%;
+    font-size: 21px;
+    margin-left: 10px;
+  }
+  #initiatives-for-safety .safety-first p {
+    width: 95%;
+    margin-left: 15px;
+    position: absolute;
+    top: 85%;
+  }
+  #initiatives-for-safety .health-and-safety-committee h2 {
+    width: 99%;
+    position: absolute;
+    top: 28%;
+  }
+  #initiatives-for-safety .health-and-safety-committee dt img {
+    width: 100%;
+    position: absolute;
+    top: 345%
+  }
+  #initiatives-for-safety .health-and-safety-committee dd {
+    width: 98%;
+    position: absolute;
+    top: 990%;
+    left: 2%;
+  }
+  #initiatives-for-safety .construction-safety-patrol h2 {
+    width: 99%;
+    position: absolute;
+    top: 687%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dt img {
+    position: absolute;
+    top: 934%;
+  }
+  #initiatives-for-safety .construction-safety-patrol dd {
+    width: 52%;
+    position: absolute;
+    top: 1290%;
+    left: 47%;
+  }
+  #initiatives-for-safety p {
+    position: absolute;
+    top: 1291%;
+    left: 2%;
+  }
+  #initiatives-for-safety .arrow {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 5px 5px 0px 5px;
+    border-color: #ffffff transparent transparent transparent;
+    transform: rotate(270deg);
+    position: absolute;
+    top: 1082%;
+    left: 2.3%;
+    z-index: 3;
+  }
+  #initiatives-for-safety .circle {
+    width: 20px;
+    height: 20px;
+    background-color: #B7AA00;
+    border-radius: 50%;
+    position: absolute;
+    top: 1064.3%;
+    left: 2%;
+    z-index: 2;
+  }
+  #business {
+    background-color: #888888;
+    height: 160px;
+    line-height: 20px;
+    font-size: 10px;
+    margin-top: 210%;
+  }
+  #business .introduction-of-each-business {
+    margin-top: 20%;
+    margin-left: 35px;
+    padding-top: 15px;
+  }
+  #efforts {
+    margin-top: -16%;
+    margin-left: 180px;
+  }
+  #overview {
+    margin-top: -18.5%;
+    margin-left: 380px;
+  }
+  #case {
+    margin-top: -18.5%;
+    margin-left: 560px;
+  }
+  #business .introduction-of-each-business-introducation {
+    border-bottom: 1px solid;
+    width: 110px;
+    line-height: 30px;
+  }
+  #business .efforts-quality-improvement {
+    border-bottom: 1px solid;
+    width: 165px;
+    line-height: 30px;
+  }
+  #business .overview-company-profile {
+    border-bottom: 1px solid;
+    width: 140px;
+    line-height: 30px;
+  }
+  #business .case-entrusted-property {
+    border-bottom: 1px solid;
+    width: 200px;
+    line-height: 30px;
+  }
+  #business .introduction-of-each-business-building-equipment-management {
+    line-height: 30px;
+  }
+  #business .efforts-quality {
+    line-height: 30px;
+  }
+  #business .overview-greetings {
+    line-height: 30px;
+  }
+  #business .case-examples-of-construction-work {
+    line-height: 30px;
+  }
+  #guidelines {
+    font-size: 12px;
+    margin-top: 73px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+  }
+  #guidelines .guidelines-about-the-use-of-the-site {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: -110px;
+    text-align: center;
+  }
+  #guidelines .guidelines-privacy-policy {
+    margin-left: 5px;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+  }
+  #guidelines .guidelines-basic-policy-on-specific-personal-information {
+    margin-left: 5px;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  #guidelines .guidelines-compliance-initiatives {
+    margin-left: 5px;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  #guidelines .guidelines-anti-social-forces {
+    margin-left: 5px;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  #guidelines .guidelines-site-map {
+    margin-left: 5px;
+    border-right: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+  }
+  #guidelines {
+    margin-left: 0px;
+    padding-left: 150px;
+  }
+  footer {
+    width: 718px;
+    font-size: 14px;
+    height: 50px;
+    margin-top: 70px;
+  }
+}

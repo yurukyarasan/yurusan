@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+@media(max-width:768px) {
+  section.top-image {
+    height: 180px;
+    background: URL("../img/top-image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  section.top-image p {
+    font-size: 20px;
+    color: #12DFD5;
+    text-align: center;
+    padding-top: 100px;
+  }
+  div.content-block-1 {
+    width: 100%;
+    margin: 0;
+  }
+  section.profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 20px 0 20px 5%;
+    box-sizing: border-box;
+  }
+  section.profiel img {
+    margin-left: 18%;
+  }
+  section.profiel p {
+    line-height: 1.5em;
+    margin-left: 18%;
+  }
+  section.wcb-cafe-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 0 0 20px 5%;
+    box-sizing: border-box;
+  }
+  section.wcb-cafe-profiel img {
+    margin-left: 18%;
+  }
+  section.wcb-cafe-profiel p {
+    margin-left: 18%;
+    line-height: 1.5em;
+  }
+  section.wcb-cafe-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.cafe-67-2-profiel {
+    content: "";
+    display: block;
+    clear: both;
+    box-sizing: border-box;
+  }
+  section.cafe-67-2-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 0 0 20px 5%;
+  }
+  section.cafe-67-2-profiel img {
+    margin-left: 18%;
+  }
+  section.cafe-67-2-profiel p {
+    margin-left: 18%;
+    line-height: 1.5em;
+  }
+  section.cafe-67-2-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  div.content-block-2 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.kowa-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 0 0 20px 5%;
+    box-sizing: border-box;
+  }
+  section.kowa-profiel img {
+    margin-left: 18%;
+  }
+  section.kowa-profiel p {
+    margin-left: 18%;
+    line-height: 1.5em;
+  }
+  section.kowa-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.tea-theory-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 0 0 20px 5%;
+    box-sizing: border-box;
+  }
+  section.tea-theory-profiel img {
+    margin-left: 17%;
+  }
+  section.tea-theory-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.tea-theory-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.mitui-profiel {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  section.mitui-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    box-sizing: border-box;
+    margin: 0 0 0 5%;
+  }
+  section.mitui-profiel img {
+    margin-left: 17%;
+  }
+  section.mitui-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.mitui-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  div.content-block-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.revive-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+   margin: 20px 20px 0 5%;
+    box-sizing: border-box;
+  }
+  section.revive-profiel img {
+    margin-left: 17%;
+  }
+  section.revive-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.revive-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+  section.tempura-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 20px 0 20px 5%;
+    box-sizing: border-box;
+  }
+  section.tempura-profiel img {
+    margin-left: 17%;
+  }
+  section.tempura-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.tempura-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+section.travel-agency-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+    margin: 0 0 0 5%;
+    box-sizing: border-box;
+  }
+  section.travel-agency-profiel img {
+    margin-left: 17%;
+  }
+  section.travel-agency-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.travel-agency-profiel p:nth-of-type(4) {
+    text-align: center;
+}
+div.content-block-4 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  section.nursery-school-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+   margin: 20px 20px 0 5%;
+    box-sizing: border-box;
+  }
+  section.nursery-school-profiel img {
+    margin-left: 17%;
+  }
+  section.nursery-school-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.nursery-school-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+ section.trading-profiel {
+    width: 90%;
+    height: 640px;
+    border: solid 5px #000;
+   margin: 20px 20px 0 5%;
+    box-sizing: border-box;
+  }
+  section.trading-profiel img {
+    margin-left: 17%;
+  }
+  section.trading-profiel p {
+    margin-left: 17%;
+    line-height: 1.5em;
+  }
+  section.trading-profiel p:nth-of-type(4) {
+    text-align: center;
+  }
+}
