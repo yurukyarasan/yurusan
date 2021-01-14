@@ -1065,3 +1065,49 @@ section.company-growth::after {
 	display: block;
 	clear: both;
 }
+section.company-growth-message {
+	width: 1300px;
+	margin: 0 auto;
+}
+section.company-growth-message dl dt {
+	width: 660px;
+	margin: 50px auto 50px auto;
+	padding: 10px 0 10px 0;
+	border-bottom: 7px solid #000;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 34px;
+	font-weight: 1000;
+}
+section.company-growth-message dl dd:nth-of-type(1) img {
+	float: left;
+}
+section.company-growth-message dl dd:nth-of-type(2) {
+	float: left;
+	width: 700px;
+	margin-left: 100px;
+}
+section.company-growth-message dl dd:nth-of-type(3) {
+	float: left;
+	width: 700px;
+	margin: 20px 0 20px 100px;
+}
+section.company-growth-message dl dd:nth-of-type(4) {
+	float: left;
+	width: 700px;
+	margin-left: 100px;
+}
+section.company-growth-message dl dd:nth-of-type(5) {
+	width: 220px;
+	height: 45px;
+	margin: 250px 0 0 580px;
+	padding: 15px 0 0 25px;
+	background-color: #000;
+	color: #FFF;
+	box-sizing: border-box;
+}
+section.company-growth-message::after {
+	content: "";
+	display: block;
+	clear: both;
+}
