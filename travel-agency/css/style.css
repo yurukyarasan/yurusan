@@ -637,7 +637,7 @@ section.travel-link-area div.hotels-ryokan-inns p {
 	margin: 30px 50px 0 30px;
 }
 section.travel-link-area div.hotels-ryokan-inns ul li:nth-of-type(12) {
-	margin-left: 152px;
+	margin-left: 0;
 }
 section.travel-link-area div.domestic-tour {
     width: 1400px;
@@ -651,7 +651,7 @@ section.travel-link-area div.domestic-tour ul li {
 	margin: 15px -30px 0 30px;
 }
 section.travel-link-area div.domestic-tour ul li:nth-of-type(10) {
-	margin-left: 152px;
+	margin-left: 30px;
 }
 section.travel-link-area div.overseas-tour {
 	width: 1400px;
@@ -687,7 +687,7 @@ section.travel-link-area div.overseas-airline-tickets ul li {
 	margin: 15px -30px 0 30px;
 }
 section.travel-link-area div.overseas-airline-tickets ul li:nth-of-type(10) {
-	margin-left: 152px;
+	margin-left: 30px;
 }
 section.sns {
 	float: left;
