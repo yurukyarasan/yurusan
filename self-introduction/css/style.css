@@ -127,53 +127,6 @@ section.tea-theory-profiel p {
 section.tea-theory-profiel p:nth-of-type(4) {
   text-align: center;
 }
-section.mitui-profiel {
-  float: left;
-  width: 300px;
-  height: 640px;
-  border: solid 5px #000;
-  border-radius: 20px;
-  margin: 20px 0 0 20px;
-}
-section.mitui-profiel img {
-  margin: 20px 0 0 45px;
-}
-section.mitui-profiel p {
-  width: 220px;
-  line-height: 1.5em;
-  margin: 0 0 0 45px;
-}
-section.mitui-profiel p:nth-of-type(4) {
-  text-align: center;
-}
-div.content-block-2::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-div.content-block-3 {
-  width: 1000px;
-  margin: 0 auto;
-}
-section.revive-profiel {
-  float: left;
-  width: 300px;
-  height: 640px;
-  border: solid 5px #000;
-  border-radius: 20px;
-  margin: 20px 0 0 0;
-}
-section.revive-profiel img {
-  margin: 20px 0 0 45px;
-}
-section.revive-profiel p {
-  width: 220px;
-  line-height: 1.5em;
-  margin: 0 0 0 45px;
-}
-section.revive-profiel p:nth-of-type(4) {
-  text-align: center;
-}
 section.tempura-profiel {
   float: left;
   width: 300px;
@@ -193,13 +146,22 @@ section.tempura-profiel p {
 section.tempura-profiel p:nth-of-type(4) {
   text-align: center;
 }
+div.content-block-2::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div.content-block-3 {
+  width: 1000px;
+  margin: 0 auto;
+}
 section.travel-agency-profiel {
   float: left;
   width: 300px;
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
 }
 section.travel-agency-profiel img {
   margin: 20px 0 0 45px;
@@ -212,22 +174,13 @@ section.travel-agency-profiel p {
 section.travel-agency-profiel p:nth-of-type(4) {
   text-align: center;
 }
-div.content-block-3::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-div.content-block-4 {
-  width: 1000px;
-  margin: 0 auto;
-}
 section.nursery-school-profiel {
   float: left;
   width: 300px;
   height: 640px;
   border: solid 5px #000;
   border-radius: 20px;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0 20px;
 }
 section.nursery-school-profiel img {
   margin: 20px 0 0 45px;
@@ -258,4 +211,9 @@ section.trading-profiel p {
 }
 section.trading-profiel p:nth-of-type(4) {
   text-align: center;
+}
+div.content-block-3::after {
+  content: "";
+  display: block;
+  clear: both;
 }
