@@ -103,7 +103,7 @@ div.business-group-1 {
 	position: absolute;
 	left: -260px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 }
 ul.business div.business-group-1 p {
 	display: none;
@@ -142,7 +142,7 @@ div.business-group-2 {
 	position: absolute;
 	left: -475px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 }
 ul.business div.business-group-2 p {
 	display: none;
@@ -169,7 +169,7 @@ div.business-group-3 {
 	position: absolute;
 	left: -688px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 }
 ul.business div.business-group-3 p {
 	display: none;
@@ -205,7 +205,7 @@ div.business-group-4 {
 	position: absolute;
 	left: -902px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 }
 ul.business div.business-group-4 p {
 	display: none;
@@ -262,7 +262,7 @@ div.business-group-5 {
 	position: absolute;
 	left: -1150px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 	color: #FFF;
 }
 ul.business div.business-group-5 p {
@@ -296,7 +296,7 @@ div.business-group-6 {
 	position: absolute;
 	left: -1350px;
 	z-index: 1;
-	margin-top: 50px;
+	margin-top: 0;
 }
 ul.business div.business-group-6 p {
 	display: none;
