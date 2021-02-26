@@ -356,7 +356,7 @@ ul.business::after {
 }
 section.main-image {
 	width: 100%;
-	margin-top: 50px;
+	margin: 50px auto 0 auto;
 }
 section.news-content-area-1 {
 	width: 1000px;
