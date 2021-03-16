@@ -1175,3 +1175,20 @@ section.footer-img div.footer-img-3 p:nth-of-type(2){
 	box-sizing: border-box;
 	color: #FFF;
 }
+section.footer-img::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+section.last-footer {
+	width: 1920px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: #09F943;
+}
+div.what-trading-footer p {
+	width: 250px;
+	margin: 0 auto;
+	padding-top: 15px;
+	white-space: pre;
+}
