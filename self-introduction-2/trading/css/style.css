@@ -10,10 +10,16 @@ section.title h1 {
 	width: 200px;
 	margin: 50px auto 0 auto;
 }
+
+/* 上段UIドロップダウンメニュー　*/
+
 section#main-link {
 	width: 100%;
 	margin: 0 auto;
 }
+
+/* 上段ドロップダウンメニュー位置設定コード　*/
+
 section#main-link ul.business li {
 	list-style-type: none;
 }
@@ -96,6 +102,9 @@ ul.business li.future {
   float: left;
   margin: -7px 0 0 100px;
 }
+
+/* ドロップダウンメニューグループ1 */
+
 div.business-group-1 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -117,6 +126,9 @@ ul.business div.business-group-1 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ1 リンク*/
+
 ul.business div.business-group-1 ul.sub-1  {
 	float: left;
 	display: none;
@@ -135,6 +147,9 @@ ul.business div.business-group-1 ul.sub-3 {
 	height: 150px;
 	margin: -300px 0 0 1150px;
 }
+
+/* ドロップダウンメニューグループ2 */
+
 div.business-group-2 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -156,12 +171,18 @@ ul.business div.business-group-2 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ2 リンク */
+
 ul.business div.business-group-2 ul.sub-1 {
 	float: left;
 	display: none;
 	height: 150px;
 	margin: -300px 0 0 700px;
 }
+
+/* ドロップダウンメニューグループ3 */
+
 div.business-group-3 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -183,6 +204,9 @@ ul.business div.business-group-3 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ3 リンク */
+
 ul.business div.business-group-3 ul.sub-1 {
 	float: left;
 	display: none;
@@ -198,6 +222,9 @@ ul.business div.business-group-3 ul.sub-2 {
 ul.business div.business-group-3 ul.sub-2 li:nth-of-type(1) {
 	color: #FFF;
 }
+
+/* ドロップダウンメニューグループ4 */
+
 div.business-group-4 {
 	width: 1917px;
 	background-color: #1A2E2C;
@@ -219,6 +246,9 @@ ul.business div.business-group-4 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ4 リンク */
+
 ul.business div.business-group-4 ul.sub-1 {
 	float: left;
 	display: none;
@@ -255,6 +285,9 @@ ul.business div.business-group-4 ul.sub-4 {
 	height: 150px;
 	 margin: -300px 0 0 1350px;
 }
+
+/* ドロップダウンメニューグループ5 */
+
 div.business-group-5 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -277,6 +310,9 @@ ul.business div.business-group-5 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ5 リンク */
+
 ul.business div.business-group-5 ul.sub-1 {
 	float: left;
 	display: none;
@@ -289,6 +325,9 @@ ul.business div.business-group-5 ul.sub-2 {
 	height: 150px;
 	 margin: -300px 0 0 950px;
 }
+
+/* ドロップダウンメニューグループ6 */
+
 div.business-group-6 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -310,6 +349,9 @@ ul.business div.business-group-6 p {
 	color: #FFF;
 	font-weight: 1000;
 }
+
+/* ドロップダウンメニューグループ6 リンク */
+
 ul.business div.business-group-6 ul.sub-1 {
 	float: left;
 	display: none;
@@ -338,6 +380,9 @@ ul.business div.business-group-6 ul.sub-2 li:nth-of-type(1){
 	height: 150px;
 	 margin: -300px 0 0 700px;
 }
+
+/* ドロップダウンメニューグループ7 */
+
 div.business-group-7 {
 	width: 1920px;
 	background-color: #1A2E2C;
@@ -354,6 +399,9 @@ ul.business::after {
 	display: block;
 	clear: both;
 }
+
+/* メインイメージ画像 */
+
 section.main-image img {
 	margin: 50px auto 0 auto;
 }
@@ -361,6 +409,9 @@ section.news-content-area-1 {
 	width: 1000px;
 	margin: 100px auto 0 auto;
 }
+
+/* ニュース及びお知らせ */
+
 div.content-1 {
 	width: 1000px;
 }
@@ -500,6 +551,9 @@ section.news-content-area-2 {
 	display: block;
 	clear: both;
 }
+
+/* 事業紹介 */
+
 section.business-details {
 	width: 1920px;
 }
@@ -662,6 +716,9 @@ section.business-details {
 	display: block;
 	clear: both;
 }
+
+/*　事業紹介 事業分野 */
+
 section.business-field {
 	width: 1300px;
 	margin: 700px auto 0 auto;
@@ -751,6 +808,9 @@ section.business-field {
 	display: block;
 	clear: both;
 }
+
+/* 何でだか商事グループ 企業情報 */
+
 section.what-group {
 	width: 1920px;
 }
@@ -971,6 +1031,9 @@ section.what-group-data::after {
 	display: block;
 	clear: both;
 }
+
+/* サステナビリティ */
+
 section.company-growth {
 	width: 1920px;
 }
@@ -1110,6 +1173,9 @@ section.company-growth-message::after {
 	display: block;
 	clear: both;
 }
+
+/* フッター部分 */
+
 section.footer-img {
 	width: 1920px;
 	margin: 100px auto 0 auto;
@@ -1180,6 +1246,9 @@ section.footer-img::after {
 	display: block;
 	clear: both;
 }
+
+/* 最下段フッター部分 */
+
 section.last-footer {
 	width: 1920px;
 	height: 50px;
