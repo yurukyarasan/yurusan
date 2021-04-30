@@ -8,10 +8,14 @@
     background-size: 100%;
   }
   section.top-image p {
+	width: 55%;
     font-size: 20px;
-    color: #12DFD5;
+    background-color: #EBEBEB;
+    color: #797979;
     text-align: center;
-    padding-top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 25%;
   }
   div.content-block-1 {
     width: 100%;

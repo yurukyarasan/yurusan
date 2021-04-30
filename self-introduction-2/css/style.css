@@ -17,12 +17,17 @@ section.top-image {
   height: 990px;
   background: URL("../img/top-image.jpg");
   background-repeat: no-repeat;
+  position: relative;
 }
 section.top-image p {
+  width: 660px;
+  background-color: #EBEBEB;
   font-size: 40px;
-  color: #12DFD5;
+  color: #797979;
   text-align: center;
-  padding-top: 600px;
+  position: absolute;
+  top: 350px;
+  left: 640px;
 }
 div.content-block-1 {
   width: 1000px;
