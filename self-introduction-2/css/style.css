@@ -20,18 +20,22 @@ section.top-image {
   position: relative;
 }
 section.top-image p {
-  width: 510px;
+  width: 540px;
   height: 55px;
   background-color: #EBEBEB;
   font-size: 40px;
   color: #797979;
   text-align: center;
   position: absolute;
-  top: 250px;
-  left: 640px;
+  top: 430px;
+  left: 710px;
   padding-top: 20px;
-  border: 20px solid #E0E0E0;
   border-radius: 30px;
+}
+section.top-image img {
+  position: absolute;
+  top: 30px;
+  left: 750px;
 }
 div.content-block-1 {
   width: 1000px;
