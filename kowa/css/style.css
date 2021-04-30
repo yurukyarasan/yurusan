@@ -9,13 +9,16 @@ body {
   max-width: 960px;
 }
 a:hover {
+  display: inline-block;
   background: rgba(0, 255, 0, 0.5);
   color: #F5EC08;
 }
 a:active {
+  display: inline-block;
   background: rgba(255, 0, 0, 1);
 }
 a:focus {
+  display: inline-block;
   background: rgba(255, 102, 0, 1);
   color: #06C9FB;
 }
