@@ -23,7 +23,7 @@
   section.top-image img {
    width: 35%;
    position: absolute;
-   top: -20px;
+   top: 20px;
    left: 2%;
   }
   div.content-block-1 {
@@ -32,7 +32,7 @@
   }
   section.profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 20px 0 20px 5%;
     box-sizing: border-box;
@@ -46,7 +46,7 @@
   }
   section.wcb-cafe-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -69,7 +69,7 @@
   }
   section.cafe-67-2-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
   }
@@ -89,7 +89,7 @@
   }
   section.kowa-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -106,7 +106,7 @@
   }
   section.tea-theory-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -128,7 +128,7 @@
   }
   section.mitui-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     box-sizing: border-box;
     margin: 0 0 0 5%;
@@ -149,9 +149,9 @@
   }
   section.revive-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
-   margin: 20px 20px 0 5%;
+    margin: 20px 20px 0 5%;
     box-sizing: border-box;
   }
   section.revive-profiel img {
@@ -166,7 +166,7 @@
   }
   section.tempura-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 20px 0 20px 5%;
     box-sizing: border-box;
@@ -183,7 +183,7 @@
   }
 section.travel-agency-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
     margin: 0 0 0 5%;
     box-sizing: border-box;
@@ -204,9 +204,9 @@ div.content-block-4 {
   }
   section.nursery-school-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
-   margin: 20px 20px 0 5%;
+    margin: 20px 20px 0 5%;
     box-sizing: border-box;
   }
   section.nursery-school-profiel img {
@@ -221,9 +221,9 @@ div.content-block-4 {
   }
  section.trading-profiel {
     width: 90%;
-    height: 640px;
+    height: 670px;
     border: solid 5px #000;
-   margin: 20px 20px 0 5%;
+    margin: 20px 20px 0 5%;
     box-sizing: border-box;
   }
   section.trading-profiel img {

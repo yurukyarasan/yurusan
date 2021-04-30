@@ -27,14 +27,14 @@ section.top-image p {
   color: #797979;
   text-align: center;
   position: absolute;
-  top: 430px;
+  top: 450px;
   left: 710px;
   padding-top: 20px;
   border-radius: 30px;
 }
 section.top-image img {
   position: absolute;
-  top: 30px;
+  top: 190px;
   left: 750px;
 }
 div.content-block-1 {
@@ -44,9 +44,10 @@ div.content-block-1 {
 section.profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 section.profiel img {
   margin: 20px 0 0 45px;
@@ -58,10 +59,11 @@ section.profiel p {
 section.wcb-cafe-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 0 20px 0 20px;
+  box-sizing: border-box;
 }
 section.wcb-cafe-profiel img {
   margin: 20px 0 0 45px;
@@ -73,13 +75,15 @@ section.wcb-cafe-profiel p {
 }
 section.wcb-cafe-profiel p:nth-of-type(4) {
   text-align: center;
+  margin: 20px auto 0 auto;
 }
 section.cafe-67-2-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 section.cafe-67-2-profiel img {
   margin: 20px 0 0 45px;
@@ -91,6 +95,7 @@ section.cafe-67-2-profiel p {
 }
 section.cafe-67-2-profiel p:nth-of-type(4) {
   text-align: center;
+  margin: 20px auto 0 auto;
 }
 div.content-block-1::after {
   content: "";
@@ -104,10 +109,11 @@ div.content-block-2 {
 section.kowa-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin-top: 20px;
+  box-sizing: border-box;
 }
 section.kowa-profiel img {
   margin: 20px 0 0 45px;
@@ -119,15 +125,16 @@ section.kowa-profiel p {
 }
 section.kowa-profiel p:nth-of-type(4) {
   width: 270px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
 }
 section.tea-theory-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
+  box-sizing: border-box;
 }
 section.tea-theory-profiel img {
   margin: 20px 0 0 45px;
@@ -139,14 +146,16 @@ section.tea-theory-profiel p {
 }
 section.tea-theory-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 section.mitui-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
+  box-sizing: border-box;
 }
 section.mitui-profiel img {
   margin: 20px 0 0 45px;
@@ -158,6 +167,7 @@ section.mitui-profiel p {
 }
 section.mitui-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 div.content-block-2::after {
   content: "";
@@ -171,10 +181,11 @@ div.content-block-3 {
 section.revive-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 0;
+  box-sizing: border-box;
 }
 section.revive-profiel img {
   margin: 20px 0 0 45px;
@@ -186,14 +197,16 @@ section.revive-profiel p {
 }
 section.revive-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 section.tempura-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
+  box-sizing: border-box;
 }
 section.tempura-profiel img {
   margin: 20px 0 0 45px;
@@ -205,14 +218,16 @@ section.tempura-profiel p {
 }
 section.tempura-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 section.travel-agency-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
+  box-sizing: border-box;
 }
 section.travel-agency-profiel img {
   margin: 20px 0 0 45px;
@@ -224,6 +239,7 @@ section.travel-agency-profiel p {
 }
 section.travel-agency-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 div.content-block-3::after {
   content: "";
@@ -237,10 +253,11 @@ div.content-block-4 {
 section.nursery-school-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 0;
+  box-sizing: border-box;
 }
 section.nursery-school-profiel img {
   margin: 20px 0 0 45px;
@@ -252,14 +269,16 @@ section.nursery-school-profiel p {
 }
 section.nursery-school-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
 section.trading-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 670px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
+  box-sizing: border-box;
 }
 section.trading-profiel img {
   margin: 20px 0 0 45px;
@@ -271,4 +290,5 @@ section.trading-profiel p {
 }
 section.trading-profiel p:nth-of-type(4) {
   text-align: center;
+  margin-top: 20px;
 }
