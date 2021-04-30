@@ -27,15 +27,15 @@ section.top-image p {
   color: #797979;
   text-align: center;
   position: absolute;
-  top: 450px;
+  top: 300px;
   left: 640px;
   padding-top: 20px;
   border-radius: 30px;
 }
 section.top-image img {
   position: absolute;
-  top: 190px;
-  left: 750px;
+  top: -70px;
+  left: -70px;
 }
 div.content-block-1 {
   width: 1000px;
@@ -44,9 +44,10 @@ div.content-block-1 {
 section.profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 section.profiel img {
   margin: 20px 0 0 45px;
@@ -58,7 +59,7 @@ section.profiel p {
 section.wcb-cafe-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 0 20px 0 20px;
@@ -72,14 +73,14 @@ section.wcb-cafe-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.wcb-cafe-profiel p:nth-of-type(4) {
+section.wcb-cafe-profiel a .WCBCAFE {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 40%;
 }
 section.cafe-67-2-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   box-sizing: border-box;
@@ -92,9 +93,9 @@ section.cafe-67-2-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.cafe-67-2-profiel p:nth-of-type(4) {
+section.cafe-67-2-profiel  a .cafe67 {
   text-align: center;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0 40%;
 }
 div.content-block-1::after {
   content: "";
@@ -108,7 +109,7 @@ div.content-block-2 {
 section.kowa-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin-top: 20px;
@@ -122,14 +123,13 @@ section.kowa-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.kowa-profiel p:nth-of-type(4) {
-  width: 270px;
-  margin: 20px auto 0 auto;
+section.kowa-profiel  a .kowa {
+  margin: 20px auto 0 15%;
 }
 section.tea-theory-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -143,14 +143,14 @@ section.tea-theory-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.tea-theory-profiel p:nth-of-type(4) {
+section.tea-theory-profiel  a .tea-theory {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 45%;
 }
 section.tempura-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -164,9 +164,9 @@ section.tempura-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.tempura-profiel p:nth-of-type(4) {
+section.tempura-profiel  a .tempura {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 25%;
 }
 div.content-block-2::after {
   content: "";
@@ -180,7 +180,7 @@ div.content-block-3 {
 section.travel-agency-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 0;
@@ -194,14 +194,14 @@ section.travel-agency-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.travel-agency-profiel p:nth-of-type(4) {
+section.travel-agency-profiel  a .travel-agency {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 33%;
 }
 section.nursery-school-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -215,14 +215,14 @@ section.nursery-school-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.nursery-school-profiel p:nth-of-type(4) {
+section.nursery-school-profiel  a .nursery-school {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 26%;
 }
 section.trading-profiel {
   float: left;
   width: 300px;
-  height: 640px;
+  height: 700px;
   border: solid 5px #000;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -236,9 +236,9 @@ section.trading-profiel p {
   line-height: 1.5em;
   margin: 0 0 0 45px;
 }
-section.trading-profiel p:nth-of-type(4) {
+section.trading-profiel  a .trading {
   text-align: center;
-  margin-top: 20px;
+  margin: 20px 0 0 35%;
 }
 div.content-block-3::after {
   content: "";

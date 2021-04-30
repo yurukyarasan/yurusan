@@ -21,10 +21,10 @@
     border-radius: 30px;
   }
   section.top-image img {
-   width: 35%;
+   width: 100%;
    position: absolute;
-   top: 20px;
-   left: 2%;
+   top: 0;
+   left: -38%;
   }
   div.content-block-1 {
     width: 100%;
@@ -32,7 +32,7 @@
   }
   section.profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 20px 0 20px 5%;
     box-sizing: border-box;
@@ -46,7 +46,7 @@
   }
   section.wcb-cafe-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -58,9 +58,6 @@
     margin-left: 18%;
     line-height: 1.5em;
   }
-  section.wcb-cafe-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
   section.cafe-67-2-profiel {
     content: "";
     display: block;
@@ -69,7 +66,7 @@
   }
   section.cafe-67-2-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
   }
@@ -80,16 +77,13 @@
     margin-left: 18%;
     line-height: 1.5em;
   }
-  section.cafe-67-2-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
   div.content-block-2 {
     width: 100%;
     margin: 0 auto;
   }
   section.kowa-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -101,12 +95,12 @@
     margin-left: 18%;
     line-height: 1.5em;
   }
-  section.kowa-profiel p:nth-of-type(4) {
-    text-align: center;
+  section.kowa-profiel  a .kowa {
+    margin: 20px auto 0 21%;
   }
   section.tea-theory-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 0 0 20px 5%;
     box-sizing: border-box;
@@ -118,9 +112,6 @@
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.tea-theory-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
   section.mitui-profiel {
     content: "";
     display: block;
@@ -128,7 +119,7 @@
   }
   section.mitui-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     box-sizing: border-box;
     margin: 0 0 0 5%;
@@ -140,16 +131,13 @@
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.mitui-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
   div.content-block-3 {
     width: 100%;
     margin: 0 auto;
   }
   section.revive-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 20px 20px 0 5%;
     box-sizing: border-box;
@@ -161,12 +149,9 @@
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.revive-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
   section.tempura-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 20px 0 20px 5%;
     box-sizing: border-box;
@@ -178,12 +163,13 @@
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.tempura-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
+  section.tempura-profiel  a .tempura {
+  text-align: center;
+  margin: 20px 0 0 32%;
+}
 section.travel-agency-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 0 0 0 5%;
     box-sizing: border-box;
@@ -195,16 +181,13 @@ section.travel-agency-profiel {
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.travel-agency-profiel p:nth-of-type(4) {
-    text-align: center;
-}
 div.content-block-4 {
     width: 100%;
     margin: 0 auto;
   }
   section.nursery-school-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 20px 20px 0 5%;
     box-sizing: border-box;
@@ -216,12 +199,9 @@ div.content-block-4 {
     margin-left: 17%;
     line-height: 1.5em;
   }
-  section.nursery-school-profiel p:nth-of-type(4) {
-    text-align: center;
-  }
  section.trading-profiel {
     width: 90%;
-    height: 670px;
+    height: 900px;
     border: solid 5px #000;
     margin: 20px 20px 0 5%;
     box-sizing: border-box;
@@ -232,8 +212,5 @@ div.content-block-4 {
   section.trading-profiel p {
     margin-left: 17%;
     line-height: 1.5em;
-  }
-  section.trading-profiel p:nth-of-type(4) {
-    text-align: center;
   }
 }
