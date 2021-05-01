@@ -45,7 +45,7 @@ section.profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -60,7 +60,7 @@ section.wcb-cafe-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 0 20px 0 20px;
   box-sizing: border-box;
@@ -81,7 +81,7 @@ section.cafe-67-2-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   box-sizing: border-box;
 }
@@ -110,7 +110,7 @@ section.kowa-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin-top: 20px;
   box-sizing: border-box;
@@ -130,7 +130,7 @@ section.tea-theory-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
   box-sizing: border-box;
@@ -151,7 +151,7 @@ section.mitui-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
   box-sizing: border-box;
@@ -181,7 +181,7 @@ section.revive-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 0;
   box-sizing: border-box;
@@ -202,7 +202,7 @@ section.tempura-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
   box-sizing: border-box;
@@ -223,7 +223,7 @@ section.travel-agency-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
   box-sizing: border-box;
@@ -253,7 +253,7 @@ section.nursery-school-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 0;
   box-sizing: border-box;
@@ -274,7 +274,7 @@ section.trading-profiel {
   float: left;
   width: 300px;
   height: 900px;
-  border: solid 5px #000;
+  border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
   box-sizing: border-box;
@@ -290,4 +290,21 @@ section.trading-profiel p {
 section.trading-profiel  a .trading {
   text-align: center;
   margin: 20px 0 0 35%;
+}
+div.content-block-4::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+section.footer div.end-footer {
+  width: 1920px;
+  height: 50px;
+  margin-top: 50px;
+  box-sizing: border-box;
+  background-color: #30EFF8;
+}
+section.footer div.end-footer p {
+  width: 200px;
+  margin: 0 auto;
+  padding-top: 20px;
 }
