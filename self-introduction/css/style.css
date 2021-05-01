@@ -44,7 +44,7 @@ div.content-block-1 {
 section.profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   box-sizing: border-box;
@@ -59,7 +59,7 @@ section.profiel p {
 section.wcb-cafe-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 0 20px 0 20px;
@@ -80,7 +80,7 @@ section.wcb-cafe-profiel a .WCBCAFE {
 section.cafe-67-2-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   box-sizing: border-box;
@@ -92,6 +92,9 @@ section.cafe-67-2-profiel p {
   width: 220px;
   line-height: 1.5em;
   margin: 0 0 0 45px;
+}
+section.cafe-67-2-profiel p:nth-of-type(3) {
+  margin-top: 20px;
 }
 section.cafe-67-2-profiel  a .cafe67 {
   text-align: center;
@@ -109,7 +112,7 @@ div.content-block-2 {
 section.kowa-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin-top: 20px;
@@ -129,7 +132,7 @@ section.kowa-profiel  a .kowa {
 section.tea-theory-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -150,7 +153,7 @@ section.tea-theory-profiel  a .tea-theory {
 section.tempura-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -180,7 +183,7 @@ div.content-block-3 {
 section.travel-agency-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 0;
@@ -201,7 +204,7 @@ section.travel-agency-profiel  a .travel-agency {
 section.nursery-school-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
@@ -222,7 +225,7 @@ section.nursery-school-profiel  a .nursery-school {
 section.trading-profiel {
   float: left;
   width: 300px;
-  height: 700px;
+  height: 720px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
   margin: 20px 0 0 20px;
