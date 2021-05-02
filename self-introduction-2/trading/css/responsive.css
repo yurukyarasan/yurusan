@@ -138,17 +138,17 @@ ul.business li.corporate-information {
 ul.business li.business-introduction {
 	width: 100%;
 	float: left;
-    margin: 120px 0 0 0;
+    margin: 100px 0 0 0;
 }
 ul.business li.news {
 	width: 100%;
 	float: left;
-    margin: 480px 0 0 0;
+    margin: 460px 0 0 0;
 }
 ul.business li.sustainability {
 	width: 100%;
 	float: left;
-    margin: 630px 0 0 0;
+    margin: 620px 0 0 0;
 }
 ul.business li.investor-information {
 	width: 100%;
@@ -163,7 +163,7 @@ ul.business li.employment-information {
 ul.business li.future {
 	width: 100%;
 	float: left;
-    margin: 420px 0 0 0.6%;
+    margin: 440px 0 0 0.6%;
 }
 	
 /* ドロップダウンメニューグループ1 */	
@@ -178,6 +178,7 @@ div.business-group-1 {
 	left: 0;
 	z-index: 1;
 	overflow: hidden;
+	margin-top: 20px;
 }
 ul.business div.business-group-1 p {
 	width: 100%;
@@ -225,7 +226,7 @@ div.business-group-2 {
 	height: 400px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: -60 0 0 0;
+	margin: 20px 0 0 0;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -262,7 +263,7 @@ div.business-group-3 {
 	height: 560px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
+	margin: 20px 0 0 0;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -304,7 +305,7 @@ div.business-group-4 {
 	height: 750px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
+	margin: 20px 0 0 0;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -356,7 +357,7 @@ div.business-group-5 {
 	height: 640px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
+	margin: 20px 0 0 0;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -401,7 +402,7 @@ div.business-group-6 {
 	height: 380px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
+	margin: 20px 0 0 0;
 	position: absolute;
 	left: 0;
 	z-index: 1;
@@ -1450,7 +1451,7 @@ ul.business li.corporate-information {
 ul.business li.business-introduction {
 	width: 100%;
 	float: left;
-    margin: 260px 0 0 0;
+    margin: 340px 0 0 0;
 }
 ul.business li.news {
 	width: 100%;
@@ -1460,12 +1461,12 @@ ul.business li.news {
 ul.business li.sustainability {
 	width: 100%;
 	float: left;
-    margin: 720px 0 0 0;
+    margin: 760px 0 0 0;
 }
 ul.business li.investor-information {
 	width: 100%;
 	float: left;
-    margin: 790px 0 600px 0;
+    margin: 830px 0 600px 0;
 }
 ul.business li.employment-information {
 	width: 100%;
@@ -1482,7 +1483,7 @@ ul.business li.future {
 	
 div.business-group-1 {
 	width: 100%;
-	height: 640px;
+	height: 720px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -1493,7 +1494,7 @@ div.business-group-1 {
 }
 ul.business div.business-group-1 p {
 	width: 100%;
-	height: 350px;
+	height: 650px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.1.jpg");
 	background-repeat: no-repeat;
@@ -1513,21 +1514,21 @@ ul.business div.business-group-1 ul.sub-1  {
 	float: left;
 	display: inline;
 	height: 200px;
-	margin: -7px 0 0 9%;
+	margin: -307px 0 0 9%;
 	overflow: hidden;
 }
 ul.business div.business-group-1 ul.sub-2 {
 	width: 30%;
 	float: left;
 	display: inline;
-	margin: -7px 0 0 3%;
+	margin: -127px 0 0 9%;
 	overflow: hidden;
 }
 ul.business div.business-group-1 ul.sub-3 {
 	width: 50%;
 	float: left;
 	display: inline;
-	margin: 170px 0 0 -78%;
+	margin: -337px 0 0 48%;
 	overflow: hidden;
 }
 	
@@ -1546,7 +1547,7 @@ div.business-group-2 {
 }
 ul.business div.business-group-2 p {
 	width: 100%;
-	height: 350px;
+	height: 370px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.2.jpg");
 	background-repeat: no-repeat;
@@ -1573,7 +1574,7 @@ ul.business div.business-group-2 ul.sub-1 {
 	
 div.business-group-3 {
 	width: 100%;
-	height: 640px;
+	height: 680px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -2761,12 +2762,12 @@ ul.business {
 ul.business li.corporate-information {
   width: 100%;
   float: left;
-  margin: 50px 0 450px 0;
+  margin: 90px 0 450px 0;
 }
 ul.business li.business-introduction {
 	width: 100%;
 	float: left;
-    margin: 260px 0 0 0;
+    margin: 300px 0 0 0;
 }
 ul.business li.news {
 	width: 100%;
@@ -2776,7 +2777,7 @@ ul.business li.news {
 ul.business li.sustainability {
 	width: 100%;
 	float: left;
-    margin: 720px 0 0 0;
+    margin: 760px 0 0 0;
 }
 ul.business li.investor-information {
 	width: 100%;
@@ -2798,7 +2799,7 @@ ul.business li.future {
 	
 div.business-group-1 {
 	width: 100%;
-	height: 640px;
+	height: 680px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -2889,7 +2890,7 @@ ul.business div.business-group-2 ul.sub-1 {
 	
 div.business-group-3 {
 	width: 100%;
-	height: 640px;
+	height: 680px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4107,39 +4108,39 @@ ul.business li.corporate-information {
 ul.business li.business-introduction {
 	width: 100%;
 	float: left;
-    margin: 260px 0 0 0;
+    margin: 620px 0 0 0;
 }
 ul.business li.news {
 	width: 100%;
 	float: left;
-    margin: 710px 0 0 0;
+    margin: 960px 0 0 0;
 }
 ul.business li.sustainability {
 	width: 100%;
 	float: left;
-    margin: 720px 0 0 0;
+    margin: 1000px 0 0 0;
 }
 ul.business li.investor-information {
 	width: 100%;
 	float: left;
-    margin: 790px 0 600px 0;
+    margin: 1160px 0 600px 0;
 }
 ul.business li.employment-information {
 	width: 100%;
 	float: left;
-    margin: 220px 0 0 0;
+    margin: 540px 0 0 0;
 }
 ul.business li.future {
 	width: 100%;
 	float: left;
-    margin: 590px 0 0 0;
+    margin: 990px 0 0 0;
 }
 	
 /* ドロップダウンメニューグループ1 */	
 	
 div.business-group-1 {
 	width: 100%;
-	height: 640px;
+	height: 940px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4150,7 +4151,7 @@ div.business-group-1 {
 }
 ul.business div.business-group-1 p {
 	width: 100%;
-	height: 350px;
+	height: 630px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.1.jpg");
 	background-repeat: no-repeat;
@@ -4192,7 +4193,7 @@ ul.business div.business-group-1 ul.sub-3 {
 	
 div.business-group-2 {
 	width: 100%;
-	height: 640px;
+	height: 840px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4203,7 +4204,7 @@ div.business-group-2 {
 }
 ul.business div.business-group-2 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.2.jpg");
 	background-repeat: no-repeat;
@@ -4230,7 +4231,7 @@ ul.business div.business-group-2 ul.sub-1 {
 	
 div.business-group-3 {
 	width: 100%;
-	height: 640px;
+	height: 900px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4241,7 +4242,7 @@ div.business-group-3 {
 }
 ul.business div.business-group-3 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.3.jpg");
 	background-repeat: no-repeat;
@@ -4273,7 +4274,7 @@ ul.business div.business-group-3 ul.sub-2 {
 	
 div.business-group-4 {
 	width: 100%;
-	height: 710px;
+	height: 1050px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4285,7 +4286,7 @@ div.business-group-4 {
 }
 ul.business div.business-group-4 p {
 	width: 100%;
-	height: 350px;
+	height: 660px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.4.jpg");
 	background-repeat: no-repeat;
@@ -4326,7 +4327,7 @@ ul.business div.business-group-4 ul.sub-3 {
 	
 div.business-group-5 {
 	width: 100%;
-	height: 740px;
+	height: 1040px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4338,7 +4339,7 @@ div.business-group-5 {
 }
 ul.business div.business-group-5 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.5.jpg");
 	background-repeat: no-repeat;
@@ -4372,7 +4373,7 @@ ul.business div.business-group-5 ul.sub-2 {
 	
 div.business-group-6 {
 	width: 100%;
-	height: 510px;
+	height: 910px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -4383,7 +4384,7 @@ div.business-group-6 {
 }
 ul.business div.business-group-6 p {
 	width: 100%;
-	height: 350px;
+	height: 660px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.6.jpg");
 	background-repeat: no-repeat;
@@ -4403,7 +4404,7 @@ ul.business div.business-group-6 ul.sub-1 {
 	float: left;
 	display: inline;
 	height: 150px;
-	margin: -7px 0 0 5%;
+	margin: -40px 0 0 5%;
 }
 ul.business div.business-group-6 ul.sub-2 {
 	width: 90%;
@@ -5449,39 +5450,39 @@ ul.business li.corporate-information {
 ul.business li.business-introduction {
 	width: 100%;
 	float: left;
-    margin: 260px 0 0 0;
+    margin: 620px 0 0 0;
 }
 ul.business li.news {
 	width: 100%;
 	float: left;
-    margin: 710px 0 0 0;
+    margin: 960px 0 0 0;
 }
 ul.business li.sustainability {
 	width: 100%;
 	float: left;
-    margin: 720px 0 0 0;
+    margin: 1040px 0 0 0;
 }
 ul.business li.investor-information {
 	width: 100%;
 	float: left;
-    margin: 790px 0 600px 0;
+    margin: 1160px 0 600px 0;
 }
 ul.business li.employment-information {
 	width: 100%;
 	float: left;
-    margin: 220px 0 0 0;
+    margin: 540px 0 0 0;
 }
 ul.business li.future {
 	width: 100%;
 	float: left;
-    margin: 590px 0 0 0;
+    margin: 990px 0 0 0;
 }
 	
 /* ドロップダウンメニューグループ1 */	
 	
 div.business-group-1 {
 	width: 100%;
-	height: 640px;
+	height: 980px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5492,7 +5493,7 @@ div.business-group-1 {
 }
 ul.business div.business-group-1 p {
 	width: 100%;
-	height: 350px;
+	height: 630px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.1.jpg");
 	background-repeat: no-repeat;
@@ -5534,7 +5535,7 @@ ul.business div.business-group-1 ul.sub-3 {
 	
 div.business-group-2 {
 	width: 100%;
-	height: 640px;
+	height: 840px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5545,7 +5546,7 @@ div.business-group-2 {
 }
 ul.business div.business-group-2 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.2.jpg");
 	background-repeat: no-repeat;
@@ -5572,7 +5573,7 @@ ul.business div.business-group-2 ul.sub-1 {
 	
 div.business-group-3 {
 	width: 100%;
-	height: 640px;
+	height: 940px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5583,7 +5584,7 @@ div.business-group-3 {
 }
 ul.business div.business-group-3 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.3.jpg");
 	background-repeat: no-repeat;
@@ -5615,7 +5616,7 @@ ul.business div.business-group-3 ul.sub-2 {
 	
 div.business-group-4 {
 	width: 100%;
-	height: 710px;
+	height: 1050px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5627,7 +5628,7 @@ div.business-group-4 {
 }
 ul.business div.business-group-4 p {
 	width: 100%;
-	height: 350px;
+	height: 660px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.4.jpg");
 	background-repeat: no-repeat;
@@ -5668,7 +5669,7 @@ ul.business div.business-group-4 ul.sub-3 {
 	
 div.business-group-5 {
 	width: 100%;
-	height: 740px;
+	height: 1040px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5680,7 +5681,7 @@ div.business-group-5 {
 }
 ul.business div.business-group-5 p {
 	width: 100%;
-	height: 350px;
+	height: 600px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.5.jpg");
 	background-repeat: no-repeat;
@@ -5714,7 +5715,7 @@ ul.business div.business-group-5 ul.sub-2 {
 	
 div.business-group-6 {
 	width: 100%;
-	height: 510px;
+	height: 910px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
 	margin: 40px 0 0 0;
@@ -5725,7 +5726,7 @@ div.business-group-6 {
 }
 ul.business div.business-group-6 p {
 	width: 100%;
-	height: 350px;
+	height: 660px;
 	display: inline-block;
 	background: url("../img/jpg/business-link/No.6.jpg");
 	background-repeat: no-repeat;
@@ -5745,7 +5746,7 @@ ul.business div.business-group-6 ul.sub-1 {
 	float: left;
 	display: inline;
 	height: 150px;
-	margin: -7px 0 0 5%;
+	margin: -40px 0 0 5%;
 }
 ul.business div.business-group-6 ul.sub-2 {
 	width: 90%;
@@ -6660,78 +6661,16 @@ section.title h1 {
 	font-size: 70px;
 }
 	
-/* ハンバーガーメニュー　*/	
-	
-span.nav-toggle {
-    display: block;
-	margin-top: -105px;
-    position: relative;
-    height: 1.5rem;
-}
-span.nav-toggle i {
-    display: block;
-    width: 10%;
-    height: 2px;
-    background-color: #333;
-    position: absolute;
-    transition: transform .5s, opacity .5s;
-	margin-left: 90%;
-}
-span.nav-toggle i:nth-child(1) {
-    top: 0;
-}
-span.nav-toggle i:nth-child(2) {
-    top: 30px;
-    bottom: 0;
-}
-span.nav-toggle i:nth-child(3) {
-	top: 60px;
-    bottom: 0;
-}
-span.nav-toggle.show i:nth-child(1) {
-    transform: translateY(10px) rotate(-45deg);
-}
-span.nav-toggle.show i:nth-child(2) {
-    opacity: 0;
-}
-span.nav-toggle.show i:nth-child(3) {
-    transform: translateY(-12px) rotate(45deg);
-}
-section.responsive-nav {
-	width: 93.51%;
-	position: fixed;
-	overflow-y: scroll;
-	z-index: 99;
-    top: 3rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s, visibility .5s;
-	-webkit-overflow-scrolling: touch;
-}
-section.responsive-nav.show {
-	width: 100%;
-	opacity: 1;
-    visibility: visible;
-	z-index: 1;
-	background-color: #E2F98B;
-	margin-top: 40px;
-}
-	
-/* 上段UIドロップダウンメニュー レスポンシブ版　*/	
-	
+/* 上段UIドロップダウンメニュー　*/
+
 section#main-link {
 	width: 100%;
 	margin: 0 auto;
 }
-	
-/* 上段ドロップダウンメニュー位置設定コード　レスポンシブ版 */	
-	
+
+/* 上段ドロップダウンメニュー位置設定コード　*/
+
 section#main-link ul.business li {
-	width: 100%;
 	list-style-type: none;
 }
 ul.business li {
@@ -6781,324 +6720,336 @@ ul.business li a:hover {
   position: relative;
 }
 ul.business {
-  width: 90%;
   zoom: 1;
-  margin: -20px 0 0 5%;
+  width: 60%;
+  margin: 50px auto 0 auto;
 }
 ul.business li.corporate-information {
-  width: 100%;
   float: left;
-  margin: 50px 0 450px 0;
+  margin-left: 100px;
 }
 ul.business li.business-introduction {
-	width: 100%;
-	float: left;
-    margin: 260px 0 0 0;
+  float: left;
+  margin-left: 150px;
 }
 ul.business li.news {
-	width: 100%;
-	float: left;
-    margin: 710px 0 0 0;
+  float: left;
+  margin-left: 150px;
 }
 ul.business li.sustainability {
-	width: 100%;
-	float: left;
-    margin: 720px 0 0 0;
+  float: left;
+  margin-left: 150px;
 }
 ul.business li.investor-information {
-	width: 100%;
-	float: left;
-    margin: 790px 0 600px 0;
+  float: left;
+  margin-left: 120px;
 }
 ul.business li.employment-information {
-	width: 100%;
-	float: left;
-    margin: 220px 0 0 0;
+  float: left;
+  margin-left: 120px;
 }
 ul.business li.future {
-	width: 100%;
-	float: left;
-    margin: 590px 0 0 0;
-}
-	
-/* ドロップダウンメニューグループ1 */	
-	
-div.business-group-1 {
-	width: 100%;
-	height: 640px;
-	background-color: #1A2E2C;
-	box-sizing: border-box;
-	margin: 40px 0 0 0;
-	position: absolute;
-	left: 0;
-	z-index: 1;
-	overflow: hidden;
-}
-ul.business div.business-group-1 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
-	background: url("../img/jpg/business-link/No.1.jpg");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
-	color: #FFF;
-	font-weight: 1000;
-	box-sizing: border-box;
-}
-	
-/* ドロップダウンメニューグループ1 リンク*/	
-	
-ul.business div.business-group-1 ul.sub-1  {
-	width: 45%;
-	float: left;
-	display: inline;
-	height: 200px;
-	margin: -7px 0 0 9%;
-	overflow: hidden;
-}
-ul.business div.business-group-1 ul.sub-2 {
-	width: 30%;
-	float: left;
-	display: inline;
-	margin: -7px 0 0 3%;
-	overflow: hidden;
-}
-ul.business div.business-group-1 ul.sub-3 {
-	width: 50%;
-	float: left;
-	display: inline;
-	margin: 170px 0 0 -78%;
-	overflow: hidden;
-}
-	
-/* ドロップダウンメニューグループ2 */	
-	
-div.business-group-2 {
-	width: 100%;
-	height: 640px;
-	background-color: #1A2E2C;
-	box-sizing: border-box;
-	margin: 40px 0 0 0;
-	position: absolute;
-	left: 0;
-	z-index: 1;
-	overflow: hidden;
-}
-ul.business div.business-group-2 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
-	background: url("../img/jpg/business-link/No.2.jpg");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
-	color: #FFF;
-	font-weight: 1000;
-	box-sizing: border-box;
-}
-	
-/* ドロップダウンメニューグループ2 リンク */	
-	
-ul.business div.business-group-2 ul.sub-1 {
-	width: 90%;
-	float: left;
-	display: inline;
-	height: 150px;
-	margin: -7px 0 0 5%;
-}
-	
-/* ドロップダウンメニューグループ3 */	
-	
-div.business-group-3 {
-	width: 100%;
-	height: 640px;
-	background-color: #1A2E2C;
-	box-sizing: border-box;
-	margin: 40px 0 0 0;
-	position: absolute;
-	left: 0;
-	z-index: 1;
-	overflow: hidden;
-}
-ul.business div.business-group-3 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
-	background: url("../img/jpg/business-link/No.3.jpg");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
-	color: #FFF;
-	font-weight: 1000;
-	box-sizing: border-box;
-}
-	
-/* ドロップダウンメニューグループ3 リンク */	
-	
-ul.business div.business-group-3 ul.sub-1 {
-	width: 90%;
-	float: left;
-	display: inline;
-	margin: -7px 0 0 5%;
-}
-ul.business div.business-group-3 ul.sub-2 {
-	width: 90%;
-	float: left;
-	display: inline;
-	margin: -7px 0 0 5%;
-}
-	
-/* ドロップダウンメニューグループ4 */	
-	
-div.business-group-4 {
-	width: 100%;
-	height: 710px;
-	background-color: #1A2E2C;
-	box-sizing: border-box;
-	margin: 40px 0 0 0;
-	position: absolute;
-	left: 0;
-	z-index: 1;
-	overflow: hidden;
-	color: #FFF;
-}
-ul.business div.business-group-4 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
-	background: url("../img/jpg/business-link/No.4.jpg");
-	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
-	color: #FFF;
-	font-weight: 1000;
-	box-sizing: border-box;
-}
-	
-/* ドロップダウンメニューグループ4 リンク */	
-	
-ul.business div.business-group-4 ul.sub-1 {
-	width: 30%;
-	float: left;
-	display: inline;
-	height: 150px;
-	margin: -4px 0 0 5%;
-}
-ul.business div.business-group-4 ul.sub-2 {
-	width: 30%;
-	float: left;
-	display: inline;
-	height: 150px;
-	margin: -1px 0 0 25%;
-}
-ul.business div.business-group-4 ul.sub-3 {
-	width: 30%;
-	float: left;
-	display: inline;
-	height: 150px;
-	margin: 40px 0 0 5%;
+  float: left;
+  margin: -7px 0 0 100px;
 }
 
-/* ドロップダウンメニューグループ5 */	
-	
-div.business-group-5 {
-	width: 100%;
-	height: 740px;
+/* ドロップダウンメニューグループ1 */
+
+div.business-group-1 {
+	width: 1920px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
 	position: absolute;
-	left: 0;
+	left: -260px;
 	z-index: 1;
-	overflow: hidden;
+	margin-top: 0;
+}
+ul.business div.business-group-1 p {
+	display: none;
+	width: 400px;
+	height: 200px;
+	background: url("../img/jpg/business-link/No.1.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
+	color: #FFF;
+	font-weight: 1000;
+}
+
+/* ドロップダウンメニューグループ1 リンク*/
+
+ul.business div.business-group-1 ul.sub-1  {
+	float: left;
+	display: none;
+	height: 150px;
+    margin: -300px 0 0 700px;
+}
+ul.business div.business-group-1 ul.sub-2 {
+	float: left;
+	display: none;
+	height: 150px;
+	margin: -300px 0 0 950px;
+}
+ul.business div.business-group-1 ul.sub-3 {
+	float: left;
+	display: none;
+	height: 150px;
+	margin: -300px 0 0 1150px;
+}
+
+/* ドロップダウンメニューグループ2 */
+
+div.business-group-2 {
+	width: 1920px;
+	background-color: #1A2E2C;
+	box-sizing: border-box;
+	position: absolute;
+	left: -475px;
+	z-index: 1;
+	margin-top: 0;
+}
+ul.business div.business-group-2 p {
+	display: none;
+	width: 400px;
+	height: 200px;
+	background: url("../img/jpg/business-link/No.2.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
+	color: #FFF;
+	font-weight: 1000;
+}
+
+/* ドロップダウンメニューグループ2 リンク */
+
+ul.business div.business-group-2 ul.sub-1 {
+	float: left;
+	display: none;
+	height: 150px;
+	margin: -300px 0 0 700px;
+}
+
+/* ドロップダウンメニューグループ3 */
+
+div.business-group-3 {
+	width: 1920px;
+	background-color: #1A2E2C;
+	box-sizing: border-box;
+	position: absolute;
+	left: -688px;
+	z-index: 1;
+	margin-top: 0;
+}
+ul.business div.business-group-3 p {
+	display: none;
+	width: 400px;
+	height: 200px;
+	background: url("../img/jpg/business-link/No.3.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
+	color: #FFF;
+	font-weight: 1000;
+}
+
+/* ドロップダウンメニューグループ3 リンク */
+
+ul.business div.business-group-3 ul.sub-1 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 700px;
+}
+ul.business div.business-group-3 ul.sub-2 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 950px;
+}
+ul.business div.business-group-3 ul.sub-2 li:nth-of-type(1) {
+	color: #FFF;
+}
+
+/* ドロップダウンメニューグループ4 */
+
+div.business-group-4 {
+	width: 1917px;
+	background-color: #1A2E2C;
+	box-sizing: border-box;
+	position: absolute;
+	left: -902px;
+	z-index: 1;
+	margin-top: 0;
+}
+ul.business div.business-group-4 p {
+	display: none;
+	width: 400px;
+	height: 200px;
+	background: url("../img/jpg/business-link/No.4.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
+	color: #FFF;
+	font-weight: 1000;
+}
+
+/* ドロップダウンメニューグループ4 リンク */
+
+ul.business div.business-group-4 ul.sub-1 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 700px;
+}
+ul.business div.business-group-4 ul.sub-2 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 950px;
+}
+ul.business div.business-group-4 ul.sub-2 li:nth-of-type(1){
+	color: #FFF;
+}
+ul.business div.business-group-4 ul.sub-2 li:nth-of-type(5){
+	color: #FFF;
+}
+ul.business div.business-group-4 ul.sub-3 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 1150px;
+}
+ul.business div.business-group-4 ul.sub-3 li:nth-of-type(1){
+	color: #FFF;
+}
+ul.business div.business-group-4 ul.sub-3 li:nth-of-type(4){
+	color: #FFF;
+}
+ul.business div.business-group-4 ul.sub-4 {
+	float: left;
+	display: none;
+	height: 150px;
+	 margin: -300px 0 0 1350px;
+}
+
+/* ドロップダウンメニューグループ5 */
+
+div.business-group-5 {
+	width: 1920px;
+	background-color: #1A2E2C;
+	box-sizing: border-box;
+	position: absolute;
+	left: -1150px;
+	z-index: 1;
+	margin-top: 0;
 	color: #FFF;
 }
 ul.business div.business-group-5 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
+	display: none;
+	width: 400px;
+	height: 200px;
 	background: url("../img/jpg/business-link/No.5.jpg");
 	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
-	box-sizing: border-box;
 }
-	
-/* ドロップダウンメニューグループ5 リンク */	
-	
+
+/* ドロップダウンメニューグループ5 リンク */
+
 ul.business div.business-group-5 ul.sub-1 {
-	width: 90%;
 	float: left;
-	display: inline;
+	display: none;
 	height: 150px;
-	margin: -7px 0 0 5%;
+	 margin: -300px 0 0 700px;
 }
 ul.business div.business-group-5 ul.sub-2 {
-	width: 90%;
 	float: left;
-	display: inline;
+	display: none;
 	height: 150px;
-	margin: 80px 0 0 5%;
+	 margin: -300px 0 0 950px;
 }
-	
-/* ドロップダウンメニューグループ6 */	
-	
+
+/* ドロップダウンメニューグループ6 */
+
 div.business-group-6 {
-	width: 100%;
-	height: 510px;
+	width: 1920px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
-	margin: 40px 0 0 0;
 	position: absolute;
-	left: 0;
+	left: -1350px;
 	z-index: 1;
-	overflow: hidden;
+	margin-top: 0;
 }
 ul.business div.business-group-6 p {
-	width: 100%;
-	height: 350px;
-	display: inline-block;
+	display: none;
+	width: 400px;
+	height: 200px;
 	background: url("../img/jpg/business-link/No.6.jpg");
 	background-repeat: no-repeat;
-	background-size: 90%;
-	text-align: left;
-	margin: 10px 0 0 5%;
-	padding: 180px 0 0 40%;
+	text-align: center;
+	margin: 50px 0 0 250px;
+	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
-	box-sizing: border-box;
 }
-	
-/* ドロップダウンメニューグループ6 リンク */	
-	
+
+/* ドロップダウンメニューグループ6 リンク */
+
 ul.business div.business-group-6 ul.sub-1 {
-	width: 90%;
 	float: left;
-	display: inline;
+	display: none;
+	width: 550px;
 	height: 150px;
-	margin: -7px 0 0 5%;
+	 margin: -300px 0 0 700px;
+}
+ul.business div.business-group-6 ul.sub-1 li:nth-of-type(1){
+	float: left;
+	display: none;
+	width: 550px;
+	height: 150px;
+	 margin: -300px 0 0 700px;
 }
 ul.business div.business-group-6 ul.sub-2 {
-	width: 90%;
 	float: left;
-	display: inline;
+	display: none;
+	width: 550px;
 	height: 150px;
-	margin: -50px 0 0 5%;
-
+	 margin: -300px 0 0 950px;
 }
+ul.business div.business-group-6 ul.sub-2 li:nth-of-type(1){
+	float: left;
+	display: none;
+	width: 550px;
+	height: 150px;
+	 margin: -300px 0 0 700px;
+}
+
+/* ドロップダウンメニューグループ7 */
+
+div.business-group-7 {
+	width: 1920px;
+	background-color: #1A2E2C;
+	box-sizing: border-box;
+	position: absolute;
+	left: -10px;
+	z-index: 1;
+}
+ul.business li.future a{
+	color: #000;
+}
+ul.business::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 	
 /* メインイメージ画像 */	
 	
