@@ -6690,7 +6690,10 @@ ul.business li a{
 	color: #FFF;
 	text-decoration: none;
 	position: relative;
-	font-size: 14px;
+	font-size: 20px;
+}
+ul.business li p a{
+	font-size: 30px;
 }
 ul.business li a:hover {
 	color: #717171;
@@ -6726,31 +6729,38 @@ ul.business {
 }
 ul.business li.corporate-information {
   float: left;
-  margin-left: 100px;
+  margin-left: -100px;
+  font-size: 25px;
 }
 ul.business li.business-introduction {
   float: left;
   margin-left: 150px;
+  font-size: 25px;
 }
 ul.business li.news {
   float: left;
   margin-left: 150px;
+  font-size: 25px;
 }
 ul.business li.sustainability {
   float: left;
   margin-left: 150px;
+  font-size: 25px;
 }
 ul.business li.investor-information {
   float: left;
   margin-left: 120px;
+  font-size: 25px;
 }
 ul.business li.employment-information {
   float: left;
   margin-left: 120px;
+  font-size: 25px;
 }
 ul.business li.future {
   float: left;
   margin: -7px 0 0 100px;
+  font-size: 25px;
 }
 
 /* ドロップダウンメニューグループ1 */
@@ -6775,6 +6785,7 @@ ul.business div.business-group-1 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ1 リンク*/
@@ -6820,6 +6831,7 @@ ul.business div.business-group-2 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ2 リンク */
@@ -6853,6 +6865,7 @@ ul.business div.business-group-3 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ3 リンク */
@@ -6895,6 +6908,7 @@ ul.business div.business-group-4 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ4 リンク */
@@ -6909,7 +6923,7 @@ ul.business div.business-group-4 ul.sub-2 {
 	float: left;
 	display: none;
 	height: 150px;
-	 margin: -300px 0 0 950px;
+	 margin: -300px 0 0 1050px;
 }
 ul.business div.business-group-4 ul.sub-2 li:nth-of-type(1){
 	color: #FFF;
@@ -6921,7 +6935,7 @@ ul.business div.business-group-4 ul.sub-3 {
 	float: left;
 	display: none;
 	height: 150px;
-	 margin: -300px 0 0 1150px;
+	 margin: -300px 0 0 1350px;
 }
 ul.business div.business-group-4 ul.sub-3 li:nth-of-type(1){
 	color: #FFF;
@@ -6959,6 +6973,7 @@ ul.business div.business-group-5 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ5 リンク */
@@ -6973,7 +6988,7 @@ ul.business div.business-group-5 ul.sub-2 {
 	float: left;
 	display: none;
 	height: 150px;
-	 margin: -300px 0 0 950px;
+	 margin: -300px 0 0 1000px;
 }
 
 /* ドロップダウンメニューグループ6 */
@@ -6998,6 +7013,7 @@ ul.business div.business-group-6 p {
 	padding-top: 100px;
 	color: #FFF;
 	font-weight: 1000;
+	font-size: 30px;
 }
 
 /* ドロップダウンメニューグループ6 リンク */
@@ -7021,7 +7037,7 @@ ul.business div.business-group-6 ul.sub-2 {
 	display: none;
 	width: 550px;
 	height: 150px;
-	 margin: -300px 0 0 950px;
+	 margin: -300px 0 0 1000px;
 }
 ul.business div.business-group-6 ul.sub-2 li:nth-of-type(1){
 	float: left;
@@ -7078,14 +7094,17 @@ dl.manila-railway-philippines {
 }
 dl.manila-railway-philippines dt {
 	float: none;
+    font-size: 30px;
 }
 dl.manila-railway-philippines dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 dl.manila-railway-philippines dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 div.content-2 {
    width: 100%;
@@ -7099,14 +7118,17 @@ dl.friend {
 }
 dl.friend dt {
 	float: none;
+	font-size: 30px;
 }
 dl.friend dd:nth-of-type(1) {
     float: none;
 	margin: 5px 0 0 0;
+	font-size: 30px;
 }
 dl.friend dd:nth-of-type(2) {
     float: none;
 	margin: 5px 0 0 0;
+	font-size: 30px;
 }
 div.content-3 {
 	width: 100%;
@@ -7117,17 +7139,21 @@ dl.personnel-changes-at-the-supervisor-level-1 {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
+    font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dt {
 	float: none;
+	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 div.content-4 {
 	width: 100%;
@@ -7138,17 +7164,21 @@ dl.country-exposure {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
+	font-size: 30px;
 }
 dl.country-exposure dt {
 	float: none;
+    font-size: 30px;
 }
 dl.country-exposure dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 dl.country-exposure dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 div.content-5 {
 	width: 100%;
@@ -7159,17 +7189,21 @@ dl.personnel-changes-at-the-supervisor-level-2 {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
+	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dt {
 	float: none;
+	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
+   font-size: 30px;
 }
 section.news-content-area-1::after {
 	content: "";
@@ -7179,26 +7213,32 @@ section.news-content-area-1::after {
 section.news-content-area-2 {
 	width: 100%;
 	margin: 50px auto 0 auto;
+	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 {
 	
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(1) {
    margin-left: 0px;
+   font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(2) {
 	margin: 10px 0 0 0;
+    font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(3) {
 	margin: 10px 0 0 0;
+	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(4) {
 	float: left;
 	margin: 10px 0 0 10px;
+	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	float: left;
 	margin: 10px 0 0 50px;
+	font-size: 30px;
 }
 	
 /* 事業紹介 */	
@@ -7377,73 +7417,82 @@ section.business-field {
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
-	width: 18%;
+	width: 15%;
 	background: url("../img/png/business-field/icon-No.1.png");
 	background-repeat: no-repeat;
-	margin-left: 33%;
-	padding: 80px 0 0 12px;
+	margin-left: 14%;
+	padding: 80px 0 0 5px;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(2) {
 	float: left;
-	width: 25%;
+	width: 15%;
 	background: url("../img/png/business-field/icon-No.2.png");
 	background-repeat: no-repeat;
-	background-position: 18px 0;
-	margin: 0 0 0 0%;
-	padding: 80px 0 0 12px;
+	background-position: 50px 0;
+	margin: 0 0 0 -4%;
+	padding: 80px 0 0 2px;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(3) {
 	float: left;
-	width: 20%;
+	width: 15%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.3.png");
 	background-repeat: no-repeat;
-	background-position: 0px 0px;
-	margin-left: -7%;
+	background-position: 30px 0px;
+	margin-left: -1%;
 	padding: 80px 0 0 5px;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(4) {
 	float: left;
-	width: 38%;
+	width: 15%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.4.png");
 	background-repeat: no-repeat;
-	background-position: 40px 0px;
-	margin-left: 42%;
+	background-position: 95px 0px;
+	margin-left: -5%;
 	padding: 80px 0 0 0;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(5) {
 	float: left;
-	width: 30%;
+	width: 15%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.5.png");
 	background-repeat: no-repeat;
-	background-position: 10px 0px;
-	margin-left: -20%;
+	background-position: 50px 0px;
+	margin-left: 2%;
 	padding: 80px 0 0 0;
+	font-size: 30px;
 }
 
 section.business-field dd:nth-of-type(6) {
 	float: left;
-	width: 25%;
+	width: 15%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.6.png");
 	background-repeat: no-repeat;
-	background-position: 10px 0px;
-	margin: 0 40% 0 51%;
+	background-position: 50px 0px;
+	margin: 0 0 0 -3%;
 	padding: 80px 0 0 0;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(7) {
 	width: 85%;
 	margin: 0 0 0 5%;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(8) {
 	width: 90%;
 	margin: 20px 0 0 5%;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(9) {
 	width: 90%;
 	margin: 20px 0 0 5%;
+	font-size: 30px;
 }
 section.business-field dd:nth-of-type(10) {
 	width: 11%;
@@ -7572,7 +7621,7 @@ section.what-group-data div.what-group-data-1 {
 	width: 90%;
 	margin: 50px 0 50px 4%;
 	padding-bottom: 10px;
-	font-size: 24px;
+	font-size: 54px;
 	font-weight: 1000;
 	border-bottom: 7px solid #000;
 }
@@ -7583,23 +7632,24 @@ section.what-group-data div.what-group-data-2 {
 section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 10px 0 10px 0;
+	padding: 30px 0 30px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
+	font-size: 70px;
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(2) {
 	width: 90%;
-	margin: 10px 0 0 4%;
+	margin: 30px 0 0 4%;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 34px;
+	font-size: 60px;
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(2) span {
-	font-size: 14px;
+	font-size: 40px;
 }
 section.what-group-data div.what-group-data-3 {
 	float: none;
@@ -7609,12 +7659,13 @@ section.what-group-data div.what-group-data-3 {
 section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 10px 0 10px 0;
+	padding: 30px 0 30px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
+	font-size: 70px;
 }
 section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
 	width: 90%;
@@ -7622,7 +7673,7 @@ section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 34px;
+	font-size: 60px;
 }
 section.what-group-data div.what-group-data-4 {
 	float: none;
@@ -7631,12 +7682,13 @@ section.what-group-data div.what-group-data-4 {
 section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 10px 0 10px 0;
+	padding: 30px 0 30px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
+	font-size: 70px;
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
 	width: 90%;
@@ -7644,10 +7696,10 @@ section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 34px;
+	font-size: 60px;
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(2) span {
-	font-size: 14px;
+	font-size: 34px;
 }
 section.what-group-data div.what-group-data-5 {
 	float: none;
@@ -7656,12 +7708,13 @@ section.what-group-data div.what-group-data-5 {
 section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 10px 0 10px 0;
+	padding: 30px 0 30px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
+	font-size: 70px;
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
 	width: 90%;
@@ -7669,7 +7722,7 @@ section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 34px;;
+	font-size: 60px;
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(2) span {
 	font-size: 14px;
@@ -7678,19 +7731,21 @@ section.what-group-data div.what-group-data-6 {
 	float: none;
 }
 section.what-group-data div.what-group-data-6 p {
-	width: 200px;
+	width: 18%;
 	box-sizing: border-box;
 	font-weight: bold;
 	margin: 0 auto;
+	font-size: 40px;
 }
 section.what-group-data div.what-group-data-7 p {
-	width: 11%;
-	height: 45px;
+	width: 13%;
+	height: 75px;
 	margin: 100px auto 0 auto;
 	padding: 15px 0 0 25px;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
+	font-size: 40px;
 }
 section.what-group-data::after {
 	content: "";
@@ -7819,36 +7874,40 @@ section.company-growth-message dl dt {
 	border-bottom: 7px solid #000;
 	box-sizing: border-box;
 	text-align: center;
-	font-size: 16px;
+	font-size: 46px;
 	font-weight: 1000;
 }
 section.company-growth-message dl dd:nth-of-type(1) img {
-	float: none;
-	width: 100%;
+	float: left;
+	width: 35%;
 }
 section.company-growth-message dl dd:nth-of-type(2) {
-	float: none;
-	width: 90%;
+	float: left;
+	width: 55%;
 	margin: 20px 0 0 5%;
+	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(3) {
-	float: none;
-	width: 90%;
+	float: left;
+	width: 55%;
 	margin: 20px 0 20px 5%;
+	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(4) {
-	float: none;
-	width: 90%;
+	float: left;
+	width: 55%;
 	margin-left: 5%;
+	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(5) {
-	width: 230px;
-	height: 45px;
-	margin: 50px auto 0 auto;
-	padding: 15px 0 0 25px;
+	width: 23%;
+	height: 75px;
+	margin: 450px 0 0 39.5%;
+	padding: 15px 0 0 2%;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
+	font-size: 45px;
 }
 section.company-growth-message::after {
 	content: "";
