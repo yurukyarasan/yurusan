@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-@media(max-width:540px){
+@media(max-width:767px){
 section.title h1 {
 	width: 35%;
 	margin: 50px auto 0 auto;
@@ -594,9 +594,11 @@ section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	
 section.business-details {
 	width: 100%;
-	height: 1340px;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-1 {
+	float: none;
 	width: 100%;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-size: 100%;
@@ -5942,9 +5944,8 @@ div.business-introduction-1 p:nth-of-type(3) {
 	font-size: 20px;
 }
 div.business-introduction-2 {
-	float: left;
 	width: 50%;
-	height: 470px;
+	height: 480px;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -5967,9 +5968,8 @@ div.business-introduction-2 p:nth-of-type(2) {
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-3 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -5992,9 +5992,8 @@ div.business-introduction-3 p:nth-of-type(2) {
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-4 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -6017,14 +6016,12 @@ div.business-introduction-4 p:nth-of-type(2) {
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-5 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: -90px;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 70%;
@@ -6043,14 +6040,13 @@ div.business-introduction-5 p:nth-of-type(2) {
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-6 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.6.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: -90px;
+	margin: 0 0 0 0;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 70%;
@@ -7247,7 +7243,7 @@ section.business-details {
 	width: 100%;
 }
 div.business-introduction-1 {
-	height: 1060px;
+	height: 800px;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -7278,7 +7274,7 @@ div.business-introduction-1 p:nth-of-type(3) {
 div.business-introduction-2 {
 	float: left;
 	width: 50%;
-	height: 940px;
+	height: 640px;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -7303,7 +7299,7 @@ div.business-introduction-2 p:nth-of-type(2) {
 div.business-introduction-3 {
 	float: left;
 	width: 25%;
-	height: 470px;
+	height: 320px;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7328,7 +7324,7 @@ div.business-introduction-3 p:nth-of-type(2) {
 div.business-introduction-4 {
 	float: left;
 	width: 25%;
-	height: 470px;
+	height: 320px;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7354,12 +7350,11 @@ div.business-introduction-4 p:nth-of-type(2) {
 div.business-introduction-5 {
 	float: left;
 	width: 25%;
-	height: 425px;
+	height: 330px;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: -40px;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 70%;
@@ -7380,12 +7375,11 @@ div.business-introduction-5 p:nth-of-type(2) {
 div.business-introduction-6 {
 	float: left;
 	width: 25%;
-	height: 470px;
+	height: 330px;
 	background: url("../img/jpg/what-business/No.6.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: -40px;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 70%;
@@ -7495,7 +7489,7 @@ section.business-field dd:nth-of-type(9) {
 	font-size: 30px;
 }
 section.business-field dd:nth-of-type(10) {
-	width: 11%;
+	width: 15%;
 	height: 65px;
 	margin: 30px auto 0 auto;
 	padding: 15px 0 0 40px;
@@ -7509,12 +7503,11 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 8300px;
 	overflow: hidden;
 }
 section.what-group div.what-group-1 {
 	width: 100%;
-	height: 980px;
+	height: 720px;
 	background: url("../img/jpg/what-group/No.1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7546,12 +7539,11 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 section.what-group div.what-group-2 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1440px;
 	background: url("../img/jpg/what-group/No.2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: -20px;
 }
 section.what-group div.what-group-2 p {
 	width: 55%;
@@ -7562,12 +7554,11 @@ section.what-group div.what-group-2 p {
 section.what-group div.what-group-3 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1440px;
 	background: url("../img/jpg/what-group/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
@@ -7578,12 +7569,11 @@ section.what-group div.what-group-3 p {
 section.what-group div.what-group-4 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1440px;
 	background: url("../img/jpg/what-group/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
@@ -7594,7 +7584,7 @@ section.what-group div.what-group-4 p {
 section.what-group div.what-group-5 {
 	float: none;
 	width: 100%;
-    height: 1920px;
+    height: 1440px;
 	background: url("../img/jpg/what-group/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7738,7 +7728,7 @@ section.what-group-data div.what-group-data-6 p {
 	font-size: 40px;
 }
 section.what-group-data div.what-group-data-7 p {
-	width: 13%;
+	width: 17%;
 	height: 75px;
 	margin: 100px auto 0 auto;
 	padding: 15px 0 0 25px;
@@ -7757,12 +7747,11 @@ section.what-group-data::after {
 	
 section.company-growth {
 	width: 100%;
-	height: 6680px;
 	overflow: hidden;
 }
-section.company-growth div.company-growth-1 {
+section.company-growth div.company-growth-1 dl {
 	width: 100%;
-	height: 960px;
+	height: 720px;
 	background: url("../img/jpg/company-growth/No.1.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7770,11 +7759,11 @@ section.company-growth div.company-growth-1 {
 	color: #FFF;
 }
 section.company-growth div.company-growth-1 dt {
-	width: 70%;
+	width: 75%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 170px;
-	padding-top: 350px;
+	padding-top: 250px;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 70%;
@@ -7793,46 +7782,46 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 section.company-growth div.company-growth-2 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1420px;
 	background: url("../img/jpg/company-growth/No.2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
 	font-size: 170px;
-	padding-top: 810px;
+	padding-top: 510px;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1420px;
 	background: url("../img/jpg/company-growth/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 170px;
-	padding-top: 810px;
+	padding-top: 510px;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1420px;
 	background: url("../img/jpg/company-growth/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
@@ -7844,7 +7833,7 @@ section.company-growth div.company-growth-4 p {
 section.company-growth div.company-growth-5 {
 	float: none;
 	width: 100%;
-	height: 1920px;
+	height: 1420px;
 	background: url("../img/jpg/company-growth/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7900,7 +7889,7 @@ section.company-growth-message dl dd:nth-of-type(4) {
 	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(5) {
-	width: 23%;
+	width: 29%;
 	height: 75px;
 	margin: 450px 0 0 39.5%;
 	padding: 15px 0 0 2%;

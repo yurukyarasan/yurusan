@@ -555,7 +555,7 @@ section.news-content-area-2 {
 /* 事業紹介 */
 
 section.business-details {
-	width: 1920px;
+	width: 1920px
 }
 div.business-introduction-1 {
 	height: 800px;
@@ -725,7 +725,7 @@ section.business-field {
 }
 section.business-field dt {
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 0 0 50px 50px;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;

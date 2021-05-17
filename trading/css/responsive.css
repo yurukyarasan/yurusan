@@ -594,12 +594,11 @@ section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	
 section.business-details {
 	width: 100%;
-	display: flex;
-	flex-direction: column;
 }
 div.business-introduction-1 {
 	float: none;
 	width: 100%;
+	height: 100%;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -625,47 +624,53 @@ div.business-introduction-1 p:nth-of-type(3) {
 	text-align: left;
 	margin: 0;
 	padding: 15px 0 0 10%;
-	font-size: 15px;
+	font-size: 14px;
 }
 div.business-introduction-2 {
 	float: none;
 	width: 100%;
+	height: 180px;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #FFF;
-	margin-top: -650px;
+	padding-top: 5%;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
-	margin: 0;
-	padding: 70px 0 0 5%;
-	font-size: 15px;
+	padding: 8% 0 0 5%;
+	font-size: 95%;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 70%;
 	text-align: center;
-	margin: 20px 0 0 13%;
+	margin: 5px 0 0 13%;
 	padding: 20px 0 20px 0;
-	font-size: 15px;
+	font-size: 77%;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-3 {
 	float: none;
 	width: 100%;
+	height: 180px;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #FFF;
-	margin-top: -410px;
+	margin-top: 0;
+	padding-top: 5%;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
 	margin: 0;
-	padding: 80px 0 0 10%;
+	padding: 8% 0 0 10%;
 	font-size: 15px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
@@ -680,11 +685,15 @@ div.business-introduction-3 p:nth-of-type(2) {
 div.business-introduction-4 {
 	float: none;
 	width: 100%;
+	height: 180px;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #FFF;
-	margin-top: -80px;
+	margin-top: 0;
+	padding-top: 5%;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
@@ -705,11 +714,14 @@ div.business-introduction-4 p:nth-of-type(2) {
 div.business-introduction-5 {
 	float: none;
 	width: 100%;
+	height: 180px;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #FFF;
-	margin-top: -80px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 90%;
@@ -734,7 +746,7 @@ div.business-introduction-6 {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	color: #FFF;
-	margin-top: -80px;
+	margin-top: 0;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 90%;
@@ -758,6 +770,10 @@ div.business-introduction-6 p:nth-of-type(2) {
 section.business-field {
 	width: 100%;
 	margin: 50px auto 0 auto;
+}
+section.business-field dl dt {
+	width: 100%;
+	margin: 70px auto 70px auto;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
@@ -7407,7 +7423,10 @@ section.business-details {
 	
 section.business-field {
 	width: 100%;
-	margin: 50px auto 0 auto;
+}
+section.business-field dl dt {
+	width: 100%;
+	margin: 70px auto 70px auto;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
@@ -7496,7 +7515,7 @@ section.business-field dd:nth-of-type(10) {
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
-	font-size: 30px;
+	font-size: 190%;
 }
 	
 /* 何でだか商事グループ 企業情報 */	
