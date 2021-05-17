@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
 }
 section.top-image {
-  height: 990px;
+  height: 600px;
   background: URL("../img/top-image.jpg");
   background-repeat: no-repeat;
   position: relative;
@@ -33,16 +33,16 @@ section.top-image p {
   border-radius: 30px;
 }
 section.top-image img {
-  position: absolute;
-  top: -70px;
-  left: -770px;
+	
 }
 div.content-block-1 {
   width: 1000px;
   margin: 50px auto 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
 }
 section.profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
@@ -57,12 +57,11 @@ section.profiel p {
   margin: 0 0 0 45px;
 }
 section.wcb-cafe-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 0 20px 0 20px;
+  margin: 0 0 0 0;
   box-sizing: border-box;
 }
 section.wcb-cafe-profiel img {
@@ -78,7 +77,6 @@ section.wcb-cafe-profiel a .WCBCAFE {
   margin: 20px 0 0 40%;
 }
 section.cafe-67-2-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
@@ -97,17 +95,13 @@ section.cafe-67-2-profiel  a .cafe67 {
   text-align: center;
   margin: 20px auto 0 40%;
 }
-div.content-block-1::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 div.content-block-2 {
   width: 1000px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
 section.kowa-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
@@ -127,12 +121,11 @@ section.kowa-profiel  a .kowa {
   margin: 20px auto 0 15%;
 }
 section.tea-theory-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
   box-sizing: border-box;
 }
 section.tea-theory-profiel img {
@@ -148,12 +141,11 @@ section.tea-theory-profiel  a .tea-theory {
   margin: 20px 0 0 45%;
 }
 section.mitui-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
   box-sizing: border-box;
 }
 section.mitui-profiel img {
@@ -168,17 +160,13 @@ section.mitui-profiel a .mitui {
   text-align: center;
   margin: 20px 0 0 33%;
 }
-div.content-block-2::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 div.content-block-3 {
   width: 1000px;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
 section.revive-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
@@ -199,12 +187,11 @@ section.revive-profiel  a .rivive {
   margin: 20px 0 0 34%;
 }
 section.tempura-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
   box-sizing: border-box;
 }
 section.tempura-profiel img {
@@ -220,12 +207,11 @@ section.tempura-profiel  a .tempura {
   margin: 20px 0 0 25%;
 }
 section.travel-agency-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 0;
   box-sizing: border-box;
 }
 section.travel-agency-profiel img {
@@ -240,14 +226,11 @@ section.travel-agency-profiel  a .travel-agency {
   text-align: center;
   margin: 20px 0 0 33%;
 }
-div.content-block-3::after {
-  content: "";
-  display: block;
-  clear: both;
-}
 div.content-block-4 {
-  width: 1000px;
+  width: 970px;
   margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
 }
 section.nursery-school-profiel {
   float: left;
@@ -271,12 +254,11 @@ section.nursery-school-profiel  a .nursery-school {
   margin: 20px 0 0 26%;
 }
 section.trading-profiel {
-  float: left;
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
   border-radius: 20px;
-  margin: 20px 0 0 20px;
+  margin: 20px 0 0 30px;
   box-sizing: border-box;
 }
 section.trading-profiel img {
@@ -290,11 +272,6 @@ section.trading-profiel p {
 section.trading-profiel  a .trading {
   text-align: center;
   margin: 20px 0 0 35%;
-}
-div.content-block-4::after {
-  content: "";
-  display: block;
-  clear: both;
 }
 section.footer div.end-footer {
   width: 1920px;
