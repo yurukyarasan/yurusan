@@ -6093,6 +6093,7 @@ section.business-details {
 section.business-field {
 	width: 100%;
 	margin: 50px auto 0 auto;
+	padding-top: 70px;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
