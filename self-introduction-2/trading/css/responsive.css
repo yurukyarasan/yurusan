@@ -6064,7 +6064,7 @@ div.business-introduction-6 {
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin: 0 0 0 0;
+	margin: 0 0 70px 0;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 70%;
@@ -6092,8 +6092,7 @@ section.business-details {
 	
 section.business-field {
 	width: 100%;
-	margin: 50px auto 0 auto;
-	padding-top: 70px;
+	margin: 0 auto;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
