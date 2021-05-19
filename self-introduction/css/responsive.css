@@ -6,6 +6,7 @@
     background: URL("../img/top-image.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+	position: relative;
   }
   section.top-image {
 	 width: 100%;
@@ -21,6 +22,8 @@
 	padding-top: 10px;
     border-radius: 30px;
 	align-self: center;
+	position: absolute;
+	z-index: 2;
   }
   section.top-image img {
    width: 18%;
@@ -252,6 +255,7 @@ section.nursery-school-profiel {
     background: URL("../img/top-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+	position: relative;
   }
   section.top-image p {
 	width: 55%;
@@ -262,6 +266,8 @@ section.nursery-school-profiel {
     text-align: center;
 	padding-top: 20px;
     border-radius: 30px;
+	position: absolute;
+	z-index: 2;
   }
   section.top-image img {
    width: 26%;
