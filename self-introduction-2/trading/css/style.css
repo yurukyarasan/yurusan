@@ -819,6 +819,7 @@ section.what-group div.what-group-1 {
 	height: 720px;
 	background: url("../img/jpg/what-group/No.1.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color: #FFF;
 }
 section.what-group div.what-group-1 dt {
@@ -849,6 +850,7 @@ section.what-group div.what-group-2 {
 	height: 360px;
 	background: url("../img/jpg/what-group/No.2.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color: #FFF;
 }
 section.what-group div.what-group-2 p {
@@ -863,6 +865,7 @@ section.what-group div.what-group-3 {
 	height: 360px;
 	background: url("../img/jpg/what-group/No.3.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color: #FFF;
 }
 section.what-group div.what-group-3 p {
@@ -877,6 +880,7 @@ section.what-group div.what-group-4 {
 	height: 360px;
 	background: url("../img/jpg/what-group/No.4.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color: #FFF;
 }
 section.what-group div.what-group-4 p {
@@ -891,6 +895,7 @@ section.what-group div.what-group-5 {
 	height: 360px;
 	background: url("../img/jpg/what-group/No.5.jpg");
 	background-repeat: no-repeat;
+	background-size: 100%;
 	color: #FFF;
 }
 section.what-group div.what-group-5 p {

@@ -599,8 +599,8 @@ section.business-details {
 }
 div.business-introduction-1 {
 	float: none;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -609,6 +609,7 @@ div.business-introduction-1 {
 	color: #FFF;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 40%;
@@ -633,8 +634,8 @@ div.business-introduction-1 p:nth-of-type(3) {
 }
 div.business-introduction-2 {
 	float: none;
-	width: 100%;
-	height: 180px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -643,6 +644,7 @@ div.business-introduction-2 {
 	padding-top: 0;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 90%;
@@ -661,8 +663,8 @@ div.business-introduction-2 p:nth-of-type(2) {
 }
 div.business-introduction-3 {
 	float: none;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -672,12 +674,13 @@ div.business-introduction-3 {
 	padding-top: 5%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-3 p:nth-of-type(1) {
-	width: 90%;
+	width: 60%;
 	text-align: left;
-	margin: 0;
-	padding: 8% 0 0 10%;
+	margin: 0 auto;
+	padding: 8% 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
@@ -691,8 +694,8 @@ div.business-introduction-3 p:nth-of-type(2) {
 }
 div.business-introduction-4 {
 	float: none;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -702,12 +705,13 @@ div.business-introduction-4 {
 	padding-top: 5%;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
-	margin: 0;
-	padding: 5% 0 0 7%;
+	margin: 0 auto;
+	padding: 5% 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
@@ -721,8 +725,8 @@ div.business-introduction-4 p:nth-of-type(2) {
 }
 div.business-introduction-5 {
 	float: none;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -731,12 +735,13 @@ div.business-introduction-5 {
 	margin-top: 0;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-5 p:nth-of-type(1) {
-	width: 90%;
+	width: 80%;
 	text-align: left;
-	margin: 0;
-	padding: 15% 0 0 7%;
+	margin: 0 auto;
+	padding: 15% 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
@@ -750,20 +755,23 @@ div.business-introduction-5 p:nth-of-type(2) {
 }
 div.business-introduction-6 {
 	float: none;
-	width: 100%;
-	height: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.6.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
-	margin: 0;
-	padding: 80px 0 0 7%;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
@@ -869,20 +877,22 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 1360px;
 	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
+	flex-direction: column;;
 }
 section.what-group div.what-group-1 {
 	float: none;
-	width: 100%;
-	height: 8%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 50px;
+	background-position: center center;
+	margin-top: 100px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	
 }
 section.what-group div.what-group-1 dt {
@@ -908,70 +918,86 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
-	height: 15%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	color: #FFF;
+	background-position: center center;
 	margin-top: 0;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
-}
+	}
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
-	height: 15%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
-	height: 15%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
-	height: 15%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.what-group::after {
@@ -981,7 +1007,7 @@ section.what-group::after {
 }
 section.what-group-data {
 	width: 100%;
-	margin: 0;
+	margin: 70px 0 0 0;
 }
 section.what-group-data div.what-group-data-1 {
 	width: 90%;
@@ -1118,15 +1144,21 @@ section.company-growth {
 	width: 100%;
 	height: 1260px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.company-growth div.company-growth-1 {
-	width: 100%;
-	height: 9%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
 	width: 70%;
@@ -1151,70 +1183,86 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
-	height: 16%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
-	height: 16%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
-	height: 16%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
-	height: 16%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-5 p {
 	width: 80%;
 	margin: 0 auto;
+	padding-top: 0;
 	font-size: 25px;
-	padding-top: 110px;
 	text-align: center;
 }
 section.company-growth::after {
@@ -1276,13 +1324,19 @@ section.footer-img {
 	width: 100%;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
-	height: 30%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 240px;
@@ -1299,12 +1353,16 @@ section.footer-img div.footer-img-1 p:nth-of-type(2){
 	color: #FFF;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
-	height: 30%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 240px;
@@ -1321,12 +1379,16 @@ section.footer-img div.footer-img-2 p:nth-of-type(2){
 	color: #FFF;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
-	height: 30%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 240px;
@@ -1958,21 +2020,27 @@ section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	
 section.business-details {
 	width: 100%;
-	height: 2090px;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-1 {
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.1.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	margin-top: 100px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 40%;
 	text-align: left;
 	margin: 0;
-	padding: 120px 0 0 45%;
+	padding: 0;
 	font-size: 15px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
@@ -1991,18 +2059,23 @@ div.business-introduction-1 p:nth-of-type(3) {
 }
 div.business-introduction-2 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.2.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -500px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 83%;
 	text-align: left;
 	margin: 0;
-	padding: 200px 0 0 17%;
+	padding: 0 0 0 17%;
 	font-size: 15px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
@@ -2016,12 +2089,17 @@ div.business-introduction-2 p:nth-of-type(2) {
 }
 div.business-introduction-3 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.3.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -130px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 69.8%;
@@ -2041,12 +2119,17 @@ div.business-introduction-3 p:nth-of-type(2) {
 }
 div.business-introduction-4 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.4.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
@@ -2066,12 +2149,17 @@ div.business-introduction-4 p:nth-of-type(2) {
 }
 div.business-introduction-5 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.5.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 73.8%;
@@ -2091,12 +2179,17 @@ div.business-introduction-5 p:nth-of-type(2) {
 }
 div.business-introduction-6 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.6.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 81.8%;
@@ -2205,17 +2298,21 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 1700px;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.what-group div.what-group-1 {
-	width: 100%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-1 dt {
 	width: 70%;
@@ -2240,63 +2337,83 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -425px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
 	width: 30%;
 	text-align: center;
 	font-size: 30px;
-	padding-top: 190px;
+	padding-top: 0;
 }
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
 	font-size: 25px;
-	padding-top: 110px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
 	font-size: 30px;
-	padding-top: 150px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 30px;
-	padding-top: 110px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group::after {
@@ -2441,16 +2558,22 @@ section.what-group-data::after {
 	
 section.company-growth {
 	width: 100%;
-	height: 1780px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.company-growth div.company-growth-1 {
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
 	width: 70%;
@@ -2475,66 +2598,86 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -435px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 160px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 160px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 190px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-5 p {
 	width: 80%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 160px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth::after {
@@ -2594,19 +2737,25 @@ section.company-growth-message::after {
 	
 section.footer-img {
 	width: 100%;
-	height: 700px;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 240px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
@@ -2619,15 +2768,20 @@ section.footer-img div.footer-img-1 p:nth-of-type(2){
 	color: #FFF;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 0px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 240px;
-    margin: 100px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
@@ -2640,15 +2794,20 @@ section.footer-img div.footer-img-2 p:nth-of-type(2){
 	color: #FFF;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 0px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 240px;
-    margin: 80px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
@@ -3274,22 +3433,27 @@ section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	
 section.business-details {
 	width: 100%;
-	height: 3680px;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-1 {
-	width: 100%;
-	height: 460px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.1.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	margin-top: 100px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 40%;
 	text-align: left;
 	margin: 0;
-	padding: 150px 0 0 45%;
+	padding: 0;
 	font-size: 35px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
@@ -3308,19 +3472,23 @@ div.business-introduction-1 p:nth-of-type(3) {
 }
 div.business-introduction-2 {
 	float: none;
-	width: 100%;
-	height: 650px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.2.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -40px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 83%;
 	text-align: left;
 	margin: 0;
-	padding: 250px 0 0 14%;
+	padding: 0 0 0 14%;
 	font-size: 25px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
@@ -3334,19 +3502,23 @@ div.business-introduction-2 p:nth-of-type(2) {
 }
 div.business-introduction-3 {
 	float: none;
-	width: 100%;
-	height: 650px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.3.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 69.8%;
 	text-align: left;
 	margin: 0;
-	padding: 250px 0 0 30.2%;
+	padding: 0 0 0 30.2%;
 	font-size: 25px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
@@ -3360,19 +3532,23 @@ div.business-introduction-3 p:nth-of-type(2) {
 }
 div.business-introduction-4 {
 	float: none;
-	width: 100%;
-	height: 650px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.4.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
 	margin: 0;
-	padding: 250px 0 0 7%;
+	padding: 0 0 0 7%;
 	font-size: 25px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
@@ -3386,19 +3562,23 @@ div.business-introduction-4 p:nth-of-type(2) {
 }
 div.business-introduction-5 {
 	float: none;
-	width: 100%;
-	height: 650px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.5.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 73.8%;
 	text-align: left;
 	margin: 0;
-	padding: 250px 0 0 20.2%;
+	padding: 0 0 0 20.2%;
 	font-size: 25px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
@@ -3412,19 +3592,23 @@ div.business-introduction-5 p:nth-of-type(2) {
 }
 div.business-introduction-6 {
 	float: none;
-	width: 100%;
-	height: 650px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.6.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 81.8%;
 	text-align: left;
 	margin: 0;
-	padding: 250px 0 0 18.2%;
+	padding: 0 0 0 18.2%;
 	font-size: 25px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
@@ -3527,18 +3711,21 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 3500px;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.what-group div.what-group-1 {
-	width: 100%;
-	height: 400px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-1 dt {
 	width: 70%;
@@ -3563,67 +3750,83 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
-	height: 770px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: top center;
 	color: #FFF;
-	margin-top: -20px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
 	width: 30%;
 	text-align: center;
 	font-size: 30px;
-	padding-top: 390px;
+	padding-top: 0;
 }
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
-	height: 770px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -10px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
 	font-size: 25px;
-	padding-top: 300px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
-	height: 770px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -10px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
 	font-size: 30px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
-    height: 770px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -10px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 30px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group::after {
@@ -3768,24 +3971,29 @@ section.what-group-data::after {
 	
 section.company-growth {
 	width: 100%;
-	height: 3380px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.company-growth div.company-growth-1 {
-	width: 100%;
-	height: 340px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 32px;
-	padding-top: 90px;
+	padding-top: 0;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 70%;
@@ -3803,62 +4011,75 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 310px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 310px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
 }
@@ -3866,7 +4087,7 @@ section.company-growth div.company-growth-5 p {
 	width: 80%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 310px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth::after {
@@ -3926,20 +4147,25 @@ section.company-growth-message::after {
 	
 section.footer-img {
 	width: 100%;
-	height: 700px;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
-	height: 390px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 53%;
-    margin: 120px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 	font-size: 35px;
 }
@@ -3954,16 +4180,20 @@ section.footer-img div.footer-img-1 p:nth-of-type(2){
 	font-size: 35px;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
-	height: 370px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: -10px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 53%;
-    margin: 140px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 	font-size: 35px;
 }
@@ -3978,16 +4208,20 @@ section.footer-img div.footer-img-2 p:nth-of-type(2){
 	font-size: 35px;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
-	height: 370px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: -10px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 53%;
-    margin: 120px auto 0 auto;
+    margin: 0 auto 0 auto;
 	color: #FFF;
 	font-size: 35px;
 }
@@ -4615,20 +4849,26 @@ section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	
 section.business-details {
 	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 div.business-introduction-1 {
-	height: 580px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-business/No.1.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 100px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 200px;
+	padding-top: 0;
 	font-size: 30px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
@@ -4648,17 +4888,20 @@ div.business-introduction-1 p:nth-of-type(3) {
 div.business-introduction-2 {
 	float: left;
 	width: 50%;
-	height: 463px;
+	min-height: 640px;
 	background: url("../img/jpg/what-business/No.2.jpg");
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 140px;
+	padding-top: 0;
 	font-size: 25px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
@@ -4676,14 +4919,17 @@ div.business-introduction-3 {
 	height: 320px;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 60px;
+	padding-top: 0;
 	font-size: 20px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
@@ -4701,18 +4947,22 @@ div.business-introduction-4 {
 	height: 320px;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 40px;
+	padding-top: 0;
 	font-size: 20px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
-	width: 50%;
+	width: 25vw;
+	min-height: 0vh;
 	text-align: center;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
@@ -4726,15 +4976,18 @@ div.business-introduction-5 {
 	height: 320px;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	color: #FFF;
-	margin-top: -90px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 0;
 	font-size: 20px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
@@ -4752,15 +5005,18 @@ div.business-introduction-6 {
 	height: 320px;
 	background: url("../img/jpg/what-business/No.6.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	color: #FFF;
-	margin-top: -90px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 50px;
+	padding-top: 0;
 	font-size: 20px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
@@ -4868,25 +5124,28 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 3300px;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.what-group div.what-group-1 {
-	width: 100%;
-	height: 560px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-1 dt {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 32px;
-	padding-top: 200px;
+	padding-top: 0;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 70%;
@@ -4904,67 +5163,83 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
-	height: 640px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: -40px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
 	width: 30%;
 	text-align: center;
 	font-size: 30px;
-	padding-top: 300px;
+	padding-top: 0;
 }
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
-	height: 700px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
 	font-size: 25px;
-	padding-top: 340px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
-	height: 700px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
 	font-size: 30px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
-    height: 700px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 30px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group::after {
@@ -5110,24 +5385,29 @@ section.what-group-data::after {
 	
 section.company-growth {
 	width: 100%;
-	height: 3680px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.company-growth div.company-growth-1 {
-	width: 100%;
-	height: 520px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 32px;
-	padding-top: 190px;
+	padding-top: 0;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 70%;
@@ -5145,64 +5425,80 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 310px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 310px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
-	height: 760px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
 	font-size: 25px;
-	padding-top: 320px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
-	height: 850px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-5 p {
 	width: 80%;
@@ -5263,85 +5559,91 @@ section.company-growth-message::after {
 	display: block;
 	clear: both;
 }
-	
 /* フッター部分 */
 	
 section.footer-img {
 	width: 100%;
-	height: 1540px;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
-	height: 560px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
-	width: 43%;
-    margin: 180px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 35px;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
-	width: 15%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 35px;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
-	height: 510px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: -40px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
-	width: 40%;
-    margin: 190px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 35px;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
-	width: 10%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 35px;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
-	height: 510px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 0px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
-	width: 37%;
-    margin: 190px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 35px;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
-	width: 28%;
+	width: 130px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 35px;
 }
 	
 /* 最下段フッター部分 */	
@@ -6204,18 +6506,22 @@ section.business-field dd:nth-of-type(10) {
 	
 section.what-group {
 	width: 100%;
-	height: 4300px;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.what-group div.what-group-1 {
-	width: 100%;
-	height: 560px;
+	float: none;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 50px;
+	background-position: center center;
+	margin-top: 100px;
 	color: #FFF;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-1 dt {
 	width: 70%;
@@ -6240,67 +6546,83 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
-	height: 1040px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	margin-top: 0;
 	color: #FFF;
-	margin-top: -20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
 	width: 35%;
 	text-align: center;
 	font-size: 70px;
-	padding-top: 500px;
+	padding-top: 0;
 }
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
-	height: 1040px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
 	font-size: 70px;
-	padding-top: 440px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
-	height: 1040px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
 	font-size: 70px;
-	padding-top: 440px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
-    height: 1040px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 70px;
-	padding-top: 440px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group::after {
@@ -6446,24 +6768,29 @@ section.what-group-data::after {
 	
 section.company-growth {
 	width: 100%;
-	height: 4680px;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.company-growth div.company-growth-1 {
-	width: 100%;
-	height: 520px;
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 70px;
-	padding-top: 150px;
+	padding-top: 0;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 70%;
@@ -6481,70 +6808,86 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
-	height: 1080px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
 	font-size: 70px;
-	padding-top: 510px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
-	height: 1080px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
 	font-size: 70px;
-	padding-top: 510px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
-	height: 1080px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
 	font-size: 70px;
-	padding-top: 510px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
-	height: 1080px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-5 p {
 	width: 80%;
 	margin: 0 auto;
 	font-size: 70px;
-	padding-top: 510px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth::after {
@@ -6604,80 +6947,87 @@ section.company-growth-message::after {
 	
 section.footer-img {
 	width: 100%;
-	height: 1590px;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
-	height: 580px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
-	width: 73%;
-    margin: 180px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 70px;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
-	width: 15%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 45px;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
-	height: 540px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: -40px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
-	width: 73%;
-    margin: 190px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 70px;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
-	width: 13%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 45px;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
-	height: 510px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 0px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
-	width: 73%;
-    margin: 190px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 70px;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
-	width: 28%;
+	width: 130px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 45px;
 }
 	
 /* 最下段フッター部分 */	
@@ -6698,19 +7048,79 @@ div.what-trading-footer p {
 section.title h1 {
 	width: 20%;
 	margin: 50px auto 0 auto;
-	font-size: 70px;
 }
 	
-/* 上段UIドロップダウンメニュー　*/
-
+/* ハンバーガーメニュー　*/	
+	
+span.nav-toggle {
+    display: block;
+	margin-top: -55px;
+    position: relative;
+    height: 1.5rem;
+}
+span.nav-toggle i {
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+	margin-left: 90%;
+}
+span.nav-toggle i:nth-child(1) {
+    top: 0;
+}
+span.nav-toggle i:nth-child(2) {
+    top: 10px;
+    bottom: 0;
+}
+span.nav-toggle i:nth-child(3) {
+    bottom: 0;
+}
+span.nav-toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+span.nav-toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+span.nav-toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+section.responsive-nav {
+	width: 93.51%;
+	position: fixed;
+	overflow-y: scroll;
+	z-index: 99;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+	-webkit-overflow-scrolling: touch;
+}
+section.responsive-nav.show {
+	width: 100%;
+	opacity: 1;
+    visibility: visible;
+	z-index: 1;
+	background-color: #E2F98B;
+	margin-top: 40px;
+}
+	
+/* 上段UIドロップダウンメニュー レスポンシブ版　*/	
+	
 section#main-link {
 	width: 100%;
 	margin: 0 auto;
 }
-
-/* 上段ドロップダウンメニュー位置設定コード　*/
-
+	
+/* 上段ドロップダウンメニュー位置設定コード　レスポンシブ版 */	
+	
 section#main-link ul.business li {
+	width: 100%;
 	list-style-type: none;
 }
 ul.business li {
@@ -6730,10 +7140,7 @@ ul.business li a{
 	color: #FFF;
 	text-decoration: none;
 	position: relative;
-	font-size: 20px;
-}
-ul.business li p a{
-	font-size: 30px;
+	font-size: 14px;
 }
 ul.business li a:hover {
 	color: #717171;
@@ -6763,349 +7170,324 @@ ul.business li a:hover {
   position: relative;
 }
 ul.business {
+  width: 90%;
   zoom: 1;
-  width: 60%;
-  margin: 50px auto 0 auto;
+  margin: -20px 0 0 5%;
 }
 ul.business li.corporate-information {
+  width: 100%;
   float: left;
-  margin-left: -100px;
-  font-size: 25px;
+  margin: 50px 0 450px 0;
 }
 ul.business li.business-introduction {
-  float: left;
-  margin-left: 150px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 620px 0 0 0;
 }
 ul.business li.news {
-  float: left;
-  margin-left: 150px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 960px 0 0 0;
 }
 ul.business li.sustainability {
-  float: left;
-  margin-left: 150px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 1040px 0 0 0;
 }
 ul.business li.investor-information {
-  float: left;
-  margin-left: 120px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 1160px 0 600px 0;
 }
 ul.business li.employment-information {
-  float: left;
-  margin-left: 120px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 540px 0 0 0;
 }
 ul.business li.future {
-  float: left;
-  margin: -7px 0 0 100px;
-  font-size: 25px;
+	width: 100%;
+	float: left;
+    margin: 990px 0 0 0;
 }
-
-/* ドロップダウンメニューグループ1 */
-
+	
+/* ドロップダウンメニューグループ1 */	
+	
 div.business-group-1 {
-	width: 1920px;
+	width: 100%;
+	height: 980px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -260px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
 }
 ul.business div.business-group-1 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 630px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.1.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ1 リンク*/
-
+	
+/* ドロップダウンメニューグループ1 リンク*/	
+	
 ul.business div.business-group-1 ul.sub-1  {
+	width: 45%;
 	float: left;
-	display: none;
-	height: 150px;
-    margin: -300px 0 0 700px;
+	display: inline;
+	height: 200px;
+	margin: -7px 0 0 9%;
+	overflow: hidden;
 }
 ul.business div.business-group-1 ul.sub-2 {
+	width: 30%;
 	float: left;
-	display: none;
-	height: 150px;
-	margin: -300px 0 0 950px;
+	display: inline;
+	margin: -7px 0 0 3%;
+	overflow: hidden;
 }
 ul.business div.business-group-1 ul.sub-3 {
+	width: 50%;
 	float: left;
-	display: none;
-	height: 150px;
-	margin: -300px 0 0 1150px;
+	display: inline;
+	margin: 170px 0 0 -78%;
+	overflow: hidden;
 }
-
-/* ドロップダウンメニューグループ2 */
-
+	
+/* ドロップダウンメニューグループ2 */	
+	
 div.business-group-2 {
-	width: 1920px;
+	width: 100%;
+	height: 840px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -475px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
 }
 ul.business div.business-group-2 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 600px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.2.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ2 リンク */
-
+	
+/* ドロップダウンメニューグループ2 リンク */	
+	
 ul.business div.business-group-2 ul.sub-1 {
+	width: 90%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	margin: -300px 0 0 700px;
+	margin: -7px 0 0 5%;
 }
-
-/* ドロップダウンメニューグループ3 */
-
+	
+/* ドロップダウンメニューグループ3 */	
+	
 div.business-group-3 {
-	width: 1920px;
+	width: 100%;
+	height: 940px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -688px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
 }
 ul.business div.business-group-3 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 600px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.3.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ3 リンク */
-
+	
+/* ドロップダウンメニューグループ3 リンク */	
+	
 ul.business div.business-group-3 ul.sub-1 {
+	width: 90%;
 	float: left;
-	display: none;
-	height: 150px;
-	 margin: -300px 0 0 700px;
+	display: inline;
+	margin: -7px 0 0 5%;
 }
 ul.business div.business-group-3 ul.sub-2 {
+	width: 90%;
 	float: left;
-	display: none;
-	height: 150px;
-	 margin: -300px 0 0 950px;
+	display: inline;
+	margin: -7px 0 0 5%;
 }
-ul.business div.business-group-3 ul.sub-2 li:nth-of-type(1) {
-	color: #FFF;
-}
-
-/* ドロップダウンメニューグループ4 */
-
+	
+/* ドロップダウンメニューグループ4 */	
+	
 div.business-group-4 {
-	width: 1917px;
+	width: 100%;
+	height: 1050px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -902px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
+	color: #FFF;
 }
 ul.business div.business-group-4 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 660px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.4.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ4 リンク */
-
+	
+/* ドロップダウンメニューグループ4 リンク */	
+	
 ul.business div.business-group-4 ul.sub-1 {
+	width: 30%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 700px;
+	margin: -4px 0 0 5%;
 }
 ul.business div.business-group-4 ul.sub-2 {
+	width: 30%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 1050px;
-}
-ul.business div.business-group-4 ul.sub-2 li:nth-of-type(1){
-	color: #FFF;
-}
-ul.business div.business-group-4 ul.sub-2 li:nth-of-type(5){
-	color: #FFF;
+	margin: -1px 0 0 25%;
 }
 ul.business div.business-group-4 ul.sub-3 {
+	width: 30%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 1350px;
-}
-ul.business div.business-group-4 ul.sub-3 li:nth-of-type(1){
-	color: #FFF;
-}
-ul.business div.business-group-4 ul.sub-3 li:nth-of-type(4){
-	color: #FFF;
-}
-ul.business div.business-group-4 ul.sub-4 {
-	float: left;
-	display: none;
-	height: 150px;
-	 margin: -300px 0 0 1350px;
+	margin: 40px 0 0 5%;
 }
 
-/* ドロップダウンメニューグループ5 */
-
+/* ドロップダウンメニューグループ5 */	
+	
 div.business-group-5 {
-	width: 1920px;
+	width: 100%;
+	height: 1040px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -1150px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
 	color: #FFF;
 }
 ul.business div.business-group-5 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 600px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.5.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ5 リンク */
-
+	
+/* ドロップダウンメニューグループ5 リンク */	
+	
 ul.business div.business-group-5 ul.sub-1 {
+	width: 90%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 700px;
+	margin: -7px 0 0 5%;
 }
 ul.business div.business-group-5 ul.sub-2 {
+	width: 90%;
 	float: left;
-	display: none;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 1000px;
+	margin: 80px 0 0 5%;
 }
-
-/* ドロップダウンメニューグループ6 */
-
+	
+/* ドロップダウンメニューグループ6 */	
+	
 div.business-group-6 {
-	width: 1920px;
+	width: 100%;
+	height: 910px;
 	background-color: #1A2E2C;
 	box-sizing: border-box;
+	margin: 40px 0 0 0;
 	position: absolute;
-	left: -1350px;
+	left: 0;
 	z-index: 1;
-	margin-top: 0;
+	overflow: hidden;
 }
 ul.business div.business-group-6 p {
-	display: none;
-	width: 400px;
-	height: 200px;
+	width: 100%;
+	height: 660px;
+	display: inline-block;
 	background: url("../img/jpg/business-link/No.6.jpg");
 	background-repeat: no-repeat;
-	text-align: center;
-	margin: 50px 0 0 250px;
-	padding-top: 100px;
+	background-size: 90%;
+	text-align: left;
+	margin: 10px 0 0 5%;
+	padding: 180px 0 0 40%;
 	color: #FFF;
 	font-weight: 1000;
-	font-size: 30px;
+	box-sizing: border-box;
 }
-
-/* ドロップダウンメニューグループ6 リンク */
-
+	
+/* ドロップダウンメニューグループ6 リンク */	
+	
 ul.business div.business-group-6 ul.sub-1 {
+	width: 90%;
 	float: left;
-	display: none;
-	width: 550px;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 700px;
-}
-ul.business div.business-group-6 ul.sub-1 li:nth-of-type(1){
-	float: left;
-	display: none;
-	width: 550px;
-	height: 150px;
-	 margin: -300px 0 0 700px;
+	margin: -40px 0 0 5%;
 }
 ul.business div.business-group-6 ul.sub-2 {
+	width: 90%;
 	float: left;
-	display: none;
-	width: 550px;
+	display: inline;
 	height: 150px;
-	 margin: -300px 0 0 1000px;
-}
-ul.business div.business-group-6 ul.sub-2 li:nth-of-type(1){
-	float: left;
-	display: none;
-	width: 550px;
-	height: 150px;
-	 margin: -300px 0 0 700px;
-}
+	margin: -50px 0 0 5%;
 
-/* ドロップダウンメニューグループ7 */
-
-div.business-group-7 {
-	width: 1920px;
-	background-color: #1A2E2C;
-	box-sizing: border-box;
-	position: absolute;
-	left: -10px;
-	z-index: 1;
 }
-ul.business li.future a{
-	color: #000;
-}
-ul.business::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
 	
 /* メインイメージ画像 */	
 	
@@ -7134,17 +7516,14 @@ dl.manila-railway-philippines {
 }
 dl.manila-railway-philippines dt {
 	float: none;
-    font-size: 30px;
 }
 dl.manila-railway-philippines dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 dl.manila-railway-philippines dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 div.content-2 {
    width: 100%;
@@ -7158,17 +7537,14 @@ dl.friend {
 }
 dl.friend dt {
 	float: none;
-	font-size: 30px;
 }
 dl.friend dd:nth-of-type(1) {
     float: none;
 	margin: 5px 0 0 0;
-	font-size: 30px;
 }
 dl.friend dd:nth-of-type(2) {
     float: none;
 	margin: 5px 0 0 0;
-	font-size: 30px;
 }
 div.content-3 {
 	width: 100%;
@@ -7179,21 +7555,17 @@ dl.personnel-changes-at-the-supervisor-level-1 {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
-    font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dt {
 	float: none;
-	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-1 dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 div.content-4 {
 	width: 100%;
@@ -7204,21 +7576,17 @@ dl.country-exposure {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
-	font-size: 30px;
 }
 dl.country-exposure dt {
 	float: none;
-    font-size: 30px;
 }
 dl.country-exposure dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 dl.country-exposure dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 div.content-5 {
 	width: 100%;
@@ -7229,21 +7597,17 @@ dl.personnel-changes-at-the-supervisor-level-2 {
 	border-bottom: 2px dotted #666;
 	margin-left: 2%;
 	padding: 0 0 20px 0;
-	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dt {
 	float: none;
-	font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dd:nth-of-type(1) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 dl.personnel-changes-at-the-supervisor-level-2 dd:nth-of-type(2) {
    float: none;
    margin: 5px 0 0 0;
-   font-size: 30px;
 }
 section.news-content-area-1::after {
 	content: "";
@@ -7253,32 +7617,26 @@ section.news-content-area-1::after {
 section.news-content-area-2 {
 	width: 100%;
 	margin: 50px auto 0 auto;
-	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 {
 	
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(1) {
    margin-left: 0px;
-   font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(2) {
 	margin: 10px 0 0 0;
-    font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(3) {
 	margin: 10px 0 0 0;
-	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(4) {
 	float: left;
 	margin: 10px 0 0 10px;
-	font-size: 30px;
 }
 section.news-content-area-2 div.content-1 p:nth-of-type(5) {
 	float: left;
 	margin: 10px 0 0 50px;
-	font-size: 30px;
 }
 	
 /* 事業紹介 */	
@@ -7287,7 +7645,7 @@ section.business-details {
 	width: 100%;
 }
 div.business-introduction-1 {
-	height: 800px;
+	height: 580px;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -7298,8 +7656,8 @@ div.business-introduction-1 p:nth-of-type(1) {
 	width: 50%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 400px;
-	font-size: 70px;
+	padding-top: 200px;
+	font-size: 30px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
 	width: 50%;
@@ -7313,12 +7671,11 @@ div.business-introduction-1 p:nth-of-type(3) {
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 20px;
-	font-size: 40px;
+	font-size: 20px;
 }
 div.business-introduction-2 {
-	float: left;
 	width: 50%;
-	height: 640px;
+	height: 480px;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -7328,8 +7685,8 @@ div.business-introduction-2 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 340px;
-	font-size: 45px;
+	padding-top: 140px;
+	font-size: 25px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 50%;
@@ -7341,9 +7698,8 @@ div.business-introduction-2 p:nth-of-type(2) {
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-3 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7353,48 +7709,45 @@ div.business-introduction-3 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 160px;
-	font-size: 30px;
+	padding-top: 60px;
+	font-size: 20px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
 	width: 50%;
 	text-align: center;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
-	font-size: 25px;
+	font-size: 20px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-4 {
-	float: left;
 	width: 25%;
-	height: 320px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
-	margin-top: 0px;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 140px;
-	font-size: 35px;
+	padding-top: 40px;
+	font-size: 20px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
 	width: 50%;
 	text-align: center;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
-	font-size: 30px;
+	font-size: 20px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-5 {
-	float: left;
 	width: 25%;
-	height: 330px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -7404,40 +7757,40 @@ div.business-introduction-5 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 140px;
-	font-size: 35px;
+	padding-top: 70px;
+	font-size: 20px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
-	width: 20%;
+	width: 80px;
 	text-align: center;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
-	font-size: 30px;
+	font-size: 20px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
 div.business-introduction-6 {
-	float: left;
 	width: 25%;
-	height: 330px;
+	height: 240px;
 	background: url("../img/jpg/what-business/No.6.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color: #FFF;
+	margin: 0 0 70px 0;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 70%;
 	text-align: center;
 	margin: 0 auto;
-	padding-top: 150px;
-	font-size: 35px;
+	padding-top: 50px;
+	font-size: 20px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
-	width: 30%;
+	width: 120px;
 	text-align: center;
 	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
-	font-size: 30px;
+	font-size: 20px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 }
@@ -7451,198 +7804,209 @@ section.business-details {
 	
 section.business-field {
 	width: 100%;
-}
-section.business-field dl dt {
-	width: 100%;
-	margin: 70px auto 70px auto;
+	margin: 0 auto;
 }
 section.business-field dd:nth-of-type(1) {
 	float: left;
-	width: 15%;
+	width: 18%;
 	background: url("../img/png/business-field/icon-No.1.png");
 	background-repeat: no-repeat;
-	margin-left: 14%;
-	padding: 80px 0 0 5px;
-	font-size: 30px;
+	margin-left: 12%;
+	padding: 80px 0 0 12px;
 }
 section.business-field dd:nth-of-type(2) {
 	float: left;
-	width: 15%;
+	width: 25%;
 	background: url("../img/png/business-field/icon-No.2.png");
 	background-repeat: no-repeat;
-	background-position: 50px 0;
-	margin: 0 0 0 -4%;
-	padding: 80px 0 0 2px;
-	font-size: 30px;
+	background-position: 18px 0;
+	margin: 0 0 0 10%;
+	padding: 80px 0 0 12px;
 }
 section.business-field dd:nth-of-type(3) {
 	float: left;
-	width: 15%;
+	width: 20%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.3.png");
 	background-repeat: no-repeat;
-	background-position: 30px 0px;
-	margin-left: -1%;
+	background-position: 0px 0px;
+	margin-left: 10%;
 	padding: 80px 0 0 5px;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(4) {
 	float: left;
-	width: 15%;
+	width: 38%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.4.png");
 	background-repeat: no-repeat;
-	background-position: 95px 0px;
-	margin-left: -5%;
+	background-position: 40px 0px;
+	margin-left: 21%;
 	padding: 80px 0 0 0;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(5) {
 	float: left;
-	width: 15%;
+	width: 30%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.5.png");
 	background-repeat: no-repeat;
-	background-position: 50px 0px;
+	background-position: 10px 0px;
 	margin-left: 2%;
 	padding: 80px 0 0 0;
-	font-size: 30px;
 }
 
 section.business-field dd:nth-of-type(6) {
 	float: left;
-	width: 15%;
+	width: 25%;
 	height: 100px;
 	background: url("../img/png/business-field/icon-No.6.png");
 	background-repeat: no-repeat;
-	background-position: 50px 0px;
-	margin: 0 0 0 -3%;
+	background-position: 10px 0px;
+	margin: 0 40% 0 42%;
 	padding: 80px 0 0 0;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(7) {
 	width: 85%;
 	margin: 0 0 0 5%;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(8) {
 	width: 90%;
 	margin: 20px 0 0 5%;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(9) {
 	width: 90%;
 	margin: 20px 0 0 5%;
-	font-size: 30px;
 }
 section.business-field dd:nth-of-type(10) {
-	width: 15%;
-	height: 65px;
+	width: 12%;
+	height: 45px;
 	margin: 30px auto 0 auto;
-	padding: 15px 0 0 40px;
+	padding: 15px 0 0 25px;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
-	font-size: 190%;
 }
 	
 /* 何でだか商事グループ 企業情報 */	
 	
 section.what-group {
 	width: 100%;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.what-group div.what-group-1 {
-	width: 100%;
-	height: 720px;
+	float: none;
+	min-width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/what-group/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 50px;
+	background-position: center center;
+	margin-top: 100px;
 	color: #FFF;
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-1 dt {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 70px;
-	padding-top: 310px;
+	font-size: 32px;
+	padding-top: 200px;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 44px;
+	font-size: 24px;
 	padding-top: 20px;
 }
 section.what-group div.what-group-1 dd:nth-of-type(2) {
 	width: 90%;
 	margin: 0 auto;
-	font-size: 42px;
+	font-size: 22px;
 	padding-top: 20px;
 	text-align: center;
 }
 section.what-group div.what-group-2 {
 	float: none;
-	width: 100%;
-	height: 1440px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	margin-top: 0;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-2 p {
-	width: 55%;
+	width: 35%;
 	text-align: center;
-	font-size: 170px;
-	padding-top: 900px;
+	font-size: 70px;
+	padding-top: 0;
 }
 section.what-group div.what-group-3 {
 	float: none;
-	width: 100%;
-	height: 1440px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-3 p {
 	width: 60%;
-	font-size: 170px;
-	padding-top: 900px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-4 {
 	float: none;
-	width: 100%;
-	height: 1440px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-4 p {
 	width: 60%;
-	font-size: 170px;
-	padding-top: 900px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group div.what-group-5 {
 	float: none;
-	width: 100%;
-    height: 1440px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/what-group/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.what-group div.what-group-5 p {
 	width: 60%;
 	margin: 0 auto;
-	font-size: 170px;
-	padding-top: 900px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.what-group::after {
@@ -7658,7 +8022,7 @@ section.what-group-data div.what-group-data-1 {
 	width: 90%;
 	margin: 50px 0 50px 4%;
 	padding-bottom: 10px;
-	font-size: 54px;
+	font-size: 24px;
 	font-weight: 1000;
 	border-bottom: 7px solid #000;
 }
@@ -7669,24 +8033,24 @@ section.what-group-data div.what-group-data-2 {
 section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 30px 0 30px 0;
+	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
+
 	text-align: center;
 	font-weight: bold;
-	font-size: 70px;
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(2) {
 	width: 90%;
-	margin: 30px 0 0 4%;
+	margin: 10px 0 0 4%;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 34px;
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(2) span {
-	font-size: 40px;
+	font-size: 14px;
 }
 section.what-group-data div.what-group-data-3 {
 	float: none;
@@ -7696,13 +8060,12 @@ section.what-group-data div.what-group-data-3 {
 section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 30px 0 30px 0;
+	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
-	font-size: 70px;
 }
 section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
 	width: 90%;
@@ -7710,7 +8073,7 @@ section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 34px;
 }
 section.what-group-data div.what-group-data-4 {
 	float: none;
@@ -7719,13 +8082,12 @@ section.what-group-data div.what-group-data-4 {
 section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 30px 0 30px 0;
+	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
-	font-size: 70px;
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
 	width: 90%;
@@ -7733,10 +8095,10 @@ section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 34px;
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(2) span {
-	font-size: 34px;
+	font-size: 14px;
 }
 section.what-group-data div.what-group-data-5 {
 	float: none;
@@ -7745,13 +8107,12 @@ section.what-group-data div.what-group-data-5 {
 section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
 	width: 90%;
 	margin: 50px 0 0 4%;
-	padding: 30px 0 30px 0;
+	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bold;
-	font-size: 70px;
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
 	width: 90%;
@@ -7759,7 +8120,7 @@ section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 34px;;
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(2) span {
 	font-size: 14px;
@@ -7768,21 +8129,19 @@ section.what-group-data div.what-group-data-6 {
 	float: none;
 }
 section.what-group-data div.what-group-data-6 p {
-	width: 18%;
+	width: 200px;
 	box-sizing: border-box;
 	font-weight: bold;
 	margin: 0 auto;
-	font-size: 40px;
 }
 section.what-group-data div.what-group-data-7 p {
-	width: 17%;
-	height: 75px;
+	width: 11%;
+	height: 45px;
 	margin: 100px auto 0 auto;
 	padding: 15px 0 0 25px;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
-	font-size: 40px;
 }
 section.what-group-data::after {
 	content: "";
@@ -7795,103 +8154,125 @@ section.what-group-data::after {
 section.company-growth {
 	width: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
-section.company-growth div.company-growth-1 dl {
-	width: 100%;
-	height: 720px;
+section.company-growth div.company-growth-1 {
+	width: 100vw;
+	min-height: 0vh;
 	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	margin-top: 50px;
 	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-1 dt {
-	width: 75%;
+	width: 70%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 170px;
-	padding-top: 250px;
+	font-size: 70px;
+	padding-top: 0;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 70%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 	padding-top: 20px;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 	width: 90%;
 	margin: 0 auto;
-	font-size: 52px;
+	font-size: 32px;
 	padding-top: 20px;
 	text-align: center;
 }
 section.company-growth div.company-growth-2 {
 	float: none;
-	width: 100%;
-	height: 1420px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-2 p {
 	width: 85%;
 	margin: 0 auto;
-	font-size: 170px;
-	padding-top: 510px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	float: none;
-	width: 100%;
-	height: 1420px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-3 p {
 	width: 60%;
 	margin: 0 auto;
-	font-size: 170px;
-	padding-top: 510px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	float: none;
-	width: 100%;
-	height: 1420px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
 	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
 	margin: 0 auto;
-	font-size: 170px;
-	padding-top: 810px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	float: none;
-	width: 100%;
-	height: 1420px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
 	color: #FFF;
-	margin-top: 0px;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.company-growth div.company-growth-5 p {
 	width: 80%;
 	margin: 0 auto;
-	font-size: 170px;
-	padding-top: 810px;
+	font-size: 70px;
+	padding-top: 0;
 	text-align: center;
 }
 section.company-growth::after {
@@ -7910,40 +8291,36 @@ section.company-growth-message dl dt {
 	border-bottom: 7px solid #000;
 	box-sizing: border-box;
 	text-align: center;
-	font-size: 46px;
+	font-size: 16px;
 	font-weight: 1000;
 }
 section.company-growth-message dl dd:nth-of-type(1) img {
-	float: left;
-	width: 35%;
+	float: none;
+	width: 100%;
 }
 section.company-growth-message dl dd:nth-of-type(2) {
-	float: left;
-	width: 55%;
+	float: none;
+	width: 90%;
 	margin: 20px 0 0 5%;
-	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(3) {
-	float: left;
-	width: 55%;
+	float: none;
+	width: 90%;
 	margin: 20px 0 20px 5%;
-	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(4) {
-	float: left;
-	width: 55%;
+	float: none;
+	width: 90%;
 	margin-left: 5%;
-	font-size: 35px;
 }
 section.company-growth-message dl dd:nth-of-type(5) {
-	width: 29%;
-	height: 75px;
-	margin: 450px 0 0 39.5%;
-	padding: 15px 0 0 2%;
+	width: 230px;
+	height: 45px;
+	margin: 50px auto 0 auto;
+	padding: 15px 0 0 25px;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
-	font-size: 45px;
 }
 section.company-growth-message::after {
 	content: "";
@@ -7955,94 +8332,100 @@ section.company-growth-message::after {
 	
 section.footer-img {
 	width: 100%;
-	height: 2880px;
 	margin: 100px auto 0 auto;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
 section.footer-img div.footer-img-1 {
-	width: 100%;
-	height: 1000px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.1.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
-	width: 63%;
-    margin: 380px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 100px;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
-	width: 15%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 65px;
 }
 section.footer-img div.footer-img-2 {
-	width: 100%;
-	height: 960px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: -40px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
-	width: 63%;
-    margin: 380px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 100px;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
-	width: 13%;
+	width: 70px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 65px;
 }
 section.footer-img div.footer-img-3 {
-	width: 100%;
-	height: 960px;
+	width: 100vw;
+	min-height: 50vh;
 	background: url("../img/jpg/footer/No.3.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-size: 100%;
-	margin-top: 0px;
+	background-position: center center;
+	margin-top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
-	width: 63%;
-    margin: 380px auto 0 auto;
+	width: 240px;
+    margin: 30px auto 0 auto;
 	color: #FFF;
-	font-size: 100px;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
-	width: 21%;
+	width: 130px;
     margin: 20px auto 0 auto;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	font-size: 65px;
 }
 	
 /* 最下段フッター部分 */	
 	
 section.last-footer {
 	width: 100%;
-	height: 100px;
+	height: 50px;
 	background-color: #09F943;
 }
 div.what-trading-footer p {
-	width: 30%;
+	width: 20%;
 	margin: -5px auto 0 auto;
 	padding-top: 15px;
 	white-space: pre;
-	font-size: 50px;
 }
 }
