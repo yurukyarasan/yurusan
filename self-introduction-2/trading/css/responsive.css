@@ -2037,24 +2037,24 @@ div.business-introduction-1 {
 	justify-content: center;
 }
 div.business-introduction-1 p:nth-of-type(1) {
-	width: 40%;
+	width: 20%;
 	text-align: left;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	font-size: 15px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
 	width: 65%;
 	text-align: left;
-	margin: 0;
-	padding: 20px 0 0 35%;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-1 p:nth-of-type(3) {
 	width: 80%;
 	text-align: left;
-	margin: 0;
-	padding: 15px 0 0 10%;
+	margin: 0 auto;
+	padding: 15px 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-2 {
@@ -2074,14 +2074,14 @@ div.business-introduction-2 {
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 83%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 17%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 70%;
 	text-align: center;
-	margin: 20px 0 0 13%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
@@ -2104,14 +2104,14 @@ div.business-introduction-3 {
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 69.8%;
 	text-align: left;
-	margin: 0;
-	padding: 120px 0 0 30.2%;
+	margin: 0 auto;
+	padding: 120px 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
@@ -2134,14 +2134,14 @@ div.business-introduction-4 {
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
-	margin: 0;
-	padding: 120px 0 0 7%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
@@ -2164,14 +2164,14 @@ div.business-introduction-5 {
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 73.8%;
 	text-align: left;
-	margin: 0;
-	padding: 120px 0 0 26.2%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
 	width: 15%;
 	text-align: center;
-	margin: 20px 0 0 40%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
@@ -2194,14 +2194,14 @@ div.business-introduction-6 {
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 81.8%;
 	text-align: left;
-	margin: 0;
-	padding: 120px 0 0 18.2%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 15px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
@@ -2353,6 +2353,7 @@ section.what-group div.what-group-2 p {
 	width: 30%;
 	text-align: center;
 	font-size: 30px;
+	margin: 0 auto;
 	padding-top: 0;
 }
 section.what-group div.what-group-3 {
@@ -2372,6 +2373,7 @@ section.what-group div.what-group-3 {
 section.what-group div.what-group-3 p {
 	width: 60%;
 	font-size: 25px;
+	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
 }
@@ -2392,6 +2394,7 @@ section.what-group div.what-group-4 {
 section.what-group div.what-group-4 p {
 	width: 60%;
 	font-size: 30px;
+	margin: 0 auto;
 	padding-top: 0;
 	text-align: center;
 }
@@ -3452,21 +3455,21 @@ div.business-introduction-1 {
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 40%;
 	text-align: left;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	font-size: 35px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
 	width: 65%;
 	text-align: left;
-	margin: 0;
-	padding: 20px 0 0 35%;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-1 p:nth-of-type(3) {
 	width: 80%;
 	text-align: left;
-	margin: 0;
+	margin: 0 auto;
 	padding: 15px 0 0 10%;
 	font-size: 25px;
 }
@@ -3487,14 +3490,14 @@ div.business-introduction-2 {
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 83%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 14%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 70%;
 	text-align: center;
-	margin: 20px 0 0 17%;
+	margin: 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 25px;
 	border-top: 1px solid #FFF;
@@ -3517,14 +3520,14 @@ div.business-introduction-3 {
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 69.8%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 30.2%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 5%;
 	font-size: 25px;
 	border-top: 1px solid #FFF;
@@ -3547,14 +3550,14 @@ div.business-introduction-4 {
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 7%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 25px;
 	border-top: 1px solid #FFF;
@@ -3577,14 +3580,14 @@ div.business-introduction-5 {
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 73.8%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 20.2%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
 	width: 15%;
 	text-align: center;
-	margin: 20px 0 0 40%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 25px;
 	border-top: 1px solid #FFF;
@@ -3607,14 +3610,14 @@ div.business-introduction-6 {
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 81.8%;
 	text-align: left;
-	margin: 0;
-	padding: 0 0 0 18.2%;
+	margin: 0 auto;
+	padding: 0 0 0 0;
 	font-size: 25px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
 	width: 30%;
 	text-align: center;
-	margin: 20px 0 0 33%;
+	margin: 20px auto 0 auto;
 	padding: 20px 0 20px 0;
 	font-size: 25px;
 	border-top: 1px solid #FFF;
