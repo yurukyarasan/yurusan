@@ -1,33 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
-@media (max-width:540px) {
+@media (max-width:768px) {
   section.top-image {
-    height: 180px;
+	width: 100%;
+    height: 50%;
     background: URL("../img/top-image.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-	position: relative;
+    background-size: cover;
   }
-  section.top-image {
-	 width: 100%;
-	 background-size: cover;
-}
   section.top-image p {
-	width: 55%;
-	height: 9%;
+	width: 45%;
+	height: 25%;
     background-color: #EBEBEB;
-    font-size: 3%;
+    font-size: 17px;
     color: #797979;
     text-align: center;
-	padding-top: 10px;
+	margin: 0;
+	padding: 10px 0 10px 0;
     border-radius: 30px;
 	align-self: center;
-	position: absolute;
-	z-index: 2;
+	vertical-align: middle;
   }
   section.top-image img {
-   width: 18%;
-   height: 100%;
+   width: 50%;
+   height: 50%;
   }
   div.content-block-1 {
     width: 100%;
@@ -36,41 +32,41 @@
   }
   section.profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.wcb-cafe-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 0 0 20px 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.wcb-cafe-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.wcb-cafe-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
    section.wcb-cafe-profiel a .WCBCAFE {
 	width: 90%;
-	margin-left: 5%;
+	margin: 20px auto;
   }
   section.cafe-67-2-profiel {
     content: "";
@@ -80,23 +76,23 @@
   }
   section.cafe-67-2-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 0 0 20px 5%;
+    margin: 0 auto;
   }
   section.cafe-67-2-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.cafe-67-2-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
     box-sizing: border-box;
   }
   section.cafe-67-2-profiel a .cafe67 {
 	width: 90%;
-	margin-left: 5%;
+	margin: 0 auto;
   }
   div.content-block-2 {
     width: 100%;
@@ -106,66 +102,66 @@
   }
   section.kowa-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 0 0 20px 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.kowa-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.kowa-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.kowa-profiel  a .kowa {
     width: 90%;
-	margin-left: 5%;
+	margin: 0 auto;
   }
   section.tea-theory-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 0 0 20px 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.tea-theory-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.tea-theory-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.tea-theory-profiel  a .tea-theory {
     width: 90%;
-	margin-left: 5%;
+	margin: 20px auto;
   }
   section.tempura-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.tempura-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.tempura-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.tempura-profiel  a .tempura {
     width: 90%;
-	margin-left: 5%;
+	margin: 0 auto;
   }
   div.content-block-3 {
     width: 100%;
@@ -175,61 +171,60 @@
   }
 section.travel-agency-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
     margin: 0 0 0 5%;
     box-sizing: border-box;
   }
   section.travel-agency-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.travel-agency-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.travel-agency-profiel a .travel-agency {
 	width: 90%;
-	margin-left: 5%;	
+	margin: 20px auto;	
   }
 section.nursery-school-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
     margin: 20px 0 0 5%;
     box-sizing: border-box;
   }
   section.nursery-school-profiel img {
     width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.nursery-school-profiel p {
     width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 20px auto 0;
     box-sizing: border-box;
   }
   section.nursery-school-profiel a .nursery-school {
 	width: 90%;
-	margin-left: 5%;	
+	margin: 0 auto;	
   }
  section.trading-profiel {
     width: 90%;
-    height: 790px;
+    height: 890px;
     border: solid 5px #7E7E7E;
-    margin: 20px 0 0 5%;
+    margin: 20px auto;
     box-sizing: border-box;
   }
   section.trading-profiel img {
 	width: 90%;
-	margin: 20px 0 0 5%;
+	margin: 20px auto;
   }
   section.trading-profiel p {
-	width: 90%;
     line-height: 1.5em;
-	margin: 20px 0 0 5%;
+	margin: 0 auto;
     box-sizing: border-box;
   }
   section.trading-profiel a .trading {
@@ -244,1027 +239,6 @@ section.nursery-school-profiel {
     background-color: #30EFF8;
   }
   section.footer div.end-footer p {
-    width: 55%;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media (min-width:541px) and (max-width:1023px) {
-  section.top-image {
-	height: 100%;
-    background: URL("../img/top-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-	position: relative;
-  }
-  section.top-image p {
-	width: 55%;
-	height: 35px;
-    background-color: #EBEBEB;
-    font-size: 18px;
-    color: #797979;
-    text-align: center;
-	padding-top: 20px;
-    border-radius: 30px;
-	position: absolute;
-	z-index: 2;
-  }
-  section.top-image img {
-   width: 26%;
-   height: 100%;
-  }
-  div.content-block-1 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 40px 1%;
-    box-sizing: border-box;
-  }
-  section.profiel img {
-	width: 90%;
-    margin-left: 5%;
-  }
-  section.profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.wcb-cafe-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 2%;
-    box-sizing: border-box;
-  }
-  section.wcb-cafe-profiel img {
-    width: 90%;
-    margin-left: 5%;
-  }
-  section.wcb-cafe-profiel a .WCBCAFE {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.wcb-cafe-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.cafe-67-2-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 1% 0 2%;
-  }
-  section.cafe-67-2-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.cafe-67-2-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.cafe-67-2-profiel a .cafe67 {
-	width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.kowa-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 20px 1%;
-    box-sizing: border-box;
-  }
-  section.kowa-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.kowa-profiel p {
-	width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.kowa-profiel  a .kowa {
-	width: 90%;
-    margin-left: 5%;
-	font-size: 4%;
-  }
-  section.tea-theory-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 2%;
-    box-sizing: border-box;
-  }
-  section.tea-theory-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.tea-theory-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.tea-theory-profiel a .tea-theory {
-	width: 90%;
-    margin-left: 5%;
-	font-size: 4%;
-  }
-  section.tempura-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 1% 20px 2%;
-    box-sizing: border-box;
-  }
-  section.tempura-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.tempura-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.tempura-profiel  a .tempura {
-  width: 90%;
-  margin-left: 5%;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
-	justify-content: space-around;
-  }
-  section.travel-agency-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 1%;
-    box-sizing: border-box;
-  }
-  section.travel-agency-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.travel-agency-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.travel-agency-profiel  a .travel-agency {
-  width: 90%;
-  margin-left: 5%;
-  }
-section.nursery-school-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 2%;
-    box-sizing: border-box;
-  }
-  section.nursery-school-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.nursery-school-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
- section.nursery-school-profiel a .nursery-school {
-	width: 90%;
-    margin-left: 5%;	
-  }
- section.trading-profiel {
-    height: 900px;
-    border: solid 5px #7E7E7E;
-    margin: 0 1% 0 2%;
-    box-sizing: border-box;
-  }
-  section.trading-profiel img {
-    width: 90%;
-    margin-left: 5%
-  }
-  section.trading-profiel p {
-    width: 90%;
-    line-height: 1.5em;
-    margin-left: 5%;
-  }
-  section.trading-profiel a .trading {
-    width: 90%;
-    margin-left: 5%;	
-  }
-  section.footer div.end-footer {
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    background-color: #30EFF8;
-  }
-  section.footer div.end-footer p {
-    width: 30%;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media (min-width:1024px) and (max-width:1399px) {
-  section.top-image {
-    height: 100%;
-    background: URL("../img/top-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  section.top-image p {
-	width: 55%;
-	height: 45px;
-    background-color: #EBEBEB;
-    font-size: 30px;
-    color: #797979;
-    text-align: center;
-	padding-top: 10px;
-    border-radius: 30px;
-  }
-  section.top-image img {
-   width: 28%;
-   height: 100%;
-  }
-  div.content-block-1 {
-    width: 100%;
-    margin: 0;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.profiel img {
-    margin-left: 18%;
-  }
-  section.profiel p {
-    line-height: 1.5em;
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.wcb-cafe-profiel img {
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.wcb-cafe-profiel a .WCBCAFE {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.cafe-67-2-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-  }
-  section.cafe-67-2-profiel img {
-    margin-left: 18%;
-  }
-  section.cafe-67-2-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.cafe-67-2-profiel a .cafe67 {
-	width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.kowa-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.kowa-profiel img {
-    margin-left: 18%;
-  }
-  section.kowa-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.kowa-profiel  a .kowa {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.tea-theory-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tea-theory-profiel img {
-    margin-left: 17%;
-  }
-  section.tea-theory-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tea-theory-profiel a .tea-theory {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.tempura-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tempura-profiel img {
-    margin-left: 17%;
-  }
-  section.tempura-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tempura-profiel  a .tempura {
-   width: 90%;
-   margin-left: 5%;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-section.travel-agency-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.travel-agency-profiel img {
-    margin-left: 17%;
-  }
-  section.travel-agency-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.travel-agency-profiel a .travel-agency {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.nursery-school-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.nursery-school-profiel img {
-    margin-left: 17%;
-  }
-  section.nursery-school-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
- section.nursery-school-profiel a .nursery-school {
-	width: 90%;
-	margin-left: 5%;
-  }
- section.trading-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.trading-profiel img {
-    margin-left: 17%;
-  }
-  section.trading-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.trading-profiel a .trading {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.footer div.end-footer {
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    background-color: #30EFF8;
-  }
-  section.footer div.end-footer p {
-    width: 30%;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media (min-width:1400px) and (max-width:1439px) {
-  section.top-image {
-    height: 100%;
-    background: URL("../img/top-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  section.top-image p {
-	width: 55%;
-	height: 45px;
-    background-color: #EBEBEB;
-    font-size: 30px;
-    color: #797979;
-    text-align: center;
-	padding-top: 10px;
-    border-radius: 30px;
-  }
-  section.top-image img {
-   width: 28%;
-   height: 100%;
-  }
-  div.content-block-1 {
-    width: 100%;
-    margin: 0;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 40px 0;
-    box-sizing: border-box;
-  }
-  section.profiel img {
-    margin-left: 18%;
-  }
-  section.profiel p {
-    line-height: 1.5em;
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.wcb-cafe-profiel img {
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.wcb-cafe-profiel a .WCBCAFE {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.cafe-67-2-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-  }
-  section.cafe-67-2-profiel img {
-    margin-left: 18%;
-  }
-  section.cafe-67-2-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.cafe-67-2-profiel a .cafe67 {
-	width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.kowa-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.kowa-profiel img {
-    margin-left: 18%;
-  }
-  section.kowa-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.kowa-profiel  a .kowa {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tea-theory-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tea-theory-profiel img {
-    margin-left: 17%;
-  }
-  section.tea-theory-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tea-theory-profiel  a .tea-theory {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tempura-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tempura-profiel img {
-    margin-left: 17%;
-  }
-  section.tempura-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tempura-profiel  a .tempura {
-    width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-section.travel-agency-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 40px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.travel-agency-profiel img {
-    margin-left: 17%;
-  }
-  section.travel-agency-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-section.nursery-school-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 40px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.nursery-school-profiel img {
-    margin-left: 17%;
-  }
-  section.nursery-school-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
- section.travel-agency-profiel a .travel-agency {
-	width: 90%;
-	margin-left: 5%;	
-  }
- section.trading-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 40px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.trading-profiel img {
-    margin-left: 17%;
-  }
-  section.trading-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.trading-profiel a .trading {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.footer div.end-footer {
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    background-color: #30EFF8;
-  }
-  section.footer div.end-footer p {
-    width: 15%;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media (min-width:1440px) and (max-width:1919px) {
-  section.top-image {
-    height: 100%;
-    background: URL("../img/top-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  section.top-image p {
-	width: 40%;
-	height: 45px;
-    background-color: #EBEBEB;
-    font-size: 30px;
-    color: #797979;
-    text-align: center;
-    position: absolute;
-    top: 200px;
-    left: 32%;
-	padding-top: 10px;
-    border-radius: 30px;
-  }
-  section.top-image img {
-   width: 28%;
-   height: 100%;
-  }
-  div.content-block-1 {
-    width: 100%;
-    margin: 0;
-	box-sizing: border-box;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 40px 0;
-    box-sizing: border-box;
-  }
-  section.profiel img {
-    margin-left: 18%;
-  }
-  section.profiel p {
-    line-height: 1.5em;
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.wcb-cafe-profiel img {
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.wcb-cafe-profiel a .WCBCAFE {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.cafe-67-2-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-  }
-  section.cafe-67-2-profiel img {
-    margin-left: 18%;
-  }
-  section.cafe-67-2-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.cafe-67-2-profiel a .cafe67 {
-	width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.kowa-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.kowa-profiel img {
-    margin-left: 18%;
-  }
-  section.kowa-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.kowa-profiel  a .kowa {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tea-theory-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tea-theory-profiel img {
-    margin-left: 17%;
-  }
-  section.tea-theory-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tea-theory-profiel  a .tea-theory {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tempura-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tempura-profiel img {
-    margin-left: 17%;
-  }
-  section.tempura-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tempura-profiel  a .tempura {
-    width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-section.travel-agency-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.travel-agency-profiel img {
-    margin-left: 17%;
-  }
-  section.travel-agency-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.travel-agency-profiel a .travel-agency {
-	width: 90%;
-	margin-left: 5%;	
-  }
-section.nursery-school-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 40px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.nursery-school-profiel img {
-    margin-left: 17%;
-  }
-  section.nursery-school-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
- section.nursery-school-profiel a .nursery-school {
-	width: 90%;
-	margin-left: 5%;	
-  }
- section.trading-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-    box-sizing: border-box;
-  }
-  section.trading-profiel img {
-    margin-left: 17%;
-  }
-  section.trading-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.trading-profiel a .trading {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.footer div.end-footer {
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    background-color: #30EFF8;
-  }
-  section.footer div.end-footer p {
-    width: 15%;
-    margin: 0 auto;
-    padding-top: 20px;
-  }
-}
-@media (min-width:1921px) and (max-width:2560px) {
-  section.top-image {
-    height: 100%;
-    background: URL("../img/top-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  section.top-image p {
-	width: 55%;
-	height: 105px;
-    background-color: #EBEBEB;
-    font-size: 450%;
-    color: #797979;
-    text-align: center;
-	padding-top: 15px;
-    border-radius: 30px;
-  }
-  section.top-image img {
-   width: 28%;
-   height: 100%;
-  }
-  div.content-block-1 {
-    width: 100%;
-    margin: 0;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 40px 0;
-    box-sizing: border-box;
-  }
-  section.profiel img {
-    margin-left: 18%;
-  }
-  section.profiel p {
-    line-height: 1.5em;
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.wcb-cafe-profiel img {
-    margin-left: 18%;
-  }
-  section.wcb-cafe-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.wcb-cafe-profiel a .WCBCAFE {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.cafe-67-2-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 0 0;
-  }
-  section.cafe-67-2-profiel img {
-    margin-left: 18%;
-  }
-  section.cafe-67-2-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.cafe-67-2-profiel a .cafe67 {
-	width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-2 {
-    width: 100%;
-    margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
-  }
-  section.kowa-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.kowa-profiel img {
-    margin-left: 18%;
-  }
-  section.kowa-profiel p {
-    margin-left: 18%;
-    line-height: 1.5em;
-  }
-  section.kowa-profiel  a .kowa {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tea-theory-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.tea-theory-profiel img {
-    margin-left: 17%;
-  }
-  section.tea-theory-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tea-theory-profiel  a .tea-theory {
-    width: 90%;
-	margin-left: 5%;
-  }
-  section.tempura-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 20px 0 20px 0;
-    box-sizing: border-box;
-  }
-  section.tempura-profiel img {
-    margin-left: 17%;
-  }
-  section.tempura-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.tempura-profiel  a .tempura {
-    width: 90%;
-	margin-left: 5%;
-  }
-  div.content-block-3 {
-    width: 100%;
-    margin: 0 auto;
-  }
-section.travel-agency-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.travel-agency-profiel img {
-    margin-left: 17%;
-  }
-  section.travel-agency-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.travel-agency-profiel a .travel-agency {
-	width: 90%;
-	margin-left: 5%;	
-  }
-section.nursery-school-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.nursery-school-profiel img {
-    margin-left: 17%;
-  }
-  section.nursery-school-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.nursery-school-profiel a .nursery-school {
-	width: 90%;
-	margin-left: 5%;	
-  }
- section.trading-profiel {
-    height: 720px;
-    border: solid 5px #7E7E7E;
-    margin: 0 0 0 0;
-    box-sizing: border-box;
-  }
-  section.trading-profiel img {
-    margin-left: 17%;
-  }
-  section.trading-profiel p {
-    margin-left: 17%;
-    line-height: 1.5em;
-  }
-  section.trading-profiel a .trading {
-	width: 90%;
-	margin-left: 5%;
-  }
-  section.footer div.end-footer {
-    width: 100%;
-    height: 50px;
-    margin-top: 50px;
-    box-sizing: border-box;
-    background-color: #30EFF8;
-  }
-  section.footer div.end-footer p {
-    width: 10%;
     margin: 0 auto;
     padding-top: 20px;
   }
