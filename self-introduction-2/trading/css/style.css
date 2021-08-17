@@ -556,6 +556,7 @@ section.news-content-area-2 {
 
 section.business-details {
 	width: 1920px;
+	margin: 0 auto;
 }
 div.business-introduction-1 {
 	margin-top: 100px;
@@ -848,6 +849,7 @@ section.business-field {
 
 section.what-group {
 	width: 1920px;
+	margin: 0 auto;
 }
 section.what-group div.what-group-1 {
 	position: relative;
@@ -1092,6 +1094,7 @@ section.what-group-data::after {
 
 section.company-growth {
 	width: 1920px;
+	margin: 0 auto;
 }
 section.company-growth div.company-growth-1 {
 	width: 1920px;
@@ -1349,7 +1352,7 @@ section.footer-img::after {
 /* 最下段フッター部分 */
 
 section.last-footer {
-	width: 1920px;
+	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 	background-color: #09F943;
