@@ -402,9 +402,10 @@ ul.business::after {
 
 /* メインイメージ画像 */
 
-section.main-image img {
+section.main-image {
 	width: 100%;
 	margin: 50px auto 0 auto;
+	overflow: hidden;
 }
 section.news-content-area-1 {
 	width: 80%;
@@ -1382,7 +1383,7 @@ div.what-trading-footer p {
 	white-space: pre;
 }
 
-@media(max-width:1919px){
+@media(max-width: 1919px) {
 section.title h1 {
 	width: 35%;
 	margin: 50px auto 0 auto;
@@ -1820,5 +1821,17 @@ ul.business div.business-group-6 ul.sub-2 {
 	height: 150px;
 	margin: -50px 0 0 5%;
 
+}
+
+/* メインイメージ画像 */
+
+section.main-image {
+	width: 100%;
+	margin: 50px auto 0 auto;
+	overflow: hidden;
+}
+section.news-content-area-1 {
+	width: 80%;
+	margin: 100px auto 0 auto;
 }
 }

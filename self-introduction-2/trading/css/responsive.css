@@ -1006,12 +1006,13 @@ section.what-group-data div.what-group-data-1 {
 	border-bottom: 7px solid #000;
 }
 section.what-group-data div.what-group-data-2 {
-	width: 100%;
+	width: 95%;
 	float: none;
+	margin: 0 0 0 5%;
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 0;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -1021,7 +1022,7 @@ section.what-group-data div.what-group-data-2 p:nth-of-type(1) {
 }
 section.what-group-data div.what-group-data-2 p:nth-of-type(2) {
 	width: 90%;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 0;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
@@ -1031,13 +1032,13 @@ section.what-group-data div.what-group-data-2 p:nth-of-type(2) span {
 	font-size: 14px;
 }
 section.what-group-data div.what-group-data-3 {
-	width: 100%;
+	width: 95%;
 	float: none;
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 5%;
 }
 section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 0;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -1047,20 +1048,20 @@ section.what-group-data div.what-group-data-3 p:nth-of-type(1) {
 }
 section.what-group-data div.what-group-data-3 p:nth-of-type(2) {
 	width: 90%;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 0;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
 	font-size: 34px;
 }
 section.what-group-data div.what-group-data-4 {
-	width: 100%;
+	width: 95%;
 	float: none;
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 5%;
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 0;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -1070,7 +1071,7 @@ section.what-group-data div.what-group-data-4 p:nth-of-type(1) {
 }
 section.what-group-data div.what-group-data-4 p:nth-of-type(2) {
 	width: 90%;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 0;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
@@ -1080,13 +1081,13 @@ section.what-group-data div.what-group-data-4 p:nth-of-type(2) span {
 	font-size: 14px;
 }
 section.what-group-data div.what-group-data-5 {
-	width: 100%;
+	width: 95%;
 	float: none;
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 5%;
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
 	width: 90%;
-	margin-left: 5%;
+	margin-left: 0;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #000;
 	border-bottom: 1px solid #000;
@@ -1096,7 +1097,7 @@ section.what-group-data div.what-group-data-5 p:nth-of-type(1) {
 }
 section.what-group-data div.what-group-data-5 p:nth-of-type(2) {
 	width: 90%;
-	margin: 10px 0 0 5%;
+	margin: 10px 0 0 0;
 	box-sizing: border-box;
 	text-align: center;
 	font-weight: bolder;
@@ -1106,17 +1107,18 @@ section.what-group-data div.what-group-data-5 p:nth-of-type(2) span {
 	font-size: 14px;
 }
 section.what-group-data div.what-group-data-6 {
+	width: 100%;
 	float: none;
 }
 section.what-group-data div.what-group-data-6 p {
 	width: 50%;
 	box-sizing: border-box;
 	font-weight: bold;
-	margin: 10px 0 0 50%;
+	margin: 30px auto 0 auto;
 }
 section.what-group-data div.what-group-data-7 p {
 	width: 160px;
-	margin: 70px auto 50px auto;
+	margin: 70px 0 50px 25%;
 	padding: 15px 0 0 25px;
 	background-color: #000;
 	color: #FFF;
@@ -1147,7 +1149,7 @@ section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	text-align: center;
 	font-size: 10px;
 	position: absolute;
-	top: -230px;
+	top: 20px;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 	width: 90%;
@@ -1240,8 +1242,8 @@ section.company-growth::after {
 	clear: both;
 }
 section.company-growth-message {
-	width: 100%;
-	margin: 0 auto;
+	width: 90%;
+	margin: 0 0 0 5%;
 }
 section.company-growth-message dl dt {
 	width: 100%;
@@ -1254,8 +1256,9 @@ section.company-growth-message dl dt {
 	font-weight: 1000;
 }
 section.company-growth-message dl dd:nth-of-type(1) img {
-	width: 100%;
+	width: 90%;
 	float: none;
+	margin-left: 5%;
 }
 section.company-growth-message dl dd:nth-of-type(2) {
 	float: none;
@@ -1273,10 +1276,11 @@ section.company-growth-message dl dd:nth-of-type(4) {
 	margin-left: 5%;
 }
 section.company-growth-message dl dd:nth-of-type(5) {
-	width: 65%;
+	float: none;
+	width: 70%;
 	height: 45px;
 	margin: 50px 0 0 15%;
-	padding: 15px 0 0 25px;
+	padding: 15px 0 0 5px;
 	background-color: #000;
 	color: #FFF;
 	box-sizing: border-box;
