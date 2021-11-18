@@ -561,192 +561,161 @@ section.business-details {
 	margin: 0 auto;
 }
 div.business-introduction-1 {
+	width: 100%;
+	height: 800px;
 	margin-top: 100px;
 	color: #FFF;
-	position: relative;
-}
-div.business-introduction-1 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 100%;
 	text-align: center;
-	margin: 10% 0 0 0;
+	margin: 0 0 0 0;
+	padding-top: 15%;
 	font-size: 30px;
-	position: absolute;
-	top: 20px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
 	width: 100%;
 	text-align: center;
-	margin: 10% 0 0 0;
+	margin: 0 0 0 0;
 	padding-top: 20px;
 	font-size: 50px;
-	position: absolute;
-	top: 100px;
-	z-index: 1;
 }
 div.business-introduction-1 p:nth-of-type(3) {
 	width: 100%;
 	text-align: center;
-	margin: 10% 0 0 0;
+	margin: 0 0 0 0;
 	padding-top: 20px;
 	font-size: 20px;
-	position: absolute;
-	top: 200px;
-	z-index: 1;
 }
 div.business-introduction-2 {
 	float: left;
 	width: 50%;
+	height: 640px;
 	color: #FFF;
-	position: relative;
-}
-div.business-introduction-2 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-2 p:nth-of-type(1) {
-	width: 98.95%;
+	width: 100%;
 	text-align: center;
-	margin: 10% 0 0 0;
-	padding-top: 300px;
+	margin: 0 0 0 0;
+	padding-top: 25%;
 	font-size: 20px;
-	position: absolute;
-	top: -200px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 34.375%;
 	text-align: center;
-	margin: 15% 0 0 30%;
+	margin: 5% 0 0 30%;
 	padding: 20px 0 20px 0;
 	font-size: 14px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	position: absolute;
-	top: 140px;
 }
 div.business-introduction-3 {
 	float: left;
 	width: 25%;
+	height: 320px;
 	color: #FFF;
-	position: relative;
-}
-div.business-introduction-3 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 20% 0 0 5%;
-	padding-top: 130px;
+	margin: 25% 0 0 5%;
+	padding-top: 0;
 	font-size: 17px;
-	position: absolute;
-	top: -120px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
 	width: 50%;
 	text-align: center;
-	margin: 25% 0 0 25%;
+	margin: 5% 0 0 25%;
 	padding: 20px 0 20px 0;
 	font-size: 12px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	position: absolute;
-	top: 40px;
 }
 div.business-introduction-4 {
 	float: left;
 	width: 25%;
+	height: 320px;
 	color: #FFF;
-	position: relative;
-}
-div.business-introduction-4 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 20% 0 0 5%;
-	padding-top: 130px;
+	margin: 25% 0 0 5%;
+	padding-top: 0;
 	font-size: 15px;
-	position: absolute;
-	top: -125px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
 	width: 60%;
 	text-align: center;
-	margin: 25% 0 0 20%;
+	margin: 5% 0 0 20%;
 	padding: 20px 0 20px 0;
 	font-size: 17px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	position: absolute;
-	top: 40px;
 }
 div.business-introduction-5 {
 	float: left;
 	width: 25%;
+	height: 320px;
 	color: #FFF;
-	position: relative;
-}
-div.business-introduction-5 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 20% 0 0 5%;
+	margin: 0% 0 0 5%;
 	padding-top: 130px;
 	font-size: 15px;
-	position: absolute;
-	top: -120px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
 	width: 40%;
 	text-align: center;
-	margin: 25% 0 0 30%;
+	margin: 5% 0 0 30%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	position: absolute;
-	top: 40px;
 }
 div.business-introduction-6 {
 	float: left;
 	width: 25%;
+	height: 320px;
 	color: #FFF;
 	position: relative;
 	margin-bottom: 70px;
-}
-div.business-introduction-6 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-business/No.6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 20% 0 0 5%;
+	margin: 2% 0 0 5%;
 	padding-top: 130px;
 	font-size: 15px;
-	position: absolute;
-	top: -120px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
 	width: 65%;
 	text-align: center;
-	margin: 25% 0 0 20%;
+	margin: 5% 0 0 20%;
 	padding: 20px 0 20px 0;
 	font-size: 15px;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	position: absolute;
-	top: 40px;
 }
 section.business-details {
 	content: "";
@@ -857,114 +826,97 @@ section.what-group {
 }
 section.what-group div.what-group-1 {
 	width: 100%;
-	position: relative;
+	height: 720px;
+	background: url("../img/jpg/what-group/No.1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-section.what-group div.what-group-1  dt img {
-	width: 100%;
-	color: #FFF;
-	z-index: -1;
-}
-section.what-group div.what-group-1 dd:nth-of-type(1) {
+section.what-group div.what-group-1  dt {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 30px;
 	color: #FFF;
 	padding-top: 8%;
-	position: absolute;
-	top: 0;
 }
-section.what-group div.what-group-1 dd:nth-of-type(2) {
+section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	font-size: 50px;
 	color: #FFF;
 	padding-top: 20px;
-	position: absolute;
-	top: 33%;
 }
-section.what-group div.what-group-1 dd:nth-of-type(3) {
-	width: 100%;
+section.what-group div.what-group-1 dd:nth-of-type(2) {
+	width: 50%;
 	margin: 0 auto;
 	text-align: center;
-	white-space: pre;
-	font-size: 20px;
+	font-size: 50px;
 	color: #FFF;
 	padding-top: 20px;
-	position: absolute;
-	top: 55%;
 }
 section.what-group div.what-group-2 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #000;
-	position: relative;
-}
-section.what-group div.what-group-2 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-group/No.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.what-group div.what-group-2 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	position: absolute;
-	top: 45%;
+	margin: 35% auto 0 auto;
 }
 section.what-group div.what-group-3 {
 	width: 25%;
+	height: 360px;
 	float: left;
-	position: relative;
-}
-section.what-group div.what-group-3 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-group/No.3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.what-group div.what-group-3 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	position: absolute;
-	top: 45%;
+	margin: 35% auto 0 auto;
 }
 section.what-group div.what-group-4 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.what-group div.what-group-4 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-group/No.4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.what-group div.what-group-4 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	position: absolute;
-	top: 45%;
+	margin: 35% auto 0 auto;
 }
 section.what-group div.what-group-5 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.what-group div.what-group-5 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/what-group/No.5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.what-group div.what-group-5 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	position: absolute;
-	top: 45%;
+	margin: 35% auto 0 auto;
 }
 section.what-group::after {
 	content: "";
@@ -1105,111 +1057,92 @@ section.company-growth {
 }
 section.company-growth div.company-growth-1 {
 	width: 100%;
+	height: 720px;
 	color: #FFF;
-	position: relative;
+	background: url("../img/jpg/company-growth/No.1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-section.company-growth div.company-growth-1 dt img {
+section.company-growth div.company-growth-1 dt {
 	width: 100%;
-	z-index: -1;
+	margin: 15% auto 0 auto;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 30px;
-	position: absolute;
-	top: 20%;
-	
-}
-section.company-growth div.company-growth-1 dd:nth-of-type(2) {
-	width: 100%;
-	margin: 0 auto;
-	text-align: center;
 	font-size: 50px;
 	padding-top: 20px;
-	position: absolute;
-	top: 30%;
 }
-section.company-growth div.company-growth-1 dd:nth-of-type(3) {
+section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
 	white-space: pre;
 	font-size: 20px;
 	padding-top: 20px;
-	position: absolute;
-	top: 50%;
 }
 section.company-growth div.company-growth-2 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.company-growth div.company-growth-2 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/company-growth/No.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.company-growth div.company-growth-2 p {
 	width: 90%;
-	margin: 0 0 0 5%;
+	margin: 35% 0 0 5%;
 	font-size: 15px;
-	position: absolute;
-	top: 50%;
 	text-align: center;
 }
 section.company-growth div.company-growth-3 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.company-growth div.company-growth-3 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/company-growth/No.3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.company-growth div.company-growth-3 p {
 	width: 90%;
-	margin: 0 0 0 5%;
+	margin: 35% 0 0 5%;
 	font-size: 15px;
-	position: absolute;
-	top: 50%;
 	text-align: center;
 }
 section.company-growth div.company-growth-4 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.company-growth div.company-growth-4 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/company-growth/No.4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
-	margin: 0 0 0 5%;
+	margin: 35% 0 0 5%;
 	font-size: 15px;
-	position: absolute;
-	top: 50%;
 	text-align: center;
 }
 section.company-growth div.company-growth-5 {
 	width: 25%;
+	height: 360px;
 	float: left;
 	color: #FFF;
-	position: relative;
-}
-section.company-growth div.company-growth-5 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/company-growth/No.5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.company-growth div.company-growth-5 p {
 	width: 90%;
-	margin: 0 0 0 5%;
+	margin: 35% 0 0 5%;
 	font-size: 15px;
-	position: absolute;
-	top: 50%;
 	text-align: center;
 }
 section.company-growth::after {
@@ -1278,89 +1211,74 @@ section.footer-img {
 section.footer-img div.footer-img-1 {
 	float: left;
 	width: 33.3%;
-	position: relative;
+	height: 240px;
 	box-sizing: border-box;
-}
-section.footer-img div.footer-img-1 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/footer/No.1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 70%;
-    margin: 0 0 0 25%;
+    margin: 15% 0 0 25%;
 	color: #FFF;
-	position: absolute;
-	top: 20%;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
 	width: 70px;
-    margin: 0 0 0 40%;
+    margin: 3% 0 0 40%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	color: #FFF;
-	position: absolute;
-	top: 55%;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-2 {
 	float: left;
 	width: 33.3%;
-	position: relative;
+	height: 240px;
 	box-sizing: border-box;
-}
-section.footer-img div.footer-img-2 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/footer/No.2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 70%;
-    margin: 0 0 0 25%;
+    margin: 15% 0 0 25%;
 	color: #FFF;
-	position: absolute;
-	top: 20%;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
 	width: 70px;
-    margin: 0 0 0 40%;
+    margin: 3% 0 0 40%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	position: absolute;
-	top: 55%;
 }
 section.footer-img div.footer-img-3 {
 	float: left;
 	width: 33.4%;
-	position: relative;
+	height: 240px;
 	box-sizing: border-box;
-}
-section.footer-img div.footer-img-3 img {
-	width: 100%;
-	z-index: -1;
+	background: url("../img/jpg/footer/No.3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 70%;
-    margin: 0 0 0 25%;
+    margin: 15% 0 0 25%;
 	color: #FFF;
-	position: absolute;
-	top: 20%;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
 	width: 130px;
-    margin: 0 0 0 35%;
+    margin: 3% 0 0 35%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	color: #FFF;
-	position: absolute;
-	top: 55%;
 }
 section.footer-img::after {
 	content: "";
