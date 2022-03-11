@@ -8,47 +8,42 @@ div.container {
 	margin: 0 auto;
 }
 section.header{
-	width: 1500px;
-	height: 160px;
+	width: 79%;
+	height: 290px;
 	margin: 20px auto 0 auto;
 	background-color: #FFF;
 }
 div.name p {
-	width: 1450px;
+	width: 96%;
 	margin-left: 25px;
 	padding: 20px 0 10px 0;
 	border-bottom: dotted 1px #FFA900;
 }
 div.name h1 {
-	float: left;
-	width: 630px;
+	width: 65%;
 	font-size: 24px;
 	margin: 30px 0 0 25px;
 }
 div.name h1 span {
 	font-size: 34px;
 }
-div.name::after {
-	content: "";
-	display: block;
-	clear: both;
-}
 div.inquiries-by-phone {
-	float: left;
-	width: 200px;
-	margin: -30px 0 0 1130px;
+	width: 70%;
+	margin: 30px 0 0 0;
 }
 div.inquiries-by-phone p:nth-of-type(1) {
+	float: left;
 	width: 120px;
-	margin: 0 0 0 0px;
+	margin: 0 0 0 20px;
 	white-space: pre;
 	color: #FFA900;
 }
 div.inquiries-by-phone p:nth-of-type(2) {
+	float: left;
 	font-size: 24px;
 	width: 220px;
 	height: 40px;
-	margin: -40px 0 0 100px;
+	margin: 0 0 0 50px;
 	padding: 8px 0 0 30px;
 	background-color: #FFA900;
 	color: #FFF;
@@ -61,19 +56,23 @@ div.inquiries-by-phone::after {
 	clear: both;
 }
 div.address {
-	margin: 20px 0 0 1220px;
+	width: 30%;
+	margin: 30px 0 0 1.5%;
 }
 section.main-img {
-	width: 1480px;
+	width: 79%;
 	margin: 20px auto 0 auto;
 	border: 10px solid #FFA900;
 	border-radius: 10px;
+}
+section.main-img img {
+	width: 100%;
 }
 
 /* タブパネル　*/
 
 section.column {
-  width: 1500px;
+  width: 79%;
 　height: 1550px;
   margin: 50px auto 0 auto;
   border: 5px solid #F4F4F4;
@@ -97,23 +96,23 @@ section.column ul {
 section.column ul.tab li:nth-of-type(1) {
   list-style-type: none;
   float: left;
-  margin: 0 80px 0 10px;
+  margin: 0 0 0 0;
   padding-top: 20px;
 }
 section.column ul.tab li:nth-of-type(2) {
   list-style-type: none;
   float: left;
-  margin: 20px 80px 0 0;
+  margin: 20px 0 0 0;
 }
 section.column ul.tab li:nth-of-type(3) {
   list-style-type: none;
   float: left;
-  margin: 20px 80px 0 0;
+  margin: 20px 0 0 0;
 }
 section.column ul.tab li:nth-of-type(4) {
   list-style-type: none;
   float: left;
-  margin: 20px 80px 0 0;
+  margin: 20px 0 0 0;
 }
 section.column ul.tab li:nth-of-type(5) {
   list-style-type: none;
@@ -134,23 +133,24 @@ section.column ul.tab li a {
 ul.panel li#tab1 {
 	list-style-type: none;
 }
-dl.menu {
+ul.panel li#tab1 div.news {
 	float: left;
-	width: 500px;
+	width: 70%;
+}
+dl.menu {
+	width: 100%;
 }
 dl.menu dt {
-	width: 900px;
-	float: left;
-	padding-top: 50px;
+	width: 100%;
+	margin: 50px 0 40px 0;
 }
 dl.menu dd:nth-of-type(1) {
-	width: 200px;
 	float: left;
-	margin: 40px 0 30px 0;
+	margin: 0 0 0 0;
 }
 dl.menu dd:nth-of-type(2) {
 	float: left;
-	margin: -45px 0 30px 145px;
+	margin: 0 0 30px 30px;
 }
 dl.menu::after {
 	content: "";
@@ -158,14 +158,14 @@ dl.menu::after {
 	clear: both;
 }
 dl.state {
-	width: 500px;
+	width: 100%;	
 }
 dl.state dt {
 	float: left;
 }
 dl.state dd {
 	float: left;
-	margin:  0 0 30px 20px;
+	margin:  0 0 30px 30px;
 }
 dl.state::after {
 	content: "";
@@ -173,7 +173,7 @@ dl.state::after {
 	clear: both;
 }
 dl.popular-snack {
-	width: 500px;
+	width: 100%;
 }
 dl.popular-snack dt {
 	float: left;
@@ -188,14 +188,14 @@ dl.popular-snack::after {
 	clear: both;
 }
 dl.popular-menu-for-school-lunch {
-	width: 500px;
+	width: 100%;
 }
 dl.popular-menu-for-school-lunch dt {
 	float: left;
 }
 dl.popular-menu-for-school-lunch dd {
 	float: left;
-	margin:  0 0 30px 30px;
+	margin: 0 0 30px 30px;
 }
 dl.popular-menu-for-school-lunch::after {
 	content: "";
@@ -203,16 +203,16 @@ dl.popular-menu-for-school-lunch::after {
 	clear: both;
 }
 dl.fun-event {
-	width: 1230px;
+	width: 100%;
 	margin: 0 0 0 0;
 }
 dl.fun-event dt {
 	float: left;
-	margin-left: 0;
 }
 dl.fun-event dd {
+	width: 60%;
 	float: left;
-	margin:  0 0 30px 35px;
+	margin:  0 0 30px 30px;
 }
 dl.fun-event::after {
 	content: "";
@@ -220,14 +220,14 @@ dl.fun-event::after {
 	clear: both;
 }
 dl.cake {
-	width: 1000px;
-	margin: 0 0 0 -250px;
+	width: 100%;
+	margin: 0 0 0 0;
 }
 dl.cake dt {
 	float: left;
-	margin-left: 250px;
 }
 dl.cake dd {
+	width: 60%;
 	float: left;
 	margin:  0 0 30px 30px;
 }
@@ -237,7 +237,7 @@ dl.cake::after {
 	clear: both;
 }
 dl.Doctors-opinion-form-regarding-medication {
-	width: 500px;
+	width: 100%;
 }
 dl.Doctors-opinion-form-regarding-medication dt {
 	float: left;
@@ -252,7 +252,7 @@ dl.Doctors-opinion-form-regarding-medication::after {
 	clear: both;
 }
 dl.cookie {
-	width: 500px;
+	width: 100%;
 }
 dl.cookie dt {
 	float: left;
@@ -267,7 +267,7 @@ dl.cookie::after {
 	clear: both;
 }
 dl.part-recruitment {
-	width: 500px;
+	width: 100%;
 }
 dl.part-recruitment dt {
 	float: left;
@@ -282,7 +282,7 @@ dl.part-recruitment::after {
 	clear: both;
 }
 dl.popular-menu-for-school-lunch-2 {
-	width: 500px;
+	width: 100%;
 }
 dl.popular-menu-for-school-lunch-2 dt {
 	float: left;
@@ -296,68 +296,16 @@ dl.popular-menu-for-school-lunch-2::after {
 	display: block;
 	clear: both;
 }
-
-/* タブパネル-1 内部 */
-
-section.state-of-kindergarten {
-	width: 880px;
-	margin: 0 10px 0 10px;
-}
-section.state-of-kindergarten div.peach img {
-	float: left;
-}
-section.state-of-kindergarten div.peach p {
-	float: left;
-	margin: 200px 0 0 -200px;
-}
-section.state-of-kindergarten div.dandelion-and-horsetail img {
-	float: left;
-	margin-left: 10px;
-}
-section.state-of-kindergarten div.dandelion-and-horsetail p {
-	float: left;
-	margin: 200px 0 0 -230px;
-}
-section.state-of-kindergarten div.churippu-sumire img {
-	float: left;
-	margin-left: 10px;
-}
-section.state-of-kindergarten div.churippu-sumire p {
-	float: left;
-	margin: 200px 0 0 -250px;
-}
-section.state-of-kindergarten div.sunflower img {
-	float: left;
-	margin: 150px 0 0 0;
-}
-section.state-of-kindergarten div.sunflower p {
-	float: left;
-	margin: 340px 0 0 -200px;
-}
-section.state-of-kindergarten div.cherry-blossoms img {
-	float: left;
-	margin: 150px 0 0 10px;
-}
-section.state-of-kindergarten div.cherry-blossoms p {
-	float: left;
-	margin: 340px 0 0 -200px;
-}
-section.state-of-kindergarten div.pigeon img {
-	float: left;
-	margin: 150px 0 0 10px;
-}
-section.state-of-kindergarten div.pigeon p {
-	float: left;
-	margin: 340px 0 0 -200px;
-	padding-bottom: 50px;
+ul.panel li#tab1 div.news::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 /* タブパネル-1 a-side */
-
 section.contact-1 {
-	float: right;
-	width: 570px;
-	margin: -700px -350px 0 0;
+	float: left;
+	margin: 35px 0 0 20px;
 }
 section.contact-1 div.txt-area-1 {
 	width: 370px;
@@ -412,9 +360,9 @@ section.contact-1 div.txt-area-1 div.details p:nth-of-type(4) {
    white-space: pre;
 }
 section.notice-from-nursery-school {
-   float: right;
-   width: 570px;
-   margin: -400px -350px 0 0;
+   float: left;
+   margin: 35px 0 0 0;
+   padding-left: 20px;
 }
 section.notice-from-nursery-school div.link-area {
    width: 370px;
@@ -465,17 +413,109 @@ section.notice-from-nursery-school div.link-area p:nth-of-type(5) {
 	color: #FFF;
 }
 
+/* タブパネル-1 内部 */
+
+section.state-of-kindergarten {
+	float: left;
+	width: 100%;
+	margin-top: 100px;
+}
+section.state-of-kindergarten div.peach {
+	float: left;
+	width: 33%;
+	margin-left: 0;
+}
+section.state-of-kindergarten div.peach img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.peach p {
+	width: 30%;
+	margin: 0 auto;
+}
+section.state-of-kindergarten div.dandelion-and-horsetail {
+	width: 33%;
+	float: left;
+	margin-left: 0;
+}
+section.state-of-kindergarten div.dandelion-and-horsetail img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.dandelion-and-horsetail p {
+	width: 45%;
+	margin: 0 auto;
+}
+section.state-of-kindergarten div.churippu-sumire {
+	width: 34%;
+	float: left;
+	margin-left: 0;
+}
+section.state-of-kindergarten div.churippu-sumire img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.churippu-sumire p {
+	width: 55%;
+	margin: 0 auto;
+}
+section.state-of-kindergarten div.sunflower {
+	width: 35%;
+	float: left;
+	margin-left: 0;
+}
+section.state-of-kindergarten div.sunflower img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.sunflower p {
+	width: 35%;
+	margin: 0 auto;
+}
+section.state-of-kindergarten div.cherry-blossoms {
+	width: 33%;
+	float: left;
+	margin-left: -10px;
+}
+section.state-of-kindergarten div.cherry-blossoms img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.cherry-blossoms p {
+	width: 35%;
+	margin: 0 auto;
+}
+section.state-of-kindergarten div.pigeon {
+	width: 33%;
+	float: left;
+	margin-left: -10px;
+}
+section.state-of-kindergarten div.pigeon img {
+	width: 90%;
+	margin: 30px 0 30px 0;
+}
+section.state-of-kindergarten div.pigeon p {
+	width: 35%;
+	margin: 0 auto;
+}
+
+
 /*　タブパネル-2　*/
 
 ul.panel li#tab2 {
 	list-style-type: none;
 }
+ul.panel li#tab2 div.introducing-the-nursery-school {
+	width: 70%;
+	float: left;
+}
 ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details {
+	width: 90%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details dt {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 0 0;
 	padding: 15px 0 0 20px;
@@ -484,7 +524,7 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details dt {
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details dd:nth-of-type(1) {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 20px 0 0 0;
 	padding: 15px 0 0 20px;
@@ -492,7 +532,7 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details dd:nth-of
 	background-color: #FFF6C9;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details dd:nth-of-type(2) {
-	width: 600px;
+	width: 100%;
 	float: left;
 	margin-top: 10px;
 	color: #F66C18;
@@ -503,11 +543,12 @@ ul.panel::after {
 	clear: both;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal {
+	width: 90%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dt {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -515,6 +556,7 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dt {
 	background-color: #FFF6C9;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dd:nth-of-type(1) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
@@ -524,26 +566,31 @@ ul.panel::after {
 	clear: both;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dd:nth-of-type(2) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dd:nth-of-type(3) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dd:nth-of-type(4) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.policy-goal dd:nth-of-type(5) {
+	width: 100%;
 	color: #F66C18;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association {
+	width: 90%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dt {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -551,22 +598,27 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporatio
 	background-color: #FFF6C9;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dd:nth-of-type(1) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dd:nth-of-type(2) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dd:nth-of-type(3) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dd:nth-of-type(4) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.social-welfare-corporation-smile-association dd:nth-of-type(5) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
@@ -576,11 +628,12 @@ ul.panel::after {
 	clear: both;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.garden-information {
+	width: 90%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.garden-information dt {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -588,15 +641,17 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.garden-information dt {
 	background-color: #FFF6C9;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.garden-information dd:nth-of-type(1) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 5px 0;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.temporary-childcare {
+	width: 90%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.temporary-childcare dt {
 	float: left;
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -604,6 +659,7 @@ ul.panel li#tab2 div.introducing-the-nursery-school dl.temporary-childcare dt {
 	background-color: #FFF6C9;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.temporary-childcare dd:nth-of-type(1) {
+	width: 100%;
 	color: #F66C18;
 	margin: 0 0 155px 0;
 }
@@ -613,12 +669,13 @@ ul.panel::after {
 	clear: both;
 }
 
+
 /* タブパネル-2 a-side */
 
 section.profiele {
-	float: right;
-	width: 570px;
-	margin: -735px -150px 0 0;
+	float: left;
+	margin: 3% 0 0 -5%;
+	padding: 5px 5% 0 0;
 }
 section.profiele div.profiele-area {
 	width: 370px;
@@ -685,9 +742,8 @@ section.profiele dl.profiele-txt-area dd:nth-of-type(5) {
 	color: #F66C18;
 }
 section.contact-2 {
-	float: right;
-	width: 570px;
-	margin: -350px -150px 0 0;
+	float: left;
+	margin: 3% 0 0 0;
 }
 section.contact-2 div.txt-area-2 {
 	width: 370px;
@@ -737,9 +793,9 @@ section.contact-2 div.txt-area-2 div.details p:nth-of-type(4) {
    box-sizing: border-box;
 }
 section.notice-from-nursery-school-2 {
-   float: right;
-	width: 570px;
-	margin: -100px -150px 0 0;
+   float: left;
+   margin: 3% 0 0 0;
+   padding-bottom: 5%;
 }
 section.notice-from-nursery-school-2 div.link-area-2 {
    width: 370px;
@@ -793,15 +849,21 @@ section.notice-from-nursery-school-2 div.link-area-2 p:nth-of-type(5) {
 /* タブパネル-3 */
 
 ul.panel li#tab3 {
-	width: 100%;
-	float: left;
 	list-style-type: none;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dt {
+ul.panel li#tab3 section.class-state {
+	width: 70%;
 	float: left;
-	width: 900px;
+}
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age {
+	width: 90%;
+	float: left;
+}
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dt {
+	float: left;
+	width: 100%;
 	height: 50px;
-	margin: -20px 0 0 0;
+	margin: 20px 0 0 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #F1F1F1;
@@ -811,108 +873,135 @@ ul.panel::after {
 	display: block;
 	clear: both;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(1) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(1) {
+	width: 100%;
+	float: left;
 	height: 50px;
-	margin: 50px 0 0 0;
+	margin: 0 0 0 0;
 	padding-top: 40px;
 	box-sizing: border-box;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(2) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(2) {
+	width: 100%;
+	float: left;
 	margin: 10px 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(3) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(3) {
+	width: 100%;
+	float: left;
 	margin: 0 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(4) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(4) {
+	width: 100%;
+	float: left;
 	margin: 0 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(5) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(5) {
+	width: 100%;
+	float: left;
 	margin: 0 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(6) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(6) {
+	width: 100%;
+	float: left;
 	margin: 0 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd:nth-of-type(7) {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd:nth-of-type(7) {
+	width: 100%;
+	float: left;
 	margin: 0 0 5px 0;
     color: #F66C18;
 }
-ul.panel li#tab3 div.class-state dl.state-of-errands-of-each-age dd a {
+ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age dd a {
     color: #F66C18;
 	text-decoration: none;
 }
 section.state-of-kindergarten-children-by-age  {
-	width: 900px;
+	width: 90%;
+	float: left;
 	margin: 0 auto;
 }
 section#zero-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
+	float: left;
 }
 section#zero-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
 	height: 50px;
+	float: left;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
 section#zero-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#zero-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#zero-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#zero-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 0 0;
 	box-sizing: border-box;
 }
 section#one-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
+	float: left;
 }
 section#one-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
 	height: 50px;
+	float: left;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
 section#one-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#one-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#one-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#one-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 0 0;
 	box-sizing: border-box;
 }
 section#two-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
 }
 section#two-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
+	float: left;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -920,28 +1009,34 @@ section#two-year-old-kindergarten dl dt{
 	background-color: #FFF6C9;
 }
 section#two-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#two-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#two-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#two-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 0 0;
 	box-sizing: border-box;
 }
 section#three-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
+	float: left;
 }
 section#three-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
+	float: left;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -949,28 +1044,34 @@ section#three-year-old-kindergarten dl dt{
 	background-color: #FFF6C9;
 }
 section#three-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#three-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#three-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#three-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 0 0;
 	box-sizing: border-box;
 }
 section#four-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
+	float: left;
 }
 section#four-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
+	float: left;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -978,28 +1079,34 @@ section#four-year-old-kindergarten dl dt{
 	background-color: #FFF6C9;
 }
 section#four-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#four-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#four-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#four-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 0 0;
 	box-sizing: border-box;
 }
 section#five-year-old-kindergarten {
-	width: 900px;
+	width: 100%;
+	float: left;
 }
 section#five-year-old-kindergarten dl dt{
-	width: 900px;
+	width: 100%;
+	float: left;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -1007,20 +1114,24 @@ section#five-year-old-kindergarten dl dt{
 	background-color: #FFF6C9;
 }
 section#five-year-old-kindergarten dl dd:nth-of-type(1){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#five-year-old-kindergarten dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 section#five-year-old-kindergarten dl dd:nth-of-type(3) img{
+	width: 100%;
 	margin: 20px 0 0 0;
 }
 section#five-year-old-kindergarten dl dd:nth-of-type(4){
-	width: 860px;
+	width: 100%;
+	float: left;
 	margin: 20px 0 50px 0;
 	box-sizing: border-box;
 }
@@ -1028,9 +1139,9 @@ section#five-year-old-kindergarten dl dd:nth-of-type(4){
 /* タブパネル-3 a-side */
 
 section.contact-3 {
-	float: right;
-	width: 570px;
-	margin: -5125px -700px 0 0;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 5px 1% 0 0;
 }
 section.contact-3 div.txt-area-3 {
 	width: 370px;
@@ -1080,9 +1191,9 @@ section.contact-3 div.txt-area-3 div.details p:nth-of-type(4) {
    box-sizing: border-box;
 }
 section.notice-from-nursery-school-3 {
-   float: right;
-	width: 570px;
-	margin: -4850px -700px 0 0;
+   float: left;
+   margin: 1% 0 0 0;
+   padding-bottom: 20px;
 }
 section.notice-from-nursery-school-3 div.link-area-3 {
    width: 370px;
@@ -1144,8 +1255,15 @@ ul.panel::after {
 	display: block;
 	clear: both;
 }
+section.events {
+	width: 70%;
+	float: left;
+}
+ul.panel li#tab4 div.annual-events {
+	width: 90%;
+}
 ul.panel li#tab4 div.annual-events p:nth-of-type(1) {
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -1153,14 +1271,14 @@ ul.panel li#tab4 div.annual-events p:nth-of-type(1) {
 	background-color: #F1F1F1;
 }
 ul.panel li#tab4 div.annual-events p:nth-of-type(2) {
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 0 0 20px 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
-ul.panel li#tab4 div.annual-events table th, table td {
+ul.panel li#tab4 div.annual-events table th {
 	border: solid 1px #000;
 }
 ul.panel li#tab4 div.annual-events table th:nth-of-type(1) {
@@ -1176,44 +1294,47 @@ ul.panel li#tab4 div.annual-events table th:nth-of-type(2) {
 	box-sizing: border-box;
 }
 ul.panel li#tab4 div.annual-events table td:nth-child(odd) {
-    width: 100px;
+    width: 5%;
 	height: 50px;
 	vertical-align: middle;
 	text-align: center;
 	box-sizing: border-box;
+	border: solid 1px #000;
 }
 ul.panel li#tab4 div.annual-events table td:nth-child(even) {
-    width: 800px;
+	width: 39%;
 	height: 50px;
 	vertical-align: middle;
 	box-sizing: border-box;
 	padding-left: 20px;
+	border: solid 1px #000;
 }
 div.sports {
-	width: 900px;
+	width: 90%;
 }
 div.sports dl dt{
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
-sdiv.sports dl dd:nth-of-type(1) img{
+div.sports dl dd:nth-of-type(1) img{
+	width: 100%;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 div.sports dl dd:nth-of-type(2){
-	width: 860px;
+	width: 100%;
 	margin: 20px 0 50px 0;
 	box-sizing: border-box;
 }
 div.menu {
-	width: 900px;
+	width: 90%;
 }
 div.menu dl dt{
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -1221,17 +1342,19 @@ div.menu dl dt{
 	background-color: #FFF6C9;
 }
 div.menu dl dd:nth-of-type(1) img{
+	width: 50%;
 	float: left;
 	margin: 0 0 0 0;
 	box-sizing: border-box;
 }
 div.menu dl dd:nth-of-type(2) img{
+	width: 50%;
 	float: left;
-	margin: 0 0 20px 50px;
+	margin: 0 0 30px 0;
 	box-sizing: border-box;
 }
 div.menu dl dd:nth-of-type(3) {
-	width: 860px;
+	width: 100%;
 	margin: 0 0 20px 0;
 	box-sizing: border-box;
 }
@@ -1244,9 +1367,9 @@ div.menu::after {
 /* タブパネル-4 a-side */
 
 section.contact-4 {
-	float: right;
-	width: 570px;
-	margin: -2220px -700px 0 0;
+	float: left;
+	margin: 35px 0 0 0;
+	padding: 5px 1% 0 0;
 }
 section.contact-4 div.txt-area-4 {
 	width: 370px;
@@ -1296,9 +1419,9 @@ section.contact-4 div.txt-area-4 div.details p:nth-of-type(4) {
    box-sizing: border-box;
 }
 section.notice-from-nursery-school-4 {
-   float: right;
-	width: 570px;
-	margin: -1945px -700px 0 0;
+   float: left;
+   margin: 1% 0 0 0;
+   padding-bottom: 20px;
 }
 section.notice-from-nursery-school-4 div.link-area-4 {
    width: 370px;
@@ -1360,8 +1483,12 @@ ul.panel::after {
 	display: block;
 	clear: both;
 }
+ul.panel li#tab5 div.access {
+	width: 82%;
+	float: left;
+}
 ul.panel li#tab5 div.access dl.access-map dt {
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 50px 0 20px 0;
 	padding: 15px 0 0 20px;
@@ -1369,23 +1496,27 @@ ul.panel li#tab5 div.access dl.access-map dt {
 	background-color: #F1F1F1;
 }
 ul.panel li#tab5 div.access dl.access-map dd:nth-of-type(1) {
-	width: 900px;
+	width: 100%;
 	height: 50px;
 	margin: 0 0 20px 0;
 	padding: 15px 0 0 20px;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
-ul.panel li#tab5 div.access dl.access-map dd:nth-of-type(2) {
-	margin-bottom: 50px;
+ul.panel li#tab5 div.access dl.access-map dd:nth-of-type(2) ifrme{
+	width: 100%;
 }
-
+ul.panel li#tab5::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 /* タブパネル-5 内部 a-side */
 
-section.contact-5 {
-	float: right;
-	width: 570px;
-	margin: -702px -650px 0 0;
+section.contact-5 {;
+	float: left;
+	margin: 35px 0 0 0;
+	padding: 5px 5px 0 0;
 }
 section.contact-5 div.txt-area-5 {
 	width: 370px;
@@ -1431,13 +1562,13 @@ section.contact-5 div.txt-area-5 div.details p:nth-of-type(3) {
 section.contact-5 div.txt-area-5 div.details p:nth-of-type(4) {
    width: 310px;
    margin-left: 30px;
-   padding: 5px 0 5px 0 5;  
+   padding: 5px 0 5px 0;
    box-sizing: border-box;
 }
 section.notice-from-nursery-school-5 {
-   float: right;
-	width: 570px;
-	margin: -432px -650px 0 0;
+   float: left;
+   margin: 1% 0 0 0;
+   padding-bottom: 10%;
 }
 section.notice-from-nursery-school-5 div.link-area-5 {
    width: 370px;
