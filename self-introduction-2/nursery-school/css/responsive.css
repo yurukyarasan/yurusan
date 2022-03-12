@@ -64,7 +64,7 @@ section.column {
   border: none;
 }
 section.column ul {
-  margin: 0 auto 0 50px;
+  margin: 0 0 0 15%;
 }
 .over {
   color: #8EAEA4;
@@ -115,7 +115,7 @@ dl.menu {
 }
 dl.menu dt {
 	width: 95%;
-	margin-left: -5%;
+	margin-left: -10%;
 	padding-top: 50px;
 }
 dl.menu dd:nth-of-type(1) {
@@ -1358,32 +1358,39 @@ ul.panel li#tab5 {
 	width: 100%;
 	list-style-type: none;
 }
-ul.panel li#tab5 div.access dl.access-map dt {
+section.access-root {
 	width: 100%;
+	float: none;
+}
+ul.panel li#tab5 div.access {
+	width: 100%;
+}
+ul.panel li#tab5 div.access dl.access-map dt {
+	width: 90%;
 	height: 50px;
-	margin: 20px 0 0 -13%;
-	padding: 15px 0 0 20px;
+	margin: 50px 0 20px 0;
+	padding: 15px 0 0 0;
 	box-sizing: border-box;
 	background-color: #F1F1F1;
 }
 ul.panel li#tab5 div.access dl.access-map dd:nth-of-type(1) {
-	width: 100%;
+	width: 90%;
 	height: 60px;
-	margin: 20px 0 0 -13%;
-	padding: 15px 0 0 20px;
+	margin: 20px 0 0 0;
+	padding: 15px 0 0 0;
 	box-sizing: border-box;
 	background-color: #FFF6C9;
 }
-ul.panel li#tab5 div.access dl.access-map dd iframe {
-	width: 110%;
-	margin: 20px 0 0 -13%;
+ul.panel li#tab5 div.access dl.access-map dd:nth-of-type(2) iframe {
+	width: 90%;
+	margin: 20px 0 0 0;
 }
 
 /* タブパネル-5 a-side */
 	
 section.contact-5 {
-	width: 95%;
-	margin: -20px 0 0 -13%;
+	width: 90%;
+	margin: 20px 0 0 0;
 }
 section.contact-5 div.txt-area-5 {
 	width: 100%;
@@ -1434,8 +1441,8 @@ section.contact-5 div.txt-area-5 div.details p:nth-of-type(4) {
    box-sizing: border-box;
 }
 section.notice-from-nursery-school-5 {
-   width: 95%;
-   margin: 20px 0 0 -13%;
+   width: 90%;
+   margin: 20px 0 0 0;
 }
 section.notice-from-nursery-school-5 div.link-area-5 {
    width: 100%;
