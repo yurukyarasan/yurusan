@@ -135,10 +135,10 @@ ul.panel li#tab1 {
 }
 ul.panel li#tab1 div.news {
 	float: left;
-	width: 70%;
+	width: 60%;
 }
 dl.menu {
-	width: 100%;
+	width: 90%;
 }
 dl.menu dt {
 	width: 100%;
@@ -158,7 +158,7 @@ dl.menu::after {
 	clear: both;
 }
 dl.state {
-	width: 100%;	
+	width: 90%;	
 }
 dl.state dt {
 	float: left;
@@ -173,14 +173,14 @@ dl.state::after {
 	clear: both;
 }
 dl.popular-snack {
-	width: 100%;
+	width: 90%;
 }
 dl.popular-snack dt {
 	float: left;
 }
 dl.popular-snack dd {
 	float: left;
-	margin:  0 0 30px 30px;
+	margin: 0 0 30px 30px;
 }
 dl.popular-snack::after {
 	content: "";
@@ -188,7 +188,7 @@ dl.popular-snack::after {
 	clear: both;
 }
 dl.popular-menu-for-school-lunch {
-	width: 100%;
+	width: 90%;
 }
 dl.popular-menu-for-school-lunch dt {
 	float: left;
@@ -203,7 +203,7 @@ dl.popular-menu-for-school-lunch::after {
 	clear: both;
 }
 dl.fun-event {
-	width: 100%;
+	width: 90%;
 	margin: 0 0 0 0;
 }
 dl.fun-event dt {
@@ -220,7 +220,7 @@ dl.fun-event::after {
 	clear: both;
 }
 dl.cake {
-	width: 100%;
+	width: 90%;
 	margin: 0 0 0 0;
 }
 dl.cake dt {
@@ -237,7 +237,7 @@ dl.cake::after {
 	clear: both;
 }
 dl.Doctors-opinion-form-regarding-medication {
-	width: 100%;
+	width: 90%;
 }
 dl.Doctors-opinion-form-regarding-medication dt {
 	float: left;
@@ -252,7 +252,7 @@ dl.Doctors-opinion-form-regarding-medication::after {
 	clear: both;
 }
 dl.cookie {
-	width: 100%;
+	width: 90%;
 }
 dl.cookie dt {
 	float: left;
@@ -267,7 +267,7 @@ dl.cookie::after {
 	clear: both;
 }
 dl.part-recruitment {
-	width: 100%;
+	width: 90%;
 }
 dl.part-recruitment dt {
 	float: left;
@@ -282,7 +282,7 @@ dl.part-recruitment::after {
 	clear: both;
 }
 dl.popular-menu-for-school-lunch-2 {
-	width: 100%;
+	width: 90%;
 }
 dl.popular-menu-for-school-lunch-2 dt {
 	float: left;
@@ -303,6 +303,7 @@ ul.panel li#tab1 div.news::after {
 }
 
 /* タブパネル-1 a-side */
+
 section.contact-1 {
 	float: left;
 	margin: 35px 0 0 20px;
@@ -506,7 +507,7 @@ ul.panel li#tab2 {
 	list-style-type: none;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school {
-	width: 70%;
+	width: 60%;
 	float: left;
 }
 ul.panel li#tab2 div.introducing-the-nursery-school dl.nursery-details {
@@ -674,7 +675,7 @@ ul.panel::after {
 
 section.profiele {
 	float: left;
-	margin: 3% 0 0 -5%;
+	margin: 3% 0 0 0;
 	padding: 5px 5% 0 0;
 }
 section.profiele div.profiele-area {
@@ -743,7 +744,7 @@ section.profiele dl.profiele-txt-area dd:nth-of-type(5) {
 }
 section.contact-2 {
 	float: left;
-	margin: 3% 0 0 0;
+	margin: 3% 5% 0 0;
 }
 section.contact-2 div.txt-area-2 {
 	width: 370px;
@@ -852,7 +853,7 @@ ul.panel li#tab3 {
 	list-style-type: none;
 }
 ul.panel li#tab3 section.class-state {
-	width: 70%;
+	width: 60%;
 	float: left;
 }
 ul.panel li#tab3 section.class-state dl.state-of-errands-of-each-age {
@@ -1256,7 +1257,7 @@ ul.panel::after {
 	clear: both;
 }
 section.events {
-	width: 70%;
+	width: 60%;
 	float: left;
 }
 ul.panel li#tab4 div.annual-events {
