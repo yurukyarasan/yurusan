@@ -676,7 +676,7 @@ ul.panel::after {
 section.profiele {
 	float: left;
 	margin: 3% 0 0 0;
-	padding: 5px 5% 0 0;
+	padding: 5px 3% 0 0;
 }
 section.profiele div.profiele-area {
 	width: 370px;
@@ -744,7 +744,8 @@ section.profiele dl.profiele-txt-area dd:nth-of-type(5) {
 }
 section.contact-2 {
 	float: left;
-	margin: 3% 5% 0 0;
+	margin: 3% 0 0 0;
+	padding-right: 3%;
 }
 section.contact-2 div.txt-area-2 {
 	width: 370px;
@@ -1485,7 +1486,7 @@ ul.panel::after {
 	clear: both;
 }
 section.access-root {
-	width: 65%;
+	width: 60%;
 	float: left;
 }
 ul.panel li#tab5 div.access {
@@ -1571,7 +1572,7 @@ section.contact-5 div.txt-area-5 div.details p:nth-of-type(4) {
 }
 section.notice-from-nursery-school-5 {
    float: left;
-   margin: 1% 0 0 0;
+   margin: 40px 0 0 0;
    padding-bottom: 20px;
 }
 section.notice-from-nursery-school-5 div.link-area-5 {
@@ -1635,10 +1636,11 @@ section.nursery-address:nth-of-type(2) {
 	white-space: pre;
 }
 section.footer {
+	width: 90%;
 	margin: 10px 0 20px 220px;
 }
 section.footer p {
-	width: 1480px;
+	width: 30%;
 	border-top: 1px dotted #F66C18;
 	padding-top: 10px;
 	color: #F66C18;
