@@ -137,21 +137,20 @@ ul.travel {
   zoom: 1;
 }
 div.travel-link-group-1 {
-	width: 2000%;
+	width: 100%;
 	background-color: #FFF;
-	position: absolute;
-	left: -400%;
+	margin-left: -30%;
 	z-index: 1;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
 	margin-top: 50px;
 }
 ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(1){
-	width: 230px;
+	width: 43%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
@@ -160,12 +159,12 @@ ul.travel div.travel-link-group-1 ul.sub-1 li:nth-of-type(1){
 ul.travel div.travel-link-group-1 ul.sub-2 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
-	margin-top: 50px;
+	margin: 50px 0 0 0;
 }
 ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(1){
-	width: 230px;
+	width: 43%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
@@ -174,38 +173,55 @@ ul.travel div.travel-link-group-1 ul.sub-2 li:nth-of-type(1){
 ul.travel div.travel-link-group-1 ul.sub-3 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
 }
 ul.travel div.travel-link-group-1 ul.sub-3 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
 	padding: 30px 0 0 5px;
+}
+ul.travel div.travel-link-group-1 ul.sub-3::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 {
 	float: left;
 	display: none;
-	width: 85%;
+	width: 500px;
 	height: 150px;
-	margin-left: 0;
+	margin-left: 0px;
 }
 ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(1){
-	width: 230px;
-	height: 100px;
+	width: 42%;
+	height: 130px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
 	padding: 30px 0 0 5px;
 }
+ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(2){
+	width: 43%;
+	white-space: pre;
+}
+ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(3){
+	width: 43%;
+	white-space: pre;
+}
+ul.travel div.travel-link-group-1 ul.sub-4 li:nth-of-type(4){
+	width: 43%;
+}
 ul.travel div.travel-link-group-1 ul.sub-5 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
+	margin-top: 20px;
 }
 ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
@@ -214,11 +230,12 @@ ul.travel div.travel-link-group-1 ul.sub-5 li:nth-of-type(1){
 ul.travel div.travel-link-group-1 ul.sub-6 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
+	margin-top: 20px;
 }
 ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
@@ -227,11 +244,11 @@ ul.travel div.travel-link-group-1 ul.sub-6 li:nth-of-type(1){
 ul.travel div.travel-link-group-1 ul.sub-7 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 500px;
 	height: 150px;
 }
 ul.travel div.travel-link-group-1 ul.sub-7 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
@@ -243,118 +260,124 @@ div.travel-link-group-1::after {
 	clear: both;
 }
 div.travel-link-group-2 {
-	width: 2000%;
+	width: 100%;
 	background-color: #FFF;
-	position: absolute;
-	left: -600%;
+	margin-left: -54%;
 	z-index: 1;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 400px;
 	height: 150px;
 	margin-top: 50px;
 }
 ul.travel div.travel-link-group-2 ul.sub-1 li:nth-of-type(1){
-	width: 230px;
-	height: 100px;
-	background-color: #F7F7F7;
-	box-sizing: border-box;
-	padding: 30px 0 0 65px;
-}
-ul.travel div.travel-link-group-2 ul.sub-2 {
-	float: left;
-	display: none;
-	width: 550px;
-	height: 150px;
-	margin-top: 50px;
-}
-ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(1){
-	width: 230px;
-	height: 100px;
-	background-color: #F7F7F7;
-	box-sizing: border-box;
-	padding: 30px 0 0 65px;
-}
-ul.travel div.travel-link-group-2 ul.sub-3 {
-	float: left;
-	display: none;
-	width: 550px;
-	height: 150px;
-}
-ul.travel div.travel-link-group-2 ul.sub-3 li:nth-of-type(1){
-	width: 230px;
+	width: 43%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
 	padding: 30px 0 0 40px;
 }
+ul.travel div.travel-link-group-2 ul.sub-2 {
+	float: left;
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin: 50px 0 0 0;
+}
+ul.travel div.travel-link-group-2 ul.sub-2 li:nth-of-type(1){
+	width: 43%;
+	height: 100px;
+	background-color: #F7F7F7;
+	box-sizing: border-box;
+	padding: 30px 0 0 30px;
+}
+ul.travel div.travel-link-group-2 ul.sub-3 {
+	float: left;
+	display: none;
+	width: 400px;
+	height: 150px;
+}
+ul.travel div.travel-link-group-2 ul.sub-3 li:nth-of-type(1){
+	width: 42%;
+	height: 100px;
+	background-color: #F7F7F7;
+	box-sizing: border-box;
+	padding: 30px 0 0 5px;
+}
+ul.travel div.travel-link-group-2 ul.sub-3::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 ul.travel div.travel-link-group-2 ul.sub-4 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 400px;
 	height: 150px;
 	margin-left: 0px;
 }
 ul.travel div.travel-link-group-2 ul.sub-4 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
+	height: 130px;
+	background-color: #F7F7F7;
+	box-sizing: border-box;
+	padding: 30px 0 0 5px;
+	white-space: pre;
+}
+ul.travel div.travel-link-group-2 ul.sub-5 {
+	float: left;
+	display: none;
+	width: 400px;
+	height: 150px;
+	margin-top: 20px;
+} 
+ul.travel div.travel-link-group-2 ul.sub-5 li:nth-of-type(1){
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
 	padding: 30px 0 0 25px;
 }
-ul.travel div.travel-link-group-2 ul.sub-5 {
-	float: left;
-	display: none;
-	width: 550px;
-	height: 150px;
-}
-ul.travel div.travel-link-group-2 ul.sub-5 li:nth-of-type(1){
-	width: 230px;
-	height: 100px;
-	background-color: #F7F7F7;
-	box-sizing: border-box;
-	padding: 30px 0 0 55px;
-}
 ul.travel div.travel-link-group-2 ul.sub-6 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 400px;
 	height: 150px;
+	margin-top: 20px;
 }
 ul.travel div.travel-link-group-2 ul.sub-6 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 55px;
+	padding: 30px 0 0 25px;
 }
 ul.travel div.travel-link-group-2 ul.sub-7 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 400px;
 	height: 150px;
 }
 ul.travel div.travel-link-group-2 ul.sub-7 li:nth-of-type(1){
-	width: 230px;
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 40px;
+	padding: 30px 0 0 10px;
 }
 ul.travel div.travel-link-group-2 ul.sub-8 {
 	float: left;
 	display: none;
-	width: 550px;
+	width: 400px;
 	height: 150px;
-}
-ul.travel div.travel-link-group-2 ul.sub-8 li:nth-of-type(1){
-	width: 230px;
+}ul.travel div.travel-link-group-2 ul.sub-8 li:nth-of-type(1){
+	width: 42%;
 	height: 100px;
 	background-color: #F7F7F7;
 	box-sizing: border-box;
-	padding: 30px 0 0 50px;
+	padding: 30px 0 0 10px;
 }
 div.travel-link-group-2::after {
 	content: "";
@@ -362,17 +385,16 @@ div.travel-link-group-2::after {
 	clear: both;
 }
 div.travel-link-group-3 {
-	width: 250%;
-	position: absolute;
-	left: -80%;
+	width: 25%;
+	margin-left: -42%;
 	z-index: 1;
 }
 ul.travel div.travel-link-group-3 ul.sub-1 {
 	float: left;
 	display: none;
-	width: 340px;
+	width: 350px;
 	height: 260px;
-	margin-top: 20px;
+	margin-top: 0;
 	background-color: #FFF;
 	box-sizing: border-box;
 }
@@ -422,24 +444,19 @@ ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(14) {
 ul.travel div.travel-link-group-3 ul.sub-1 li:nth-of-type(15) {
 	margin: 0 0 0 34px;
 }
-div.travel-link-group-3::after {
-	content: "";
-	display: block;
-	clear: both;
-}
 div.travel-link-group-4 {
-	width: 250%;
-	position: absolute;
-	left: -100%;
+	width: 25%;
+	margin-left: -37%;
 	z-index: 1;
 }
 ul.travel div.travel-link-group-4 ul.sub-1 {
 	float: left;
 	display: none;
-	width: 340px;
+	width: 275px;
 	height: 150px;
-	margin-top: 20px;
+	margin-top: 0;
 	background-color: #FFF;
+	box-sizing: border-box;
 }
 div.travel-link-group-4::after {
 	content: "";
@@ -450,16 +467,24 @@ section#travel-destination-link {
 	position: relative;
 }
 ul.travel li.japan {
-	margin: 0 0 0 31%;
+	position: absolute;
+	left: 20%;
+	margin-left: 5%;
 }
 ul.travel li.overseas {
-	margin: 0 0 0 5%;
+	position: absolute;
+	left: 31%;
+	margin-left: 7%;
 }
 ul.travel li.a-trip-that-suits-your-purpose {
-	margin: 0 0 0 5%;
+	position: absolute;
+	left: 42%;
+	margin-left: 7%;
 }
 ul.travel li.various-travel-services {
-	margin: 0 0 0 5%;
+	position: absolute;
+	left: 58%;
+	margin-left: 10%;
 }
 section#travel-destination-link::after {
 	display: block;
@@ -480,7 +505,8 @@ section#various-information p {
 section#main-image {
 	width: 100%;
 	margin: 0 auto;
-    overflow: visible;
+    overflow: hidden;
+	z-index: -2
 }
 section#recommended-information {
 	width: 100%;
@@ -503,7 +529,8 @@ section#recommended-information-image {
 	margin: 0 auto;
 }
 section#recommended-information-image img {
-	margin-right: 50px;	
+	margin-right: 50px;
+	z-index: -1;
 }
 section.txtarea {
 	width: 55%;
