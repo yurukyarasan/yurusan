@@ -707,7 +707,7 @@ section#recommended-information-image img {
 }
 section.txtarea {
 	width: 90%;
-	height: 700px;
+	height: 50%;
 	margin: 50px auto 0 auto;
 	border: 5px solid #C0C0C0;
 }
@@ -785,7 +785,7 @@ section.txtarea section#notice ul li:nth-of-type(14){
 }
 section.txtarea section#guidance {
 	width: 91.7%;
-	margin: 520px 0 0 4%;
+	margin: 50px 0 0 4%;
 	padding-bottom: 20px;
 	border-top: 5px solid #C0C0C0;
 }
@@ -844,6 +844,7 @@ section.travel-link-area div.hotels-ryokan-inns {
 	flex-wrap: wrap;
 }
 section.travel-link-area div.hotels-ryokan-inns p {
+	height: 30px;
 	margin: 30px 35% 0 30%;
 }
 section.travel-link-area div.hotels-ryokan-inns ul li:nth-of-type(12) {
@@ -858,6 +859,7 @@ section.travel-link-area div.domestic-tour {
 	flex-wrap: wrap;
 }
 section.travel-link-area div.domestic-tour p {
+	height: 30px;
 	margin: 30px 35% 0 30%;
 }
 section.travel-link-area div.domestic-tour ul li {
@@ -875,6 +877,7 @@ section.travel-link-area div.overseas-tour {
 	flex-wrap: wrap;
 }
 section.travel-link-area div.overseas-tour p {
+	height: 30px;
 	margin: 30px 35% 0 30%;
 }
 section.travel-link-area div.overseas-tour ul li {
@@ -889,6 +892,7 @@ section.travel-link-area div.overseas-hotels {
 	flex-wrap: wrap;
 }
 section.travel-link-area div.overseas-hotels p {
+	height: 30px;
 	margin: 30px 35% 0 30%;
 }
 section.travel-link-area div.overseas-hotels ul li {
@@ -903,6 +907,7 @@ section.travel-link-area div.overseas-airline-tickets {
 	flex-wrap: wrap;
 }
 section.travel-link-area div.overseas-airline-tickets p {
+	height: 30px;
 	margin: 30px 35% 0 30%;
 }
 section.travel-link-area div.overseas-airline-tickets ul li {
