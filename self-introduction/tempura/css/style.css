@@ -9,7 +9,7 @@ body {
   margin: 0 auto;
 }
 section.menu {
-  width: 1580px;
+  width: 85%;
   margin: 0 auto;
   position: relative;
 }
@@ -75,23 +75,28 @@ ul.link::after {
   display: block;
   clear: both;
 }
+section.top-image {
+  width: 100%;
+}
 section.introduce {
-  width: 1060px;
+  width: 68%;
   margin: 68px auto 0 auto;
 }
 div.introduce-img img {
   float: left;
+  width: 50%;
   margin-right: 45px;
 }
 div.introduce-massege p {
-  width: 995px;
+  width: 100%;
+  height: 400px;
   color: #FFF;
   letter-spacing: 0.3em;
   line-height: 1.5em;
   margin-bottom: 68px;
 }
 section.each-shop-link {
-  width: 1360px;
+  width: 82%;
   margin: 0 auto;
 }
 div.menu {
@@ -162,128 +167,100 @@ div.menu li.the-way-to-the-store a:focus {
   background: url("../img/PNG/tempura_hover_No.6.png");
   color: #F80707;
 }
-div.menu li.lunch a {
+div.menu li.lunch a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  margin-right: 34px;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.1.png");
+  background-repeat: no-repeat;
+  padding: 90px 0 0 8%;
+  box-sizing: border-box;
 }
 div.menu::after {
   content: "";
   display: block;
   clear: both;
 }
-div.menu li.leave-it-to-me a {
+div.menu li.leave-it-to-me a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  margin-right: 34px;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.2.png");
+  background-repeat: no-repeat;
+  padding: 90px 0 0 6%;
+  box-sizing: border-box;
+  margin-left: 20px;
 }
-div.menu li.assorted a {
+div.menu li.assorted a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  margin: 0 0 34px 0;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.3.png");
+  background-repeat: no-repeat;
+  padding: 90px 0 0 7%;
+  box-sizing: border-box;
+  margin: 0 0 30px 20px;
 }
-div.menu li.materials-used a {
+div.menu li.materials-used a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  margin: 0 34px 0 0;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.4.png");
+  background-repeat: no-repeat;
+  padding: 90px 0 0 7%;
+  box-sizing: border-box;
 }
-div.menu li.weird a {
+div.menu li.weird a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  margin: 0 34px 0 0;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.5.png");
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  padding: 90px 0 0 6.5%;
+  box-sizing: border-box;
 }
-div.menu li.the-way-to-the-store a {
+div.menu li.the-way-to-the-store a p {
   float: left;
-  width: 320px;
+  width: 30%;
   height: 217px;
   font-size: 26px;
-  text-align: center;
+  text-align: left;
   background: url("../img/PNG/tempura_No.6.png");
-}
-div.menu li.lunch p {
+  background-repeat: no-repeat;
+  margin-left: 20px;
+  padding: 90px 0 0 3.5%;
   box-sizing: border-box;
-  position: absolute;
-  top: 100px;
-  left: 130px;
-}
-div.menu li.leave-it-to-me p {
-  font-size: 26px;
-  box-sizing: border-box;
-  position: absolute;
-  top: 100px;
-  left: 435px;
-}
-div.menu li.assorted p {
-  font-size: 26px;
-  box-sizing: border-box;
-  position: absolute;
-  top: 100px;
-  left: 805px;
-}
-div.menu li.materials-used p {
-  font-size: 26px;
-  text-align: center;
-  box-sizing: border-box;
-  position: absolute;
-  top: 350px;
-  left: 110px;
-}
-div.menu li.weird p {
-  font-size: 26px;
-  margin-right: 34px;
-  text-align: center;
-  box-sizing: border-box;
-  position: absolute;
-  top: 350px;
-  left: 455px;
-}
-div.menu li.the-way-to-the-store p {
-  font-size: 26px;
-  text-align: center;
-  box-sizing: border-box;
-  position: absolute;
-  top: 350px;
-  left: 775px;
 }
 section.explanation-of-shop-reception {
   float: right;
-  width: 294px;
+  width: 20%;
   color: #fff;
-  margin: -470px 0 0 0;
+  margin: 68px 15% 0 0;
 }
 section.explanation-of-shop-reception p {
   letter-spacing: 0.1em;
   line-height: 1.5em;
 }
 section.our-shop-appeal {
-  width: 1000px;
+  width: 50%;
   color: #fff;
-  margin: 68px auto 68px auto;
+  margin: 68px 0 68px 10%;
   letter-spacing: 0.2em;
   line-height: 1.5em;
 }
 section.footer-group {
-  width: 700px;
+  width: 50%;
   color: #fff;
   margin: 0 auto;
 }
