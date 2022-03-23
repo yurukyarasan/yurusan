@@ -78,22 +78,26 @@ ul.link::after {
 section.top-image {
   width: 100%;
 }
+section.top-image img {
+  width: 100%;
+}
 section.introduce {
   width: 68%;
   margin: 68px auto 0 auto;
 }
 div.introduce-img img {
   float: left;
-  width: 50%;
-  margin-right: 45px;
+  width: 85%;
+  margin: 0 auto 50px auto;
+  padding-right: 5%;
 }
 div.introduce-massege p {
-  width: 100%;
+  width: 90%;
   height: 400px;
   color: #FFF;
   letter-spacing: 0.3em;
   line-height: 1.5em;
-  margin-bottom: 68px;
+  margin: 0 0 68px 0;
 }
 section.each-shop-link {
   width: 82%;
@@ -175,6 +179,7 @@ div.menu li.lunch a p {
   text-align: left;
   background: url("../img/PNG/tempura_No.1.png");
   background-repeat: no-repeat;
+  margin-top: 200px;
   padding: 90px 0 0 8%;
   box-sizing: border-box;
 }
@@ -193,7 +198,7 @@ div.menu li.leave-it-to-me a p {
   background-repeat: no-repeat;
   padding: 90px 0 0 6%;
   box-sizing: border-box;
-  margin-left: 20px;
+  margin: 200px 0 0 20px;
 }
 div.menu li.assorted a p {
   float: left;
@@ -205,7 +210,7 @@ div.menu li.assorted a p {
   background-repeat: no-repeat;
   padding: 90px 0 0 7%;
   box-sizing: border-box;
-  margin: 0 0 30px 20px;
+  margin: 200px 0 30px 20px;
 }
 div.menu li.materials-used a p {
   float: left;
@@ -244,9 +249,9 @@ div.menu li.the-way-to-the-store a p {
 }
 section.explanation-of-shop-reception {
   float: right;
-  width: 20%;
+  width: 30%;
   color: #fff;
-  margin: 68px 15% 0 0;
+  margin: 68px 0 0 0;
 }
 section.explanation-of-shop-reception p {
   letter-spacing: 0.1em;
@@ -260,7 +265,7 @@ section.our-shop-appeal {
   line-height: 1.5em;
 }
 section.footer-group {
-  width: 50%;
+  width: 80%;
   color: #fff;
   margin: 0 auto;
 }
@@ -287,5 +292,7 @@ div.business-form p:nth-of-type(7) {
   top: 65px;
 }
 footer {
-  margin-top: 68px;
+  width: 100%;
+  margin: 68px auto 0 auto;
+	text-align: center;
 }
