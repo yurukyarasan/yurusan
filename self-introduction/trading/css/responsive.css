@@ -606,20 +606,20 @@ section.business-details {
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 65% 0 0 5%;
+	display: inline-block;
+	margin: 50px auto 0 auto;
 	font-size: 15px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
 	width: 90%;
-	text-align: center;
-	margin: 0 0 0 5%;
+	display: inline-block;
+	margin: 0 auto;
 	padding-top: 20px;
 	font-size: 15px;
 }
 div.business-introduction-1 p:nth-of-type(3) {
 	width: 90%;
-	text-align: center;
+	display: inline-block;
 	margin: 0 0 0 5%;
 	padding-top: 17px;
 	font-size: 20px;
@@ -633,13 +633,13 @@ div.business-introduction-2 {
 }
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 45% 0 0 5%;
+	display: inline-block;
+	margin: 250px 0 0 5%;
 	font-size: 25px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
 	width: 70%;
-	text-align: center;
+	display: inline-block;
 	margin: 3% 0 0 15%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
@@ -654,14 +654,13 @@ div.business-introduction-3 {
 }
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 25% 0 0 5%;
-	padding-top: 0;
+	display: inline-block;
+	margin: 120px 0 0 5%;
 	font-size: 25px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
 	width: 50%;
-	text-align: center;
+	display: inline-block;
 	margin: 3% 0 0 25%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
@@ -676,14 +675,13 @@ div.business-introduction-4 {
 }
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 25% 0 0 5%;
-	padding-top: 0;
+	display: inline-block;
+	margin: 120px 0 0 5%;
 	font-size: 25px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
 	width: 50%;
-	text-align: center;
+	display: inline-block;
 	margin: 3% 0 0 25%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
@@ -698,14 +696,13 @@ div.business-introduction-5 {
 }
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 0 auto 0 5%;
-	padding-top: 130px;
+	display: inline-block;
+	margin: 120px auto 0 5%;
 	font-size: 20px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
 	width: 25%;
-	text-align: center;
+	display: inline-block;
 	margin: 3% 0 0 35%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
@@ -721,14 +718,13 @@ div.business-introduction-6 {
 }
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 90%;
-	text-align: center;
-	margin: 0 auto 0 5%;
-	padding-top: 130px;
+	display: inline-block;
+	margin: 120px auto 0 5%;
 	font-size: 20px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
 	width: 40%;
-	text-align: center;
+	display: inline-block;
 	margin: 3% 0 0 30%;
 	padding: 20px 0 20px 0;
 	font-size: 20px;
@@ -845,22 +841,22 @@ section.what-group div.what-group-1 {
 }
 section.what-group div.what-group-1 dt {
 	width: 90%;
-	margin: 0 auto 0 5%;
-	text-align: center;
+	margin: -120px auto 0 5%;
+	display: inline-block;
 	font-size: 10px;
 	color: #FFF;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 90%;
 	margin: 0 0 0 5%;
-	text-align: center;
+	display: inline-block;
 	font-size: 12px;
 	color: #FFF;
 }
 section.what-group div.what-group-1 dd:nth-of-type(2) {
-	width: 85%;
-	margin: 0 0 0 4%;
-	text-align: center;
+	width: 90%;
+	margin: 0 0 0 5%;
+	display: inline-block;
 	white-space: pre;
 	font-size: 12px;
 	color: #FFF;
@@ -874,8 +870,9 @@ section.what-group div.what-group-2 {
 	display: inline-block;
 }
 section.what-group div.what-group-2 p {
-	width: 75%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 30px;
 	color: #FFF;
 }
@@ -886,8 +883,9 @@ section.what-group div.what-group-3 {
 	display: inline-block;
 }
 section.what-group div.what-group-3 p {
-	width: 70%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 30px;
 	color: #FFF;
 }
@@ -899,8 +897,9 @@ section.what-group div.what-group-4 {
 	display: inline-block;
 }
 section.what-group div.what-group-4 p {
-	width: 65%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 30px;
 	color: #FFF;
 }
@@ -912,8 +911,9 @@ section.what-group div.what-group-5 {
 	display: inline-block;
 }
 section.what-group div.what-group-5 p {
-	width: 70%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 30px;
 	color: #FFF;
 }
@@ -1072,20 +1072,20 @@ section.company-growth div.company-growth-1 {
 }
 section.company-growth div.company-growth-1 dt {
 	width: 90%;
-	margin: 80% 0 0 5%;
-	text-align: center;
+	margin: 250px 0 0 5%;
+	display: inline-block;
 	font-size: 10px;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 90%;
 	margin: 0 0 0 5%;
-	text-align: center;
+	display: inline-block;
 	font-size: 12px;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(2) {
-	width: 80%;
+	width: 90%;
 	margin: 0 0 0 5%;
-	text-align: center;
+	display: inline-block;
 	white-space: pre;
 	font-size: 12px;
 }
@@ -1097,8 +1097,9 @@ section.company-growth div.company-growth-2 {
 	display: inline-block;
 }
 section.company-growth div.company-growth-2 p {
-	width: 85%;
-	margin: 40% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 25px;
 }
 section.company-growth div.company-growth-3 {
@@ -1109,8 +1110,9 @@ section.company-growth div.company-growth-3 {
 	display: inline-block;
 }
 section.company-growth div.company-growth-3 p {
-	width: 70%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 25px;
 }
 section.company-growth div.company-growth-4 {
@@ -1121,8 +1123,9 @@ section.company-growth div.company-growth-4 {
 	display: inline-block;
 }
 section.company-growth div.company-growth-4 p {
-	width: 80%;
-	margin: 45% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 22px;
 }
 section.company-growth div.company-growth-5 {
@@ -1133,8 +1136,9 @@ section.company-growth div.company-growth-5 {
 	display: inline-block;
 }
 section.company-growth div.company-growth-5 p {
-	width: 80%;
-	margin: 40% auto 0 auto;
+	width: 90%;
+	margin: 150px 0 0 5%;
+	display: inline-block;
 	font-size: 25px;
 }
 section.company-growth::after {
@@ -1200,17 +1204,19 @@ section.footer-img div.footer-img-1 {
 	display: inline-block;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
-	width: 75%;
-    margin: 25% 0 0 15%;
+	width: 70%;
+    margin: 100px 0 0 25%;
+	display: inline-block;
 	color: #FFF;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
-	width: 20%;
+	width: 70px;
     margin-left: 40%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
+	display: inline-block;
 	color: #FFF;
 }
 section.footer-img div.footer-img-2 {
@@ -1220,17 +1226,19 @@ section.footer-img div.footer-img-2 {
 	display: inline-block;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
-	width: 65%;
-    margin: 25% auto 0 auto;
+	width: 70%;
+    margin: 100px 0 0 25%;
+	display: inline-block;
 	color: #FFF;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
-	width: 20%;
+	width: 70px;
     margin-left: 40%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
+	display: inline-block;
 	color: #FFF;
 }
 section.footer-img div.footer-img-3 {
@@ -1240,17 +1248,19 @@ section.footer-img div.footer-img-3 {
 	display: inline-block;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
-	width: 65%;
-    margin: 25% auto 0 auto;
+	width: 70%;
+    margin: 100px 0 0 25%;
+	display: inline-block;
 	color: #FFF;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
-	width: 40%;
+	width: 130px;
     margin-left: 32%;
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
+	display: inline-block;
 	color: #FFF;
 }
 
@@ -1258,14 +1268,14 @@ section.footer-img div.footer-img-3 p:nth-of-type(2){
 
 section.last-footer {
 	width: 100%;
-	height: 50px;
+	height: 40%;
 	margin: 0 auto;
 	background-color: #09F943;
 }
 div.what-trading-footer p {
-	width: 250px;
+	width: 50%;
 	margin: 0 auto;
-	padding-top: 15px;
-	white-space: pre;
+	padding: 15px 0 10px 0;
+	white-space: pre-wrap;
 }
 }

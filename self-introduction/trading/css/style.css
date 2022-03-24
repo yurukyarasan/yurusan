@@ -597,7 +597,7 @@ div.business-introduction-1 p:nth-of-type(1) {
 	width: 100%;
 	text-align: center;
 	margin: 0 0 0 0;
-	padding-top: 15%;
+	padding-top: 230px;
 	font-size: 30px;
 }
 div.business-introduction-1 p:nth-of-type(2) {
@@ -626,8 +626,7 @@ div.business-introduction-2 {
 div.business-introduction-2 p:nth-of-type(1) {
 	width: 100%;
 	text-align: center;
-	margin: 0 0 0 0;
-	padding-top: 25%;
+	margin: 230px 0 0 0;
 	font-size: 20px;
 }
 div.business-introduction-2 p:nth-of-type(2) {
@@ -656,8 +655,7 @@ div.business-introduction-3 {
 div.business-introduction-3 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 25% 0 0 5%;
-	padding-top: 0;
+	margin: 130px 0 0 5%;
 	font-size: 17px;
 }
 div.business-introduction-3 p:nth-of-type(2) {
@@ -686,8 +684,7 @@ div.business-introduction-4 {
 div.business-introduction-4 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 25% 0 0 5%;
-	padding-top: 0;
+	margin: 130px 0 0 5%;
 	font-size: 15px;
 }
 div.business-introduction-4 p:nth-of-type(2) {
@@ -716,8 +713,7 @@ div.business-introduction-5 {
 div.business-introduction-5 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 0% 0 0 5%;
-	padding-top: 130px;
+	margin: 120px 0 0 5%;
 	font-size: 15px;
 }
 div.business-introduction-5 p:nth-of-type(2) {
@@ -748,8 +744,7 @@ div.business-introduction-6 {
 div.business-introduction-6 p:nth-of-type(1) {
 	width: 90%;
 	text-align: center;
-	margin: 2% 0 0 5%;
-	padding-top: 130px;
+	margin: 120px 0 0 5%;
 	font-size: 15px;
 }
 div.business-introduction-6 p:nth-of-type(2) {
@@ -874,7 +869,7 @@ section.what-group div.what-group-1  dt {
 	text-align: center;
 	font-size: 30px;
 	color: #FFF;
-	padding-top: 8%;
+	padding-top: 170px;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 100%;
@@ -906,7 +901,7 @@ section.what-group div.what-group-2 p {
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	margin: 35% auto 0 auto;
+	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-3 {
 	width: 25%;
@@ -921,7 +916,7 @@ section.what-group div.what-group-3 p {
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	margin: 35% auto 0 auto;
+	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-4 {
 	width: 25%;
@@ -937,7 +932,7 @@ section.what-group div.what-group-4 p {
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	margin: 35% auto 0 auto;
+	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-5 {
 	width: 25%;
@@ -953,7 +948,7 @@ section.what-group div.what-group-5 p {
 	font-size: 18px;
 	text-align: center;
 	color: #FFF;
-	margin: 35% auto 0 auto;
+	margin: 170px auto 0 auto;
 }
 section.what-group::after {
 	content: "";
@@ -1102,14 +1097,14 @@ section.company-growth div.company-growth-1 {
 }
 section.company-growth div.company-growth-1 dt {
 	width: 100%;
-	margin: 15% auto 0 auto;
+	margin: 200px auto 0 auto;
 	text-align: center;
 	font-size: 30px;
 	display: inline-block;
 }
 section.company-growth div.company-growth-1 dd:nth-of-type(1) {
 	width: 100%;
-	margin: 0 auto;
+	margin: 20px auto 0 auto;
 	text-align: center;
 	font-size: 50px;
 	padding-top: 20px;
@@ -1133,7 +1128,7 @@ section.company-growth div.company-growth-2 {
 }
 section.company-growth div.company-growth-2 p {
 	width: 90%;
-	margin: 35% 0 0 5%;
+	margin: 170px 0 0 5%;
 	font-size: 15px;
 	text-align: center;
 }
@@ -1148,7 +1143,7 @@ section.company-growth div.company-growth-3 {
 }
 section.company-growth div.company-growth-3 p {
 	width: 90%;
-	margin: 35% 0 0 5%;
+	margin: 170px 0 0 5%;
 	font-size: 15px;
 	text-align: center;
 }
@@ -1163,7 +1158,7 @@ section.company-growth div.company-growth-4 {
 }
 section.company-growth div.company-growth-4 p {
 	width: 90%;
-	margin: 35% 0 0 5%;
+	margin: 170px 0 0 5%;
 	font-size: 15px;
 	text-align: center;
 }
@@ -1178,7 +1173,7 @@ section.company-growth div.company-growth-5 {
 }
 section.company-growth div.company-growth-5 p {
 	width: 90%;
-	margin: 35% 0 0 5%;
+	margin: 170px 0 0 5%;
 	font-size: 15px;
 	text-align: center;
 }
@@ -1256,7 +1251,7 @@ section.footer-img div.footer-img-1 {
 }
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 70%;
-    margin: 15% 0 0 25%;
+    margin: 100px 0 0 25%;
 	color: #FFF;
 	box-sizing: border-box;
 }
@@ -1280,7 +1275,7 @@ section.footer-img div.footer-img-2 {
 }
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 70%;
-    margin: 15% 0 0 25%;
+    margin: 100px 0 0 25%;
 	color: #FFF;
 	box-sizing: border-box;
 }
@@ -1304,7 +1299,7 @@ section.footer-img div.footer-img-3 {
 }
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 70%;
-    margin: 15% 0 0 25%;
+    margin: 100px 0 0 25%;
 	color: #FFF;
 	box-sizing: border-box;
 }
@@ -1315,6 +1310,7 @@ section.footer-img div.footer-img-3 p:nth-of-type(2){
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
+	
 	color: #FFF;
 }
 section.footer-img::after {
