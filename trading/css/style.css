@@ -588,7 +588,7 @@ div.business-introduction-1 {
 	width: 100%;
 	height: 800px;
 	margin-top: 100px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-business/No.1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -618,7 +618,7 @@ div.business-introduction-2 {
 	float: left;
 	width: 50%;
 	height: 640px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-business/No.2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -647,7 +647,7 @@ div.business-introduction-3 {
 	float: left;
 	width: 25%;
 	height: 320px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-business/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -676,7 +676,7 @@ div.business-introduction-4 {
 	float: left;
 	width: 25%;
 	height: 320px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-business/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -705,7 +705,7 @@ div.business-introduction-5 {
 	float: left;
 	width: 25%;
 	height: 320px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-business/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -734,7 +734,7 @@ div.business-introduction-6 {
 	float: left;
 	width: 25%;
 	height: 320px;
-	color: #FFF;
+	color: #66FF00;
 	position: relative;
 	margin-bottom: 70px;
 	background: url("../img/jpg/what-business/No.6.jpg");
@@ -868,7 +868,7 @@ section.what-group div.what-group-1  dt {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 30px;
-	color: #FFF;
+	color: #66FF00;
 	padding-top: 170px;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
@@ -876,7 +876,7 @@ section.what-group div.what-group-1 dd:nth-of-type(1) {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 50px;
-	color: #FFF;
+	color: #66FF00;
 	padding-top: 20px;
 }
 section.what-group div.what-group-1 dd:nth-of-type(2) {
@@ -884,14 +884,14 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 50px;
-	color: #FFF;
+	color: #66FF00;
 	padding-top: 20px;
 }
 section.what-group div.what-group-2 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #000;
+	color: #66FF00;
 	background: url("../img/jpg/what-group/No.2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -900,7 +900,7 @@ section.what-group div.what-group-2 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
-	color: #FFF;
+	color: #66FF00;
 	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-3 {
@@ -915,14 +915,14 @@ section.what-group div.what-group-3 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
-	color: #FFF;
+	color: #66FF00;
 	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-4 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-group/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -931,14 +931,14 @@ section.what-group div.what-group-4 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
-	color: #FFF;
+	color: #66FF00;
 	margin: 170px auto 0 auto;
 }
 section.what-group div.what-group-5 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/what-group/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -947,7 +947,7 @@ section.what-group div.what-group-5 p {
 	width: 95%;
 	font-size: 18px;
 	text-align: center;
-	color: #FFF;
+	color: #66FF00;
 	margin: 170px auto 0 auto;
 }
 section.what-group::after {
@@ -1072,7 +1072,7 @@ section.what-group-data div.what-group-data-7 p {
 	margin: 200px auto 50px auto;
 	padding: 15px 0 0 25px;
 	background-color: #000;
-	color: #FFF;
+	color: #99FF66;
 	box-sizing: border-box;
 }
 section.what-group-data::after {
@@ -1090,7 +1090,7 @@ section.company-growth {
 section.company-growth div.company-growth-1 {
 	width: 100%;
 	height: 720px;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/company-growth/No.1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1121,7 +1121,7 @@ section.company-growth div.company-growth-2 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/company-growth/No.2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1136,7 +1136,7 @@ section.company-growth div.company-growth-3 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/company-growth/No.3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1151,7 +1151,7 @@ section.company-growth div.company-growth-4 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/company-growth/No.4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1166,7 +1166,7 @@ section.company-growth div.company-growth-5 {
 	width: 25%;
 	height: 360px;
 	float: left;
-	color: #FFF;
+	color: #66FF00;
 	background: url("../img/jpg/company-growth/No.5.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1252,7 +1252,7 @@ section.footer-img div.footer-img-1 {
 section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
-	color: #FFF;
+	color: #66FF00;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
@@ -1261,7 +1261,7 @@ section.footer-img div.footer-img-1 p:nth-of-type(2){
 	padding: 10px 0 10px 0;
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
-	color: #FFF;
+	color: #66FF00;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-2 {
@@ -1276,7 +1276,7 @@ section.footer-img div.footer-img-2 {
 section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
-	color: #FFF;
+	color: #66FF00;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
@@ -1286,7 +1286,7 @@ section.footer-img div.footer-img-2 p:nth-of-type(2){
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-3 {
 	float: left;
@@ -1300,7 +1300,7 @@ section.footer-img div.footer-img-3 {
 section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
-	color: #FFF;
+	color: #66FF00;
 	box-sizing: border-box;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
@@ -1310,8 +1310,7 @@ section.footer-img div.footer-img-3 p:nth-of-type(2){
 	border-top: 1px solid #FFF;
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
-	
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img::after {
 	content: "";

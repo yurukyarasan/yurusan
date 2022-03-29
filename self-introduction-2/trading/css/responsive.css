@@ -603,6 +603,7 @@ section.business-details {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
+	color: #66FF00;
 }
 div.business-introduction-1 p:nth-of-type(1) {
 	width: 90%;
@@ -626,7 +627,7 @@ div.business-introduction-1 p:nth-of-type(3) {
 }
 div.business-introduction-2 {
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	backgroud-size: 100%;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -648,7 +649,7 @@ div.business-introduction-2 p:nth-of-type(2) {
 }
 div.business-introduction-3 {
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	backgroud-size: 100%;
 	display: inline-block;
 }
@@ -669,7 +670,7 @@ div.business-introduction-3 p:nth-of-type(2) {
 }
 div.business-introduction-4 {
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	backgroud-size: 100%;
 	display: inline-block;
 }
@@ -690,7 +691,7 @@ div.business-introduction-4 p:nth-of-type(2) {
 }
 div.business-introduction-5 {
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	backgroud-size: 100%;
 	display: inline-block;
 }
@@ -712,7 +713,7 @@ div.business-introduction-5 p:nth-of-type(2) {
 div.business-introduction-6 {
 	float: left;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	backgroud-size: 100%;
 	display: inline-block;
 }
@@ -832,7 +833,7 @@ section.what-group {
 }
 section.what-group div.what-group-1 {
 	margin-top: 100px;
-	color: #FFF;
+	color: #66FF00;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -844,14 +845,14 @@ section.what-group div.what-group-1 dt {
 	margin: -120px auto 0 5%;
 	display: inline-block;
 	font-size: 10px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group div.what-group-1 dd:nth-of-type(1) {
 	width: 90%;
 	margin: 0 0 0 5%;
 	display: inline-block;
 	font-size: 12px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group div.what-group-1 dd:nth-of-type(2) {
 	width: 90%;
@@ -859,7 +860,7 @@ section.what-group div.what-group-1 dd:nth-of-type(2) {
 	display: inline-block;
 	white-space: pre;
 	font-size: 12px;
-	color: #FFF;
+	color: #66FF00;
 	padding-top: 20px;
 }
 section.what-group div.what-group-2 {
@@ -874,7 +875,7 @@ section.what-group div.what-group-2 p {
 	margin: 150px 0 0 5%;
 	display: inline-block;
 	font-size: 30px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group div.what-group-3 {
 	float: none;
@@ -887,12 +888,12 @@ section.what-group div.what-group-3 p {
 	margin: 150px 0 0 5%;
 	display: inline-block;
 	font-size: 30px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group div.what-group-4 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -901,12 +902,12 @@ section.what-group div.what-group-4 p {
 	margin: 150px 0 0 5%;
 	display: inline-block;
 	font-size: 30px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group div.what-group-5 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -915,7 +916,7 @@ section.what-group div.what-group-5 p {
 	margin: 150px 0 0 5%;
 	display: inline-block;
 	font-size: 30px;
-	color: #FFF;
+	color: #66FF00;
 }
 section.what-group::after {
 	content: "";
@@ -1066,7 +1067,7 @@ section.company-growth {
 }
 section.company-growth div.company-growth-1 {
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -1092,7 +1093,7 @@ section.company-growth div.company-growth-1 dd:nth-of-type(2) {
 section.company-growth div.company-growth-2 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -1105,7 +1106,7 @@ section.company-growth div.company-growth-2 p {
 section.company-growth div.company-growth-3 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -1118,7 +1119,7 @@ section.company-growth div.company-growth-3 p {
 section.company-growth div.company-growth-4 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -1131,7 +1132,7 @@ section.company-growth div.company-growth-4 p {
 section.company-growth div.company-growth-5 {
 	float: none;
 	width: 100%;
-	color: #FFF;
+	color: #66FF00;
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -1207,7 +1208,7 @@ section.footer-img div.footer-img-1 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-1 p:nth-of-type(2){
 	width: 70px;
@@ -1217,7 +1218,7 @@ section.footer-img div.footer-img-1 p:nth-of-type(2){
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-2 {
 	float: none;
@@ -1229,7 +1230,7 @@ section.footer-img div.footer-img-2 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-2 p:nth-of-type(2){
 	width: 70px;
@@ -1239,7 +1240,7 @@ section.footer-img div.footer-img-2 p:nth-of-type(2){
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-3 {
 	float: none;
@@ -1251,7 +1252,7 @@ section.footer-img div.footer-img-3 p:nth-of-type(1){
 	width: 70%;
     margin: 100px 0 0 25%;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 section.footer-img div.footer-img-3 p:nth-of-type(2){
 	width: 130px;
@@ -1261,7 +1262,7 @@ section.footer-img div.footer-img-3 p:nth-of-type(2){
 	border-bottom: 1px solid #FFF;
 	box-sizing: border-box;
 	display: inline-block;
-	color: #FFF;
+	color: #66FF00;
 }
 
 /* 最下段フッター部分 */
