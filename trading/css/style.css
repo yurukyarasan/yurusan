@@ -817,10 +817,11 @@ section.business-field dd:nth-of-type(5) {
 }
 section.business-field dd:nth-of-type(6) {
 	float: left;
-	width: 11%;
+	width: 200px;
 	background: url("../img/png/business-field/icon-No.6.png");
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
+	margin-top: 20px;
 	padding: 80px 0 0 0;
 }
 section.business-field::after {

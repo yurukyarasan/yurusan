@@ -754,12 +754,12 @@ section.business-field dd:nth-of-type(1) {
 	width: 40%;
 	background: url("../img/png/business-field/icon-No.1.png");
 	background-repeat: no-repeat;
-	margin-left: 10%;
+	margin-left: 15%;
 	padding: 80px 0 0 12px;
 }
 section.business-field dd:nth-of-type(2) {
 	float: left;
-	width: 40%;
+	width: 35%;
 	background: url("../img/png/business-field/icon-No.2.png");
 	background-repeat: no-repeat;
 	background-position: 18px 0;
@@ -772,7 +772,7 @@ section.business-field dd:nth-of-type(3) {
 	background: url("../img/png/business-field/icon-No.3.png");
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
-	margin-left: 10%;
+	margin: 70px 0 0 15%;
 	padding: 75px 0 0 5px;
 }
 section.business-field dd:nth-of-type(4) {
@@ -780,8 +780,8 @@ section.business-field dd:nth-of-type(4) {
 	width: 40%;
 	background: url("../img/png/business-field/icon-No.4.png");
 	background-repeat: no-repeat;
-	background-position: 30% 0px;
-	margin-left: 0;
+	background-position: 30px 0px;
+	margin: 70px 0 0 0;
 	padding: 80px 0 0 0;
 }
 section.business-field dd:nth-of-type(5) {
@@ -789,9 +789,9 @@ section.business-field dd:nth-of-type(5) {
 	width: 40%;
 	background: url("../img/png/business-field/icon-No.5.png");
 	background-repeat: no-repeat;
-	background-position: 45px 0px;
-	margin-left: 0;
-	padding: 80px 0 0 10%;
+	background-position: 10px 0px;
+	margin: 70px 5% 0 15%;
+	padding: 80px 0 0 0;
 }
 section.business-field dd:nth-of-type(6) {
 	float: left;
@@ -799,7 +799,7 @@ section.business-field dd:nth-of-type(6) {
 	background: url("../img/png/business-field/icon-No.6.png");
 	background-repeat: no-repeat;
 	background-position: 10px 0px;
-	margin-left: 5%;
+	margin: 70px 0 0 0;
 	padding: 80px 0 0 0;
 }
 section.business-field dd:nth-of-type(7) {
