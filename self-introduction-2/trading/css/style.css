@@ -426,10 +426,9 @@ ul.business::after {
 /* メインイメージ画像 */
 
 section.main-image {
-	width: 100%;
+	width: 95%;
 	margin: 120px auto 0 auto;
 	z-index: -1;
-	overflow: hidden;
 }
 section.news-content-area-1 {
 	width: 80%;
