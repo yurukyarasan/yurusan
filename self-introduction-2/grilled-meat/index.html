@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="焼肉マッスル">
+<meta name="description" content="最高品質の焼肉を提供する店">
+<meta name="Keywords" content="高級焼肉店,焼肉の頂点を目指す,新進気鋭の焼肉店">
+<meta name="viewport" content="width=width-device initial-scale=1.0">
+<link href="css/reset.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link rel="icon" type="img/jpg" href="img/logo/grilled-meat-muscle-favicon.png">
+<link rel="apple-touch-icon" sizes="180×180"　href="img/logo/grilled-meat-muscle-apple-touch-icon.jpg">
+<link rel="icon" sizes="192×192" href="img/logo/grilled-meat-muscle-android-icon.jpg">
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick-1.8.1/slick/slick-theme.css">
+<script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js"></script> 
+<title>焼肉マッスル</title>
+</head>
+<script>
+$(function(){
+	var gallery = {
+		init:function(){
+			this.events();
+		},
+		data:{
+			gallery:null
+		},
+		events:function(){
+			$("#navi a").click(this.clickHandler.bind(this))
+		},
+		clickHandler:function(e){
+			this.data.gallery =$(e.currentTarget).attr("href");
+			this.render();
+			return false;
+		},
+		render:function(){
+			$("#main img").before("<img src='"+this.data.gallery+"'>")
+			$("#main img:last").fadeOut(function(){
+			$(this).remove();
+			})
+	},
+}
+	gallery.init();
+});
+</script>
+<body>
+<div id="container">
+<section class="title">
+<h1>焼肉マッスル</h1>
+</section>
+<div id="meat1">
+<div id="navi">
+				<ul>
+					<li><a href="img/calvi/calvi-No.1.jpg"><img src="img/calvi/calvi-No.1-thum.jpg" alt="シャンデリア"></a></li>
+					<li><a href="img/calvi/calvi-No.2.jpg"><img src="img/calvi/calvi-No.2-thum.jpg" alt="シャンデリア"></a></li>
+					<li><a href="img/calvi/calvi-No.3.jpg"><img src="img/calvi/calvi-No.3-thum.jpg" alt="シャンデリア"></a></li>
+					<li><a href="img/calvi/calvi-No.4.jpg"><img src="img/calvi/calvi-No.4-thum.jpg" alt="シャンデリア"></a></li>
+					<li><a href="img/calvi/calvi-No.5.jpg"><img src="img/calvi/calvi-No.5-thum.jpg" alt="シャンデリア"></a></li>
+					<li><a href="img/calvi/calvi-No.6.jpg"><img src="img/calvi/calvi-No.6-thum.jpg" alt="シャンデリア"></a></li>
+				</ul>
+			</div>
+			<div id="main">
+				<img src="img/calvi/calvi-No.1.jpg" alt="">
+			</div>
+</div>
+</div>
+</body>
+</html>

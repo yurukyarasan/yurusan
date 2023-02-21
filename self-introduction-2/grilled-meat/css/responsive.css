@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+@media(max-width:768px){
+section.title h1{
+	width: 30%;
+	margin: 70px auto;
+	color: #FCFCFC;
+}
+#navi{
+	width: 95%;
+	float: left;
+	margin: 0 0 0 5%;
+}
+#navi ul{
+	list-style-type: none;
+}
+#navi ul li{
+	float: left;
+}
+#navi ul li img:nth-of-type(1){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi ul li img:nth-of-type(2){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi ul li img:nth-of-type(3){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi ul li img:nth-of-type(4){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi ul li img:nth-of-type(5){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi ul li img:nth-of-type(6){
+	width: 80%;
+	border: 3px solid white;
+}
+#main{
+	width: 95%;
+	margin: 30px 0 0 5%;
+}
+#main img{
+	width: 75%;
+	border: 3px solid white;
+	position: absolute;
+	margin-left: 0;
+}
+#meat1::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+}
