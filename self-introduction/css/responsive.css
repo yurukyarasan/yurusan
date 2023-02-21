@@ -231,6 +231,33 @@ section.nursery-school-profiel {
 	width: 90%;
 	margin-left: 5%;
   }
+div.content-block-4 {
+    width: 100%;
+    margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+  }
+section.grilled-meat-profiel {
+    width: 90%;
+    height: 890px;
+    border: solid 5px #7E7E7E;
+    margin: 0 0 0 5%;
+    box-sizing: border-box;
+  }
+  section.grilled-meat-profiel img {
+    width: 90%;
+	margin: 20px auto;
+  }
+  section.grilled-meat-profiel p {
+    width: 90%;
+    line-height: 1.5em;
+	margin: 20px auto 0;
+    box-sizing: border-box;
+  }
+  section.grilled-meat-profiel a .grilled-meat {
+	width: 90%;
+	margin: 20px auto;	
+  }
   section.footer div.end-footer {
     width: 100%;
     height: 50px;

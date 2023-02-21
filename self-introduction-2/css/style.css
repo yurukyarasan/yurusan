@@ -302,6 +302,28 @@ section.trading-profiel  a .trading {
   margin: 20px auto 0;
   display: block;
 }
+section.grilled-meat-profiel {
+  width: 300px;
+  height: 900px;
+  border: solid 5px #7E7E7E;
+  border-radius: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+section.grilled-meat-profiel img {
+  margin: 20px auto 0;
+  display: block;
+}
+section.grilled-meat-profiel p {
+  line-height: 1.5em;
+  margin: 20px auto 0;
+  display: block;
+}
+section.grilled-meat-profiel  a .grilled-meat {
+  text-align: center;
+  margin: 20px auto 0;
+  display: block;
+}
 section.footer div.end-footer {
   height: 50px;
   margin-top: 50px;
