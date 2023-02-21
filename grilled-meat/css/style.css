@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0 0 0 0;
+	background-color: #000;
+}
+div.container {
+	margin: 0 auto;
+}
+section.title h1{
+	width: 200px;
+	margin: 70px auto;
+	color: #FCFCFC;
+}
+#meat1 {
+	width: 50%;
+	margin: 0 auto;
+}
+#navi{
+	width: 300px;
+	float: left;
+}
+#navi ul{
+	list-style-type: none;
+}
+#navi ul li{
+	width: 150px;
+	float: left;
+}
+#navi ul li img{
+	border: 3px solid white;
+}
+#main{
+	width: 650px;
+	float: left;
+}
+#main img{
+	border: 3px solid white;
+}
