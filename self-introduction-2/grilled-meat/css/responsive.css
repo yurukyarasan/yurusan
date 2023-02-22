@@ -1,11 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
 @media(max-width:768px){
-section.title h1{
-	width: 30%;
-	margin: 70px auto;
-	color: #FCFCFC;
+/*タイトルロゴ*/
+section.title h1 {
+	width: 100%;
+	margin: 0;
+	padding-top: 0;
 }
+section.title h1 img {
+	width: 100%;
+	margin: 0;
+}
+/*焼肉マッスルメイン画像部分*/
+section.main-images {
+	width: 100%;
+	margin: 70px auto 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+/*焼肉マッスル H2タグ 店舗紹介*/
+section.girilled-meat-muscle-profile {
+	width: 90%;
+	margin: 0 auto;
+}
+section.girilled-meat-muscle-profile h2 {
+	color: #F8F2F2;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 17px;
+}
+/*Javascript ギャラリー機能動作部分 カルビ肉*/
 #navi{
 	width: 95%;
 	float: left;
@@ -41,17 +65,67 @@ section.title h1{
 	width: 80%;
 	border: 3px solid white;
 }
-#main{
+#calvi{
 	width: 95%;
 	margin: 30px 0 0 5%;
 }
-#main img{
+#calvi img{
 	width: 75%;
 	border: 3px solid white;
 	position: absolute;
 	margin-left: 0;
 }
 #meat1::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*カルビ肉のお勧め*/
+/*カルビ肉のお勧め*/
+section.calvi-gallery {
+	width: 90%;
+	margin: 55.5% auto 0 auto;
+}
+section.calvi-gallery p {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+}
+/*Javascript ギャラリー機能動作部分 牛・豚・鶏各食用部位*/
+#parts{
+	width: 95%;
+	float: left;
+	margin: 0 0 0 5%;
+}
+#parts ul{
+	list-style-type: none;
+}
+#parts ul li{
+	float: left;
+}
+#parts ul li img:nth-of-type(1){
+	width: 80%;
+	border: 3px solid white;
+}
+#parts ul li img:nth-of-type(2){
+	width: 80%;
+	border: 3px solid white;
+}
+#parts ul li img:nth-of-type(3){
+	width: 80%;
+	border: 3px solid white;
+}
+#eat-parts {
+	width: 95%;
+	margin: 30px 0 0 5%;
+}
+#eat-parts img{
+	width: 75%;
+	border: 3px solid white;
+	position: absolute;
+	margin-left: 0;
+}
+#meat-parts::after{
 	content: "";
 	display: block;
 	clear: both;
