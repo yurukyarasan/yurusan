@@ -81,7 +81,6 @@ section.girilled-meat-muscle-profile h2 {
 	clear: both;
 }
 /*カルビ肉のお勧め*/
-/*カルビ肉のお勧め*/
 section.calvi-gallery {
 	width: 90%;
 	margin: 55.5% auto 0 auto;
@@ -129,5 +128,15 @@ section.calvi-gallery p {
 	content: "";
 	display: block;
 	clear: both;
+}
+/*食肉の部位の情報*/
+section.meat-eat-parts {
+    width: 90%;
+	margin: 58.5% auto 0 auto;
+}
+section.meat-eat-parts p {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
 }
 }
