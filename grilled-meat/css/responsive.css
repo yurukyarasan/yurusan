@@ -4,17 +4,76 @@
 /*タイトルロゴ*/
 section.title h1 {
 	width: 100%;
-	margin: 0;
+	margin: 0 0 0 0;
 	padding-top: 0;
 }
 section.title h1 img {
 	width: 100%;
 	margin: 0;
 }
+/* ハンバーガーメニュー　*/		
+span.nav-toggle {
+    display: block;
+	margin-top: -100%;
+    position: relative;
+    height: 1.5rem;
+}
+span.nav-toggle i {
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #FFF;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+	margin-left: 90%;
+}
+span.nav-toggle i:nth-child(1) {
+    top: 10px;
+}
+span.nav-toggle i:nth-child(2) {
+    top: 20px;
+    bottom: 0;
+}
+span.nav-toggle i:nth-child(3) {
+    top: 30px;
+}
+span.nav-toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+span.nav-toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+span.nav-toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+section.responsive-nav {
+	width: 93.51%;
+	height: 100%;
+	position: fixed;
+	overflow-y: scroll;
+	z-index: 99;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+	-webkit-overflow-scrolling: touch;
+}
+section.responsive-nav.show {
+	width: 100%;
+	opacity: 1;
+    visibility: visible;
+	z-index: 1;
+	background-color: #FFF;
+	margin-top: 0px;
+}
 /*焼肉マッスルメイン画像部分*/
 section.main-images {
 	width: 100%;
-	margin: 70px auto 0 auto;
+	margin: 120% auto 0 auto;
 	z-index: -1;
 	overflow: hidden;
 }
@@ -114,6 +173,10 @@ section.calvi-gallery p {
 	width: 80%;
 	border: 3px solid white;
 }
+#parts ul li img:nth-of-type(4){
+	width: 80%;
+	border: 3px solid white;
+}
 #eat-parts {
 	width: 95%;
 	margin: 30px 0 0 5%;
@@ -135,6 +198,59 @@ section.meat-eat-parts {
 	margin: 58.5% auto 0 auto;
 }
 section.meat-eat-parts p {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+}
+/*Javascript ギャラリー機能動作部分 デザート*/
+#navi-desert {
+	width: 95%;
+	float: left;
+	margin: 0 0 0 5%;
+}
+#navi-desert ul{
+	list-style-type: none;
+}
+#navi-desert ul li{
+	float: left;
+}
+#navi-desert ul li img:nth-of-type(1){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi-desert ul li img:nth-of-type(2){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi-desert ul li img:nth-of-type(3){
+	width: 80%;
+	border: 3px solid white;
+}
+#navi-desert ul li img:nth-of-type(4){
+	width: 80%;
+	border: 3px solid white;
+}
+#main-desert {
+	width: 95%;
+	margin: 30px 0 0 5%;
+}
+#main-desert img{
+	width: 75%;
+	border: 3px solid white;
+	position: absolute;
+	margin-left: 0;
+}
+#desert::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*デザートのお勧め*/
+section.desert-gallery {
+    width: 90%;
+	margin: 58.5% auto 0 auto;
+}
+section.desert-gallery p {
 	color: #F8F2F2;
 	line-height: 30px;
 	font-size: 20px;

@@ -6,6 +6,7 @@ body {
 	font-family: 'Shippori Antique B1', sans-serif;
 }
 div.container {
+	width: 100%;
 	margin: 0 auto;
 }
 /*タイトルロゴ*/
@@ -59,7 +60,7 @@ section.girilled-meat-muscle-profile h2 {
 }
 #calvi {
 	float: left;
-	margin: 15px 0 32% 0;
+	margin: 15px 0 34% 0;
 }
 #calvi img{
 	float: left;
@@ -121,12 +122,60 @@ section.calvi-gallery p {
 	display: block;
 	clear: both;
 }
-/*食肉の部位の情報*/
+/*食用肉の部位の情報*/
 section.meat-eat-parts {
     width: 50%;
 	margin: 0 auto 18px auto;	
 }
 section.meat-eat-parts p {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+}
+/*Javascript ギャラリー機能動作部分 デザート*/
+#desert {
+	width: 90%;
+	margin: 0 0 0 5%;
+}
+#navi-desert {
+	width: 45%;
+	float: left;
+	margin: 0 0 30px 0;
+}
+#navi-desert ul {
+	list-style-type: none;
+}
+#navi-desert ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi-desert ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px 0 0 0;
+}
+#main-desert {
+	float: left;
+	margin: 15px 0 34% 0;
+}
+#main-desert img{
+	float: left;
+	width: 40%;
+	border: 3px solid white;
+	position: absolute;
+	margin-left: 30px;
+}
+#desert::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*デザートのお勧め*/
+section.desert-gallery {
+    width: 50%;
+	margin: 0 auto 18px auto;	
+}
+section.desert-gallery p {
 	color: #F8F2F2;
 	line-height: 30px;
 	font-size: 20px;
