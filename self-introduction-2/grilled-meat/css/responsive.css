@@ -17,12 +17,13 @@ span.nav-toggle {
 	margin-top: -100%;
     position: relative;
     height: 1.5rem;
+	z-index: 99;
 }
 span.nav-toggle i {
     display: block;
     width: 10%;
     height: 2px;
-    background-color: #FFF;
+    background-color: #DDD8D8;;
     position: absolute;
     transition: transform .5s, opacity .5s;
 	margin-left: 90%;
@@ -51,8 +52,8 @@ section.responsive-nav {
 	height: 100%;
 	position: fixed;
 	overflow-y: scroll;
-	z-index: 99;
-    top: 3rem;
+	z-index: 98;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
@@ -67,7 +68,7 @@ section.responsive-nav.show {
 	opacity: 1;
     visibility: visible;
 	z-index: 1;
-	background-color: #FFF;
+	background-color: #fff6c9;
 	margin-top: 0px;
 }
 /*焼肉マッスルメイン画像部分*/
