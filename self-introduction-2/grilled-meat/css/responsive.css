@@ -23,7 +23,7 @@ span.nav-toggle i {
     display: block;
     width: 10%;
     height: 2px;
-    background-color: #DDD8D8;;
+    background-color: #DDD8D8;
     position: absolute;
     transition: transform .5s, opacity .5s;
 	margin-left: 90%;
@@ -70,6 +70,31 @@ section.responsive-nav.show {
 	z-index: 1;
 	background-color: #fff6c9;
 	margin-top: 0px;
+}
+/*ハンバーガーメニュー 各ページへのリンク*/
+div.menu {
+	position: relative;
+}
+div.menu ul {
+	width: 30%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 100%;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+}
+div.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
 }
 /*焼肉マッスルメイン画像部分*/
 section.main-images {

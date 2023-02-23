@@ -18,6 +18,25 @@ section.title h1 {
 section.title h1 img{
 	width: 400px;
 }
+/*各ページへのリンク*/
+div.menu ul {
+	width: 50%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 25%;
+	float: left;
+}
+div.menu ul li a{
+	text-decoration: none;
+	color: #fff6c9;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
 /*焼肉マッスルメイン画像部分*/
 section.main-images {
 	width: 100%;
