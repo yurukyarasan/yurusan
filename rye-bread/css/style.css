@@ -44,22 +44,126 @@ section.main-images {
 	overflow: hidden;
 }
 /*ライブレッド H2タグ 店舗紹介*/
-section.girilled-meat-muscle-profile {
+section.rye-braed-profile {
 	width: 50%;
 	margin: 0 auto;
 }
-section.girilled-meat-muscle-profile h2 {
+section.rye-braed-profile h2 {
 	color: #F8F2F2;
 	line-height: 30px;
 	font-size: 20px;
 	margin-bottom: 17px;
 }
-/*Javascript ギャラリー機能動作部分 カルビ肉*/
-
-/*カルビ肉のお勧め*/
-
-/*Javascript ギャラリー機能動作部分 牛・豚・鶏各食用部位*/
-
+/*Javascript モーダルウィンドウ機能動作部分 ライ麦パン調理状況*/
+section.rye-bread-cooking {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi1 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi1 ul {
+	list-style-type: none;
+}
+#navi1 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi1 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.rye-bread-cooking::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*当店のこだわり*/
+section.shop-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.shop-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 ライ麦パン*/
+section.rye-bread-kinds {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi2 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi2 ul {
+	list-style-type: none;
+}
+#navi2 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi2 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.rye-bread-kinds::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*ライ麦への想い*/
+section.rye-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.rye-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
 /*食用肉の部位の情報*/
 
 /*Javascript ギャラリー機能動作部分 デザート*/
