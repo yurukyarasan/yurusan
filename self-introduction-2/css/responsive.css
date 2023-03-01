@@ -114,6 +114,7 @@
 	display: block;
   }
   section.kowa-profiel p {
+	width: 90%;
     margin: 20px auto 0;
 	display: block;
     line-height: 1.5em;
@@ -307,7 +308,7 @@ div.content-block-4 {
 	margin: 20px auto;
 	display: block;
   }
-  section.grilled-meat--muscleprofiel p {
+  section.grilled-meat-muscle-profiel p {
 	width: 90%;
     margin: 20px auto 0;
 	display: block;
@@ -317,6 +318,33 @@ div.content-block-4 {
 	width: 90%;
 	margin: 20px auto;
 	display: block;
+  }
+  div.content-block-5 {
+    width: 100%;
+    margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+  }
+  section.rye-bread-profiel {
+    width: 90%;
+    height: 890px;
+    border: solid 5px #7E7E7E;
+    margin: 0 0 0 5%;
+    box-sizing: border-box;
+  }
+  section.rye-bread-profiel img {
+    width: 90%;
+	margin: 20px auto;
+  }
+  section.rye-bread-profiel p {
+    width: 90%;
+    line-height: 1.5em;
+	margin: 20px auto 0;
+    box-sizing: border-box;
+  }
+  section.rye-bread-profiel a .rye-bread {
+	width: 90%;
+	margin: 20px auto;	
   }
   section.footer div.end-footer {
     width: 100%;

@@ -324,6 +324,30 @@ section.grilled-meat-muscle-profiel  a .grilled-meat-muscle {
   margin: 20px auto 0;
   display: block;
 }
+div.content-block-5 {
+  display: flex;
+  justify-content: space-around;
+}
+section.rye-bread-profiel {
+  width: 300px;
+  height: 760px;
+  border: solid 5px #7E7E7E;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+section.rye-bread-profiel img {
+  margin: 20px auto;
+  display: block;
+}
+section.rye-bread-profiel p {
+  line-height: 1.5em;
+  margin: 0 auto;
+  display: block;
+}
+section.rye-bread-profiel a .rye-bread {
+  margin: 20px auto;
+  display: block;
+}
 section.footer div.end-footer {
   height: 50px;
   margin-top: 50px;
