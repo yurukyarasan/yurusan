@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+@media(max-width:768px){
+/*タイトルロゴ*/
+section.title h1 {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding-top: 0;
+}
+section.title h1 img {
+	width: 100%;
+	margin: 0;
+}
+/* ハンバーガーメニュー　*/		
+span.nav-toggle {
+    display: block;
+	margin-top: -100%;
+    position: relative;
+    height: 1.5rem;
+	z-index: 99;
+}
+span.nav-toggle i {
+    display: block;
+    width: 10%;
+    height: 2px;
+    background-color: #DDD8D8;
+    position: absolute;
+    transition: transform .5s, opacity .5s;
+	margin-left: 90%;
+}
+span.nav-toggle i:nth-child(1) {
+    top: 10px;
+}
+span.nav-toggle i:nth-child(2) {
+    top: 20px;
+    bottom: 0;
+}
+span.nav-toggle i:nth-child(3) {
+    top: 30px;
+}
+span.nav-toggle.show i:nth-child(1) {
+    transform: translateY(10px) rotate(-45deg);
+}
+span.nav-toggle.show i:nth-child(2) {
+    opacity: 0;
+}
+span.nav-toggle.show i:nth-child(3) {
+    transform: translateY(-12px) rotate(45deg);
+}
+section.responsive-nav {
+	width: 93.51%;
+	height: 100%;
+	position: fixed;
+	overflow-y: scroll;
+	z-index: 98;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s, visibility .5s;
+	-webkit-overflow-scrolling: touch;
+}
+section.responsive-nav.show {
+	width: 100%;
+	opacity: 1;
+    visibility: visible;
+	z-index: 1;
+	background-color: #fff6c9;
+	margin-top: 0px;
+}
+/*ハンバーガーメニュー 各ページへのリンク*/
+div.menu {
+	position: relative;
+}
+div.menu ul {
+	width: 30%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 100%;
+	float: left;
+	text-align: center;
+	line-height: 34px;
+}
+div.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 13px;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*ライブレッド　メイン画像部分*/
+section.main-images {
+	width: 100%;
+	margin: 120% auto 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+/*ライブレッド H2タグ 店舗紹介*/
+
+/*Javascript ギャラリー機能動作部分 カルビ肉*/
+
+/*カルビ肉のお勧め*/
+
+/*Javascript ギャラリー機能動作部分 牛・豚・鶏各食用部位*/
+
+/*食肉の部位の情報*/
+
+/*Javascript ギャラリー機能動作部分 デザート*/
+
+/*デザートのお勧め*/
+
+/*フッターエリア*/
+
+}

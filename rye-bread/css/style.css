@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0 0 0 0;
+	background-color: #000;
+}
+div.container {
+	width: 100%;
+	margin: 0 auto;
+}
+/*タイトルロゴ*/
+section.title h1 {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+section.title h1 img{
+	width: 400px;
+}
+/*各ページへのリンク*/
+div.menu ul {
+	width: 50%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 25%;
+	float: left;
+}
+div.menu ul li a {
+	text-decoration: none;
+	color: #fff6c9;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*ライブレッド メイン画像部分*/
+section.main-images {
+	width: 100%;
+	margin: 120px auto 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+/*ライブレッド H2タグ 店舗紹介*/
+section.girilled-meat-muscle-profile {
+	width: 50%;
+	margin: 0 auto;
+}
+section.girilled-meat-muscle-profile h2 {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 17px;
+}
+/*Javascript ギャラリー機能動作部分 カルビ肉*/
+
+/*カルビ肉のお勧め*/
+
+/*Javascript ギャラリー機能動作部分 牛・豚・鶏各食用部位*/
+
+/*食用肉の部位の情報*/
+
+/*Javascript ギャラリー機能動作部分 デザート*/
+
+/*デザートのお勧め*/
+
+/*フッターエリア*/
+
