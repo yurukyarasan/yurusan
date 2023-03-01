@@ -83,16 +83,55 @@
 			<li><a href="img/rye-bread/rye-bread-No.3.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.3-thum.jpg" alt="ライ麦パンその3"></a></li>
 			<li><a href="img/rye-bread/rye-bread-No.4.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.4-thum.jpg" alt="ライ麦パンその4"></a></li>
 			<li><a href="img/rye-bread/rye-bread-No.5.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.5-thum.jpg" alt="ライ麦パンその5"></a></li>
+            <li><a href="img/rye-bread/rye-bread-No.6.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.6-thum.jpg" alt="ライ麦パンその3"></a></li>
+			<li><a href="img/rye-bread/rye-bread-No.7.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.7-thum.jpg" alt="ライ麦パンその4"></a></li>
+			<li><a href="img/rye-bread/rye-bread-No.8.jpg" class="modal"><img src="img/rye-bread/rye-bread-No.8-thum.jpg" alt="ライ麦パンその5"></a></li>
 </ul>
 </div>
 </section>
-<!--当店のこだわり-->
+<!--ライ麦への想い-->
 <section class="rye-bread-modal">
 <p>職人お勧めは何と言ってもライ麦パンです。<br>
 <br>
 小麦畑が脳裏に浮かぶ程に、香りが高い大自然の恵を得て作られた当店自慢のパン。<br>
 <br>
 たかがパン、されどパンではありますが、他店にはない圧倒的な香ばしさ、コクそしてライ麦の深みを是非体験して下さい。</p>	
+</section>
+<!--ライブレッド デザートパン-->
+<section class="dessert-bread">
+<div id="navi3">
+<ul>
+			<li><a href="img/dessert-bread/dessert-bread-No.1.jpg" class="modal"><img src="img/dessert-bread/dessert-bread-No.1-thum.jpg" alt="デザートパンその1"></a></li>
+			<li><a href="img/dessert-bread/dessert-bread-No.2.jpg" class="modal"><img src="img/dessert-bread/dessert-bread-No.2-thum.jpg" alt="デザートパンその2"></a></li>
+</ul>
+</div>
+</section>
+<!--デザートパンのこだわり-->
+<section class="dessert-bread-modal">
+<p>ホっと一息つくのに軽食感覚のパンです。<br>
+<br>
+デザートパンも実は美味しいライブレッドです。<br>
+<br>
+ライ麦食パン購入の方はアレンジでトッピングして、自宅で美味しくデザートパンなんてのはいかがでしょうか？</p>	
+</section>
+<!--ライブレッド 店内の様子-->
+<section class="various-bread">
+<div id="navi4">
+<ul>
+			<li><a href="img/various-bread/various-bread-No.1.jpg" class="modal"><img src="img/various-bread/various-bread-No.1-thum.jpg" alt="店内画像その1"></a></li>
+			<li><a href="img/various-bread/various-bread-No.2.jpg" class="modal"><img src="img/various-bread/various-bread-No.2-thum.jpg" alt="店内画像その2"></a></li>
+            <li><a href="img/various-bread/various-bread-No.3.jpg" class="modal"><img src="img/various-bread/various-bread-No.3-thum.jpg" alt="店内画像その3"></a></li>
+			<li><a href="img/various-bread/various-bread-No.4.jpg" class="modal"><img src="img/various-bread/various-bread-No.4-thum.jpg" alt="店内画像その4"></a></li>
+</ul>
+</div>
+</section>
+<!--店内のこだわり-->
+<section class="various-bread-modal">
+<p>ライブレッドこだわりの洋風な店内です。<br>
+<br>
+沢山の手作りパンがお客様をお出迎えします。<br>
+<br>
+1度当店を訪れただけでは、全種類のパンは食べきれない、購入しきれない種類がございます、ライブレッドのリピーターとして再度入店して頂きたく、沢山のパンをご用意しております。</p>	
 </section>
 <script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js"></script> 
 <script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"></script> 
@@ -118,7 +157,7 @@ $(document).ready(function(){
   });
 });
 </script>
-<!--Javascript モーダルウィンドウ機能動作部分 ライ麦パン調理状況*-->
+<!--Javascript モーダルウィンドウ機能動作部分*-->
 	<script>
 		$(function(){
 			var modal = {
@@ -157,44 +196,5 @@ $(document).ready(function(){
 		 modal.init();
 });
 		</script>
-<script>
-	$(function(){
-		var modal = {
-			init:function(){
-				this.initRender();
-				this.events();
-			},
-			data:{
-				img:null
-			},	
-		   events:function(){
-			 $("a.modal").click(this.showHandler.bind(this)) 
-			 $("#glayLayer").click(this.hideHandler.bind(this)) 
-		   },
-		   showHandler:function(e){
-			   this.data.img = $(e.currentTarget).attr("href");
-			   this.render();
-			   return false;
-		   },
-		   hideHandler:function(e){
-			   this.data.img = null;
-			   this.render();
-		   },
-		  initRender:function(){
-				$("body").append("<div id='glayLayer'></div><div id='overLayer'></div>")
-			},
-		  render:function(){
-			  if(this.data.img){
-			  $("#glayLayer,#overLayer").show();
-			  $("#overLayer").html("<img src='"+this.data.img+"'>");
-		  }else{
-			  $("#glayLayer,#overLayer").hide();
-		    }
-		  }
-		}
-		 modal.init();
-	});
-});
-</script>
 </body>
 </html>

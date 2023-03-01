@@ -165,6 +165,7 @@ section.shop-modal p {
 #navi2 {
 	width: 100%;
 	float: left;
+	margin-top: 40px;
 }
 #navi2 ul{
 	list-style-type: none;
@@ -204,6 +205,102 @@ section.rye-bread-modal {
 	margin: 0 auto;
 }
 section.rye-bread-modal p {
+	color: #F8F2F2;
+	width: 70%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 デザートパン*/
+#navi3 {
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+#navi3 ul{
+	list-style-type: none;
+}
+#navi3 ul li{
+	width: 45%;
+	float: left;
+	margin: 0 2.5%;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.dessert-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*デザートパンのこだわり*/
+section.dessert-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.dessert-bread-modal p {
+	color: #F8F2F2;
+	width: 70%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 店内の様子*/
+#navi {
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+#navi4 ul{
+	list-style-type: none;
+}
+#navi4 ul li{
+	width: 45%;
+	float: left;
+	margin: 0 2.5%;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.various-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*店内のこだわり*/
+section.various-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.various-bread-modal p {
 	color: #F8F2F2;
 	width: 70%;
 	margin: 0 auto;

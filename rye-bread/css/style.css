@@ -164,11 +164,115 @@ section.rye-bread-modal p {
 	width: 40%;
 	margin: 0 auto;
 }
-/*食用肉の部位の情報*/
-
-/*Javascript ギャラリー機能動作部分 デザート*/
-
-/*デザートのお勧め*/
-
+/*Javascript モーダルウィンドウ機能動作部分 デザートパン*/
+section.dessert-bread {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi3 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi3 ul {
+	list-style-type: none;
+}
+#navi3 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi3 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.dessert-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*デザートパンのこだわり*/
+section.dessert-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.dessert-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 店内の様子*/
+section.various-bread {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi4 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi4 ul {
+	list-style-type: none;
+}
+#navi4 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi4 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.various-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*店内のこだわり*/
+section.various-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.various-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
 /*フッターエリア*/
 
