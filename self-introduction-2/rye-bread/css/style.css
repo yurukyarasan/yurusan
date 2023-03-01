@@ -1,0 +1,278 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0 0 0 0;
+	background-color: #000;
+}
+div.container {
+	width: 100%;
+	margin: 0 auto;
+}
+/*タイトルロゴ*/
+section.title h1 {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+section.title h1 img{
+	width: 400px;
+}
+/*各ページへのリンク*/
+div.menu ul {
+	width: 50%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 25%;
+	float: left;
+}
+div.menu ul li a {
+	text-decoration: none;
+	color: #fff6c9;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*ライブレッド メイン画像部分*/
+section.main-images {
+	width: 100%;
+	margin: 120px auto 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+/*ライブレッド H2タグ 店舗紹介*/
+section.rye-braed-profile {
+	width: 50%;
+	margin: 0 auto;
+}
+section.rye-braed-profile h2 {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 17px;
+}
+/*Javascript モーダルウィンドウ機能動作部分 ライ麦パン調理状況*/
+section.rye-bread-cooking {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi1 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi1 ul {
+	list-style-type: none;
+}
+#navi1 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi1 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.rye-bread-cooking::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*当店のこだわり*/
+section.shop-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.shop-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 ライ麦パン*/
+section.rye-bread-kinds {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi2 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi2 ul {
+	list-style-type: none;
+}
+#navi2 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi2 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.rye-bread-kinds::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*ライ麦への想い*/
+section.rye-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.rye-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 デザートパン*/
+section.dessert-bread {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi3 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi3 ul {
+	list-style-type: none;
+}
+#navi3 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi3 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.dessert-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*デザートパンのこだわり*/
+section.dessert-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.dessert-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 店内の様子*/
+section.various-bread {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+#navi4 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi4 ul {
+	list-style-type: none;
+}
+#navi4 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi4 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.various-bread::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*店内のこだわり*/
+section.various-bread-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.various-bread-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*フッターエリア*/
+
