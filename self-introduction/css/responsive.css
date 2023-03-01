@@ -237,24 +237,24 @@ div.content-block-4 {
 	display: flex;
     flex-direction: column;
   }
-section.grilled-meat-profiel {
+section.grilled-meat-muscle-profiel {
     width: 90%;
     height: 890px;
     border: solid 5px #7E7E7E;
     margin: 0 0 0 5%;
     box-sizing: border-box;
   }
-  section.grilled-meat-profiel img {
+  section.grilled-meat-muscle-profiel img {
     width: 90%;
 	margin: 20px auto;
   }
-  section.grilled-meat-profiel p {
+  section.grilled-meat-muscle-profiel p {
     width: 90%;
     line-height: 1.5em;
 	margin: 20px auto 0;
     box-sizing: border-box;
   }
-  section.grilled-meat-profiel a .grilled-meat {
+  section.grilled-meat-muscle-profiel a .grilled-meat-muscle {
 	width: 90%;
 	margin: 20px auto;	
   }

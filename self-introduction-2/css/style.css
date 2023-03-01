@@ -302,7 +302,7 @@ section.trading-profiel  a .trading {
   margin: 20px auto 0;
   display: block;
 }
-section.grilled-meat-profiel {
+section.grilled-meat-muscle-profiel {
   width: 300px;
   height: 900px;
   border: solid 5px #7E7E7E;
@@ -310,16 +310,16 @@ section.grilled-meat-profiel {
   margin: 20px auto;
   box-sizing: border-box;
 }
-section.grilled-meat-profiel img {
+section.grilled-meat-muscle-profiel img {
   margin: 20px auto 0;
   display: block;
 }
-section.grilled-meat-profiel p {
+section.grilled-meat-muscle-profiel p {
   line-height: 1.5em;
   margin: 20px auto 0;
   display: block;
 }
-section.grilled-meat-profiel  a .grilled-meat {
+section.grilled-meat-muscle-profiel  a .grilled-meat-muscle {
   text-align: center;
   margin: 20px auto 0;
   display: block;
