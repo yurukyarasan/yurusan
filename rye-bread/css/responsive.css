@@ -139,12 +139,17 @@ div#glayLayer{
 	opacity: 0.60;
 }
 #overLayer{
+	width: 100%;
 	display:none;
 	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
+	top: 50%;
+	left: 0;
+	margin-top: -30%;
+	margin-left:0;
+}
+#overLayer img{
+	width: 100%;
+	margin: 0 auto;
 }
 section.rye-bread-cooking::after {
 	content: "";
@@ -175,25 +180,7 @@ section.shop-modal p {
 	float: left;
 	margin: 0 2.5%;
 }
-div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
-}
+
 section.rye-bread-kinds::after {
 	content: "";
 	display: block;
@@ -223,25 +210,7 @@ section.rye-bread-modal p {
 	float: left;
 	margin: 0 2.5%;
 }
-div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
-}
+
 section.dessert-bread::after {
 	content: "";
 	display: block;
@@ -271,25 +240,7 @@ section.dessert-bread-modal p {
 	float: left;
 	margin: 0 2.5%;
 }
-div#glayLayer{
-	display:none;
-	position:fixed;
-	left:0;
-	top:0;
-	height:100%;
-	width:100%;
-	background:black;
-	filter:alpha(opacity=60);
-	opacity: 0.60;
-}
-#overLayer{
-	display:none;
-	position: fixed;
-	top:50%;
-	left:50%;
-	margin-top:-244px;
-	margin-left:-325px;
-}
+
 section.various-bread::after {
 	content: "";
 	display: block;
@@ -306,8 +257,4 @@ section.various-bread-modal p {
 	margin: 0 auto;
 }
 }
-/*Javascript ギャラリー機能動作部分 デザート*/
-
-/*デザートのお勧め*/
-
 /*フッターエリア*/
