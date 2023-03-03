@@ -115,6 +115,18 @@ section.rye-braed-profile h2 {
 	margin-bottom: 17px;
 }
 /*Javascript モーダルウィンドウ機能動作部分 ライ麦パン調理状況*/
+div.rye-bread-cooking-profile {
+	width: 100%;
+	height: 30%;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 30px auto;
+	padding-bottom: 10px;
+}
+div.rye-bread-cooking-profile p {
+	width: 90%;
+}
 #navi1 {
 	width: 100%;
 	float: left;
@@ -159,7 +171,7 @@ section.rye-bread-cooking::after {
 /*当店のこだわり*/
 section.shop-modal {
 	width: 100%;
-	margin: 0 auto;
+	margin: -20px auto 20px auto;
 }
 section.shop-modal p {
 	color: #F8F2F2;
@@ -167,10 +179,21 @@ section.shop-modal p {
 	margin: 0 auto;
 }
 /*Javascript モーダルウィンドウ機能動作部分 ライ麦パン*/
+div.rye-bread-kinds-profile {
+	width: 100%;
+	height: 30%;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 30px auto;
+	padding-bottom: 10px;
+}
+div.rye-bread-cooking-profile p {
+	width: 90%;
+}
 #navi2 {
 	width: 100%;
 	float: left;
-	margin-top: 40px;
 }
 #navi2 ul{
 	list-style-type: none;
@@ -189,7 +212,7 @@ section.rye-bread-kinds::after {
 /*ライ麦への想い*/
 section.rye-bread-modal {
 	width: 100%;
-	margin: 0 auto;
+	margin: -20px auto 20px auto;
 }
 section.rye-bread-modal p {
 	color: #F8F2F2;
@@ -197,10 +220,21 @@ section.rye-bread-modal p {
 	margin: 0 auto;
 }
 /*Javascript モーダルウィンドウ機能動作部分 デザートパン*/
+div.dessert-bread-profile {
+	width: 100%;
+	height: 30%;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 30px auto;
+	padding-bottom: 10px;
+}
+div.dessert-bread-profile p {
+	width: 90%;
+}
 #navi3 {
 	width: 100%;
 	float: left;
-	margin-top: 40px;
 }
 #navi3 ul{
 	list-style-type: none;
@@ -219,7 +253,7 @@ section.dessert-bread::after {
 /*デザートパンのこだわり*/
 section.dessert-bread-modal {
 	width: 100%;
-	margin: 0 auto;
+	margin: -20px auto 20px auto;
 }
 section.dessert-bread-modal p {
 	color: #F8F2F2;
@@ -227,10 +261,21 @@ section.dessert-bread-modal p {
 	margin: 0 auto;
 }
 /*Javascript モーダルウィンドウ機能動作部分 店内の様子*/
+div.various-bread-profile {
+	width: 100%;
+	height: 30%;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 30px auto;
+	padding-bottom: 10px;
+}
+div.various-bread-profile p {
+	width: 90%;
+}
 #navi {
 	width: 100%;
 	float: left;
-	margin-top: 40px;
 }
 #navi4 ul{
 	list-style-type: none;
@@ -249,12 +294,56 @@ section.various-bread::after {
 /*店内のこだわり*/
 section.various-bread-modal {
 	width: 100%;
-	margin: 0 auto;
+	margin: 40px auto 0 auto;
 }
 section.various-bread-modal p {
 	color: #F8F2F2;
 	width: 70%;
 	margin: 0 auto;
 }
-}
 /*フッターエリア*/
+section.footer-group {
+  width: 90%;
+  color: #F8F2F2;
+  margin: 40px auto 0 auto;
+}
+div.business-form {
+  float: both;
+  width: 100%;
+  position: relative;
+}
+div.business-form p:nth-of-type(1) {
+	margin-top: 50px;
+}
+div.business-form p:nth-of-type(2) {
+  margin-bottom: 17px;
+}
+div.business-form p:nth-of-type(3) {}
+div.business-form p:nth-of-type(4) {}
+div.business-form p:nth-of-type(5) {}
+div.business-form p:nth-of-type(6) {
+  font-size: 26px;
+  margin: 170px 0 0 0;
+  position: absolute;
+  top: 0;
+}
+div.business-form p:nth-of-type(7) {
+  font-size: 26px;
+  margin: 200px 0 0 0;
+  position: absolute;
+  top: 0;
+}
+section.explanation-of-shop-reception {
+  float: both;
+  width: 100%;
+  color: #F8F2F2;
+  margin: 128px auto 50px auto;
+}
+section.explanation-of-shop-reception p {
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+footer {
+  width: 100%;
+}
+}
