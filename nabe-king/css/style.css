@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0 0 0 0;
+	background-color: #000;
+}
+div.container {
+	width: 100%;
+	margin: 0 auto;
+}
+/*タイトルロゴ*/
+section.title h1 {
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+section.title h1 img{
+	width: 400px;
+}
+/*各ページへのリンク*/
+div.menu ul {
+	width: 50%;
+	list-style-type: none;
+    margin: 30px auto 0 auto;
+}
+div.menu ul li{
+	width: 25%;
+	float: left;
+}
+div.menu ul li a {
+	text-decoration: none;
+	color: #fff6c9;
+}
+div.menu::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*お鍋の王様 メイン画像部分*/
+section.main-img {
+	width: 100%;
+	margin: 120px auto 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+/*お鍋の王様 H2タグ 店舗紹介*/
+section.nabe-king-profile {
+	width: 50%;
+	margin: 0 auto;
+}
+section.nabe-king-profile h2 {
+	color: #F8F2F2;
+	line-height: 30px;
+	font-size: 20px;
+	margin-bottom: 17px;
+}
+/*Javascript モーダルウィンドウ機能動作部分 お鍋の王様 肉系お鍋*/
+section.meat-pot-cooking {
+	width: 60%;
+	margin: 0 auto 30px auto;
+}
+div.meat-pot-cooking-profile {
+	width: 100%;
+	height: 60px;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 0 auto 30px auto;
+	padding-bottom: 10px;
+}
+div.meat-pot-cooking-profile p {
+	width: 90%;
+	color: #F8F2F2;
+	font-size: 20px;
+	padding: 20px;
+}
+#navi1 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi1 ul {
+	list-style-type: none;
+}
+#navi1 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi1 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.meat-pot-cooking::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*当店のこだわり*/
+section.meat-pot-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.meat-pot-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
+/*Javascript モーダルウィンドウ機能動作部分 お鍋の王様 海鮮系お鍋*/
+section.seafood-pot-kinds {
+	width: 60%;
+	margin: 30px auto 50px auto;
+}
+div.seafood-pot-kinds-profile {
+	width: 100%;
+	height: 60px;
+	border-left: 10px solid #F2B66D;
+	border-bottom: 1px solid #F2B66D;
+	box-sizing: border-box;
+	margin: 0 auto 30px auto;
+	padding-bottom: 10px;
+}
+div.seafood-pot-kinds-profile p {
+    width: 90%;
+	color: #F8F2F2;
+	font-size: 20px;
+	padding: 20px;
+}
+#navi2 {
+	width: 100%;
+	margin: 0 auto 30px auto;
+}
+#navi2 ul {
+	list-style-type: none;
+}
+#navi2 ul li {
+	float: left;
+	margin: 15px 0 0 10px;
+}
+#navi2 ul li img {
+	width: 100%;
+	border: 3px solid white;
+	margin: 5px auto 0 auto;
+}
+div#glayLayer{
+	display:none;
+	position:fixed;
+	left:0;
+	top:0;
+	height:100%;
+	width:100%;
+	background:black;
+	filter:alpha(opacity=60);
+	opacity: 0.60;
+}
+#overLayer{
+	display:none;
+	position: fixed;
+	top:50%;
+	left:50%;
+	margin-top:-244px;
+	margin-left:-325px;
+}
+section.seafood-pot-kinds::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+/*海鮮鍋への想い*/
+section.seafood-pot-kinds-modal {
+	width: 100%;
+	margin: 0 auto;
+}
+section.seafood-pot-kinds-modal p {
+	color: #F8F2F2;
+	width: 40%;
+	margin: 0 auto;
+}
