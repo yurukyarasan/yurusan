@@ -289,6 +289,26 @@ section.rye-bread-profiel a .rye-bread {
   margin: 20px auto;
   display: block;
 }
+section.nabe-king-profiel {
+  width: 300px;
+  height: 760px;
+  border: solid 5px #7E7E7E;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+section.nabe-king-profiel img {
+  margin: 20px auto;
+  display: block;
+}
+section.nabe-king-profiel p {
+  line-height: 1.5em;
+  margin: 0 auto;
+  display: block;
+}
+section.nabe-king-profiel a .nabe-king {
+  margin: 20px auto;
+  display: block;
+}
 section.footer div.end-footer {
   height: 50px;
   margin-top: 50px;
