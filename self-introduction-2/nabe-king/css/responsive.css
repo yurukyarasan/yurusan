@@ -171,12 +171,38 @@ section.meat-pot-cooking::after {
 /*当店のこだわり*/
 section.meat-pot-modal {
 	width: 100%;
+	height: 30%;
 	margin: -20px auto 20px auto;
 }
-section.meat-pot-modal p {
-	color: #F8F2F2;
-	width: 70%;
-	margin: 0 auto;
+section.meat-pot-modal dl{
+	width: 80%;
+	margin:50px auto;
+	color: #FFF
+}
+section.meat-pot-modal dt{
+	font-size:large;
+	font-weight:bold;
+	color:white;
+	background-color: #F98327;
+}
+section.meat-pot-modal dt p{
+	text-indent: 1rem;
+}
+section.meat-pot-modal dt.over{
+	background-color: #FB6315;
+	cursor:pointer;
+}
+section.meat-pot-modal dt.selected{
+	cursor:default;
+	color: #FFF;
+}
+section.meat-pot-modal dd{
+	height: 50%;
+	background-color: #FBC43C;
+}
+section.meat-pot-modal dd p{
+	text-indent:1em;
+	padding:20px;
 }
 /*Javascript モーダルウィンドウ機能動作部分 お鍋の王様 海鮮系お鍋*/
 div.seafood-pot-kinds-profile {
@@ -214,9 +240,36 @@ section.seafood-pot-kinds-modal {
 	width: 100%;
 	margin: -20px auto 20px auto;
 }
-section.seafood-pot-kinds-modal p {
-	color: #F8F2F2;
-	width: 70%;
-	margin: 0 auto;
+section.seafood-pot-kinds-modal dl{
+	width: 80%;
+	margin:50px auto;
+	color: #FFF
+}
+section.seafood-pot-kinds-modal dt{
+	font-size:large;
+	text-indent:3em;
+	font-weight:bold;
+	color:white;
+	background-color: #F98327;
+	box-sizing: border-box;
+}
+section.seafood-pot-kinds-modal dt p{
+	text-indent: 1rem;
+}
+section.seafood-pot-kinds-modal dt.over{
+	background-color: #FB6315;
+	cursor:pointer;
+}
+section.seafood-pot-kinds-modal dt.selected{
+	cursor:default;
+	color: #FFF;
+}
+section.seafood-pot-kinds-modal dd{
+	height: 50%;
+	background-color: #FBC43C;
+}
+section.seafood-pot-kinds-modal dd p{
+	text-indent:1em;
+	padding:20px;
 }
 }

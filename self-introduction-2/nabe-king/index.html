@@ -56,13 +56,16 @@
 </ul>
 </div>
 </section>
-<!--当店のこだわり-->
+<!--肉鍋への想い-->
 <section class="meat-pot-modal">
-<p>安価な鍋の中では特製つくね団子鍋をお勧めしております。<br>
-<br>
-伊勢海老の鍋がお高いと思ったお客様に、安価でご用意可能な鍋も当店では多数ご用意しております。<br>
-<br>
-当店としては寒い時期だけでなく年中来店して頂きたく、バラエティーに富んだ品揃えでお待ちしております。</p>	
+<dl>
+			<dt><p>肉のこだわり その1</p></dt>
+			<dd><p>良質なこだわり抜いたお肉を仕入れています。当店で肉の仕入れや知識に精通した担当者を配置しております。目利きの出来る精肉職人によるこだわり抜いた仕入れを実施。まるでマグロの仲買いの様な目利きの精度が御座います。</p></dd>
+			<dt><p>肉のこだわり その2</p></dt>
+			<dd><p>肉の産地と直接契約によるコスト削減と徹底した品質を維持。産地にこだわり、召し上がるお客様への見える化を実現しております。産地が不明なお肉は使用しておりません。</p></dd>
+			<dt><p>肉のこだわり その3</p></dt>
+			<dd><p>冷凍されて鮮度が落ちる保存や仕入れをしておりません。その日に届いたお肉の状態をなるべく維持しお客様への提供を実施。冷凍焼けしていない新鮮で、旨味たっぷりな肉の鍋をどうぞ召し上がって下さい。</p></dd>
+		</dl>
 </section>
 <!--お鍋の王様 海鮮系お鍋-->
 <section class="seafood-pot-kinds">
@@ -84,11 +87,14 @@
 </section>
 <!--海鮮鍋への想い-->
 <section class="seafood-pot-kinds-modal">
-<p>言わずもがな当店超ご自慢の、高級伊勢海老鍋が非常にお勧めとなっています。<br>
-<br>
-圧倒的な伊勢海老の存在感が鍋にあり、またスープを一口飲めば伊勢海老のパンチを感じられる、ご自慢の超特製鍋です。<br>
-<br>
-当店の伊勢海老鍋を食べたなら、友達へ自慢が可能な位に大変自慢の1品です。</p>	
+<dl>
+			<dt><p>海鮮のこだわり その1</p></dt>
+			<dd><p>魚の仲買い人レベルに匹敵するスペシャリストが仕入れを担当。魚類を知り尽くした仲買い人によるこだわりの仕入れを実施。</p></dd>
+			<dt><p>海鮮のこだわり その2</p></dt>
+			<dd><p>仕入れ先との直接契約でコスト削減を実施。なるべく海鮮鍋の提供の価格を抑えております。例外的なのは伊勢海老はこだわりがありコストの削減は厳しかったです。</p></dd>
+			<dt><p>海鮮のこだわり その3</p></dt>
+			<dd><p>お客様目線に立ち、従業員の皆が食べたくなる様な鍋をお客様目線に合わせて企画しております。自宅で作るのが困難なお鍋である事に飲食の価値があると、当店は思っております。</p></dd>
+		</dl>
 </section>
 <script type="text/javascript" src="jquery-3.4.1.min/jquery-3.4.1.min.js"></script> 
 <script type="text/javascript" src="jquery-migrate-3.1.0.min/jquery-migrate-3.1.0.min.css"></script> 
@@ -143,6 +149,112 @@ $(document).ready(function(){
 		  }
 		}
 		 modal.init();
+});
+		</script>
+<!--Javascript アコーディオン機能動作部分 肉鍋への想い*-->
+	<script>
+$(function(){
+	var accordion = {
+	init:function(){
+		this.initRender();
+		this.events();
+	},
+	data:{
+		selected:null,
+		over:null
+	},
+	events:function(){
+		$("section.meat-pot-modal dl dt")
+		.click(this.clickHandler.bind(this))
+		.mouseover(this.overHandler.bind(this))
+		.mouseout(this.outHandler.bind(this))
+	},
+	clickHandler:function(e){
+		if(this.data.selected !=e.currentTarget){
+		this.data.selected=e.currentTarget;
+		this.clickRender();
+		}
+	},
+	overHandler:function(e){
+		this.data.over=e.currentTarget;
+		this.overRender();
+	},
+	outHandler:function(){
+		this.data.over=null;
+		this.overRender();
+	},
+	initRender:function(){
+		$("section.meat-pot-modal dd:not(:first)").css("display","none");
+		$("section.meat-pot-modal dt:first").addClass("selected");
+	},
+	clickRender:function(){
+		$("section.meat-pot-modal dd").slideUp("first")
+		$("+dd",this.data.selected).slideDown("first")
+		$("section.meat-pot-modal dt.selected").removeClass("selected")
+		$(this.data.selected).addClass("selected")
+	},
+	overRender:function(){
+		if(this.data.over){
+			$(this.data.over).addClass("over");
+		}else{
+			$("dt").removeClass("over");
+			}
+		}
+	}
+	accordion.init();
+});
+		</script>
+<!--Javascript アコーディオン機能動作部分 海鮮鍋への想い*-->
+	<script>
+$(function(){
+	var accordion = {
+	init:function(){
+		this.initRender();
+		this.events();
+	},
+	data:{
+		selected:null,
+		over:null
+	},
+	events:function(){
+		$("section.seafood-pot-kinds-modal dl dt")
+		.click(this.clickHandler.bind(this))
+		.mouseover(this.overHandler.bind(this))
+		.mouseout(this.outHandler.bind(this))
+	},
+	clickHandler:function(e){
+		if(this.data.selected !=e.currentTarget){
+		this.data.selected=e.currentTarget;
+		this.clickRender();
+		}
+	},
+	overHandler:function(e){
+		this.data.over=e.currentTarget;
+		this.overRender();
+	},
+	outHandler:function(){
+		this.data.over=null;
+		this.overRender();
+	},
+	initRender:function(){
+		$("section.seafood-pot-kinds-modal dd:not(:first)").css("display","none");
+		$("section.seafood-pot-kinds-modal dt:first").addClass("selected");
+	},
+	clickRender:function(){
+		$("section.seafood-pot-kinds-modal dd").slideUp("first")
+		$("+dd",this.data.selected).slideDown("first")
+		$("section.seafood-pot-kinds-modal dt.selected").removeClass("selected")
+		$(this.data.selected).addClass("selected")
+	},
+	overRender:function(){
+		if(this.data.over){
+			$(this.data.over).addClass("over");
+		}else{
+			$("dt").removeClass("over");
+			}
+		}
+	}
+	accordion.init();
 });
 		</script>
 </body>
