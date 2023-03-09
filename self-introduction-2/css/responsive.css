@@ -367,15 +367,14 @@ section.nabe-king-profiel a .nabe-king {
 	width: 90%;
 	margin: 20px auto;	
   }
-  section.footer div.end-footer {
+section.footer div.end-footer {
     width: 100%;
     height: 50px;
     margin-top: 50px;
     box-sizing: border-box;
     background-color: #30EFF8;
   }
-  section.footer div.end-footer p {
-    width: 45%;
+section.footer div.end-footer p {
     margin: 0 auto;
     padding-top: 20px;
   }

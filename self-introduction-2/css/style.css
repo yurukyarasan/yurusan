@@ -375,6 +375,8 @@ section.footer div.end-footer {
   background-color: #30EFF8;
 }
 section.footer div.end-footer p {
-  margin: 0 auto;
+  width: 200px;
+  margin: 20px auto;
   padding-top: 20px;
+  display: block;
 }
