@@ -286,6 +286,7 @@ td{
 vertical-align: middle;	
 }
 th,td{
+	height: 30px;
     padding:5px;
     font-size:small;
     text-align: center;
