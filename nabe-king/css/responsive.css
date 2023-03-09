@@ -290,6 +290,7 @@ div.contact-person-profile p {
 	width: 90%;
 }
 table{
+	width: 80%;
 	margin: 0 auto;
 }
 th{
@@ -297,7 +298,6 @@ text-align: center;
 vertical-align: middle;
 }
 td{
-width: 40%;
 vertical-align: middle;
 text-align: left;
 }

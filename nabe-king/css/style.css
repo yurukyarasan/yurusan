@@ -272,7 +272,7 @@ div.contact-person-profile p {
 	padding: 20px;
 }
 table{
-    width: 40%;
+    width: 65%;
 	margin:100px auto;
 }
 .odd{
@@ -281,15 +281,18 @@ table{
 th{
 	background:#F91D21;
 	color:white;
+	vertical-align: middle;
 }
 td{
-vertical-align: middle;	
+    vertical-align: middle;	
+}
+td:nth-of-type(1){
+    text-align: center;	
 }
 th,td{
+	width: 30px;
 	height: 30px;
-    padding:5px;
     font-size:small;
-    text-align: center;
 }
 .even{
 	background:#FBC43C;
